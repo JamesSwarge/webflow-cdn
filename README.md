@@ -1,2 +1,2 @@
 # webflow-cdn
-Repo for accessing direct JS &amp; CSS for webflow projects
+Repo for accessing direct JS & CSS for webflow projects
