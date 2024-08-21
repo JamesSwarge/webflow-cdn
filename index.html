@@ -9,3 +9,89 @@
   <h1>Repo for accessing direct JS & CSS for webflow projects</h1>
 </body>
 </html>
+
+
+<script>
+  var Webflow = Webflow || [];
+  Webflow.push(function () {
+    var tabTimeout;
+    clearTimeout(tabTimeout);
+    tabLoop();
+    function tabLoop() {
+      tabTimeout = setTimeout(function () {
+        var $next = $('.pr-tabs-menu').children('.w--current:first').next();
+        if ($next.length) {
+          if ($(".menu-button").hasClass("w--open")) {
+            tabLoop();
+          } else {
+            $next.removeAttr("href").click();
+          }
+        } else {
+          if ($(".menu-button").hasClass("w--open")) {
+            tabLoop();
+          } else {
+            $('.pr-tab:first').removeAttr("href").click();
+          }
+        }
+      }, 5000); // 5 seconds
+    }
+    $('.pr-tab').click(function () {
+      clearTimeout(tabTimeout);
+      tabLoop();
+    });
+  });
+</script>
+
+
+<!-- Auto Rotate Webflow Tabs by Flowbase.co (v1.4 Updated 10/04/2023) -->
+
+<script>
+  var Webflow = Webflow || [];
+  Webflow.push(function () {
+    // Fix for Safari
+    if (navigator.userAgent.includes("Safari")) {
+      document.querySelectorAll(".pr-tab-button").forEach((t) => (t.focus = function () { const x = window.scrollX, y = window.scrollY; const f = () => { setTimeout(() => window.scrollTo(x, y), 1); t.removeEventListener("focus", f) }; t.addEventListener("focus", f); HTMLElement.prototype.focus.apply(this, arguments) }));
+    }
+
+    // Start Tabs
+    var tabTimeout;
+    clearTimeout(tabTimeout);
+    tabLoop();
+
+    // Connect your class names to elements.
+    function tabLoop() {
+      tabTimeout = setTimeout(function () {
+        var $next = $('.pr-tabs-menu').children('.w--current:first').next();
+
+        if ($next.length) {
+          $next.click();  // user click resets timeout
+        } else {
+          $('.pr-tab-button:first').click();
+        }
+      }, 5000);  // 5 Second Rotation
+    }
+
+    // Reset Loops
+    $('.pr-tab-button').click(function () {
+      clearTimeout(tabTimeout);
+      tabLoop();
+    });
+  });
+</script>
+
+<script>
+  $(document).ready(function() {
+    $("#clicker").click(function () {
+      alert("Hello!");
+      $(".hide_div").hide();
+    });
+  });
+</script>
+
+<script>
+  
+</script>
+comman-card-bottom-ul
+<li class="list-inline-item">Improved Task Success Ratio</li>
+
+<li _ngcontent-eaa-c115="" class="list-inline-item h6 text-orange" style="color: #FF6600 !important;"> Play store Ratings </li>

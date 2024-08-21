@@ -1,0 +1,354 @@
+footer .comman-footer-inner .heart-text fa-icon {
+  font-size: 14px;
+  vertical-align: middle;
+  color: #484848;
+  opacity: 1;
+  font-style: normal;
+  color: #d2143a;
+  animation: heartBeat 1.8s infinite;
+  transform-origin: center;
+  -webkit-animation: heartBeat 1.8s infinite;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+@media (min-width: 1200px) {
+  .lg-mt185{margin-top:185px !important}
+}
+
+@media (max-width: 1199px) {
+  .comman-footer .comman-footer-row2 ul {
+    margin: 0 0 12px;
+    text-align: center;
+  }
+  .concerro-sec3{
+    background: #186CD4;
+  }
+}
+
+@media (max-width: 575px) {
+  body .comman-section .container.h-100 {
+    height: auto;
+  }
+  body .home-page-body #home-carosual2 .carousel-inner.h-100 {
+    height: auto;
+  }
+  body .home-page-body #home-carosual2 .carousel-inner.h-100 .h-100 {
+    height: auto;
+  }
+  footer .comman-footer-inner .heart-text fa-icon {
+    font-size: 12px;
+    margin: 0 6px;
+  } 
+}
+
+.easy-plan-thumbnail1.lazy{display:block;z-index:9;top:40px;left:-63px}.design-expe-modal .modal-dialog{max-width:650px;margin:1.75rem auto}.design-expe-modal .modal-dialog .modal-title{font-weight:600 !important}.work-card-img img.design-expe-card1-after{position:absolute;top:20px;left:-26px;z-index:3}.work-card-img img.design-expe-card2-after{position:absolute;bottom:-3px;right:-40px;z-index:3}.work-card-img img.design-expe-card4-after{position:absolute;top:28px;right:-37px;z-index:3}.work-card-img:hover .circle{border:2px solid #f98e2f}.work-card-img:hover .circle:before{animation:ripple 2s linear infinite;opacity:1}.work-card-img:hover .circle:after{animation:ripple 2s linear 1s infinite;-webkit-animation:ripple 2s linear 1s infinite;opacity:1}.work-card-img:hover .circle .text{color:#f98e2f}.work-card-img .circle{height:70px;width:70px;border-radius:50%;background-color:rgba(255,255,255,0.8);position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);-webkit-transform:translate(-50%, -50%);-moz-transform:translate(-50%, -50%);-ms-transform:translate(-50%, -50%);-o-transform:translate(-50%, -50%);border:2px solid #242424}.work-card-img .circle .design-expe-card1-after{position:absolute;top:20px;left:-28px}.work-card-img .circle .design-expe-card2-after{position:absolute;top:20px;left:-28px}.work-card-img .circle .design-expe-card3-after{position:absolute;top:20px;left:-28px}.work-card-img .circle .text{text-align:center;font-size:20px;color:#242424;margin-top:17px}.work-card-img .circle:before,.work-card-img .circle:after{content:"";display:block;position:absolute;top:0;right:0;bottom:0;left:0;border:1px solid #f98e2f;border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;-o-border-radius:50%;opacity:0}@keyframes ripple{0%{transform:scale(1)}50%{transform:scale(1.3);opacity:1}100%{transform:scale(1.6);opacity:0}}
+
+.comman-footer .comman-footer-row2 ul a fa-icon {margin-right:10px}
+
+.awards-carosual .owl-carousel .owl-stage-outer .owl-item {
+  // width: 250px !important;
+}
+
+.owl-caroual-alloch-iconography .owl-item {
+  img {
+    max-height: 249px;
+    width: auto;
+  }
+}
+
+
+
+/* Smart 360 case study (Added on 20-10-2020) */
+@keyframes bgFadeIn {0% {opacity: 0;}100% {opacity: 0.8;}}
+@-webkit-keyframes bgFadeIn {0% {opacity: 0;}100% {opacity: 0.8;}}
+.portfolio-webapp-smart360-body .comman-section.bg-s360-elements::before {position:absolute;content:'';display:block;background-image:url("../images/portfolio/portfolio-webapp-smart360/bg-s360-elements.png");background-repeat:no-repeat;background-size:1255px auto;background-position-x:200px;background-position-y:140px;height:100%;width:100%;top:50%;left:50%;transform:translate(-50%, -50%);z-index:0;animation-name:bgFadeIn;-webkit-animation-name:bgFadeIn;-webkit-animation-duration:2s;animation-duration:2s;animation-delay:2s;-webkit-animation-fill-mode:both;animation-fill-mode:both;}
+.portfolio-webapp-smart360-body .smart360-sec2.bg-s360-elements::before {z-index:1;}
+.our-work-row .work-card.card-portfolio-webapp-smart360 .portfolio-webapp-smart360-1 {top:140px;right:0;z-index:5;}
+.our-work-row .work-card.card-portfolio-webapp-smart360 .portfolio-webapp-smart360-2 {bottom:110px;left:-30px;z-index:2;}
+.our-work-row .work-card.card-portfolio-webapp-smart360 .portfolio-webapp-smart360-3 {top:44px;right:35px;z-index:1;}
+
+.portfolio-webapp-smart360-body .smart360-webapp-sect7 .smart360-webapp-sect7-1-wrap {padding-top:90px;}
+.portfolio-webapp-smart360-body .smart360-webapp-sect8 .smart360-webapp-sect8-1-wrap .smart360-webapp-sect8-1 {max-width:initial;margin-top:30px;margin-left:-60px;}
+.portfolio-webapp-smart360-body .smart360-webapp-sect8 .smart360-webapp-sect8-2-wrap .smart360-webapp-sect8-2 {max-width:initial;margin-top:150px;margin-left:-80px;}
+.portfolio-webapp-smart360-body .smart360-webapp-sect8 .smart360-webapp-sect8-1-wrap p {font-family:Poppins;font-style:normal;font-weight:500;font-size:15px;text-align:center;color:#ffffff;position:absolute;top:44px;left:50%;transform:translateX(-50%);margin-left:80px;}
+.portfolio-webapp-smart360-body .smart360-webapp-sect8 .smart360-webapp-sect8-2-wrap p {font-family:Poppins;font-style:normal;font-weight:500;font-size:15px;text-align:center;color:#ffffff;position:absolute;top:164px;left:50%;transform:translateX(-50%);margin-left:93px;}
+.portfolio-webapp-smart360-body .smart360-sec1 .comman-card-top-ul li:first-child {font-weight:bold !important;text-transform:uppercase;color:#22264C;}
+.portfolio-webapp-smart360-body .smart360-sec1 .comman-card-top-ul li:first-child > em {font-style:normal;color:#353FDF;}
+.portfolio-webapp-smart360-body .smart360-sec1 .ani-wrap50-2 {left:54% !important;}
+.portfolio-webapp-smart360-body .smart360-sec1 .portfolio-info-wrap2 .smart360-banner-img {margin-left:40px;}
+.portfolio-webapp-smart360-body .smart360-sec2 .smart360-sec2-left .smart360-sec2-3 {position:relative;top:60px;}
+.portfolio-webapp-smart360-body .smart360-sec2 .smart360-sec2-right.portfolio-info-wrap2 {margin-left:80px;}
+.portfolio-webapp-smart360-body .smart360-webapp-sect5 .smart360-webapp-sect5-1 {position:absolute;top:0px;left:-70px;max-width:inherit;margin-top:40px;object-fit:cover;}
+.portfolio-webapp-smart360-body .smart360-webapp-sect5 .smart360-webapp-sect5-2 {position:absolute;top:98px;left:296px;max-width:inherit;margin-top:40px;object-fit:cover;}
+.portfolio-webapp-smart360-body .smart360-webapp-sect5 .smart360-webapp-sect5-3 {position:absolute;top:-75px;left:161px;max-width:200px;margin-top:0;object-fit:cover;}
+.portfolio-webapp-smart360-body .smart360-webapp-sect5 .smart360-webapp-sect5-4 {position:absolute;top:-35px;left:380px;max-width:200px;margin-top:0;object-fit:cover;}
+.portfolio-webapp-smart360-body .smart360-webapp-sect5 .smart360-webapp-sect5-5 {position:absolute;top:375px;left:380px;max-width:200px;margin-top:0;object-fit:cover;}
+.portfolio-webapp-smart360-body .smart360-webapp-sect4 .smart360-architecture-bottom {
+  .ng-draggable, .viewer {height:310px;padding:0 30px 30px;}
+} 
+.portfolio-webapp-smart360-body .smart360-webapp-sect9 .smart360-webapp-sect9-wrap {position:relative;}
+.portfolio-webapp-smart360-body .smart360-webapp-sect9 .smart360-webapp-sect9-1 {position:relative;top:40px;left:-240px;max-width:inherit;margin-top:0px;object-fit:cover;}
+.portfolio-webapp-smart360-body .smart360-webapp-sect9 .smart360-webapp-sect9-wrap2 {position:absolute;top:60px;left:385px;max-width:inherit;margin-top:0px;object-fit:cover;}
+.portfolio-webapp-smart360-body .smart360-webapp-sect9 .smart360-webapp-sect9-wrap3 {position:absolute;top:500px;left:385px;max-width:inherit;margin-top:0px;object-fit:cover;}
+.portfolio-webapp-smart360-body .smart360-webapp-sect6 .smart360-webapp-sect6-right {position:absolute;top:0;right:0;bottom:0;width:50%;z-index:0;}
+.portfolio-webapp-smart360-body .smart360-webapp-sect6 .smart360-webapp-sect6-right > img {height:auto;width:100%;}
+@media (min-width:1600px) and (max-width:1799px) {
+.portfolio-webapp-smart360-body .smart360-sec1 .portfolio-info-wrap2 .smart360-banner-img {margin-left: -20px;}
+}
+@media (min-width:1600px) {.portfolio-webapp-smart360-body .smart360-webapp-sect4 .smart360-architecture-bottom {
+  .ng-draggable, .viewer {height:640px;padding:0 30px 30px;margin-top:90px;}
+}
+}
+@media (max-width:576px) {.portfolio-webapp-smart360-body .smart360-webapp-sect4 .smart360-architecture-bottom {
+  .ng-draggable, .viewer {height:400px;padding:0;}
+}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect4 .smart360-architecture-bottom .viewer img {width:1300px;}
+}
+@media (max-width:1599px) {.portfolio-webapp-smart360-body .smart360-sec1 .portfolio-info-wrap2 .smart360-banner-img {margin-left:0px;max-width:600px;}
+ .portfolio-webapp-smart360-body .smart360-sec2 .smart360-sec2-left .smart360-sec2-3 {top:75px;max-width:450px;left:70px;}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect4 .smart360-architecture-bottom {
+  .ng-draggable, .viewer {height:540px;padding:80px 30px 30px;}
+ }
+ .portfolio-webapp-smart360-body .smart360-webapp-sect4 .smart360-architecture-bottom .viewer img {max-width:1080px;}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect5 .smart360-webapp-sect5-1 {max-width:520px;left:-30px;}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect5 .smart360-webapp-sect5-2 {position:absolute;top:68px;left:275px;max-width:540px;}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect5 .smart360-webapp-sect5-3 {top:-41px;left:84px;max-width:160px;}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect5 .smart360-webapp-sect5-4 {max-width:160px;top:0;left:264px;}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect5 .smart360-webapp-sect5-5 {max-width:160px;top:330px;left:264px;}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect7 .smart360-webapp-sect7-1-wrap {padding-top:70px;max-width:860px;margin:auto;}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect8 .smart360-webapp-sect8-1-wrap .smart360-webapp-sect8-1 {margin-top:40px;margin-left:-40px;max-width:720px;}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect8 .smart360-webapp-sect8-2-wrap .smart360-webapp-sect8-2 {margin-top:160px;margin-left:-120px;max-width:720px;}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect9 .smart360-webapp-sect9-1 {top:30px;left:-180px;max-width:540px;}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect9 .smart360-webapp-sect9-wrap2 {top:60px;left:300px;max-width:180px;}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect9 .smart360-webapp-sect9-wrap3 {top:400px;left:300px;max-width:180px;}
+}
+@media (min-width:1200px) and (max-width:1399px) {.portfolio-webapp-smart360-body .smart360-sec1 .portfolio-info-wrap2 .smart360-banner-img {margin-left:-20px;max-width:520px;}
+ .portfolio-webapp-smart360-body .smart360-sec2 .smart360-sec2-right.portfolio-info-wrap2 {margin-left:10px;}
+ }
+@media (max-width:1199px) {.portfolio-webapp-smart360-body .smart360-sec1 .portfolio-info-wrap2 .smart360-banner-img {margin-left:-40px;max-width:460px;}
+ .portfolio-webapp-smart360-body .smart360-sec2 .smart360-sec2-right.portfolio-info-wrap2 {margin-left:0px;}
+ .portfolio-webapp-smart360-body .smart360-sec2 .smart360-sec2-left .smart360-sec2-3 {top:90px;}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect4 .smart360-architecture-bottom {
+  .ng-draggable, .viewer {height:620px;padding:130px 30px 30px;}
+ }
+ .portfolio-branding-smart-360-body .smart360-webapp-sect5 {padding-top:100px;}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect7 .smart360-webapp-sect7-1-wrap {max-width:750px;}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect8 .smart360-webapp-sect8-1-wrap .smart360-webapp-sect8-1 {margin-left:0px;max-width:620px;}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect8 .smart360-webapp-sect8-2-wrap .smart360-webapp-sect8-2 {margin-left:-170px;max-width:620px;}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect8 .smart360-webapp-sect8-2-wrap p {margin-left:30px;}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect9 .smart360-webapp-sect9-1 {top:30px;left:-150px;max-width:450px;}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect9 .smart360-webapp-sect9-wrap2 {top:40px;left:250px;max-width:168px;}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect9 .smart360-webapp-sect9-wrap3 {top:350px;left:250px;max-width:168px;}
+}
+@media (max-width:992px) {
+ .portfolio-webapp-smart360-body .smart360-sec1 .ani-wrap50-2 {left:100% !important;}
+ .portfolio-webapp-smart360-body .comman-section.bg-s360-elements::before {display:none;}
+ .portfolio-webapp-smart360-body .smart360-sec1 .portfolio-info-wrap2 {max-width:100%px;}
+ .portfolio-webapp-smart360-body .smart360-sec1 .portfolio-info-wrap2 .smart360-banner-img {max-width:unset;margin:auto;}
+ .portfolio-webapp-smart360-body .smart360-sec2 .smart360-sec2-left .smart360-sec2-3 {top:-50px;max-width:360px;left:160px;}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect5 .portfolio-info-wrap2 {max-width:450px;margin:auto;}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect5 .smart360-webapp-sect5-1 {position:static;margin-top:40px;object-fit:cover;max-width:540px;}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect5 .smart360-webapp-sect5-2 {top:-332px;left:155px;max-width:540px;}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect5 .smart360-webapp-sect5-3, .portfolio-webapp-smart360-body .smart360-webapp-sect5 .smart360-webapp-sect5-4, .portfolio-webapp-smart360-body .smart360-webapp-sect5 .smart360-webapp-sect5-5 {display:none !important;}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect8 .smart360-webapp-sect8-1-wrap p {font-size:14px;top:0;margin-left:0;}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect8 .smart360-webapp-sect8-1-wrap .smart360-webapp-sect8-1 {margin-left:auto;max-width:620px;margin-top:0;margin-right:auto;display:block !important;}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect8 .smart360-webapp-sect8-2-wrap p {font-size:14px;top:5px;margin-left:0;}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect8 .smart360-webapp-sect8-2-wrap .smart360-webapp-sect8-2 {margin-left:auto;max-width:620px;margin-right:auto;display:block !important;margin-top:auto;}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect9 .smart360-webapp-sect9-1 {top:0px;left:-80px;max-width:350px;margin-top:80px;margin-bottom:80px;}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect9 .smart360-webapp-sect9-wrap2 {left:220px;}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect9 .smart360-webapp-sect9-wrap3 {top:300px;left:220px;}
+}
+@media (max-width:575px) {.portfolio-webapp-smart360-body .smart360-sec1 .portfolio-info-wrap2 .smart360-banner-img {max-width:100%;margin:10px auto 60px;}
+ .portfolio-webapp-smart360-body .smart360-sec2 .smart360-sec2-left .smart360-sec2-3 {top:0px;max-width:270px;left:0;}
+ .portfolio-webapp-smart360-body .smart360-sec2 .portfolio-info-wrap2 h3,
+ .portfolio-webapp-smart360-body .smart360-sec2 .portfolio-info-wrap2 .p2 {color:inherit;}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect4 .smart360-architecture-bottom .viewer img {max-width:760px;}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect4 .smart360-architecture-bottom {
+  .ng-draggable, .viewer {height: 320px;padding: 0px 20px 20px;}
+ }
+ .portfolio-branding-smart-360-body .comman-solution-challenge .ani-wrap50-2 {display:block !important;width:100% !important;left:0% !important;}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect5 .smart360-webapp-sect5-1 {max-width:100%;}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect5 .smart360-webapp-sect5-2 {position:static;max-width:100%;margin-top:20px;}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect7 .smart360-webapp-sect7-1-wrap {max-width:100%;padding-top:50px;}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect8 .smart360-webapp-sect8-1-wrap p, .portfolio-webapp-smart360-body .smart360-webapp-sect8 .smart360-webapp-sect8-2-wrap p {font-size:12px;}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect8 .smart360-webapp-sect8-1-wrap .smart360-webapp-sect8-1, .portfolio-webapp-smart360-body .smart360-webapp-sect8 .smart360-webapp-sect8-2-wrap .smart360-webapp-sect8-2 {max-width:100%;padding-top:12px;}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect9 .portfolio-info-wrap2 .p2 {text-align:center;}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect9 .smart360-webapp-sect9-1 {position:static;max-width:100%;margin:20px auto 0;}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect9 .smart360-webapp-sect9-wrap2, .portfolio-webapp-smart360-body .smart360-webapp-sect9 .smart360-webapp-sect9-wrap3 {display:none;}
+ .portfolio-webapp-smart360-body .smart360-webapp-sect6 .smart360-webapp-sect6-right {position:static;width:100%;background-color:#f3f3fa;margin:40px auto 0;}
+}
+.ng-draggable {
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+  // img {
+  //   position: absolute;
+  //   width: auto;
+  //   max-height: 100%;
+  //   left: 40px;
+  // }
+}
+.ng-dragging {
+  cursor: grabbing;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+}
+.ng-draggable img::selection,
+.ng-draggable img::-moz-selection {
+  background: none;
+}
+.mybounds {
+  position: relative;
+}
+
+.pr-form-control .input-control-wrap.ng-valid ~ .form-label,
+.pr-form-control .input-control-wrap.ng-invalid ~ .form-label{
+  top: -23px;
+  font-size: 14px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.pr-form-control .input-control-wrap.ng-valid ~ .focus-border,
+.pr-form-control .input-control-wrap.ng-invalid ~ .focus-border {
+  width: 100%;
+}
+@media (min-width: 320px) and (max-width: 767.98px) {
+  .pr-form-control .input-control-wrap.ng-valid ~ .form-label,
+  .pr-form-control .input-control-wrap.ng-invalid ~ .form-label {
+    top: -17px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .pr-form-control .input-control-wrap.ng-valid ~ .focus-border,
+  .pr-form-control .input-control-wrap.ng-invalid ~ .focus-border {
+    width: 100%;
+  }
+}
+@media (min-width: 1600px) {
+  .range-slider-main .slider-tick-label {
+    height: 73px;
+  }
+  .home-sec2.comman-section-100vh .comman-card-info p.sec-para {
+    margin-bottom: 25px;
+    max-width: 530px;
+  
+  }
+}
+@media (min-width: 1200px) and (max-width: 1599px) {
+  .range-slider-main .slider-tick-label {
+    height: 62px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .range-slider-main .slider-tick-label {
+    height: 56px;
+  }
+}
+@media (max-width: 767px) {
+  .budget_input_xs .slider-horizontal.slider-rtl .slider-handle {
+    margin-right: -30px;
+  }
+  .my-budget-wrap-col-xs .slider-selection {
+    background: transparent;
+  }
+  .my-budget-wrap-col-xs.show-mobile .slider-horizontal.slider-rtl .slider-track-high {
+    background-image: none;
+    filter: none;
+    border-right: 0;
+    background-repeat: repeat-x;
+    background: #242424;
+    box-shadow: none;
+    border-radius: 0;
+  }
+  // .comman-section.about-sect2 {
+  //   min-height: unset;
+  //   .card-img-inner-wrap.xs-pt100 {
+  //     padding-top: 0 !important;
+  //     h2 {
+  //       margin-bottom: 20px;
+  //     }
+  //   }
+  // } 
+}
+@media (max-width: 991px) {
+  .industries-section1.pb0.xs-pb60 {
+    padding-bottom: 50px !important;
+  }
+  .our-work-row .portfolio-thumb-all .work-card .work-card-img {
+    min-height: unset;
+  }
+}
+@media (max-width: 575px) {
+  .comman-section.mytrux-logo-sec14 {
+    min-height: unset;
+  }
+  .comman-section.moneyguru-sec-website1 h1.show-mobile {
+    font-size: 23px;
+    line-height: 35px !important;
+  }
+
+  .comman-section.moneyguru-sec-website1 h1.show-mobile.flexifyme-h1{
+    line-height: 120% !important;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  
+  .home-page-body .top-section-wrapper h1 {
+      margin-top: 0px !important;
+      margin-bottom: 12px !important;
+  }
+  .comman-section.easy-plan-sec4 {
+    padding-bottom: 20px;
+    .easy-plan-xs-left .easy-plan-xs-4-inner .p2 {
+      min-height: 78px;
+    }
+  } 
+  .pt-adj{
+      padding-top: 0px !important;
+  }
+
+  // .owl-caroual-alloch-iconography .owl-item.active.center {
+  //   width: 200px !important;
+  // }
+  // .owl-caroual-alloch-iconography .owl-item.active {
+  //   min-width: unset;
+  // }
+  // .owl-caroual-alloch-iconography .owl-item {
+  //   min-width: unset;
+  // }
+
+  .comman-header.work-header .logo-wrap-a
+.comman-header.work-header .comman-header-menu-right {
+  z-index: 1;
+}
+
+}
+.overflow-hidden {
+  overflow: hidden !important;
+}
+.cursor-pointer {
+  cursor: pointer !important;
+}
+.comman-section.moneyguru-story-section .owl-theme .owl-dots .owl-dot.active span, 
+.comman-section.moneyguru-story-section .owl-theme .owl-dots .owl-dot:hover span {
+  background: #ff950c;
+}
+
+.comman-header.nav-down.work-header {
+  position: static !important;
+}
+
+.comman-header.work-header .logo-wrap-a
+.comman-header.work-header .comman-header-menu-right {
+  z-index: 999;
+}
+
+app-ourwork + pr-footer #comman-footer{
+  [data-aos="new-animation3"] {
+    width: 100% !important;
+  }
+  [data-aos^="fade"][data-aos^="fade"]{
+    opacity: 1 !important;
+  }
+}

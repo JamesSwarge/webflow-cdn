@@ -1,0 +1,61 @@
+// @import url("https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700|PT+Serif:400,700|Poppins:300,400,600,700,800&display=swap");
+// @import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700|PT+Serif:400,700|Playfair+Display:300,400,500,600,700,800|Poppins:300,400,500,600,700,800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
+/* 
+    font-family: 'Lora', serif;
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'PT Sans Caption', sans-serif;
+
+    font-family: 'PT Serif', serif;
+
+    font-family: 'Playfair Display', serif;
+
+
+*/
+// @import "../widget/animate-css/animate.css";
+// @import "../widget/aos/aos.css";
+// @import "../widget/owl/owl.theme.default.min.css";
+// @import "../widget/owl/owl.carousel.min.css";
+// @import "../widget/boostrap/bootstrap.min.css";
+// @import "../widget/touch-scroll/css/viewer.css";
+@import "base";
+@import "layout";
+@import "laptop";
+@import "tab";
+@import "mobile";
+@import "custom";
+@import "newadded";
+
+// custom font
+@font-face {
+    font-family: restlessRegular;
+    src: url("../fonts/Restless-font/Restless-Regular.otf");
+ }
+.restlessRegular{
+    font-family: restlessRegular !important;
+    font-weight: 400 !important;
+}
+// akhile
+// http://just2037.temp.domains/~tqprojec/projects2017/PR-data/PR-v3/PR-site-home-/easy-plan.html#data-section1
+// http://just2037.temp.domains/~tqprojec/projects2017/PR-data/PR-v3/PR-site-home-/moneyguru.html
+// http://just2037.temp.domains/~tqprojec/projects2017/PR-data/PR-site-new/moneyguru.html#1
+
+// Old site bkp file:
+// http://just2037.temp.domains/~tqprojec/projects2017/PR-data/PR-v2/typography.html
+// http://just2037.temp.domains/~tqprojec/projects2017/PR-data/PR-v2/#data-section1
+
+// New site:
+// http://just2037.temp.domains/~tqprojec/projects2017/PR-data/PR-v4/typography.html
+// http://just2037.temp.domains/~tqprojec/projects2017/PR-data/PR-v4/#data-section1
+
+
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+    #process-final-img .hide-mobile{display: none !important;}
+    #process-final-img .show-mobile{display: block !important;}
+    #process-final-img .show-mobile img.img-fluid.process-xs-img.lazy{width: 80%;margin: 0; padding-top: 30px;}
+}
+#form-submit-btn-wrap{position: relative;z-index: 9;}
+

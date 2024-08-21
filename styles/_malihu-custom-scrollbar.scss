@@ -1,0 +1,55 @@
+/* custom css -04-08-2020 */
+.mCSB_scrollTools .mCSB_draggerRail, .mCSB_scrollTools .mCSB_draggerRail{background:none !important;border-right:1.4px solid rgba(0,0,0,.15) !important;opacity:1 !important;margin-left:4px !important;filter:none !important;-webkit-filter:none !important}
+.mCSB_scrollTools .mCSB_dragger{background:url("../images/svg/scrollbar.svg") no-repeat 0 0;width:15px !important;height:30px !important}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{opacity:0 !important}
+.mCSB_scrollTools .mCSB_inside>.mCSB_container{margin-right:0 !important}
+.mCSB_scrollTools_vertical{display:block;transform:scale(1, 0.4);transform-origin:0 center;-webkit-transform:scale(1, 0.4);-moz-transform:scale(1, 0.4);-ms-transform:scale(1, 0.4);-o-transform:scale(1, 0.4)}
+.mCSB_scrollTools .mCSB_dragger{transform:scale(1, 2.5);transform-origin:17px -2px;-webkit-transform:scale(1,2.5);-moz-transform:scale(1,2.5);-ms-transform:scale(1,2.5);-o-transform:scale(1,2.5)}
+.mCSB_inside>.mCSB_container{margin-right:0 !important}
+
+
+@media (min-width: 1600px) {    
+    .about-page-body .comman-scrollbar-wrap {height: calc(100vh - 220px);overflow: auto;} 
+    .about-page-body .comman-scrollbar-wrap2 {height: calc(100vh - 360px);overflow: auto;}   
+    .home-page-body .comman-scrollbar-wrap {height: calc(100vh - 105px);overflow: auto;}    
+    .industries-page-body .comman-scrollbar-wrap {height: calc(100vh - 150px);overflow: auto;}  
+    .process-page-body .comman-scrollbar-wrap {height: calc(100vh - 150px);overflow: auto;}  
+    .services-page-body .comman-scrollbar-wrap {height: calc(100vh - 300px);overflow: auto;}
+}
+@media (min-width: 1200px) and (max-width: 1599px) {
+    .about-page-body .comman-scrollbar-wrap {height: calc(100vh - 180px);overflow: auto; margin-top: 70px;}   
+    .about-page-body .comman-scrollbar-wrap2 {height: calc(100vh - 220px);overflow: auto;}    
+    .home-page-body .comman-scrollbar-wrap {height: calc(100vh - 180px);overflow: auto; margin-top: 70px;} 
+    .industries-page-body .comman-scrollbar-wrap {height: calc(100vh - 180px);overflow: auto; margin-top: 70px;}    
+    .process-page-body .comman-scrollbar-wrap {height: calc(100vh - 180px);overflow: auto;margin-top: 70px;}
+    .services-page-body .comman-scrollbar-wrap {height: calc(100vh - 200px);overflow: auto;}   
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .about-page-body .comman-scrollbar-wrap {height: calc(100vh - 180px);overflow: auto; margin-top: 70px;}   
+    .about-page-body .comman-scrollbar-wrap2 {height: calc(100vh - 220px);overflow: auto;}    
+    .home-page-body .comman-scrollbar-wrap {height: calc(100vh - 180px);overflow: auto; margin-top: 70px;} 
+    .industries-page-body .comman-scrollbar-wrap {height: calc(100vh - 180px);overflow: auto;}   
+    .process-page-body .comman-scrollbar-wrap {height: calc(100vh - 180px);overflow: auto;}
+    .services-page-body .comman-scrollbar-wrap {height: calc(100vh - 200px);overflow: auto;}   
+}
+
+
+.mCSB_scrollTools .mCSB_draggerContainer::before {
+    position: absolute;
+    content: '';
+    top: 5px;
+    left: calc(50% - 1px);
+    background: #d2d2d2 !important;
+    width: 1px;
+    height: 95%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    z-index: 1;
+}
+.mCSB_scrollTools .mCSB_draggerRail, 
+.mCSB_scrollTools .mCSB_draggerRail {
+    display: none;
+}
