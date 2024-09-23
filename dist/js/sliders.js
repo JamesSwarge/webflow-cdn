@@ -1,6 +1,6 @@
 
 $(document).ready(function () {
-  alert("on about page");
+  alert("slider.js");
   $(".about-team-slider").slick({
     centerMode: false,
     
@@ -16,7 +16,7 @@ $(document).ready(function () {
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
         },
       },
       {

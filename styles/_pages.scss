@@ -1,0 +1,261 @@
+// .contact-section1 .addr-wrap .addr-indo-wrap .addr-list-inline .list-inline-item:not(:last-child) {
+// 	padding-right: 20px;
+// 	border-right: 1px solid rgba(30, 35, 41, 0.5);
+// 	margin-right: 20px;
+// }
+
+.addr-wrap .addr-indo-wrap .addr-list-inline .list-inline-item .list-inline-item-lnk:not(:last-child) {
+  padding-right: 20px;
+	border-right: 1px solid rgba(30, 35, 41, 0.5);
+	margin-right: 20px;
+}
+
+
+
+// Ux Ui Design Process
+
+.pr-section-padding {
+	&.ui-ux-p-sec-1 {
+		.pr-container {
+			.scroll-content-wrapper {
+				position: relative;
+				height: 90%;
+				max-height: 90%;
+				.right-content-wrap {
+					position: absolute;
+					display: block;
+					width: 50%;
+					top: 0;
+					left: auto;
+					right: 0;
+					max-height: calc(100% + 15vh);
+					overflow-x: hidden;
+					overflow-y: auto;
+					-ms-overflow-style: none;  /* IE and Edge */
+					scrollbar-width: none;  /* Firefox */
+					&::-webkit-scrollbar {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// Industries
+
+.pr-section-padding {
+	&.pr-indus-sec {
+		.pr-container {
+			.scroll-content-wrapper {
+				position: relative;
+				height: 90%;
+				max-height: 90%;
+				.right-content-wrap {
+					position: absolute;
+					display: block;
+					width: 50%;
+					top: 0;
+					left: auto;
+					right: 0;
+					max-height: calc(100% + 15vh);
+					overflow-x: hidden;
+					overflow-y: auto;
+					-ms-overflow-style: none;  /* IE and Edge */
+					scrollbar-width: none;  /* Firefox */
+					&::-webkit-scrollbar {
+						display: none;
+					}
+					.content-block-wrapp {
+						&:first-of-type {
+							padding-top: 168px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// Design Experiments
+
+.pr-section-padding {
+	&.design-exp-section {
+		.pr-video-blk-wrapper {
+			.pr-video-blk {
+				position: relative;
+				cursor: pointer;
+				min-width: calc(50% - 45px);
+  			max-width: calc(50% - 45px);
+				&:nth-child(2n+1) {
+					margin-top: 60px;
+				}
+				.pr-yt-video-embd {
+					.circle {
+						height: 70px;
+						width: 70px;
+						border-radius: 50%;
+						border: 2px solid #242424;
+						background-color: rgba(255, 255, 255, 0.8);
+						position: absolute;
+						top: 50%;
+						left: 50%;
+						transform: translate(-50%, -50%);
+						.play-text {
+							text-align: center;
+							font-size: 22px;
+							color: #242424;
+						}
+						&::before, 
+						&::after {
+							content: "";
+							display: block;
+							position: absolute;
+							top: 0;
+							right: 0;
+							bottom: 0;
+							left: 0;
+							border: 1px solid #f98e2f;
+							border-radius: 50%;
+							-webkit-border-radius: 50%;
+							-moz-border-radius: 50%;
+							-ms-border-radius: 50%;
+							-o-border-radius: 50%;
+							opacity: 0;
+						}
+					}
+				}
+				&:hover {
+					.pr-yt-video-embd {
+						.circle {
+							border-color: #f98e2f;
+							&::before {
+								animation: ripple 2s linear infinite;
+								opacity: 1;
+							} &::after {
+						    animation: ripple 2s linear 1s infinite;
+						    -webkit-animation: ripple 2s linear 1s infinite;
+						    opacity: 1;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+#playButton {
+	opacity: 0;
+}
+/* right-facing triangle "Play" icon */
+.lite-youtube-fallback::before {
+	display: block;
+	content: '';
+	border: solid transparent;
+	border-width: 2em 0 2em 3em;
+	border-left-color: red;
+}
+
+// 404 Page
+.page404 {
+  .error-page-sec {
+    .error-page-container {
+      .col404 {
+        .col404-left {
+          flex: 1;
+          max-width: 60%;
+          @media (min-width: 1200px) and (max-width: 1599px) {
+            max-width: 66%;
+          }
+          @media screen and (max-width: 991px) {
+            width: 100%;
+            min-width: 100%;
+          }
+        }
+        .col404-right {
+          flex: 0;
+          width: 40%;
+          min-width: 40%;
+          @media (min-width: 1200px) and (max-width: 1599px) {
+            width: 33%;
+            min-width: 33%;
+          }
+          @media screen and (max-width: 991px) {
+            width: 100%;
+            min-width: 100%;
+          }
+        }
+      }
+      .error-img-block {
+        .error-icon {
+          animation: rotation-ani 35s infinite linear;
+          -webkit-animation: rotation-ani 35s infinite linear;
+          max-height: 80%;
+          left: 50%;
+          top: -10%;
+          @media (max-width: 1199px) {
+            max-height: 85%;
+            top: -10px;
+            right: 38px;
+            left: auto;
+          }
+        }
+      }
+      .pr-bttn {
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+}
+
+
+// Privacy policy
+
+.privacy-section {
+	strong {
+		font-weight: 600;
+	}
+	.a-link-1 {
+		text-decoration: underline;
+  	color: #e6870e;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+	.privacy-p1 {
+		position: relative;
+		&.para-style-dash {
+			padding-left: 30px;
+			&::before {
+				content: "";
+				position: absolute;
+				width: 10px;
+				height: 0px;
+				left: 0;
+				top: 15px;
+				border: 1px solid #1E2329;
+			}
+		}
+		&.para-style-dott {
+			padding-left: 54px;
+			margin-bottom: 24px;
+			&::before {
+				content: "";
+				position: absolute;
+				width: 7px;
+				height: 7px;
+				left: 32px;
+				top: 13px;
+				border: none;
+				background: #1E2329;
+				border-radius: 50%;
+			}
+		}
+	}
+}
