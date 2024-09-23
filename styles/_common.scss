@@ -95,7 +95,7 @@
 :root {
 	--container-width: 1140px;
 	--max-container-width: 74em;
-  @media (max-width: 768px) {
+  @media (max-width: 992px) {
     --container-width: 100%;
     --max-container-width: 100vw;
   }
@@ -108,10 +108,17 @@
 
 
 @media (min-width: 1200px) and (max-width: 1599px) {
-  // h1, .h1 {
-  //   font-size: 54px;
-  //   line-height: 72.8px !important;
-  // }
+  h1, .h1 {
+    font-size: 54px;
+    line-height: 72.8px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  h1, .h1 {
+    font-size: 54px;
+    line-height: 72.8px !important;
+  }
 }
 
 
@@ -317,6 +324,7 @@
     .newsletter-wrapper {
       .newsletter-heading {
         position: relative;
+        display: inline-block;
         &::before {
           content: '';
           background-image: url(https://cdn.prod.website-files.com/66b622a8c4666078c780e47e/66b622a8c4666078c780e4e2_que-mark-w.png);
@@ -341,6 +349,10 @@
     left: 50%;
     bottom: 60px;
     transform: translateX(-50%);
+    @media screen and (max-width: 991px) {
+      position: static;
+      transform: none;
+    }
     .footer-bottom {
       .footer-bottom-txt {
         transition: all 0.33s ease;

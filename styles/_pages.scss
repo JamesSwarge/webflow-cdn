@@ -217,44 +217,49 @@
 
 // Privacy policy
 
-.privacy-section {
-	strong {
-		font-weight: 600;
-	}
-	.a-link-1 {
-		text-decoration: underline;
-  	color: #e6870e;
-		&:hover {
-			text-decoration: none;
+.pr-section-padding {
+	&.privacy-section {
+		@media screen and (max-width: 992px) {
+			padding-top: 150px;
 		}
-	}
-	.privacy-p1 {
-		position: relative;
-		&.para-style-dash {
-			padding-left: 30px;
-			&::before {
-				content: "";
-				position: absolute;
-				width: 10px;
-				height: 0px;
-				left: 0;
-				top: 15px;
-				border: 1px solid #1E2329;
+		strong {
+			font-weight: 600;
+		}
+		.a-link-1 {
+			text-decoration: underline;
+			color: #e6870e;
+			&:hover {
+				text-decoration: none;
 			}
 		}
-		&.para-style-dott {
-			padding-left: 54px;
-			margin-bottom: 24px;
-			&::before {
-				content: "";
-				position: absolute;
-				width: 7px;
-				height: 7px;
-				left: 32px;
-				top: 13px;
-				border: none;
-				background: #1E2329;
-				border-radius: 50%;
+		.privacy-p1 {
+			position: relative;
+			&.para-style-dash {
+				padding-left: 30px;
+				&::before {
+					content: "";
+					position: absolute;
+					width: 10px;
+					height: 0px;
+					left: 0;
+					top: 15px;
+					border: 1px solid #1E2329;
+				}
+			}
+			&.para-style-dott {
+				padding-left: 54px;
+				margin-bottom: 24px;
+				&::before {
+					content: "";
+					position: absolute;
+					width: 7px;
+					height: 7px;
+					left: 32px;
+					top: 13px;
+					border: none;
+					background: #1E2329;
+					border-radius: 50%;
+				}
 			}
 		}
 	}
@@ -266,9 +271,36 @@
 .pr-section-padding {
 	&.our-work-sec {
 		.work-heading-wrapper {
+			.our-work-ttl {
+				@media (min-width: 1200px) and (max-width: 1599px) {
+					// font-size: 54px;
+				}
+			}
 			.our-work-sbttl {
 				@media (min-width: 1200px) and (max-width: 1599px) {
 					font-size: 54px;
+				}
+			}
+		}
+		.work-tac-wrap {
+			.our-work-wrapper-row {
+				justify-content: center;
+				.our-work-wrapper-column {
+					display: block;
+					padding: 0;
+					margin-left: auto;
+					margin-right: auto;
+					max-width: 480px;
+					&.work-pages {
+						margin-bottom: 140px;
+					}
+					.pr-yt-video-embd {
+						position: relative;
+						height: 600px;
+						.pr-video-blk-img {
+							position: absolute;
+						}
+					}
 				}
 			}
 		}
