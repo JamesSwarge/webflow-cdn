@@ -731,4 +731,10 @@
   border: none;
   background: #1E2329;
   border-radius: 50%;
+}
+
+@media (min-width: 1200px) and (max-width: 1599px) {
+  .pr-section-padding.our-work-sec .work-heading-wrapper .our-work-sbttl {
+    font-size: 54px;
+  }
 }/*# sourceMappingURL=custom.css.map */

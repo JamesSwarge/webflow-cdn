@@ -259,3 +259,18 @@
 		}
 	}
 }
+
+
+// Our Work
+
+.pr-section-padding {
+	&.our-work-sec {
+		.work-heading-wrapper {
+			.our-work-sbttl {
+				@media (min-width: 1200px) and (max-width: 1599px) {
+					font-size: 54px;
+				}
+			}
+		}
+	}
+}
