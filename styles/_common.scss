@@ -325,6 +325,9 @@
       .newsletter-heading {
         position: relative;
         display: inline-block;
+        @media screen and (max-width: 991.98px) {
+					margin-left: -6.5vw;
+				}
         &::before {
           content: '';
           background-image: url(https://cdn.prod.website-files.com/66b622a8c4666078c780e47e/66b622a8c4666078c780e4e2_que-mark-w.png);

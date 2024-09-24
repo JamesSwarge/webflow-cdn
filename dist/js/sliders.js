@@ -27,4 +27,16 @@ $(document).ready(function () {
       },
     ],
   });
+
+  $(".home-sec2-slider").slick({
+    centerMode: false,    
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 30000000,
+    speed: 300,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true,
+    fade: true,
+  });
 });
