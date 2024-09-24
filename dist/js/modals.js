@@ -26,13 +26,18 @@ $(document).ready(function () {
     $('.pr-yt-modal').fadeOut();
     let curr_vid_close = $(this)
     const videoElement = $('.pr-yt-vid-embd lite-youtube');
-    const iframe = videoElement[0].domRefFrame.lastChild.lastChild.lastChild.lastChild.lastChild;
+    // const iframe = videoElement[0].domRefFrame.lastChild.lastChild.lastChild.lastChild.lastChild;
+    // const iframe2 = videoElement[0].domRefFrame.lastChild.lastChild.lastChild.lastChild.lastChild;
     // const iframe2 =  $(curr_vid_close[0].parentElement+" .pr-yt-vid-embd lite-youtube");
-    console.log("curr_vid_closed", curr_vid_close[0].parentElement);
-    iframe.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*')
+    let bb = $(this).closest('.pr-yt-modal')
+    console.log("curr_vid_closed", bb, curr_vid_close[0].parentElement.lastChild);
+    // curr_vid_close[0].parentElement.empty()
+    return bb.html("");
+    // iframe.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*')
   });  
 
 });
+
 
 // $(function() {
 //   $('.contact-button').click(function() {
