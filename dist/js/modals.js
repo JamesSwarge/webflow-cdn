@@ -1,6 +1,6 @@
 
 $(document).ready(function () {
-  alert("modals.js");
+  // alert("modals.js");
   // $('.pr-yt-video-embd').click(function() { 
   //   var ytid = $(this).attr('id');
   //   alert(ytid);
