@@ -276,16 +276,19 @@
   margin-left: 13px;
 }
 
-.pr-footer .pr-footer-main .newsletter-wrapper .newsletter-heading {
+footer.pr-footer-wrapper .pr-footer-container {
+  max-width: 1260px;
+}
+footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-main .newsletter-wrapper .newsletter-heading {
   position: relative;
   display: inline-block;
 }
 @media screen and (max-width: 991.98px) {
-  .pr-footer .pr-footer-main .newsletter-wrapper .newsletter-heading {
+  footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-main .newsletter-wrapper .newsletter-heading {
     margin-left: -6.5vw;
   }
 }
-.pr-footer .pr-footer-main .newsletter-wrapper .newsletter-heading::before {
+footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-main .newsletter-wrapper .newsletter-heading::before {
   content: "";
   background-image: url(https://cdn.prod.website-files.com/66b622a8c4666078c780e47e/66b622a8c4666078c780e4e2_que-mark-w.png);
   position: absolute;
@@ -295,30 +298,30 @@
   height: 95px;
   background-repeat: no-repeat;
 }
-.pr-footer .pr-footer-main .newsletter-wrapper .pr-bttn {
+footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-main .newsletter-wrapper .pr-bttn {
   padding: 15px 45px;
 }
-.pr-footer .pr-footer-common {
-  width: var(--container-width);
-  max-width: var(--max-container-width);
+footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common {
+  width: 100%;
+  max-width: 100%;
   left: 50%;
   bottom: 60px;
   transform: translateX(-50%);
 }
 @media screen and (max-width: 991px) {
-  .pr-footer .pr-footer-common {
+  footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common {
     position: static;
     transform: none;
   }
 }
-.pr-footer .pr-footer-common .footer-bottom .footer-bottom-txt {
+footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .footer-bottom .footer-bottom-txt {
   transition: all 0.33s ease;
 }
-.pr-footer .pr-footer-common .footer-bottom .footer-bottom-txt .text-gray {
+footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .footer-bottom .footer-bottom-txt .text-gray {
   font-family: "Segoe UI";
   color: #777777;
 }
-.pr-footer .pr-footer-common .footer-bottom .footer-bottom-txt .text-gray .heart-text {
+footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .footer-bottom .footer-bottom-txt .text-gray .heart-text {
   opacity: 1;
   color: #d2143a;
   animation: heartBeat 1.8s infinite;
