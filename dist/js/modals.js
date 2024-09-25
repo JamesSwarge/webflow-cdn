@@ -37,7 +37,3 @@ $(document).ready(function () {
   });  
 
 });
-
-$(document).ready(function () {
-  $(".custom-scroller").mCustomScrollbar();
-});
