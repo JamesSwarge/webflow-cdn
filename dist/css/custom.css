@@ -776,13 +776,17 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
   max-height: 90%;
 }
 .pr-section-padding.ui-ux-p-sec-1 .pr-container .scroll-content-wrapper .right-content-wrap .content-block-scroll-wrapp {
-  max-height: 66vh;
+  max-height: calc(100vh - 120px);
 }
 .pr-section-padding.ui-ux-p-sec-1 .pr-container .scroll-content-wrapper .right-content-wrap .content-block-scroll-wrapp .content-block-wrapp {
-  margin-bottom: 40px;
+  margin-bottom: 133px;
 }
 .pr-section-padding.ui-ux-p-sec-1 .pr-container .scroll-content-wrapper .right-content-wrap .content-block-scroll-wrapp .content-block-wrapp:first-of-type {
-  padding-top: 100px;
+  padding-top: 120px;
+}
+.pr-section-padding.ui-ux-p-sec-1 .pr-container .scroll-content-wrapper .right-content-wrap .content-block-scroll-wrapp .content-block-wrapp .custom-li-design {
+  font-weight: 300;
+  margin-bottom: 30px;
 }
 
 .pr-section-padding.pr-indus-sec .pr-container .scroll-content-wrapper {
@@ -791,15 +795,22 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
   max-height: 90%;
 }
 .pr-section-padding.pr-indus-sec .pr-container .scroll-content-wrapper .right-content-wrap .content-block-scroll-wrapp {
-  max-height: 66vh;
+  max-height: calc(100vh - 120px);
 }
 .pr-section-padding.pr-indus-sec .pr-container .scroll-content-wrapper .right-content-wrap .content-block-scroll-wrapp .content-block-wrapp {
-  margin-bottom: 40px;
+  margin-bottom: 133px;
 }
 .pr-section-padding.pr-indus-sec .pr-container .scroll-content-wrapper .right-content-wrap .content-block-scroll-wrapp .content-block-wrapp:first-of-type {
-  padding-top: 168px;
+  padding-top: 120px;
+}
+.pr-section-padding.pr-indus-sec .pr-container .scroll-content-wrapper .right-content-wrap .content-block-scroll-wrapp .content-block-wrapp .custom-li-design {
+  font-weight: 300;
+  margin-bottom: 30px;
 }
 
+.pr-section-padding.design-exp-section .pr-video-blk-wrapper {
+  max-width: calc(100% - 90px);
+}
 .pr-section-padding.design-exp-section .pr-video-blk-wrapper .pr-video-blk {
   position: relative;
   cursor: pointer;
@@ -808,6 +819,14 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
 }
 .pr-section-padding.design-exp-section .pr-video-blk-wrapper .pr-video-blk:nth-child(2n+1) {
   margin-top: 60px;
+}
+.pr-section-padding.design-exp-section .pr-video-blk-wrapper .pr-video-blk .pr-yt-video-embd {
+  height: 300px;
+}
+.pr-section-padding.design-exp-section .pr-video-blk-wrapper .pr-video-blk .pr-yt-video-embd .pr-video-blk-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 .pr-section-padding.design-exp-section .pr-video-blk-wrapper .pr-video-blk .pr-yt-video-embd .circle {
   height: 70px;
