@@ -22,19 +22,14 @@
 				height: 90%;
 				max-height: 90%;
 				.right-content-wrap {
-					position: absolute;
-					display: block;
-					width: 50%;
-					top: 0;
-					left: auto;
-					right: 0;
-					max-height: calc(100% + 15vh);
-					overflow-x: hidden;
-					overflow-y: auto;
-					-ms-overflow-style: none;  /* IE and Edge */
-					scrollbar-width: none;  /* Firefox */
-					&::-webkit-scrollbar {
-						display: none;
+					.content-block-scroll-wrapp {
+						max-height: 66vh;
+						.content-block-wrapp {
+							margin-bottom: 40px;
+							&:first-of-type {
+								padding-top: 168px;
+							}
+						}
 					}
 				}
 			}
@@ -53,24 +48,13 @@
 				height: 90%;
 				max-height: 90%;
 				.right-content-wrap {
-					// position: absolute;
-					// display: block;
-					// width: 50%;
-					// top: 0;
-					// left: auto;
-					// right: 0;
-					// max-height: calc(100% + 15vh);
-					// overflow-x: hidden;
-					// overflow-y: auto;
-					// -ms-overflow-style: none;  /* IE and Edge */
-					// scrollbar-width: none;  /* Firefox */
-					// &::-webkit-scrollbar {
-					// 	display: none;
-					// }
-					.content-block-wrapp {
-						margin-bottom: 40px;
-						&:first-of-type {
-							padding-top: 168px;
+					.content-block-scroll-wrapp {
+						max-height: 66vh;
+						.content-block-wrapp {
+							margin-bottom: 40px;
+							&:first-of-type {
+								padding-top: 168px;
+							}
 						}
 					}
 				}
