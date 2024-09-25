@@ -1,94 +1,324 @@
-<h5 class="wp-block-heading">Identifying Real Problems and Real Human Needs</h5>
-<p>Let’s integrate AI into our product” is not the right approach to start with. Rather starting with users, identify the real problems your users face and the human needs your product aims to fulfill. AI should enhance the user experience by solving genuine problems and adding real value. Conduct a user research, use various research methods to uncover real problems, pain points and opportunities for AI integration. </p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Our Work Page -->
+  <style>
+    .work-tac-wrap .tab-link-tab-1,
+    .work-tac-wrap .w-tab-link.w--current {
+      background: transparent;
+    }
+  
+    .tab-link-tab-1,
+    .w-tab-link.w--current {
+      background-color: transparent !important;
+    }
+  
+    .w-tab-link {
+      padding-left: 40px !important;
+      padding-right: 40px !important;
+    }
+  
+    .tab-link-tab-1 {
+      color: #1e2329 !important;
+      font-weight: 500 !important;
+      line-height: 24px !important;
+      font-size: 16px !important;
+      font-family: 'Lora' !important;
+    }
+  
+    .w-tab-link.w--current::after,
+    .w-tab-link::after {
+      content: "";
+      position: absolute;
+      width: 35px;
+      height: 2px;
+      top: 22px;
+      right: 0px;
+      background-color: #FF5500;
+      transform: scaleX(0);
+      transform-origin: bottom right;
+      transition: transform 0.3s;
+      margin-left: 13px;
+    }
+  
+    .w-tab-link.w--current::after,
+    .w-tab-link:hover::after {
+      transform-origin: bottom left;
+      transform: scaleX(1);
+    }
+  
+    .video-pop-up-column .full-link::before {
+      content: '';
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+    }
+  
+    .work-pages .image-ico-div img {
+      width: 100%;
+    }
+  
+    .no-cursor {
+      cursor: not-allowed;
+    }
+  
+    .work-tab-wrapper .work-pages .heading-9 {
+      margin-top: 30px !important;
+    }
+  
+  
+    @media screen and (max-width: 1200px) {
+      .cus-container {
+        max-width: 100%;
+        padding: 0 30px;
+      }
+  
+      .work-heading-wrapper .heading-17 {
+        font-size: 46px;
+        line-height: normal;
+      }
+  
+    }
+  
+  
+    .image-4.new-img.abc {
+      width: 700px;
+      height: auto;
+      position: absolute;
+      top: 13%;
+      bottom: 0%;
+      left: -68px;
+      right: 0%;
+      max-width: 700px;
+    }
+  
+    @media screen and (max-width: 991px) {
+      .work-heading-wrapper h1.heading-16 {
+        margin-bottom: 15px;
+      }
+  
+      .work-tab-wrapper {
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+    }
+  
+    @media screen and (max-width: 1600px) {
+      .work-sec-1 .image-4.new-img.abc {
+        width: 650px;
+      }
+  
+      .work-sec-1 .image-4 {
+        height: auto;
+      }
+  
+      .work-sec-1 .image-5 {
+        height: auto;
+      }
+    }
+  
+    @media screen and (max-width: 767px) {
+      .work-heading-wrapper .heading-17 {
+        font-size: 40px;
+      }
+  
+      .tabs-content {
+        padding: 0;
+      }
+  
+      .video-pop-up-column.mt-60 {
+        margin-top: 0;
+      }
+  
+      .video-pop-up-column.work-pages .full-link {
+        font-size: 18px;
+        line-height: normal;
+      }
+  
+      .work-sec-1 .video-pop-up-column.mt-60.work-pages {
+        margin-top: 0px;
+      }
+  
+      .work-sec-1 .video-pop-up-column.work-pages {
+        padding: 30px 0px 30px 40px;
+      }
+  
+      .work-sec-1 .work-heading-wrapper .heading-17 {
+        font-size: 30px;
+        line-height: 39px;
+      }
+  
+      .work-sec-1 .work-heading-wrapper .heading-16 {
+        font-size: 14px;
+        line-height: 18px;
+      }
+  
+      .work-sec-1 .tab-link-tab-1.w--current,
+      .tab-link-tab-2,
+      .tab-link-tab-3,
+      .tab-link-tab-4 {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+      }
+  
+      .work-sec-1 .work-tac-wrap {
+        margin-left: 0px;
+      }
+  
+      .work-sec-1 .video-pop-up-column.work-pages {
+        padding: 30px 0px 30px 0px;
+      }
+  
+      .work-sec-1 .w-tab-link.w--current::after,
+      .w-tab-link::after {
+        content: "";
+        position: absolute;
+        width: 65px;
+        height: 2px;
+        top: 42px;
+        left: 20px;
+        background-color: #FF5500;
+        transform-origin: bottom right;
+        margin-left: 13px;
+      }
+  
+      .work-sec-1 .w-tab-menu {
+        display: flex;
+        flex-flow: row;
+        overflow-x: scroll;
+        width: 100%;
+      }
+  
+      .work-sec-1 .w-tab-menu {
+        padding-bottom: 20px;
+      }
+  
+      .work-sec-1 .w-tab-menu .w-tab-link {
+        flex: 0 0 auto;
+        padding-right: 20px !important;
+        padding-left: 0px !important;
+      }
+  
+      .work-sec-1 .w-tab-menu::-webkit-scrollbar {
+        height: 2px;
+      }
+  
+      .work-sec-1 .w-tab-menu::-webkit-scrollbar-thumb {
+        background-color: #c6c6c6;
+      }
+  
+      .work-sec-1 .w-tab-menu::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 0px #fff;
+        background-color: #fff;
+        border-radius: 0px;
+      }
+    }
+  
+  
+    @media only screen and (min-width: 426px) and (max-width: 450px) {
+  
+      .work-tab-wrapper .cus-container {
+        padding-right: 0 important;
+      }
+  
+      .image-4 {
+        height: 100%;
+      }
+  
+      .image-4.new-img {
+        height: 100%;
+      }
+  
+      .image-5 {
+        height: 100%;
+      }
+  
+      .image-4.new-img.abc {
+        height: 100%;
+      }
+  
+      .work-sec-1 .image-4.new-img.abc {
+        width: 450px;
+        top: 0;
+        left: -15%;
+      }
+  
+    }
+  
+    @media only screen and (min-width: 401px) and (max-width: 425px) {
+      .image-4 {
+        height: 100%;
+      }
+  
+      .image-4.new-img {
+        height: 100%;
+      }
+  
+      .image-5 {
+        height: 100%;
+      }
+  
+      .image-4.new-img.abc {
+        height: 100%;
+      }
+  
+      .work-sec-1 .image-4.new-img.abc {
+        width: 420px;
+        top: 0;
+        left: -10%;
+      }
+  
+    }
+  
+    @media only screen and (min-width: 350px) and (max-width: 400px) {
+      .image-4 {
+        height: 100%;
+      }  
+      .image-4.new-img {
+        height: 100%;
+      }  
+      .image-5 {
+        height: 100%;
+      }  
+      .image-4.new-img.abc {
+        height: 90%;
+      }  
+      .work-sec-1 .image-4.new-img.abc {
+        width: 400px;
+        top: 0;
+        left: -12%;
+      }  
+    }
+  
+  
+    @media only screen and (min-width: 1900px) and (max-width: 2559px) {  
+      .work-sec-1 .image-4 {
+        height: auto;
+      }  
+      .work-sec-1 .image-5 {
+        height: auto;
+      }  
+    }
+  
+    @media only screen and (min-width: 1023px) and (max-width: 1279px) {  
+      .work-sec-1 .image-4.new-img.abc {
+        width: 550px;
+      }
+    }
+  </style>
 
-img-2
-https://prismicreflections.com/blog/wp-content/uploads/2024/07/Frame-2.png
+
+</head>
+<body>
+
+  <!-- Our Work Page -->
 
 
-<h5 class="wp-block-heading">AI Capabilities &amp; Use Cases: Opportunities to Integrate AI</h5>
-<p style="font-size:18px;font-style:normal;font-weight:600">Automation vs. Augmentation</p>
-<p>AI can either automate tasks or augment human capabilities. Automation involves AI performing tasks without human intervention, while augmentation enhances human abilities. Google’s Project PAIR (People + AI Research) talks more about how AI can augment human decision-making rather than replace it. Identify opportunities in your product where AI can either automate repetitive tasks or provide valuable insights to users.</p>
-
-img-3
-https://prismicreflections.com/blog/wp-content/uploads/2024/07/Frame-3.png
-
-
-<h5 class="wp-block-heading">Avoid AI Anywhere or Everywhere: Where AI Should Not Be Used</h5>
-<p>AI is powerful, but it’s not a silver bullet. Avoid using AI for tasks that don’t require it or where it could complicate the user experience. Evaluate whether AI genuinely adds value or if a simpler solution would be more effective. Once you understand appropriate user and business needs, set your goal/expectations, define success metrics, identify the right type of AI solutions, consider the possible outcome and impact mentrics of the same to ensure that its really worth taking the AI path.</p>
-
-<p style="font-size:18px;font-style:normal;font-weight:600">Where should AI not be used or better to avoid use?</p>
-<p>In general sense it’s better to avoid using AI in areas like Privacy intensive applications, high stake decision making, emotionally sensitive applications, ethically complex decision making etc.</p>
-
-
--------------
-
-
-<h5 class="wp-block-heading">Data Collection and Preparation: Gather and Prepare Your Data</h5>
-<p>AI is not magic, it’s based on math. Data is everything for creating &amp; designing effective user experience for AI powered products. Collecting and preparing high-quality data is really crucial for training AI models. Ensure your data is accurate, relevant, and diverse to build robust AI systems. Data collection &amp; preparation involves steps like cleaning, normalization, and ensuring ethical data collection practices.</p>
-
-
-img-4
-https://prismicreflections.com/blog/wp-content/uploads/2024/07/Frame-4.png
-
-
--------------------------
-
-
-
-<h5 class="wp-block-heading">Ethical Considerations</h5>
-<p>AI introduces ethical challenges when building digital products and platforms. Ensure your AI systems are fair, transparent, and accountable. Address biases in your data and algorithms to prevent discrimination. Establish guidelines for ethical AI usage to build trust with your users. Some quick examples</p>
-
-<ol>
-  <li style="font-size:16px">AI system used for hiring employees. If the training data includes biased information
-    (e.g., past hiring data that favored certain demographics), the AI might learn and perpetuate these biases, leading
-    to unfair hiring practices.</li>
-  <li>A social media platform uses AI to recommend content to users. If the AI only promotes sensationalist or
-    polarizing content to increase engagement, it can negatively impact societal well-being.</li>
-</ol>
-
-
--------------------------
-
-<h5 class="wp-block-heading">Design for Transparency and Explainability</h5>
-<p>Users need to understand how AI makes decisions. Design your AI systems or applications to be transparent and explainable. Provide clear explanations of AI-driven actions and decisions to help users trust and effectively use your product.<br>For example<br>A loan approval AI system decides whether individuals qualify for a loan. If the system’s decision-making process is opaque, applicants won’t understand why they were approved or denied.&nbsp;</p>
-
-
-
-
-<h5 class="wp-block-heading">Calibrated Trust</h5>
-<p>Calibrated trust involves balancing user trust in AI with appropriate levels of skepticism. Ensure users understand the limitations of your AI system, neither they underestimate (poor/no trust) or even overestimate (blind trust) the AI capabilities your platform is offering them. Provide mechanisms for users to correct or override AI decisions if necessary.</p>
-
-
-<h5 class="wp-block-heading" style="letter-spacing:0px">Human-Centric / User-Centric Design: Not to Replace Humans but to Empower Humans</h5>
-<p>Focus on designing AI powered products that enhance human capabilities, give them superpowers and provide meaningful assistance in their tasks. User-centric design principles in AI should guide and serve to improve the overall experience of the platform.</p>
-
-
-
-<h5 class="wp-block-heading">Ensure Data Privacy and Security</h5>
-<p>Protecting your users’ data is crucial. Put strong privacy and security measures in place to keep their information secure. Stay on top of data protection laws and be transparent with users about how you handle their data. Clear communication builds trust and reassures users that their privacy is a top priority, fostering a safer and more reliable user experience.</p>
-
-
-<h5 class="wp-block-heading">Design for Inclusivity</h5>
-<p>AI should be for everyone, so it’s important to make your systems inclusive and accessible. Tailor AI user experiences&nbsp; to meet the needs and abilities of all users. To ensure this, test designs with a diverse group of users. This will help you spot and fix any accessibility issues, making AI more user-friendly for everyone. The more inclusive your design, the better the experience for all users.</p>
-
-
-<h5 class="wp-block-heading">Collaborating with Cross-Functional Teams</h5>
-<p>AI product design requires collaboration between various teams, including designers, developers, data scientists, and product managers. Foster a collaborative environment where cross-functional teams can share insights, align goals, and work together effectively.</p>
-
-
-img-5
-https://prismicreflections.com/blog/wp-content/uploads/2024/07/Frame-5-1.png
-
----------------------------
-
-
-<h5 class="wp-block-heading">Prototyping and Iterating</h5>
-<p>AI product design requires collaboration between various teams, including designers, developers, data scientists, and product managers. Foster a collaborative environment where cross-functional teams can share insights, align goals, and work together effectively.</p>
-
--------------------------
-
-<h5 class="wp-block-heading">Conclusion</h5>
-<p>Designing experiences for AI-powered products is a challenging yet incredibly rewarding journey. By grasping the fundamentals of AI, pinpointing genuine user needs, and adhering to best practices for ethical and user-centric design, you can create AI products that surpass user expectations. Embrace AI’s potential to revolutionize your product development strategies and deliver outstanding user experiences.&nbsp;<br><br>We hope that with this guide, you are a little more aware to navigate the unknown areas of AI-powered product design. The goal of any product design/redesign &amp; development exercise isn’t just to incorporate AI, but to do so in a way that genuinely enhances the user experience. Keep experimenting, stay curious, and put the user at the center of your design process to turn this journey into something genuinely rewarding.&nbsp;<br><br>If you are building something awesome in the space of AI, we would love to hear and explore how our team of experts can help you. Contact us to start the discussion!&nbsp;</p>
-
-
-
+  
+</body>
+</html>

@@ -567,63 +567,7 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
   filter: grayscale(0%);
 }
 
-.client-logo-wrap-outer-col {
-  height: 670px;
-  overflow: hidden;
-  position: relative;
-  left: 70px;
-}
-
-.client-logo-wrap-outer {
-  animation: slidertop 34s linear infinite alternate-reverse;
-  -webkit-animation: slidertop 34s linear infinite alternate-reverse;
-  height: calc(100vh - 200px);
-}
-.client-logo-wrap-outer:hover {
-  animation-play-state: paused;
-}
-
-.client-logo-wrap {
-  max-width: 560px;
-  width: 100%;
-  margin-left: 70px;
-  margin-top: 30px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 3;
-}
-.client-logo-wrap ul {
-  width: 100%;
-  margin: 0;
-}
-.client-logo-wrap ul li {
-  width: 50%;
-  text-align: center;
-  float: left;
-  margin: 70px 0;
-  transition: all 0.2s linear 0s;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-  -webkit-transition: all 0.2s linear 0s;
-  -moz-transition: all 0.2s linear 0s;
-  -ms-transition: all 0.2s linear 0s;
-  -o-transition: all 0.2s linear 0s;
-}
-.client-logo-wrap ul li img {
-  height: 45px;
-  max-width: 120px;
-  object-fit: cover;
-  width: 100%;
-  object-fit: contain;
-}
-.client-logo-wrap ul li:hover {
-  -webkit-filter: grayscale(0%);
-  filter: grayscale(0%);
-}
-
-/* custom css -04-08-2020 */
+/* custom css for scrolbar -04-08-2020 */
 .mCSB_scrollTools .mCSB_draggerRail, .mCSB_scrollTools .mCSB_draggerRail {
   background: none !important;
   border-right: 1.4px solid rgba(0, 0, 0, 0.15) !important;
@@ -1086,6 +1030,34 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
   }
 }
 
+.our-work-tabs .our-work-tabs-menu .our-work-tab-link {
+  background-color: transparent;
+}
+.our-work-tabs .our-work-tabs-menu .our-work-tab-link .tab-flex .tab-txt {
+  position: relative;
+}
+.our-work-tabs .our-work-tabs-menu .our-work-tab-link .tab-flex .tab-txt::after {
+  content: "";
+  position: absolute;
+  width: 33px;
+  height: 2px;
+  top: 12px;
+  background-color: #FF5500;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s;
+  margin-left: 13px;
+  top: 12px;
+  left: 95%;
+  right: auto;
+}
+.our-work-tabs .our-work-tabs-menu .our-work-tab-link.w--current .tab-flex .tab-txt::after, .our-work-tabs .our-work-tabs-menu .our-work-tab-link:hover .tab-flex .tab-txt::after {
+  height: 1.5px;
+  opacity: 1;
+  transform-origin: bottom left;
+  transform: scaleX(1);
+}
+
 @media (min-width: 1200px) and (max-width: 1599px) {
   .pr-section-padding.our-work-sec .work-heading-wrapper .our-work-sbttl {
     font-size: 54px;
@@ -1100,6 +1072,9 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
   margin-left: auto;
   margin-right: auto;
   max-width: 480px;
+}
+.pr-section-padding.our-work-sec .work-tac-wrap .our-work-wrapper-row .our-work-wrapper-column:nth-child(2n+1) {
+  padding-top: 50px;
 }
 .pr-section-padding.our-work-sec .work-tac-wrap .our-work-wrapper-row .our-work-wrapper-column.work-pages {
   margin-bottom: 140px;

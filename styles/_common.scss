@@ -714,65 +714,8 @@ footer.pr-footer-wrapper {
 }
 
 
-.client-logo-wrap-outer-col {
-  height: 670px;
-  overflow: hidden;
-  position: relative;
-  left: 70px;
-}
 
-.client-logo-wrap-outer {
-  animation: slidertop 34s linear infinite alternate-reverse;
-  -webkit-animation: slidertop 34s linear infinite alternate-reverse;
-  height: calc(100vh - 200px);
-  &:hover {
-    animation-play-state: paused;
-  }
-}
-
-.client-logo-wrap {
-  max-width: 560px;
-  width: 100%;
-  margin-left: 70px;
-  margin-top: 30px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 3;
-  ul {
-    width: 100%;
-    margin: 0;
-    li {
-      width: 50%;
-      text-align: center;
-      float: left;
-      margin: 70px 0;
-      transition: all 0.2s linear 0s;
-      -webkit-filter: grayscale(100%);
-      filter: grayscale(100%);
-      -webkit-transition: all 0.2s linear 0s;
-      -moz-transition: all 0.2s linear 0s;
-      -ms-transition: all 0.2s linear 0s;
-      -o-transition: all 0.2s linear 0s;
-      img {
-        height: 45px;
-        max-width: 120px;
-        object-fit: cover;
-        width: 100%;
-        object-fit: contain;
-      }
-      &:hover {
-        -webkit-filter: grayscale(0%);
-        filter: grayscale(0%);
-      }
-    }
-  }
-}
-
-
-
-/* custom css -04-08-2020 */
+/* custom css for scrolbar -04-08-2020 */
 .mCSB_scrollTools .mCSB_draggerRail, .mCSB_scrollTools .mCSB_draggerRail{background:none !important;border-right:1.4px solid rgba(0,0,0,.15) !important;opacity:1 !important;margin-left:4px !important;filter:none !important;-webkit-filter:none !important}
 .mCSB_scrollTools .mCSB_dragger{background:url("https://cdn.prod.website-files.com/66b622a8c4666078c780e47e/66f3aacbec922a34423253fa_scrollbar.svg") no-repeat 0 0;width:15px !important;height:30px !important}
 .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{opacity:0 !important}
