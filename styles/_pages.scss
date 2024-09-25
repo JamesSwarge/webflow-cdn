@@ -192,8 +192,11 @@
       }
       .pr-bttn {
         display: table;
-        margin-left: auto;
+        margin-left: 0;
         margin-right: auto;
+				@media screen and (max-width: 991px) {
+					margin-left: auto;
+				}
       }
     }
   }

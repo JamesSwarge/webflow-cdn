@@ -972,8 +972,13 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
 }
 .page404 .error-page-sec .error-page-container .pr-bttn {
   display: table;
-  margin-left: auto;
+  margin-left: 0;
   margin-right: auto;
+}
+@media screen and (max-width: 991px) {
+  .page404 .error-page-sec .error-page-container .pr-bttn {
+    margin-left: auto;
+  }
 }
 
 @media screen and (max-width: 992px) {
