@@ -635,6 +635,19 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
   display: none;
 }
 
+.principles-content-block-wrapp {
+  max-width: 500px;
+  max-height: calc(100vh - 240px);
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 20px;
+  overflow: auto;
+}
+.principles-content-block-wrapp .principles-content-block {
+  margin-bottom: 80px;
+  padding-right: 80px;
+}
+
 .pr-section-padding.pr-fullw-sec .pr-container.pr-blog-container {
   max-width: 100%;
   width: 100%;
@@ -1285,7 +1298,11 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
   overflow-x: hidden;
   overflow-y: auto;
 }
+.pr-section-padding.pr-home-sec-10 .awards-scroller-wrap .awards-scroller {
+  padding: 40px 0 100px;
+}
 .pr-section-padding.pr-home-sec-10 .awards-scroller-wrap .awards-scroller .awards-scroller-item {
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.1);
   max-width: 300px;
   border-radius: 4px;
 }
