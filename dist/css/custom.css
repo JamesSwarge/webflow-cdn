@@ -776,17 +776,29 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
   max-height: 90%;
 }
 .pr-section-padding.ui-ux-p-sec-1 .pr-container .scroll-content-wrapper .right-content-wrap .content-block-scroll-wrapp {
-  max-height: calc(100vh - 120px);
+  max-height: calc(100vh - 40px);
 }
 .pr-section-padding.ui-ux-p-sec-1 .pr-container .scroll-content-wrapper .right-content-wrap .content-block-scroll-wrapp .content-block-wrapp {
   margin-bottom: 133px;
+  padding-left: 60px;
+  max-width: 550px;
 }
 .pr-section-padding.ui-ux-p-sec-1 .pr-container .scroll-content-wrapper .right-content-wrap .content-block-scroll-wrapp .content-block-wrapp:first-of-type {
-  padding-top: 120px;
+  padding-top: 250px;
 }
 .pr-section-padding.ui-ux-p-sec-1 .pr-container .scroll-content-wrapper .right-content-wrap .content-block-scroll-wrapp .content-block-wrapp .custom-li-design {
+  position: relative;
   font-weight: 300;
   margin-bottom: 30px;
+}
+.pr-section-padding.ui-ux-p-sec-1 .pr-container .scroll-content-wrapper .right-content-wrap .content-block-scroll-wrapp .content-block-wrapp .custom-li-design::before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 0px;
+  left: -25px;
+  top: 13px;
+  border: 1px solid #FF6600;
 }
 
 .pr-section-padding.pr-indus-sec .pr-container .scroll-content-wrapper {
@@ -795,17 +807,29 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
   max-height: 90%;
 }
 .pr-section-padding.pr-indus-sec .pr-container .scroll-content-wrapper .right-content-wrap .content-block-scroll-wrapp {
-  max-height: calc(100vh - 120px);
+  max-height: calc(100vh - 80px);
 }
 .pr-section-padding.pr-indus-sec .pr-container .scroll-content-wrapper .right-content-wrap .content-block-scroll-wrapp .content-block-wrapp {
   margin-bottom: 133px;
+  padding-left: 60px;
+  max-width: 550px;
 }
 .pr-section-padding.pr-indus-sec .pr-container .scroll-content-wrapper .right-content-wrap .content-block-scroll-wrapp .content-block-wrapp:first-of-type {
-  padding-top: 120px;
+  padding-top: 250px;
 }
 .pr-section-padding.pr-indus-sec .pr-container .scroll-content-wrapper .right-content-wrap .content-block-scroll-wrapp .content-block-wrapp .custom-li-design {
+  position: relative;
   font-weight: 300;
   margin-bottom: 30px;
+}
+.pr-section-padding.pr-indus-sec .pr-container .scroll-content-wrapper .right-content-wrap .content-block-scroll-wrapp .content-block-wrapp .custom-li-design::before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 0px;
+  left: -25px;
+  top: 13px;
+  border: 1px solid #FF6600;
 }
 
 .pr-section-padding.design-exp-section .pr-video-blk-wrapper {
