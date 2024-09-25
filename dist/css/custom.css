@@ -785,21 +785,8 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
   height: 90%;
   max-height: 90%;
 }
-.pr-section-padding.pr-indus-sec .pr-container .scroll-content-wrapper .right-content-wrap {
-  position: absolute;
-  display: block;
-  width: 50%;
-  top: 0;
-  left: auto;
-  right: 0;
-  max-height: calc(100% + 15vh);
-  overflow-x: hidden;
-  overflow-y: auto;
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
-}
-.pr-section-padding.pr-indus-sec .pr-container .scroll-content-wrapper .right-content-wrap::-webkit-scrollbar {
-  display: none;
+.pr-section-padding.pr-indus-sec .pr-container .scroll-content-wrapper .right-content-wrap .content-block-wrapp {
+  margin-bottom: 40px;
 }
 .pr-section-padding.pr-indus-sec .pr-container .scroll-content-wrapper .right-content-wrap .content-block-wrapp:first-of-type {
   padding-top: 168px;

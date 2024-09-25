@@ -38,25 +38,6 @@ $(document).ready(function () {
 
 });
 
-
-// $(function() {
-//   $('.contact-button').click(function() {
-//     $('.modal').fadeIn();
-//     $('.modal-background').fadeIn();
-//     e.stopPropagation();
-//   });
-//   $('.close-modal').click(function() {
-//       $('.modal').fadeOut();
-//       $('.modal-background').fadeOut();
-//   });  
-//   $('.modal-background').click(function() {
-//       $('.modal').fadeOut();
-//       $('.modal-background').fadeOut();
-//   }); 
-//   $(document).keydown(function (event) {
-//       if (event.keyCode == 27) {
-//           $('.modal').fadeOut();
-//           $('.modal-background').fadeOut();
-//       }
-//   });
-// });
+$(document).ready(function () {
+  $(".custom-scroller").mCustomScrollbar();
+});
