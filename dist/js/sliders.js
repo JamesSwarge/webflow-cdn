@@ -1,6 +1,20 @@
 
 $(document).ready(function () {
   // alert("slider.js");
+
+  // On About & Career pages
+  $(".group-pic-slider").slick({
+    centerMode: false,    
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    speed: 300,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true,
+    fade: true
+  });
+
   $(".about-team-slider-2").slick({
     centerMode: false,    
     infinite: true,
@@ -52,6 +66,7 @@ $(document).ready(function () {
       },
     ],
   });
+  
 
   $(".home-sec2-slider").slick({
     centerMode: false,    
@@ -64,4 +79,5 @@ $(document).ready(function () {
     dots: true,
     fade: true,
   });
+
 });

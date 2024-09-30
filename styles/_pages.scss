@@ -699,3 +699,25 @@
 .contact-form-block {
 	position: relative;
 }
+
+
+
+// About Page
+
+.about-section10 {
+	.our-leaders {
+		.leaders-col {
+			.leader-image {
+				position: relative;
+				height: 380px;
+				width: 100%;
+				img {
+					position: absolute;
+					width: 100%;
+					height: 100%;
+					object-fit: cover;
+				}
+			}
+		}
+	}
+}

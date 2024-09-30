@@ -280,6 +280,11 @@
 
 // Header
 
+.pr-body.nav_menu_is_active .logo-img {
+  fill: var(--color-white);
+  filter: brightness(0) invert(1);
+}
+
 //Top Nav
 .pr-header {
   .nav.cus-container.pr-main-nav {
