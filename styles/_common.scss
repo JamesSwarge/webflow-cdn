@@ -758,3 +758,120 @@ footer.pr-footer-wrapper {
     padding-right: 80px;
   }
 }
+
+
+
+
+// form elements
+
+
+// checkbox
+.form-checkbox-field {
+  padding-left: 15px;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  .check {
+    position: relative;
+    height: 18px;
+    width: 18px;
+    border: 1px solid #ddd;
+    box-shadow: none;
+    background: #fff;
+    margin: 0;
+    top: 6px;
+    left: -15px;
+    transition: all .3s ease;
+    z-index: 1;
+    cursor: pointer;
+    &.w--redirected-checked {
+      &::before {
+        content: "";
+        display: block;
+        color: #fff;
+        left: 6px;
+        top: 1px;
+        width: 3px;
+        height: 10px;
+        border: solid #212529;
+        border-width: 0 2px 2px 0;
+        transform: rotate(45deg);
+        position: absolute;
+      }
+    }
+  }
+  input {
+
+  }
+
+}
+
+
+// radios
+
+.form-radio-field {
+  padding-left: 30px;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  .radio {
+    position: relative;
+    top: -3px;
+    left: -10px;
+    height: 18px;
+    width: 18px;
+    overflow: hidden;
+    box-shadow: none;
+    transition: all .3s ease;
+    z-index: 1;
+    cursor: pointer;
+    &.w--redirected-checked {
+      border: 1px solid var(--color-bg-dark-1);
+      background-color: #FFFFFF;
+      &::before {
+        content: '';
+        position: absolute;
+        display: block;
+        background-color: var(--color-bg-dark-1);
+        border-radius: 50%;
+        height: 60%;
+        width: 60%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+      }
+    }
+  }
+}
+
+
+
+.pr-input-text-wrapper {
+  .pr-input-text-label {
+    font: normal normal 400 14px/normal "Poppins";
+    color: var(--color-bg-dark-1);
+  }
+  .pr-input-text-field {
+    border: 0;
+    border-bottom: 1px solid #CCC;
+    &:focus {
+      border-color: 1px solid var(--color-bg-dark-1);
+    }
+  }
+  .pr-input-textarea-field {
+    border: 0;
+    border-bottom: 1px solid #CCC;
+    &:focus {
+      border-color: 1px solid var(--color-bg-dark-1);
+    }
+  }
+  .pr-input-select-field {
+    border: 0;
+    border-bottom: 1px solid #CCC;
+    background-color: transparent;
+    &:focus {
+      border-color: 1px solid var(--color-bg-dark-1);
+    }
+  }
+}
