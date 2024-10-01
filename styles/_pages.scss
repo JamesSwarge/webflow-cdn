@@ -459,6 +459,15 @@
 			}
 		}
 	}
+	&.pr-home-sec-1 {
+		.pr-row-wrapper {
+			padding-bottom: 80px;
+		}
+		.hero-logos-wrapper {
+			position: relative;
+			top: -80px;
+		}
+	}
 	&.pr-home-sec-2 {
 		.pr-slider-wrapper {
 			.home-sec2-slider-wrap {

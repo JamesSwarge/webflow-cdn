@@ -1265,6 +1265,13 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
   color: #FF5500;
   margin-bottom: 30px;
 }
+.pr-section-padding.pr-home-sec-1 .pr-row-wrapper {
+  padding-bottom: 80px;
+}
+.pr-section-padding.pr-home-sec-1 .hero-logos-wrapper {
+  position: relative;
+  top: -80px;
+}
 .pr-section-padding.pr-home-sec-2 .pr-slider-wrapper .home-sec2-slider-wrap .home-sec2-slider .comman-card-info .comman-card-top-ul .list-inline-item {
   position: relative;
 }

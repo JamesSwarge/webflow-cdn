@@ -1,6 +1,36 @@
 
 $(document).ready(function () {
-  // alert("slider.js");
+  alert("slider.js");
+
+  // Homepage
+  $(".hero-logos").slick({
+    speed: 5000,
+    autoplay: true,
+    autoplaySpeed: 0,
+    cssEase: "linear",
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    infinite: true,
+    swipeToSlide: false,
+    centerMode: true,
+    focusOnSelect: false,
+    dots: false,
+    arrows: false,
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 4,
+        },
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+    ],
+  });
 
   // On About & Career pages
   $(".group-pic-slider").slick({
@@ -65,8 +95,7 @@ $(document).ready(function () {
         },
       },
     ],
-  });
-  
+  });  
 
   $(".home-sec2-slider").slick({
     centerMode: false,    
