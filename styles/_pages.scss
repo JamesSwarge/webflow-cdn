@@ -431,6 +431,7 @@
 
 // Homepage
 
+
 .pr-section-padding {
 	&.homepage-common-sec {
 		.pr-row-wrapper {
@@ -592,6 +593,9 @@
 				align-items: center;
 			}
 		}
+		.pr-vertical-tabs-content {
+			padding-left: 90px;
+		}
 	}
 	&.pr-home-sec-6 {
 		.pr-home-common-img-blk {
@@ -615,6 +619,9 @@
 				justify-content: center;
 				align-items: center;
 			}
+		}
+		.pr-vertical-tabs-content {
+			padding-left: 90px;
 		}
 	}
 	&.pr-home-sec-9 {
@@ -655,6 +662,20 @@
 			}
 		}
 	}
+	&.pr-home-sec-11 {
+		.pr-home-common-img-blk.home-sec-11 {
+			width: 650px;
+			img {
+				display: block;
+				max-width: 600px;
+				width: 100%;
+				height: auto;
+				margin-left: auto;
+				margin-right: auto;
+				object-fit: cover;
+			}
+		}
+	}
 	&.pr-home-sec-12 {
 		.pr-home-common-img-blk {
 			position: relative;
@@ -681,8 +702,20 @@
 		.flex-button-group {
 			margin-top: 0;
 		}
+		.pr-home-common-img-blk.home-sec-13 {
+			width: 650px;
+			img {
+				display: block;
+				max-width: 600px;
+				width: 100%;
+				height: auto;
+				margin-left: auto;
+				margin-right: auto;
+				object-fit: cover;
+			}
+		}
 	}
-	
+
 }
 
 

@@ -1370,6 +1370,9 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
   justify-content: center;
   align-items: center;
 }
+.pr-section-padding.pr-home-sec-5 .pr-vertical-tabs-content {
+  padding-left: 90px;
+}
 .pr-section-padding.pr-home-sec-6 .pr-home-common-img-blk {
   max-width: 520px;
   margin-left: auto;
@@ -1389,6 +1392,9 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.pr-section-padding.pr-home-sec-7 .pr-vertical-tabs-content {
+  padding-left: 90px;
 }
 .pr-section-padding.pr-home-sec-9 .pr-home-common-img-blk {
   max-width: 520px;
@@ -1422,6 +1428,18 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
   max-width: 72px;
   height: auto;
 }
+.pr-section-padding.pr-home-sec-11 .pr-home-common-img-blk.home-sec-11 {
+  width: 650px;
+}
+.pr-section-padding.pr-home-sec-11 .pr-home-common-img-blk.home-sec-11 img {
+  display: block;
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+}
 .pr-section-padding.pr-home-sec-12 .pr-home-common-img-blk {
   position: relative;
   min-height: 600px;
@@ -1444,6 +1462,18 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
 }
 .pr-section-padding.pr-home-sec-13 .flex-button-group {
   margin-top: 0;
+}
+.pr-section-padding.pr-home-sec-13 .pr-home-common-img-blk.home-sec-13 {
+  width: 650px;
+}
+.pr-section-padding.pr-home-sec-13 .pr-home-common-img-blk.home-sec-13 img {
+  display: block;
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
 }
 
 .career-form label span {
