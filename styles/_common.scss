@@ -53,22 +53,6 @@
   }
 }
 
-@keyframes rotation-ani {
-  0% {
-    transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(359deg);
-    -webkit-transform: rotate(359deg);
-    -moz-transform: rotate(359deg);
-    -ms-transform: rotate(359deg);
-    -o-transform: rotate(359deg);
-  }
-}
 @-webkit-keyframes rotation-ani {
   0% {
     transform: rotate(0deg);
@@ -85,9 +69,29 @@
     -o-transform: rotate(359deg);
   }
 }
+@keyframes rotation-ani {
+  0% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    -moz-transform: rotate(359deg);
+    -ms-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+  }
+}
 
-@keyframes ripple{0%{transform:scale(1)}50%{transform:scale(1.3);opacity:1}100%{transform:scale(1.6);opacity:0}}
-
+@-webkit-keyframes  ripple{
+  0%{transform:scale(1)}50%{transform:scale(1.3);opacity:1}100%{transform:scale(1.6);opacity:0}
+}
+@keyframes ripple{
+  0%{transform:scale(1)}50%{transform:scale(1.3);opacity:1}100%{transform:scale(1.6);opacity:0}
+}
 
 @-webkit-keyframes slidertop {
   from {
@@ -123,8 +127,6 @@
 }
 
 
-
-
 :root {
 	--container-width: 1140px;
 	--max-container-width: 74em;
@@ -133,7 +135,6 @@
     --max-container-width: 100vw;
   }
 }
-
 
 
 // All fonts
@@ -301,7 +302,6 @@ h6, .h6 {
 
 
 // helper classes
-
 .py-0 {
 	padding-top: 0 !important;
 	padding-bottom: 0 !important;
@@ -322,11 +322,10 @@ h6, .h6 {
 
 
 
-
+// pr-sections
 .pr-section-padding {
   position: relative;
 }
-
 // pr-container
 .pr-container {
   &.pr-container-flx-center {
@@ -342,14 +341,8 @@ h6, .h6 {
 }
 
 
-// @media (min-width: 992px) {
-//   .pr-page-wrapper {
-//     font-size: 0.8rem;
-//   }
-// }
 
-
-@media (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1199.98px) {
   .pr-section-padding {
     padding: 60px 7vw 60px;
   }
@@ -358,7 +351,7 @@ h6, .h6 {
   }
 }
 
-@media (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 991.98px) {
   .pr-section-padding {
     padding: 60px 30px 60px;
   }
@@ -366,11 +359,13 @@ h6, .h6 {
     max-width: 720px;
   }
 }
-@media (max-width: 768px) {
+
+@media (min-width: 320px) and (max-width: 767.98px) {
   .pr-container {
     max-width: 720px;
   }
 }
+
 @media (max-width: 576px) {
   .pr-section-padding {
     padding: 60px 20px 60px;
@@ -413,7 +408,6 @@ h6, .h6 {
 
 
 // Header
-
 .pr-body.nav_menu_is_active .logo-img {
   fill: var(--color-white);
   filter: brightness(0) invert(1);
@@ -488,9 +482,7 @@ h6, .h6 {
 }
 
 
-
 // Footer
-
 footer.pr-footer-wrapper {
   .pr-footer-container {
     max-width: 1260px;
@@ -555,8 +547,6 @@ footer.pr-footer-wrapper {
 }
 
 
-
-
 // Button CSS
 .pr-bttn {
   position: relative;
@@ -619,10 +609,7 @@ footer.pr-footer-wrapper {
 }
 
 
-
 // Pr slider
-
-
 .pr-slider-content {
   .pr-slider-content {
     .pr-slider-image-wrap {
@@ -642,63 +629,22 @@ footer.pr-footer-wrapper {
 }
 
 
-
-
 @media (max-width: 768px) {
-
   // Footer
   .pr-footer {
     .pr-footer-common {
       transform: none;
     }
   }
-
 }
-
 @media (min-width: 320px) and (max-width: 767.98px) {
-  h1, .h1 {
-    font-size: 30px;
-    line-height: 39px !important;
-  }
-  h6, .h6 {
-    font-size: 14px;
-    line-height: 18.2px !important;
-  }
   .vh-100 {
     height: auto !important;
   }
 }
 
 
-
-
-// Form Elements
-
-
-.pr-form .pr-form-label {
-  font: normal normal 400 14px/normal "Poppins";
-  color: var(--color-bg-dark-1);
-}
-
-.pr-form-field {
-  font: normal normal 400 18px/normal "Poppins";
-  border-bottom: 1px solid rgba(30, 35, 41, 0.4);
-}
-
-.pr-form-field:focus {
-  border-color: var(--color-bg-dark-1);
-}
-
-.pr-form-field::placeholder {
-  font: normal normal 400 16px/normal "Poppins";
-}
-
-
-
-
-
 // Modals
-
 .pr-yt-modal {
   .pr-modal-container {
     .pr-modal-content {
@@ -720,9 +666,7 @@ footer.pr-footer-wrapper {
 }
 
 
-
 // Vertical Tabs
-
 .pr-vertical-tabs-wrap {
   .pr-vertical-tabs {
     .pr-vertical-tabs-menu {
@@ -782,9 +726,7 @@ footer.pr-footer-wrapper {
 }
 
 
-
 // Awwards Scrolling section  
-
 .awards-scroller-wrap {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
@@ -794,9 +736,7 @@ footer.pr-footer-wrapper {
 }
 
 
-
 // Clients Logo vertical Scroller
-
 .slider-move-outer-wrap {
   height: 670px;
   overflow: hidden;
@@ -853,7 +793,6 @@ footer.pr-footer-wrapper {
 }
 
 
-
 /* custom css for scrolbar -04-08-2020 */
 .mCSB_scrollTools .mCSB_draggerRail, .mCSB_scrollTools .mCSB_draggerRail{background:none !important;border-right:1.4px solid rgba(0,0,0,.15) !important;opacity:1 !important;margin-left:4px !important;filter:none !important;-webkit-filter:none !important}
 .mCSB_scrollTools .mCSB_dragger{background:url("https://cdn.prod.website-files.com/66b622a8c4666078c780e47e/66f3aacbec922a34423253fa_scrollbar.svg") no-repeat 0 0;width:15px !important;height:30px !important}
@@ -884,7 +823,7 @@ footer.pr-footer-wrapper {
 
 
 
-  // Principles Scroller
+// Principles Scroller
 .principles-content-block-wrapp {
 	max-width: 500px;
   max-height: calc(100vh - 240px);
@@ -900,9 +839,24 @@ footer.pr-footer-wrapper {
 
 
 
+// Form Elements
+.pr-form .pr-form-label {
+  font: normal normal 400 14px/normal "Poppins";
+  color: var(--color-bg-dark-1);
+}
 
-// form elements
+.pr-form-field {
+  font: normal normal 400 18px/normal "Poppins";
+  border-bottom: 1px solid rgba(30, 35, 41, 0.4);
+}
 
+.pr-form-field:focus {
+  border-color: var(--color-bg-dark-1);
+}
+
+.pr-form-field::placeholder {
+  font: normal normal 400 16px/normal "Poppins";
+}
 
 // checkbox
 .form-checkbox-field {
@@ -945,9 +899,7 @@ footer.pr-footer-wrapper {
 
 }
 
-
 // radios
-
 .form-radio-field {
   padding-left: 30px;
   -webkit-user-select: none; /* Safari */
@@ -984,8 +936,7 @@ footer.pr-footer-wrapper {
   }
 }
 
-
-
+// Inputs
 .pr-input-text-wrapper {
   .pr-input-text-label {
     font: normal normal 400 14px/normal "Poppins";
