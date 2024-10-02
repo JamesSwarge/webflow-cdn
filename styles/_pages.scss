@@ -271,7 +271,7 @@
 					height: 300px;
 					.pr-video-blk-img {
 						width: 100%;
-						height: auto;
+						height: 100%;
 						object-fit: cover;
 					}
 					.circle {
@@ -325,6 +325,51 @@
 				}
 			}
 		}
+
+		@media screen and (max-width: 1599px) {
+			.pr-design-exp-header {
+				padding-top: 60px;
+				padding-bottom: 60px;
+			}
+			.pr-video-blk-wrapper {
+				row-gap: 0;
+				max-width: 100%;
+			}
+		}
+		@media screen and (max-width: 991.98px) {
+			.pr-design-exp-header {
+				padding-bottom: 20px;
+			}
+			.pr-design-exp-para {
+				font-size: 20px;
+			}
+			.pr-video-blk-wrapper .pr-video-blk .pr-yt-video-embd {
+				height: 200px;
+			}
+		}
+		@media screen and (max-width: 767.98px) {
+			.pr-design-exp-ttl {
+				text-align: center;
+			}
+			.pr-design-exp-para {
+				font-size: 16px;
+				line-height: 25px;
+				padding-bottom: 0;
+				margin-bottom: 0;
+			}
+			.pr-video-blk-wrapper .pr-video-blk {
+				min-width: 100%;
+				max-width: 100%;
+			}
+			.pr-video-blk-wrapper .pr-video-blk .pr-yt-video-embd {
+				height: 280px;
+			}
+			.pr-video-blk-ttl {
+				font-size: 18px;
+    		line-height: 23.4px;
+			}
+		}
+
 	}
 }
 
@@ -752,7 +797,11 @@
 			}
 			.home-sec-3-tab-content {
 				min-height: 320px;
-			}
+			}		
+		}
+		.home-tab-wrappper {
+			position: relative;
+			left: -70px;
 		}
 		@media screen and (max-width: 1599px) {
 			.home-sec3-tab-para {
@@ -936,6 +985,14 @@
 
 .contact-form-block {
 	position: relative;
+}
+.contact-form-block .contact_form .contact_step-wrapper .form-checkbox-field input {
+	position: absolute;
+}
+@media (max-width: 992px) {
+	.pr-section-padding.career-sec-9 {
+		height: auto;
+	}
 }
 
 

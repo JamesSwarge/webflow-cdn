@@ -1,6 +1,6 @@
 
 $(document).ready(function () {
-  alert("slider.js");
+  // alert("slider.js");
 
   $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {

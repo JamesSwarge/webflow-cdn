@@ -336,7 +336,8 @@ h6, .h6 {
 
 @media screen and (max-width: 1599px) {
   .pr-container {
-    max-width: 1020px;
+    width: 1020px;
+    max-width: 88vw;
   }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -505,6 +506,17 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
   -webkit-animation: heartBeat 1.8s infinite;
   display: inline-block;
   margin: 0 6px;
+}
+@media screen and (max-width: 1599px) {
+  footer.pr-footer-wrapper .pr-footer-container {
+    width: 1020px;
+    max-width: 88vw;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  footer.pr-footer-wrapper .pr-footer-container {
+    max-width: 100%;
+  }
 }
 
 .pr-bttn {
@@ -829,13 +841,14 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
 }
 
 .form-checkbox-field {
-  padding-left: 15px;
+  position: relative;
+  padding-left: 30px;
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none; /* Standard syntax */
 }
 .form-checkbox-field .check {
-  position: relative;
+  position: absolute;
   height: 18px;
   width: 18px;
   border: 1px solid #ddd;
@@ -843,7 +856,7 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
   background: #fff;
   margin: 0;
   top: 6px;
-  left: -15px;
+  left: 0;
   transition: all 0.3s ease;
   z-index: 1;
   cursor: pointer;
@@ -919,6 +932,7 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
   border: 0;
   border-bottom: 1px solid #CCC;
   background-color: transparent;
+  padding-left: 2px;
 }
 .pr-input-text-wrapper .pr-input-select-field:focus {
   border-color: 1px solid var(--color-bg-dark-1);
@@ -1293,7 +1307,7 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
 }
 .pr-section-padding.design-exp-section .pr-video-blk-wrapper .pr-video-blk .pr-yt-video-embd .pr-video-blk-img {
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
 }
 .pr-section-padding.design-exp-section .pr-video-blk-wrapper .pr-video-blk .pr-yt-video-embd .circle {
@@ -1339,6 +1353,49 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
   animation: ripple 2s linear 1s infinite;
   -webkit-animation: ripple 2s linear 1s infinite;
   opacity: 1;
+}
+@media screen and (max-width: 1599px) {
+  .pr-section-padding.design-exp-section .pr-design-exp-header {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .pr-section-padding.design-exp-section .pr-video-blk-wrapper {
+    row-gap: 0;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .pr-section-padding.design-exp-section .pr-design-exp-header {
+    padding-bottom: 20px;
+  }
+  .pr-section-padding.design-exp-section .pr-design-exp-para {
+    font-size: 20px;
+  }
+  .pr-section-padding.design-exp-section .pr-video-blk-wrapper .pr-video-blk .pr-yt-video-embd {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .pr-section-padding.design-exp-section .pr-design-exp-ttl {
+    text-align: center;
+  }
+  .pr-section-padding.design-exp-section .pr-design-exp-para {
+    font-size: 16px;
+    line-height: 25px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  .pr-section-padding.design-exp-section .pr-video-blk-wrapper .pr-video-blk {
+    min-width: 100%;
+    max-width: 100%;
+  }
+  .pr-section-padding.design-exp-section .pr-video-blk-wrapper .pr-video-blk .pr-yt-video-embd {
+    height: 280px;
+  }
+  .pr-section-padding.design-exp-section .pr-video-blk-ttl {
+    font-size: 18px;
+    line-height: 23.4px;
+  }
 }
 
 #playButton {
@@ -1708,6 +1765,10 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
 .pr-section-padding.pr-home-sec-3 .home-sec-3-tabs .home-sec-3-tab-content {
   min-height: 320px;
 }
+.pr-section-padding.pr-home-sec-3 .home-tab-wrappper {
+  position: relative;
+  left: -70px;
+}
 @media screen and (max-width: 1599px) {
   .pr-section-padding.pr-home-sec-3 .home-sec3-tab-para {
     line-height: 1.5;
@@ -1858,6 +1919,15 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
   position: relative;
 }
 
+.contact-form-block .contact_form .contact_step-wrapper .form-checkbox-field input {
+  position: absolute;
+}
+
+@media (max-width: 992px) {
+  .pr-section-padding.career-sec-9 {
+    height: auto;
+  }
+}
 .about-section10 .our-leaders .leaders-col .leader-image {
   position: relative;
   height: 380px;
