@@ -50,6 +50,91 @@
 				}
 			}
 		}
+		@media screen and (max-width: 1599px) {
+			.ui-ux-p-heading {
+				font-size: 54px;
+				line-height: 72.8px;
+				padding-left: 1.2vw;
+			}
+			.indus-card-heading-1 {
+				font-size: 40px;
+				line-height: 52px;
+			}
+			.pr-container .scroll-content-wrapper .right-content-wrap .content-block-scroll-wrapp .content-block-wrapp {
+				padding-left: 0px;
+			}
+		}
+		@media screen and (max-width: 1199px) {
+			.pr-container .scroll-content-wrapper .right-content-wrap .content-block-scroll-wrapp .content-block-wrapp:first-of-type {
+				padding-top: 120px;
+			}
+			.pr-container .scroll-content-wrapper .right-content-wrap .content-block-scroll-wrapp .content-block-wrapp {
+				padding-left: 40px;
+				max-width: 480px;
+			}
+		}
+		@media screen and (max-width: 991.98px) {
+			.pr-container .scroll-content-wrapper .right-content-wrap .content-block-scroll-wrapp {
+				max-height: unset;
+				.mCustomScrollBox  {
+					max-height: none;
+				}
+			}
+			.pr-container .scroll-content-wrapper .right-content-wrap .content-block-scroll-wrapp .content-block-wrapp:first-of-type {
+				padding-top: 0;
+				padding: 0;
+			}
+		}
+		@media screen and (max-width: 767.98px) {
+			.ui-ux-p-heading {
+				font-size: 30px;
+				line-height: 39px;
+				margin-top: 0;
+				margin-bottom: 60px;
+				max-width: 340px;
+				text-align: center;
+				.code {
+					font-size: 42px;
+				}
+			}
+			.content-block-wrapp .ui-ux-scroll-img {
+				max-width: 60px;
+				margin-bottom: 20px;
+			}
+			.indus-card-heading-1 {
+				font-size: 26px;
+				line-height: 34px;
+				font-weight: 600;
+			}
+			.pr-container .scroll-content-wrapper .right-content-wrap .content-block-scroll-wrapp .content-block-wrapp .custom-li-design {
+				font-size: 14px;
+				line-height: 19px;
+				margin-bottom: 15px;
+			}
+			.pr-container .scroll-content-wrapper .right-content-wrap .content-block-scroll-wrapp .content-block-wrapp .custom-li-design::before {
+				top: 10px;
+				border-color: var(--color-dark-1);
+			}
+			.pr-container .scroll-content-wrapper .right-content-wrap .content-block-scroll-wrapp .content-block-wrapp {
+				margin-bottom: 70px;
+				padding-left: 0;
+			}
+			.pr-container .scroll-content-wrapper {
+				height: auto;
+				max-height: unset;
+				padding-bottom: 0;
+			}
+			.content-block-wrapp {
+				&.only-img {
+					display: none;
+				}
+				.paragraph-4 {
+					font-size: 14px;
+					line-height: 20px;
+					margin-bottom: 20px;
+				}
+			}
+		}
 	}
 }
 

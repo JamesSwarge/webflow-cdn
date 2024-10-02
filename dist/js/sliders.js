@@ -2,6 +2,14 @@
 $(document).ready(function () {
   alert("slider.js");
 
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 100) {
+      $(".pr-header").addClass("sticky");
+    } else {
+      $(".pr-header").removeClass("sticky");
+    }
+  });
+  
   // Homepage
   $(".hero-logos").slick({
     speed: 5000,
@@ -108,5 +116,7 @@ $(document).ready(function () {
     dots: true,
     fade: true,
   });
+
+
 
 });

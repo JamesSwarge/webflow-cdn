@@ -321,6 +321,13 @@ h6, .h6 {
 }
 
 
+@media screen and (max-width: 991.98px) {
+  .vh-100 {
+    height: auto !important;
+  }
+}
+
+
 
 // pr-sections
 .pr-section-padding {
