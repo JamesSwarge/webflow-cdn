@@ -383,7 +383,8 @@ h6, .h6 {
     padding: 60px 20px 60px;
   }
   .pr-container {
-    max-width: 540px;
+    width: 540px;
+    max-width: 90vw;
   }
 }
 
@@ -958,10 +959,11 @@ footer.pr-footer-wrapper {
       }
     }
   }
-  input {
-
+  @media (max-width: 767.98px) {
+    .chkbx-label {
+      font-size: 12px;
+    }
   }
-
 }
 
 // radios
@@ -997,6 +999,11 @@ footer.pr-footer-wrapper {
         transform: translate(-50%, -50%);
         z-index: -1;
       }
+    }
+  }
+  @media (max-width: 767.98px) {
+    .radio-label {
+      font-size: 12px;
     }
   }
 }
