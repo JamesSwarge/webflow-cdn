@@ -341,7 +341,11 @@ h6, .h6 {
 }
 
 
-
+@media screen and (max-width: 1599px) {
+  .pr-container {
+    max-width: 1020px;
+  }
+}
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .pr-section-padding {
     padding: 60px 7vw 60px;
@@ -360,9 +364,9 @@ h6, .h6 {
   }
 }
 
-@media (min-width: 320px) and (max-width: 767.98px) {
+@media screen and (max-width: 767.98px) {
   .pr-container {
-    max-width: 720px;
+    max-width: 540px;
   }
 }
 
@@ -444,6 +448,29 @@ h6, .h6 {
         }
       }
     }
+  }
+  @media screen and (max-width: 1199px) {
+    .nav.cus-container.pr-main-nav {
+      padding-top: 1.5rem;
+      padding-left: 20px;
+      padding-right: 20px;
+      .logo-img {
+        max-width: 36px;
+      }
+      .menu-bttn {
+        .menu-bttn-wrap {
+          width: 45px;
+          .hamburger-line {
+            margin-bottom: 5px;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1199px) {
+  .nav_menu_is_active .nav.cus-container.pr-main-nav .menu-bttn .menu-bttn-wrap .hamburger-line {
+    margin-bottom: 7px;
   }
 }
 
@@ -719,6 +746,24 @@ footer.pr-footer-wrapper {
         font-size: 1rem;
         .pr-txt-link-bttn {
           color: #FFFFFF;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 1599px) {
+    .pr-vertical-tabs {
+      .pr-vertical-tabs-menu {
+        .pr-vertical-tab-link {
+          font-size: 28px;
+          line-height: 1.2;
+          margin-bottom: 40px;
+          div {
+            &::after {
+              width: 28px;
+              top: 18px;
+              left: 100%;
+            }
+          }
         }
       }
     }
