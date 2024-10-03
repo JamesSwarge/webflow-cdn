@@ -648,6 +648,9 @@ footer.pr-footer-wrapper {
     transform-origin: bottom right;
     transition: transform 0.3s ease-in-out;
     margin-left: 1.2em;
+    @media (max-width: 992px) {
+      width: 36px;
+    }
   }
   &:hover,
   &:active,
@@ -670,6 +673,10 @@ footer.pr-footer-wrapper {
 }
 .pr-txt-link-bttn {
   transition: all 0.3s ease-in-out;
+  @media (max-width: 992px) {
+    padding: 10px 24px;
+    font-size: 14px;
+  }
 }
 
 
