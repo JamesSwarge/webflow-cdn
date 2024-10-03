@@ -53,6 +53,31 @@ $(document).ready(function () {
       },
     ],
   });
+  $(".pr-home-sec-10 .awards-scroller").slick({
+    centerMode: false,    
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    speed: 300,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    dots: false,
+    fade: false,
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 1.5,
+        },
+      },
+    ],
+  });  
 
   // On About & Career pages
   $(".group-pic-slider").slick({

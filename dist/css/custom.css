@@ -1805,7 +1805,9 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
 }
 @media screen and (max-width: 1599px) {
   .pr-section-padding.pr-home-sec-1 .pr-home-sec1-img-blk {
-    left: -136px;
+    left: -116px;
+    width: 520px;
+    z-index: -1;
   }
   .pr-section-padding.pr-home-sec-1 .hero-logos-wrapper {
     top: -30px;
@@ -1907,6 +1909,7 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
 .pr-section-padding.pr-home-sec-3 .home-tab-wrappper {
   position: relative;
   left: -70px;
+  overflow: hidden;
 }
 @media screen and (max-width: 1599px) {
   .pr-section-padding.pr-home-sec-3 .home-sec3-tab-para {
@@ -1968,6 +1971,9 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
 }
 .pr-section-padding.pr-home-sec-7 .pr-vertical-tabs-content {
   padding-left: 90px;
+}
+.pr-section-padding.pr-home-sec-8 {
+  background: linear-gradient(90deg, var(--color-bg-dark-2) 50%, #FFFFFF 50%);
 }
 .pr-section-padding.pr-home-sec-9 .pr-home-common-img-blk {
   max-width: 520px;
@@ -2095,6 +2101,31 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
   }
   .pr-section-padding.pr-home-sec-13 .pr-home-common-img-blk.home-sec-13 {
     width: 520px;
+  }
+}
+@media screen and (max-width: 1199.98px) {
+  .pr-section-padding .pr-intro-heading {
+    max-width: 600px;
+  }
+  .pr-section-padding .slider-move-outer-wrap .slider-move-top-wrap .slider-move-top {
+    max-width: 360px;
+    left: -20px;
+  }
+  .pr-section-padding.pr-home-sec-11 .pr-home-common-img-blk.home-sec-11 {
+    width: 440px;
+  }
+  .pr-section-padding.pr-home-sec-12 .pr-home-common-img-blk .pr-home-common-sec-img {
+    width: 600px;
+    top: 130px;
+    left: -100px;
+  }
+  .pr-section-padding.pr-home-sec-13 .pr-home-common-img-blk.home-sec-13 {
+    width: 450px;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .pr-section-padding.pr-home-sec-5, .pr-section-padding.pr-home-sec-7, .pr-section-padding.pr-home-sec-8 {
+    background: var(--color-bg-dark-2);
   }
 }
 
