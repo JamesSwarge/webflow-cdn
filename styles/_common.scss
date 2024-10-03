@@ -516,6 +516,12 @@ h6, .h6 {
     }
   }
 }
+@media (max-width: 991px) {
+  .pr-header .pr-top-menu .header-flex-wrapper .nav-link-wrap .nav-link::after {
+    width: 18px;
+    margin-left: 6px;
+  }
+}
 
 
 // Footer

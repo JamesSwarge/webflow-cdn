@@ -588,6 +588,9 @@
 
 .pr-section-padding {
 	&.our-work-sec {
+		.our-work-heading {
+			line-height: normal !important;
+		}
 		.work-heading-wrapper {
 			.our-work-ttl {
 				@media (min-width: 1200px) and (max-width: 1599px) {
@@ -625,6 +628,100 @@
 				}
 			}
 		}
+		@media (max-width: 1599px) {
+			.our-work-heading {
+				line-height: 1.3;
+			}
+			.work-tac-wrap .our-work-wrapper-row {
+				column-gap: 60px;
+				margin-bottom: 100px;
+			}
+			.work-tac-wrap .our-work-wrapper-row .our-work-wrapper-column .pr-yt-video-embd {
+				height: 480px;
+			}
+		}
+		@media (max-width: 991px) {
+			.work-tac-wrap .our-work-wrapper-row .our-work-wrapper-column .pr-yt-video-embd {
+				height: 360px;
+			}
+			.our-work-tabs .our-work-tabs-menu .our-work-tab-link {
+				padding-left: 15px;
+				padding-right: 15px;
+				margin-right: 15px;
+			}
+			.our-work-tabs .our-work-tabs-menu .our-work-tab-link .tab-flex .tab-txt::after {
+				width: 20px;
+				left: 88%;
+			}
+		}
+		@media (max-width: 767.98px) {
+			.work-tac-wrap .our-work-wrapper-row {
+				column-gap: 60px;
+				margin-bottom: 0;
+				max-width: 480px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			.work-heading-wrapper {
+				margin-top: 40px;
+			}
+			.our-work-ttl {
+				text-align: center;
+				font-size: 14px;
+				line-height: 18.2px;
+				margin-bottom: 30px;
+			}
+			.our-work-sbttl {
+				text-align: center;
+				font-size: 30px;
+    		line-height: 39px;
+			}
+			.our-work-tabs .our-work-tabs-menu {
+				display: flex;
+				flex-wrap: nowrap;
+				.our-work-tab-link {
+					min-width: 120px;
+					margin-right: 0;
+					padding-left: 10px;
+    			padding-right: 10px;
+					.tab-flex {
+						.tab-img {
+							max-width: 20px;
+						}
+						.tab-txt {
+							font-size: 12px;
+							&::after {
+								top: 8px;
+							}						
+						}
+					}
+				}
+			}
+			.our-work-links {
+				font-size: 18px;
+				line-height: 24px;	
+			}
+			.work-tac-wrap .our-work-wrapper-row .our-work-wrapper-column:nth-child(2n+1) {
+				padding-top: 0;
+			}
+			.work-tac-wrap .our-work-wrapper-row .our-work-wrapper-column .pr-yt-video-embd {
+				img {
+					display: block;
+					height: 100%;
+					width: auto;
+					margin-left: auto;
+					margin-right: auto;
+				}
+			}
+			.work-tac-wrap .our-work-wrapper-row .our-work-wrapper-column .pr-yt-video-embd .pr-video-blk-img {
+				margin-left: auto;
+				margin-right: auto;
+			}
+			.our-work-wrapper-column {
+				margin-bottom: 80px;
+			}
+		}
+
 	}
 }
 
