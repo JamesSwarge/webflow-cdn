@@ -779,7 +779,7 @@
 		}
 		.hero-logos-wrapper {
 			position: relative;
-			top: -80px;			
+			top: -10px;			
 		}
 		@media screen and (max-width: 1599px) {
 			.pr-home-sec1-img-blk {
@@ -1065,7 +1065,73 @@
 			}
 		}
 	}
-
+	@media screen and (max-width: 1599px) {
+		&.homepage-common-sec {
+			.pr-row-wrapper {
+				.home-common-sec-heading {
+					font-size: 48px;
+    			line-height: 62.4px;
+					max-width: 500px;
+				}
+			}
+		}
+		&.pr-home-sec-7 {
+			.pr-vertical-tabs-ttl {
+				position: relative;
+				top: 60px;
+			}
+			.pr-vertical-tabs-menu {
+				margin-top: 60px;
+			}
+		}
+		&.pr-home-sec-9 {
+			&.homepage-common-sec .pr-row-wrapper .para-18 {
+				margin-top: 50px;
+			}
+			.pr-home-common-img-blk {
+				margin-top: 40px;
+			}
+		}
+		&.pr-home-sec-10 {
+			.awards-scroller-wrap {
+				.awards-scroller {
+					grid-column-gap: 30px;
+					grid-row-gap: 30px;
+					padding-right: 10px;
+					.awards-scroller-item {
+						width: 260px;
+						min-height: 410px;
+						max-width: 44%;
+						&:nth-child(2n) {
+							top: 30px;
+						}
+						.awards-desc {
+							font-size: 14px;
+							line-height: 22.6px;
+							margin: 0;
+						}
+					}
+				}
+			}
+		}
+		&.pr-home-sec-11 {
+			.pr-home-common-img-blk.home-sec-11 {
+				width: 500px;
+			}
+		}
+		&.pr-home-sec-12 {
+			.pr-home-common-img-blk .pr-home-common-sec-img {
+				width: 720px;
+				top: 60px;
+				left: -200px;
+			}
+		}
+		&.pr-home-sec-13 {
+			.pr-home-common-img-blk.home-sec-13 {
+				width: 500px;
+			}
+		}
+	}
 }
 
 
