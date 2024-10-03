@@ -591,6 +591,10 @@
 		.our-work-heading {
 			line-height: normal !important;
 		}
+		.our-work-tabs .our-work-tabs-menu {
+			position: relative;
+			left: -25px;
+		}
 		.work-heading-wrapper {
 			.our-work-ttl {
 				@media (min-width: 1200px) and (max-width: 1599px) {
@@ -641,6 +645,10 @@
 			}
 		}
 		@media (max-width: 991px) {
+			.our-work-tabs .our-work-tabs-menu {
+				position: relative;
+				left: -10px;
+			}
 			.work-tac-wrap .our-work-wrapper-row .our-work-wrapper-column .pr-yt-video-embd {
 				height: 360px;
 			}

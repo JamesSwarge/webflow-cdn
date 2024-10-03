@@ -1620,6 +1620,13 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
   transform: scaleX(1);
 }
 
+.pr-section-padding.our-work-sec .our-work-heading {
+  line-height: normal !important;
+}
+.pr-section-padding.our-work-sec .our-work-tabs .our-work-tabs-menu {
+  position: relative;
+  left: -25px;
+}
 @media (min-width: 1200px) and (max-width: 1599px) {
   .pr-section-padding.our-work-sec .work-heading-wrapper .our-work-sbttl {
     font-size: 54px;
@@ -1661,6 +1668,10 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
   }
 }
 @media (max-width: 991px) {
+  .pr-section-padding.our-work-sec .our-work-tabs .our-work-tabs-menu {
+    position: relative;
+    left: -10px;
+  }
   .pr-section-padding.our-work-sec .work-tac-wrap .our-work-wrapper-row .our-work-wrapper-column .pr-yt-video-embd {
     height: 360px;
   }
