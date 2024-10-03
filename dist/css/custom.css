@@ -2429,6 +2429,31 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
     margin-top: 0;
     margin-bottom: 0;
   }
+  .pr-section-padding.pr-home-sec-10 {
+    padding-bottom: 0;
+  }
+  .pr-section-padding.pr-home-sec-10 .awards-scroller-wrap {
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .pr-section-padding.pr-home-sec-10 .awards-scroller-wrap .awards-scroller .awards-scroller-item .awards-desc {
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0;
+  }
+  .pr-section-padding.pr-home-sec-11 {
+    padding-top: 0;
+  }
+  .pr-section-padding.pr-home-sec-11 .pr-home-common-img-blk.home-sec-11 {
+    width: 360px;
+    margin: 40px auto 0;
+  }
+  .pr-section-padding.pr-home-sec-12 .pr-home-common-img-blk .pr-home-common-sec-img {
+    width: 500px;
+    max-width: 90%;
+    top: 60px;
+  }
 }
 
 .career-form label span {
