@@ -1167,9 +1167,166 @@
 		&.pr-home-sec-8 {
 			background: var(--color-bg-dark-2);
 		}
+		&.pr-home-sec-1 {
+			.pr-home-sec1-img-blk {
+				position: static;
+				width: 360px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			.hero-logos-wrapper {
+				position: static;
+			}
+		}
+		&.pr-home-sec-2 {
+			.comman-card-img-wrap {
+				position: static;
+				max-width: 400px;
+				margin-left: auto;
+				margin-right: auto;
+				margin-bottom: 60px;
+				img {
+					max-height: 100%;
+				}
+			}
+		}
+		&.pr-home-sec-4 {
+			.pr-home-common-img-blk {
+				max-width: 400px;
+				margin: 0 auto 40px;
+			}
+		}
+		&.pr-home-sec-5 {
+			height: auto;
+			.pr-vertical-tabs {
+				overflow: hidden;
+				.pr-vertical-tabs-menu {
+					display: flex;
+					flex-wrap: wrap;
+					margin-bottom: 40px;
+					.pr-vertical-tab-link {
+						flex: 1;
+						font-size: 18px;
+						line-height: 24px;
+						margin: 0;
+						padding-right: 30px;
+					}
+				}
+			}
+			.pr-vertical-tabs-content {
+				padding-left: 0;
+			}
+			.accrodian-wrap {
+				.accordian {
+					.accordian-header {
+						padding: 15px 0;
+						color: #FFFFFF;
+					}
+					.accordian-panel  {
+						p {
+							margin-bottom: 20px;
+							max-width: 560px;
+						}
+						.pr-bttn {
+							margin-bottom: 30px;
+						}
+					}
+				}
+			}
+		}
+		&.pr-home-sec-6 .pr-home-common-img-blk {
+			max-width: 440px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 40px;
+		}
+		&.pr-home-sec-7 {
+			height: auto;
+		}
+		&.pr-home-sec-8 {
+			background-color: #fff;
+			.para-18,
+			.home-common-sec-heading {
+				color: var(--color-bg-dark-1);
+				text-align: center;
+			}
+			.pr-row-wrapper .home-common-sec-heading {
+				text-align: center;
+				max-width: 100%;
+			}
+		}
+		&.pr-home-sec-9 .pr-home-common-img-blk {
+			max-width: 440px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 40px;
+		}
+		&.pr-home-sec-10 .awards-scroller-wrap {
+			max-width: 450px;
+			max-height: unset;
+			overflow: hidden;
+			padding: 0;
+			.awards-scroller {
+				padding: 25px 0;
+				.awards-scroller-item {
+					position: static !important;
+					top: 0;
+					min-height: 360px;
+    			max-width: unset;
+					margin: 40px 24px 40px 0;
+				}
+			}
+		}
+		&.pr-home-sec-11 .pr-home-common-img-blk.home-sec-11 {
+			width: 440px;
+			margin: 0 auto 0;
+		}
+		&.pr-home-sec-12 .pr-home-common-img-blk {
+			position: relative;
+			min-height: unset;
+			margin-bottom: 60px;
+			.pr-home-common-sec-img {
+				position: relative;
+				width: 600px;
+				top: 60px;
+				left: 0;
+			}
+		}
+		&.pr-home-sec-13 {
+			.pr-home-common-img-blk.home-sec-13 img {
+				display: none;
+			}
+			.pr-home-culture-slider {
+				display: block;
+				.pr-home-culture-slider-main {
+					height: 320px;
+					margin: 30px auto 40px;
+					.pr-home-culture-slider-mask {
+						.pr-home-culture-slides {
+							.pr-home-culture-slide-img {
+								display: block;
+								object-fit: cover;
+							}
+						}
+					}
+				}
+			}
+		}
+		.mobile-testi-slider-mask {
+			border: 0;
+			.mobile-testi-slides {
+				background: transparent;
+				.mobile-testi-slides-inner {
+					.mobile-testi-slides-img {
+						height: 120px;
+						width: 120px;
+						margin-bottom: 7px;
+					}
+				}
+			}
+		}
 	}
 }
-
 
 
 // Career 

@@ -760,6 +760,9 @@ footer.pr-footer-wrapper {
             top: 24px;
             left: 99%;
             right: auto;
+            @media screen and (max-width: 991.98px) {
+              display: none;
+            }
           }
         }
         &.w--current {
@@ -877,6 +880,17 @@ footer.pr-footer-wrapper {
       max-width: 460px;
       margin-left: 0px;
       margin-top: 30px;
+    }
+  }
+  @media screen and (max-width: 991.98px) {
+    height: 450px;
+    left: 0;
+    max-width: 100%;
+    width: 400px;
+    margin: 60px auto 40px;
+    .slider-move-top-wrap .slider-move-top .client-slide-items .client-slide-items-col1, 
+    .slider-move-top-wrap .slider-move-top .client-slide-items .client-slide-items-col2 {
+      margin: 18px 0;
     }
   }
 }

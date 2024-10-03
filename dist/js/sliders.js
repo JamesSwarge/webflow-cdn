@@ -145,9 +145,15 @@ if ($(window).width() > 992) {
       {
         breakpoint: 767,
         settings: {
-          slidesToShow: 1.5,
+          slidesToShow: 2,
         },
       },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+        },
+      }
     ],
   });  
 
