@@ -18,6 +18,7 @@ $(document).ready(function () {
     speed: 300,
     slidesToShow: 1,
     slidesToScroll: 1,
+    pauseOnHover: false,
     dots: true,
     fade: true,
   });
@@ -31,6 +32,7 @@ $(document).ready(function () {
     slidesToShow: 5,
     slidesToScroll: 1,
     infinite: true,
+    pauseOnHover: false,
     swipeToSlide: false,
     centerMode: true,
     focusOnSelect: false,
