@@ -2,12 +2,24 @@
 $(document).ready(function () {
   // alert("slider.js");
 
-  $(window).scroll(function () {
-    if ($(this).scrollTop() > 100) {
-      $(".pr-header").addClass("sticky");
-    } else {
-      $(".pr-header").removeClass("sticky");
-    }
+  // $(window).scroll(function () {
+  //   if ($(this).scrollTop() > 100) {
+  //     $(".pr-header").addClass("sticky");
+  //   } else {
+  //     $(".pr-header").removeClass("sticky");
+  //   }
+  // });
+
+  $(".home-sec2-slider").slick({
+    centerMode: false,    
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    speed: 300,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true,
+    fade: true,
   });
   
   // Homepage
@@ -105,17 +117,7 @@ $(document).ready(function () {
     ],
   });  
 
-  $(".home-sec2-slider").slick({
-    centerMode: false,    
-    infinite: true,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    speed: 300,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    dots: true,
-    fade: true,
-  });
+
 
 
 
