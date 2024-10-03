@@ -1173,6 +1173,7 @@
 				width: 360px;
 				margin-left: auto;
 				margin-right: auto;
+				max-width: calc(100vw - 50px);
 			}
 			.hero-logos-wrapper {
 				position: static;
@@ -1312,6 +1313,10 @@
 				}
 			}
 		}
+		.home-sec-3-tabs.slide-in-bottom {
+			display: flex;
+			flex-wrap: wrap;
+		}
 		.mobile-testi-slider-mask {
 			border: 0;
 			.mobile-testi-slides {
@@ -1334,7 +1339,7 @@
 		&.pr-home-sec-1 {
 			.pr-intro-heading {
 				text-align: center;
-				max-width: 360px;
+				max-width: 320px;
 				margin: 40px auto 20px;
 			}
 			.pr-row-wrapper .para-24 {
@@ -1352,10 +1357,6 @@
 				max-width: 320px;
 				margin-bottom: 40px;
 			}
-			.pr-slider-wrapper .home-sec2-slider-wrap .home-sec2-slider .comman-card-info .comman-card-top-ul .list-inline-item .slider-txt-1 {
-				font-size: 14px;
-				line-height: 18px;
-			}
 			.sec-heading {
 				font-size: 28px;
 				line-height: 36px;
@@ -1371,6 +1372,23 @@
 				left: 10px;
 				bottom: 0;
 			}
+			.pr-slider-wrapper .home-sec2-slider-wrap .home-sec2-slider .comman-card-info .comman-card-top-ul {
+				max-width: calc(100vw - 20px);
+				flex-wrap: wrap;
+				.list-inline-item {
+					.slider-txt-1 {
+						font-size: 14px;
+						line-height: 18px;
+						margin-right: 20px;
+					}
+				}
+				.list-inline-item:not(:last-child)::before {
+					width: 12px;
+					top: 9px;
+					height: 2px;
+					right: 3px;
+				}
+			}
 		}
 		&.pr-home-sec-3 {
 			.home-tab-wrappper {
@@ -1381,6 +1399,7 @@
 				left: 0;
 				.home-sec-3-tabs-link {
 					padding: 9px 15px;
+					margin-bottom: 7px;
 					&.w--current {
 						.tab-flex {
 							position: relative;
@@ -1494,18 +1513,31 @@
 			.pr-home-common-img-blk.home-sec-11 {
 				width: 360px;
 				margin: 40px auto 0;
+				max-width: 82vw;
 			}
 		}
 		&.pr-home-sec-12 {
-			.pr-home-common-img-blk .pr-home-common-sec-img {
-				width: 500px;
-				max-width: 90%;
-				top: 60px;
+			.pr-home-common-img-blk {
+				margin-bottom: 40px;
+				.pr-home-common-sec-img {
+					width: 500px;
+					max-width: 82vw;
+					top: 60px;
+				}
 			}
 		}
-		
+		&.pr-home-sec-13 {
+			.pr-home-common-img-blk.home-sec-13 {
+				width: 420px;
+				max-width: calc(100vw - 50px);
+			}
+		}
+		.code-4 {
+			font-size: 42px;
+		}
 	}
 }
+
 
 
 // Career 

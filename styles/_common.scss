@@ -899,6 +899,14 @@ footer.pr-footer-wrapper {
     .slider-move-top-wrap .slider-move-top .client-slide-items .client-slide-items-col2 {
       margin: 18px 0;
     }
+    .slider-move-top-wrap .slider-move-top {
+      left: 0 !important;
+    }
+  }
+  @media screen and (max-width: 767.98px) {
+    .slider-move-top-wrap .slider-move-top .client-slide-items {
+      padding: 15px 0;
+    }
   }
 }
 
