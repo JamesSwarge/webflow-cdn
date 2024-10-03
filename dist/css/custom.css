@@ -1863,8 +1863,9 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
     line-height: 62.4px;
   }
   .pr-section-padding.pr-home-sec-2 .comman-card-img-wrap {
-    max-width: 450px;
+    max-width: 500px;
     left: 0px;
+    top: 60px;
   }
   .pr-section-padding.pr-home-sec-2 .comman-card-img-wrap img {
     object-fit: cover;
@@ -1925,6 +1926,7 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
 }
 .pr-section-padding.pr-home-sec-5 {
   height: 100vh;
+  background: linear-gradient(90deg, var(--color-bg-dark-2) 50%, #FFFFFF 50%);
 }
 .pr-section-padding.pr-home-sec-5 .pr-home-sec-5-container .pr-row-wrapper {
   display: flex;
@@ -1957,6 +1959,7 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
 }
 .pr-section-padding.pr-home-sec-7 {
   height: 100vh;
+  background: linear-gradient(90deg, var(--color-bg-dark-2) 50%, #FFFFFF 50%);
 }
 .pr-section-padding.pr-home-sec-7 .pr-home-sec-7-container .pr-row-wrapper {
   display: flex;
