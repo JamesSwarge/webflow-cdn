@@ -1552,6 +1552,59 @@
 		}
 	}
 }
+@media screen and (max-width: 1599px) {
+	.career-sec-1 {
+		.hero-sec-content-box {
+			.hero-sec-content-para {
+				width: 115%;
+			}
+		}
+		.hero-sec-right-img-blk {
+			position: relative;
+			width: 501px;
+			z-index: 0;
+			.hero-sec-right-img { 
+				width: 100%;
+				height: auto;
+				object-fit: cover;
+			}
+		}
+	}
+	.career-sec-2 {
+		.pr-content-box-1 {
+			.pr-content-box-1-ttl {
+				font-size: 48px;
+				line-height: 62.4px;
+			}
+			.pr-content-box-1-para {
+				font-weight: 300;
+			}
+		}
+	}
+	.career-sec-3 {
+		.principles-content-block-wrapp {
+			max-width: 560px;
+			margin-left: 70px;
+			.principles-content-block {
+				padding-right: 20px;
+			}
+		}
+	}
+	.career-sec-5 {
+		.awards-scroller-wrap {
+			padding-bottom: 0;
+		}
+	}
+	.abt-teams-sec {
+		.pr-slider-wrapper {
+			.about-team-slider {
+				.slick-list {
+					max-height: 420px;
+				}
+			}
+		}
+	}
+}
 
 
 
