@@ -1,0 +1,47 @@
+{
+  "workbench.colorTheme": "Default Dark Modern",
+  "workbench.iconTheme": "material-icon-theme",
+  "git.ignoreMissingGitWarning": true,
+  "git.openRepositoryInParentFolders": "always",
+  "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.tabSize": 2,
+  "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "codesandbox.currentWorkspace": "bc6b72cb-9669-4b60-8894-a5e3919fda16",
+  "remote.SSH.remotePlatform": {
+      "sandbox.3z8zl4.csb": "linux"
+  },
+  "liveSassCompile.settings.useNewCompiler": false,
+  "liveSassCompile.settings.autoprefix": [],
+  "liveSassCompile.settings.formats": [
+      {
+          "format": "compressed",
+          "extensionName": ".min.css",
+          "savePath": "/dist/css",
+          "savePathReplacementPairs": null
+      },
+      {
+          "format": "expanded",
+          "extensionName": ".css",
+          "savePath": "/dist/css",
+          "savePathReplacementPairs": null
+      }
+  ],
+  "liveServer.settings.CustomBrowser": "firefox",
+  "editor.snippetSuggestions": "none",
+  "css.hover.references": false,
+  "less.hover.references": false,
+  "scss.hover.references": false,
+  "css.hover.documentation": false,
+  "less.hover.documentation": false,
+  "scss.hover.documentation": false
+}
