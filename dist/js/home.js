@@ -23,11 +23,34 @@ $(document).ready(function () {
 });
 
 $(window).scroll(function () {
-  if ($(this).scrollTop() > 100) {
-    $("nav").addClass("sticky");
-  } else {
-    $("nav").removeClass("sticky");
-  }
+  // if ($(this).scrollTop() > 100) {
+  //   $("nav").addClass("sticky");
+  // } else {
+  //   $("nav").removeClass("sticky");
+  // }
+  let lastScrollTop = 100; // Stores the last scroll position
+  let nav = $('nav'); // Replace '.navigation' with your navigation class or ID
+
+  $(window).scroll(function() {
+      let currentScroll = $(this).scrollTop(); // Get the current scroll position
+
+      // Check if we've scrolled to the top of the page
+      if (currentScroll === 0) {
+          nav.fadeOut(); // Hide navigation at the top of the page
+      } else {
+          nav.fadeIn(); // Show navigation when scrolling
+
+          if (currentScroll > lastScrollTop) {
+              // If scrolling down
+              nav.removeClass('nav-up').addClass('nav-down');
+          } else {
+              // If scrolling up
+              nav.removeClass('nav-down').addClass('nav-up');
+          }
+      }
+
+      lastScrollTop = currentScroll; // Update the last scroll position
+  });
 });
 
 window.addEventListener("load", function () {

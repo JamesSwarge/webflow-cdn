@@ -1540,7 +1540,7 @@
 
 
 
-// Career 
+// Career Page
 
 .career-form {
 	label {
@@ -1600,6 +1600,99 @@
 			.about-team-slider {
 				.slick-list {
 					max-height: 420px;
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: 991.98px) {
+	.career-sec-1 {
+		.hero-sec-content-box {
+			text-align: center;
+			.hero-sec-content-ttl {
+				text-align: center;
+			}
+			.hero-sec-content-para {
+				width: 90%;
+				text-align: center;
+				margin: 20px auto 40px;
+			}
+			.pr-bttn {
+				text-align: center;
+			}
+		}
+		.hero-sec-right-img-blk {
+			width: 450px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 40px;
+			.hero-sec-right-img {
+			}
+		}
+	}
+	.career-sec-2 {
+		min-height: 600px;
+	}
+	.career-sec-3 {
+		.principles-content-block-wrapp {
+			max-width: 450px;
+			max-height: unset;
+		}
+	}
+}
+@media screen and (max-width: 767.98px) {
+	.career-sec-1 {
+		.hero-sec-content-box {
+			.hero-sec-content-ttl {
+				font-size: 30px;
+				line-height: 39px;
+				max-width: 300px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			.hero-sec-content-para {
+				font-size: 16px;
+				line-height: 25px;
+			}
+		}
+		.hero-sec-right-img-blk {
+			margin-top: 50px;
+			margin-bottom: 0;
+			width: 300px;
+			.hero-sec-right-img { 
+			}
+		}
+	}
+	.career-sec-2 {
+		min-height: 400px;
+		.pr-content-box-1 {
+			.pr-content-box-1-ttl {
+				font-size: 28px;
+				line-height: 36.4px;
+				font-weight: 600;
+			}
+			.pr-content-box-1-para {
+				font-size: 14px;
+				line-height: 19px;
+				margin: 0 auto;
+				max-width: 480px;
+			}
+		}
+	}
+	.career-sec-3 {
+		.principles-content-block-wrapp {
+			.principles-content-block {
+			}
+		}
+	}
+	.career-sec-5 {
+		.awards-scroller-wrap {
+		}
+	}
+	.abt-teams-sec {
+		.pr-slider-wrapper {
+			.about-team-slider {
+				.slick-list {
 				}
 			}
 		}
