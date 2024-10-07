@@ -1682,6 +1682,30 @@
 	.career-sec-3 {
 		.principles-content-block-wrapp {
 			.principles-content-block {
+				padding-right: 0;
+				margin-bottom: 40px;
+			}
+		}
+		.principles-row {
+			.para-18 {
+				text-align: left;
+			}
+			.home-common-sec-heading {
+				text-align: left !important;
+				margin-bottom: 40px !important;
+			}
+		}
+		.principles-content-block-wrapp {
+			margin: 0;
+			max-width: 100%;
+			.principles-content-block-ttl {
+				font-size: 18px;
+				line-height: 23.4px;
+			}
+			.principles-content-block-para {
+				font-size: 14px;
+				line-height: 19px;
+				margin: 0;
 			}
 		}
 	}
@@ -1689,10 +1713,34 @@
 		.awards-scroller-wrap {
 		}
 	}
+	.addr-wrap {
+		margin-bottom: 60px;
+	}
+	.career-sec-form {
+		padding-top: 0;
+		.career-form {
+			padding-top: 0;
+		}
+		.pr-input-text-wrapper {
+			padding-right: 0;
+		}
+	}
 	.abt-teams-sec {
 		.pr-slider-wrapper {
 			.about-team-slider {
 				.slick-list {
+				}
+			}
+		}
+	}
+	.pr-section-padding.pr-home-sec-10.homepage-common-sec {
+		min-height: 50vh;
+	}
+	.group-pic-slide-r {
+		.group-pic-slider-mask {
+			.group-pic-slides-2 {
+				.group-pic-slides-imgs {
+					transform: scale(1.2);
 				}
 			}
 		}
@@ -1728,19 +1776,32 @@
 
 // About Page
 
-.about-section10 {
-	.our-leaders {
-		.leaders-col {
-			.leader-image {
-				position: relative;
-				height: 380px;
-				width: 100%;
-				img {
-					position: absolute;
+.about-page {
+	.about-section10 {
+		.our-leaders {
+			.leaders-col {
+				.leader-image {
+					position: relative;
+					height: 380px;
 					width: 100%;
-					height: 100%;
-					object-fit: cover;
+					img {
+						position: absolute;
+						width: 100%;
+						height: 100%;
+						object-fit: cover;
+					}
 				}
+			}
+		}
+	}
+	@media (max-width: 1599px) {
+		.pr-section-padding.pr-home-sec-8 {
+			background: linear-gradient(90deg, var(--color-bg-dark-1) 50%, #FFFFFF 50%);
+		}
+		.mission-vision-box {
+			max-width: 440px;
+			&.ml-auto {
+				padding-left: 70px;
 			}
 		}
 	}
