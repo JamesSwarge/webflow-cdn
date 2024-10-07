@@ -1782,7 +1782,7 @@
 			.leaders-col {
 				.leader-image {
 					position: relative;
-					height: 380px;
+					height: 360px;
 					width: 100%;
 					img {
 						position: absolute;
@@ -1801,8 +1801,14 @@
 		.mission-vision-box {
 			max-width: 440px;
 			&.ml-auto {
-				padding-left: 70px;
+				padding-left: 10px;
 			}
+		}
+		.pr-section-padding.about-section10 {
+			padding-top: 100px;
+		}
+		.about-page .about-section10 .our-leaders .leaders-col .leader-image {
+			height: 320px;
 		}
 	}
 }

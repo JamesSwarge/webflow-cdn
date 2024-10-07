@@ -2660,7 +2660,7 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
 }
 .about-page .about-section10 .our-leaders .leaders-col .leader-image {
   position: relative;
-  height: 380px;
+  height: 360px;
   width: 100%;
 }
 .about-page .about-section10 .our-leaders .leaders-col .leader-image img {
@@ -2677,7 +2677,13 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
     max-width: 440px;
   }
   .about-page .mission-vision-box.ml-auto {
-    padding-left: 70px;
+    padding-left: 10px;
+  }
+  .about-page .pr-section-padding.about-section10 {
+    padding-top: 100px;
+  }
+  .about-page .about-page .about-section10 .our-leaders .leaders-col .leader-image {
+    height: 320px;
   }
 }
 

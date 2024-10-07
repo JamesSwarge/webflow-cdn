@@ -62,7 +62,7 @@ $(document).ready(function () {
     speed: 300,
     slidesToShow: 1,
     slidesToScroll: 1,
-    dots: true,
+    dots: false,
     fade: true
   });
 
@@ -129,7 +129,19 @@ if ($(window).width() > 992) {
         },
       }
     ],
-  });  
+  }); 
+  
+  $(".our-leaders .w-row").slick({
+    centerMode: false,    
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    speed: 300,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: false,
+    fade: true
+  });
 
 }
 
