@@ -2032,6 +2032,70 @@
 		}
 		.our-leaders .leadership-slider .leadership-slider-col {
 			width: auto;
+			padding-right: 13vw;
+			padding-left: 13vw;
+		}
+		.abt-founder-content-wrap {
+			.abt-founder-content-blk {
+				.testi-pera {
+					font-size: 16px;
+					line-height: 25px;
+				}
+			}
+		}
+		.about-section8 {
+			background: #1E2329;
+			border-bottom: 3px solid #2f2f2f;
+			.abt-founder-img-wrapp .abt-founder-img {
+				height: 300px;
+				width: auto;
+				margin: 50px auto 0;
+			}
+			.abt-founder-content-wrap .abt-founder-content-wrap-img {
+				top: -10px;
+				right: 0;
+				max-width: 150px;
+			}
+		}
+		.pr-home-sec-8.homepage-common-sec {
+			padding-bottom: 0;
+		}
+		.slider-move-outer-wrap {
+			height: 400px;
+			width: 400px;
+			margin: 10px auto 10px;
+		}
+		.abt-founder-name {
+			margin-right: 30px;
+		}
+		.leadership-slider-col {
+			.leaders-info {
+				position: relative;
+				.link-block-2 {
+					position: absolute;
+					top: 10px;
+					right: 10px;
+				}
+				.w-row .w-col.w-col-2 {
+					position: static;
+				}
+			}
+		}
+	}
+
+	@media (max-width: 575.98px) {
+		.about-section8 .abt-founder-content-wrap .abt-founder-content-wrap-img {
+			top: 6px;
+			right: -16px;
+			max-width: 160px;
+		}
+		.abt-teams-sec-para {
+			font-size: 14px;
+			line-height: 22px;
+		}
+		.our-leaders .leadership-slider .leadership-slider-col {
+			padding-right: 2.5vw;
+			padding-left: 2.5vw;
 		}
 	}
 
