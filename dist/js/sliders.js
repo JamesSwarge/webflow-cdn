@@ -131,7 +131,7 @@ if ($(window).width() > 992) {
     ],
   }); 
   
-  $(".our-leaders .w-row").slick({
+  $(".our-leaders .leadership-slider").slick({
     centerMode: false,    
     infinite: true,
     autoplay: true,

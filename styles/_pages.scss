@@ -1807,8 +1807,233 @@
 		.pr-section-padding.about-section10 {
 			padding-top: 100px;
 		}
-		.about-page .about-section10 .our-leaders .leaders-col .leader-image {
+		.about-section10 .our-leaders .leaders-col .leader-image {
 			height: 320px;
 		}
+		.leaders-info {
+			.abt-leader-desc {
+				display: block;
+				white-space: nowrap;
+			}
+			.link-block-2 {
+				margin: 0;
+			}
+		}
 	}
+	@media (max-width: 991.98px) {
+		.about-section1 {
+			.about-col-1 {
+				.indus-heading {
+					margin-top: 40px;
+				}
+			}
+			.about-col-2 {
+				img {
+					display: block;
+					max-width: 450px;
+					object-fit: cover;
+					margin: 40px auto 20px;
+				}
+			}
+		}
+		.pr-content-box-1 {
+			.pr-content-box-1-ttl {
+				font-size: 48px;
+    		line-height: 62.4px;
+			}
+		}
+		.about-section3 {
+			background-color: #1E1E1E	;
+			.slide-in-bg-cover-half {
+				display: none;
+			}
+		}
+		.mission-vision-box {
+			max-width: 100%;
+		}
+		.pr-section-padding.pr-home-sec-8 {
+			background: #fff;
+			.slide-in-bg-cover-half {
+				display: none;
+			}
+		} 
+		.pr-home-sec-8 {
+			.pr-row-wrapper {
+				.para-18 {
+					font-size: 18px;
+					font-weight: 400;
+					line-height: 29px;
+					text-align: left;
+				}
+				.home-common-sec-heading {
+					text-align: left;
+				}
+			}
+			.principles-content-block-wrapp {
+				margin: 0;
+				max-width: 100%;
+				.principles-content-block-ttl {
+					font-size: 18px;
+					line-height: 23.4px;
+				}
+				.principles-content-block-para {
+					font-size: 14px;
+					line-height: 19px;
+					margin: 0;
+				}
+			}
+		}
+		.pr-section-padding.pr-home-sec-10 {
+			.awards-scroller-wrap {
+				max-width: 100%;
+			}
+		}
+		.about-section8 {
+			background: linear-gradient(180deg, #1E2329 80%, #FFFFFF 20%);
+			.slide-in-bg-cover-33 {
+				display: none;
+			}
+			.abt-founder-content-wrap {
+				.abt-founder-content-wrap-img {
+					position: absolute;
+					top: 20px;
+					left: auto;
+					right: 172px;
+					max-width: 180px;
+				}
+			}
+			.abt-founder-img-wrapp {
+				height: auto;
+				.abt-founder-img {
+					height: 360px;
+					width: auto;
+					margin: 100px auto 0;
+				}
+			}
+		}
+		.our-leaders {
+			left: 20vw;
+			position: relative;
+			.leadership-slider {
+				.leadership-slider-col {
+					display: block;
+					margin-left: auto;
+					margin-right: auto;
+					width: 100% !important;
+				}
+			}
+		}
+		.pr-slider-wrapper {
+			.group-pic {
+				height: auto;
+			}
+		}
+	}
+
+
+	@media (max-width: 767.98px) {
+		.about-section1 {
+			.about-col-1 {
+				.indus-heading {
+					display: none;
+				}
+				p {
+					font-size: 16px;
+					line-height: 25px;
+					margin: 20px 0 10px;
+				}
+			}
+			.about-col-2 {
+				.indus-heading {
+					font-size: 30px;
+					line-height: 39px !important;
+					margin-top: 40px;
+					text-align: center;
+					.code {
+						font-size: 39px;
+					}
+				}
+				img {
+					max-width: 300px;
+					margin: -10px auto 0px;
+				}
+				.venter {
+					font-size: 16px;
+				}
+			}
+			.abt-sec-1-cols {
+				margin-bottom: 30px;
+				.abt-sec-1-column {
+					flex: 0;
+					margin-right: 40px;
+					max-width: 30%;
+					.abt-sec-1-column-ttl {
+						font-size: 18px;
+						line-height: 23.4px;
+					}
+					.abt-sec-1-column-p {
+						font-size: 14px;
+						line-height: 18.2px;
+						margin: 0;
+						white-space: nowrap;
+					}
+				}
+			}
+		}
+		.about-section2 {
+			&.h600 {
+				min-height: 400px !important;
+			}
+			.pr-content-box-1 {
+				.pr-content-box-1-ttl {
+					font-size: 28px;
+					line-height: 36.4px;
+					font-weight: 600;
+					margin-bottom: 8px;
+				}
+				.pr-content-box-1-para {
+					font-size: 14px;
+					line-height: 19px;
+					margin: 0;
+					max-width: 480px;
+				}
+			}
+		}
+		.about-section3 {
+			.about-sec3-p {
+				font-size: 14px;
+				line-height: 19px;
+				margin: 0;
+			}
+			.mission-vision-box {
+				min-height: unset;
+				&.ml-auto {
+					padding-left: 0;
+					margin-top: 80px;
+					margin-bottom: 60px;
+				}
+			}
+		}
+		.principles-content-block-wrapp .principles-content-block {
+			margin-bottom: 30px;
+			padding-right: 80px;
+		}
+		.pr-home-sec-8 .pr-row-wrapper .home-common-sec-heading {
+			margin-bottom: 30px;
+		}
+		.pr-section-padding.pr-home-sec-10 .awards-scroller-wrap {
+			max-width: 320px;
+			margin-left: 0;
+		}
+		.aboutsec-14.h600 {
+			height: 400px;
+		}
+		.our-leaders {
+			position: static;
+		}
+		.our-leaders .leadership-slider .leadership-slider-col {
+			width: auto;
+		}
+	}
+
 }
