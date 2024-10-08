@@ -419,6 +419,15 @@ h6, .h6 {
   #pr-main-nav .link-block {
     text-decoration: none;
   }
+  .pr-body.nav_menu_is_active #pr-main-nav.nav-up, .pr-body.nav_menu_is_active #pr-main-nav.nav-down {
+    background: transparent;
+  }
+  .pr-body.nav_menu_is_active #pr-main-nav.nav-up .logo-img, .pr-body.nav_menu_is_active #pr-main-nav.nav-down .logo-img {
+    display: inline-block;
+  }
+  .pr-body.nav_menu_is_active #pr-main-nav.nav-up .company-name-mobile, .pr-body.nav_menu_is_active #pr-main-nav.nav-down .company-name-mobile {
+    display: none;
+  }
 }
 .pr-header .nav.cus-container.pr-main-nav {
   max-width: 100vw !important;

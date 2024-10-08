@@ -454,6 +454,20 @@ h6, .h6 {
       text-decoration: none;
     }
   }
+  .pr-body.nav_menu_is_active {
+    #pr-main-nav {
+      &.nav-up,
+      &.nav-down {
+        background: transparent;
+        .logo-img {
+          display: inline-block;
+        }
+        .company-name-mobile {
+          display: none;
+        }
+      }
+    }
+  }
 }
 
 //Top Nav
