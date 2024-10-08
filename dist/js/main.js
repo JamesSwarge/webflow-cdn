@@ -47,7 +47,7 @@ $(document).ready(function () {
 
 const windowWidth = $(window).width();
 if (windowWidth < 992) {
-  // alert();
+  alert("nav");
   let didScroll;
   let lastScrollTop = 0;
   const delta = 80;
@@ -67,13 +67,13 @@ if (windowWidth < 992) {
       return;
     }
     if (st > lastScrollTop && st > navbarHeight) {
-      $("#pr-main-nav").removeClass("nav-down nav-up").addClass("nav-up");
+      // $("#pr-main-nav").removeClass("nav-down nav-up").addClass("nav-up");
     } else {
       if (st + $(window).height() < $(document).height()) {
         if ($(window).scrollTop() < 80) {
           $("#pr-main-nav").removeClass("nav-up").removeClass("nav-down");
         } else {
-          $("#pr-main-nav").removeClass("nav-up").addClass("nav-down");
+          $("#pr-main-nav").removeClass("nav-down").addClass("nav-up");
         }
       }
     }

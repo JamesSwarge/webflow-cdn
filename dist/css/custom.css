@@ -373,17 +373,27 @@ h6, .h6 {
 .pr-body.nav_menu_is_active {
   overflow: hidden;
 }
-.pr-body.dark-bg .pr-header .pr-main-nav .logo-img {
-  fill: var(--color-white);
-  filter: brightness(0) invert(1);
+@media screen and (min-width: 992px) {
+  .pr-body.dark-bg .pr-header .pr-main-nav .logo-img {
+    fill: var(--color-white);
+    filter: brightness(0) invert(1);
+  }
 }
 .pr-body.dark-bg .pr-header .pr-main-nav .menu-links .right-menu-link {
-  color: var(--color-white) !important;
   transition: all 0.3s ease-in-out;
 }
+@media screen and (min-width: 992px) {
+  .pr-body.dark-bg .pr-header .pr-main-nav .menu-links .right-menu-link {
+    color: var(--color-white) !important;
+  }
+}
 .pr-body.dark-bg .pr-header .pr-main-nav .menu-bttn-wrap .hamburger-line {
-  background-color: var(--color-white) !important;
   transition: all 0.3s ease-in-out;
+}
+@media screen and (min-width: 992px) {
+  .pr-body.dark-bg .pr-header .pr-main-nav .menu-bttn-wrap .hamburger-line {
+    background-color: var(--color-white) !important;
+  }
 }
 
 .pr-body.nav_menu_is_active .logo-img {
@@ -391,6 +401,25 @@ h6, .h6 {
   filter: brightness(0) invert(1);
 }
 
+@media screen and (max-width: 991.98px) {
+  #pr-main-nav.nav-up .logo-img, #pr-main-nav.nav-down .logo-img {
+    display: none;
+  }
+  #pr-main-nav.nav-up .company-name-mobile, #pr-main-nav.nav-down .company-name-mobile {
+    display: block;
+    font-size: 15px !important;
+    letter-spacing: 0.5px !important;
+    font-weight: 600 !important;
+    font-family: "Poppins", sans-serif !important;
+    padding: 8px 0;
+    color: var(--color-bg-dark-1);
+    text-decoration: none;
+    border: 0;
+  }
+  #pr-main-nav .link-block {
+    text-decoration: none;
+  }
+}
 .pr-header .nav.cus-container.pr-main-nav {
   max-width: 100vw !important;
   margin: 0;
@@ -429,6 +458,7 @@ h6, .h6 {
     padding-top: 1.5rem;
     padding-left: 20px;
     padding-right: 20px;
+    display: block !important;
   }
   .pr-header .nav.cus-container.pr-main-nav .logo-img {
     max-width: 36px;
@@ -438,6 +468,19 @@ h6, .h6 {
   }
   .pr-header .nav.cus-container.pr-main-nav .menu-bttn .menu-bttn-wrap .hamburger-line {
     margin-bottom: 5px;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .pr-header #pr-main-nav {
+    transition: all 0.3s ease-in-out 0.4s;
+  }
+  .pr-header #pr-main-nav.nav-up {
+    top: -150px;
+  }
+  .pr-header #pr-main-nav.nav-down {
+    top: 0px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.1);
   }
 }
 
