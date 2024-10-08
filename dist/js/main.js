@@ -47,10 +47,10 @@ $(document).ready(function () {
 
 const windowWidth = $(window).width();
 if (windowWidth < 992) {
-  alert();
+  // alert();
   let didScroll;
   let lastScrollTop = 0;
-  const delta = 70;
+  const delta = 90;
   const navbarHeight = $(".pr-main-nav").outerHeight();
   $(window).scroll(function (event) {
     didScroll = true;
@@ -70,7 +70,7 @@ if (windowWidth < 992) {
       $(".pr-main-nav").removeClass("nav-down nav-up").addClass("nav-up");
     } else {
       if (st + $(window).height() < $(document).height()) {
-        if ($(window).scrollTop() < 70) {
+        if ($(window).scrollTop() < 90) {
           $(".pr-main-nav").removeClass("nav-up").removeClass("nav-down");
         } else {
           $(".pr-main-nav").removeClass("nav-up").addClass("nav-down");
