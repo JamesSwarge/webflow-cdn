@@ -2530,8 +2530,7 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
   }
   .pr-section-padding.pr-home-sec-10 .awards-scroller-wrap {
     max-width: 320px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
   }
   .pr-section-padding.pr-home-sec-10 .awards-scroller-wrap .awards-scroller .awards-scroller-item .awards-desc {
     font-size: 12px;
