@@ -2264,6 +2264,7 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
   .pr-section-padding.pr-home-sec-5 .accrodian-wrap .accordian .accordian-header {
     padding: 15px 0;
     color: #FFFFFF;
+    transition: border-color 0s ease-in;
   }
   .pr-section-padding.pr-home-sec-5 .accrodian-wrap .accordian .accordian-panel p {
     margin-bottom: 20px;
