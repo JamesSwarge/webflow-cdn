@@ -2,22 +2,23 @@
 $(".loader-api").delay(1800).fadeOut(2000);
 
 // Neww JS
-document.addEventListener('DOMContentLoaded', () => {
- document.querySelectorAll('.bgdark').forEach(trigger => { 
-    new IntersectionObserver((entries, observer) => { 
-      entries.forEach(entry => {
-        if(entry.isIntersecting){
-        entry.target.closest('.pr-body').classList.add('dark-bg');
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".bgdark").forEach((trigger) => {
+    new IntersectionObserver(
+      (entries, observer) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.closest(".pr-body").classList.add("dark-bg");
+          } else {
+            entry.target.closest(".pr-body").classList.remove("dark-bg");
+          }
+        });
+      },
+      {
+        threshold: 0.88,
       }
-      else{
-        entry.target.closest('.pr-body').classList.remove('dark-bg');
-      }
-      });
-    },
-    { 
-      threshold: 0.88
-    }).observe(trigger);
-   });
+    ).observe(trigger);
+  });
 });
 
 $(document).ready(function () {
@@ -44,18 +45,42 @@ $(window).scroll(function () {
   }
 });
 
+const windowWidth = $(window).width();
+if (windowWidth < 992) {
+  alert();
+  let didScroll;
+  let lastScrollTop = 0;
+  const delta = 70;
+  const navbarHeight = $(".pr-main-nav").outerHeight();
+  $(window).scroll(function (event) {
+    didScroll = true;
+  });
+  setInterval(function () {
+    if (didScroll) {
+      hasScrolled();
+      didScroll = false;
+    }
+  }, 250);
+  function hasScrolled() {
+    const st = $(window).scrollTop();
+    if (Math.abs(lastScrollTop - st) <= delta) {
+      return;
+    }
+    if (st > lastScrollTop && st > navbarHeight) {
+      $(".pr-main-nav").removeClass("nav-down nav-up").addClass("nav-up");
+    } else {
+      if (st + $(window).height() < $(document).height()) {
+        if ($(window).scrollTop() < 70) {
+          $(".pr-main-nav").removeClass("nav-up").removeClass("nav-down");
+        } else {
+          $(".pr-main-nav").removeClass("nav-up").addClass("nav-down");
+        }
+      }
+    }
+    lastScrollTop = st;
+  }
+}
+
 $(".nav-link-wrap a").click(function () {
   $(".nav-container").addClass("add-class");
 });
-
-{
-  /* <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.21/jquery.scrollify.min.js" integrity="sha512-UyX8JsMsNRW1cYl8BoxpcamonpwU2y7mSTsN0Z52plp7oKo1u92Xqfpv6lOlTyH3yiMXK+gU1jw0DVCsPTfKew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-<script>
-  $(function() {
-    $.scrollify({
-      section : ".common-section-snap",
-    });
-  });
-</script> */
-}
