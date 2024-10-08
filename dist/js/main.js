@@ -47,7 +47,7 @@ $(document).ready(function () {
 
 const windowWidth = $(window).width();
 if (windowWidth < 992) {
-  alert("nav");
+  // alert("nav");
   let didScroll;
   let lastScrollTop = 0;
   const delta = 80;
