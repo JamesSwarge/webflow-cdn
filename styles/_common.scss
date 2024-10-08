@@ -130,7 +130,7 @@
 :root {
 	--container-width: 1140px;
 	--max-container-width: 74em;
-  @media (max-width: 992px) {
+  @media screen and (max-width: 992px) {
     --container-width: 100%;
     --max-container-width: 100vw;
   }
@@ -378,7 +378,7 @@ h6, .h6 {
   }
 }
 
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
   .pr-section-padding {
     padding: 60px 20px 60px;
   }
@@ -585,7 +585,7 @@ h6, .h6 {
     }
   }
 }
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) {
   .pr-header .pr-top-menu .header-flex-wrapper .nav-link-wrap .nav-link::after {
     width: 18px;
     margin-left: 6px;
@@ -674,7 +674,7 @@ footer.pr-footer-wrapper {
   position: relative;
   transition: all 0.3s ease-in-out;
   // overflow: hidden;
-  @media (max-width: 992px) {
+  @media screen and (max-width: 992px) {
     padding: 10px 24px;
     font-size: 14px;
   }
@@ -706,7 +706,7 @@ footer.pr-footer-wrapper {
     transform-origin: bottom right;
     transition: transform 0.3s ease-in-out;
     margin-left: 1.2em;
-    @media (max-width: 992px) {
+    @media screen and (max-width: 992px) {
       width: 36px;
     }
   }
@@ -731,7 +731,7 @@ footer.pr-footer-wrapper {
 }
 .pr-txt-link-bttn {
   transition: all 0.3s ease-in-out;
-  @media (max-width: 992px) {
+  @media screen and (max-width: 992px) {
     padding: 10px 24px;
     font-size: 14px;
   }
@@ -758,7 +758,7 @@ footer.pr-footer-wrapper {
 }
 
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   // Footer
   .pr-footer {
     .pr-footer-common {
@@ -1070,7 +1070,7 @@ footer.pr-footer-wrapper {
       }
     }
   }
-  @media (max-width: 767.98px) {
+  @media screen and (max-width: 767.98px) {
     .chkbx-label {
       font-size: 12px;
     }
@@ -1112,7 +1112,7 @@ footer.pr-footer-wrapper {
       }
     }
   }
-  @media (max-width: 767.98px) {
+  @media screen and (max-width: 767.98px) {
     .radio-label {
       font-size: 12px;
     }
