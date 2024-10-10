@@ -29,27 +29,26 @@ $(window).scroll(function () {
   //   $("nav").removeClass("sticky");
   // }
   let lastScrollTop = 100; // Stores the last scroll position
-  let nav = $('nav'); // Replace '.navigation' with your navigation class or ID
-
-  $(window).scroll(function() {
-      let currentScroll = $(this).scrollTop(); // Get the current scroll position
-
-      // Check if we've scrolled to the top of the page
-      if (currentScroll === 0) {
-          nav.fadeOut(); // Hide navigation at the top of the page
+  let nav = $("nav"); // Replace '.navigation' with your navigation class or ID
+  $(window).scroll(function () {
+    // Get the current scroll position
+    let currentScroll = $(this).scrollTop(); 
+    // Check if we've scrolled to the top of the page
+    if (currentScroll === 0) {
+      // Hide navigation at the top of the page
+      // nav.fadeOut();
+    } else {
+      // Show navigation when scrolling
+      // nav.fadeIn();
+      if (currentScroll > lastScrollTop) {
+        // If scrolling down
+        nav.removeClass("nav-up").addClass("nav-down");
       } else {
-          nav.fadeIn(); // Show navigation when scrolling
-
-          if (currentScroll > lastScrollTop) {
-              // If scrolling down
-              nav.removeClass('nav-up').addClass('nav-down');
-          } else {
-              // If scrolling up
-              nav.removeClass('nav-down').addClass('nav-up');
-          }
+        // If scrolling up
+        nav.removeClass("nav-down").addClass("nav-up");
       }
-
-      lastScrollTop = currentScroll; // Update the last scroll position
+    }
+    lastScrollTop = currentScroll; // Update the last scroll position
   });
 });
 
