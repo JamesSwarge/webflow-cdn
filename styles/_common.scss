@@ -503,6 +503,11 @@ h6, .h6 {
   }
 }
 
+.loader-wrapper {
+  z-index: 999999;
+}
+
+
 //Top Nav
 .pr-header {
   .nav.cus-container.pr-main-nav {
@@ -513,8 +518,13 @@ h6, .h6 {
       // display: block !important;
     }
   }
+  
   .nav-container.comman-top-menu {
     &.pr-top-menu {
+      z-index: -1;
+      &.active-class {
+        z-index: 4;
+      }
       padding-left: 3rem;
       padding-right: 3rem;
       .header-flex-wrapper {

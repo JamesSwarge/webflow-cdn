@@ -1644,8 +1644,30 @@
 
 .portfolio-page {
   &.authntick {
+    .authntick-sec-1 {
+      position: relative;
+      &::after,
+      &::before {
+        position: absolute;
+        content: '';
+        display: block;
+        width: 431px;
+        height: 619px;
+        background: url('https://cdn.prod.website-files.com/66b622a8c4666078c780e47e/670b5f47cd8231b48dfbff49_authntick-fingerprint.svg') no-repeat center;
+        background-size: 85%;
+        top: -330px;
+        left: 380px;
+        z-index: 1;
+      }
+      &::after {
+        top: auto;
+        bottom: -360px;
+        left: -90px;
+      }
+    }
     .insisive1.authntick1 img.right-img {
       transform: translateY(-50%);
+      top: 50%;
     }
     .insisive4.insisive5.authntick7 {
       position: relative;
