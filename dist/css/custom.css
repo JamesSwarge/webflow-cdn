@@ -1239,6 +1239,10 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
   margin-right: 20px;
 }
 
+.pr-section-padding.vh-100.ui-ux-p-sec-1.h-auto {
+  height: auto !important;
+}
+
 .pr-section-padding.ui-ux-p-sec-1 .pr-container .scroll-content-wrapper {
   position: relative;
   height: 90%;
@@ -1246,6 +1250,7 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
 }
 .pr-section-padding.ui-ux-p-sec-1 .pr-container .scroll-content-wrapper .right-content-wrap .content-block-scroll-wrapp {
   max-height: calc(100vh - 40px);
+  max-height: unset;
 }
 .pr-section-padding.ui-ux-p-sec-1 .pr-container .scroll-content-wrapper .right-content-wrap .content-block-scroll-wrapp .content-block-wrapp {
   margin-bottom: 133px;
@@ -1253,7 +1258,7 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
   max-width: 550px;
 }
 .pr-section-padding.ui-ux-p-sec-1 .pr-container .scroll-content-wrapper .right-content-wrap .content-block-scroll-wrapp .content-block-wrapp:first-of-type {
-  padding-top: 250px;
+  padding-top: 120px;
 }
 .pr-section-padding.ui-ux-p-sec-1 .pr-container .scroll-content-wrapper .right-content-wrap .content-block-scroll-wrapp .content-block-wrapp .custom-li-design {
   position: relative;
@@ -1353,13 +1358,22 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
   }
 }
 
+.left-content-wrap.sticky-left-sec {
+  top: 40%;
+  left: 200px;
+}
+
 .pr-section-padding.pr-indus-sec .pr-container .scroll-content-wrapper {
   position: relative;
   height: 90%;
   max-height: 90%;
 }
+.pr-section-padding.pr-indus-sec .pr-container .scroll-content-wrapper .left-content-wrap .hide-on-desktop {
+  display: none;
+}
 .pr-section-padding.pr-indus-sec .pr-container .scroll-content-wrapper .right-content-wrap .content-block-scroll-wrapp {
   max-height: calc(100vh - 80px);
+  max-height: unset;
 }
 .pr-section-padding.pr-indus-sec .pr-container .scroll-content-wrapper .right-content-wrap .content-block-scroll-wrapp .content-block-wrapp {
   margin-bottom: 133px;
@@ -1368,6 +1382,7 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
 }
 .pr-section-padding.pr-indus-sec .pr-container .scroll-content-wrapper .right-content-wrap .content-block-scroll-wrapp .content-block-wrapp:first-of-type {
   padding-top: 250px;
+  padding-top: 0;
 }
 .pr-section-padding.pr-indus-sec .pr-container .scroll-content-wrapper .right-content-wrap .content-block-scroll-wrapp .content-block-wrapp .custom-li-design {
   position: relative;
