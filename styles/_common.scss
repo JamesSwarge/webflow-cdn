@@ -510,7 +510,7 @@ h6, .h6 {
     margin: 0;
     padding-top: 3rem;
     @media screen and (min-width: 992px) {
-      display: block !important;
+      // display: block !important;
     }
   }
   .nav-container.comman-top-menu {
@@ -554,7 +554,7 @@ h6, .h6 {
       padding-top: 1.5rem;
       padding-left: 20px;
       padding-right: 20px;
-      display: block !important;
+      // display: block !important;
       .logo-img {
         max-width: 36px;
       }
