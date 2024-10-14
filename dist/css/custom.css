@@ -4383,10 +4383,25 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
   top: auto;
   bottom: -360px;
   left: -90px;
+  z-index: 0;
 }
 .portfolio-page.authntick .insisive1.authntick1 img.right-img {
   transform: translateY(-50%);
   top: 50%;
+}
+.portfolio-page.authntick .authntick-sec-2-bg-scroll {
+  background-size: auto;
+  background-size: auto;
+  width: 100%;
+  height: 2337px;
+  position: absolute;
+  top: -750px;
+  animation: mover 90s infinite alternate;
+  z-index: 0;
+}
+.portfolio-page.authntick .authntick-sec-3 {
+  position: relative;
+  z-index: 1;
 }
 .portfolio-page.authntick .insisive4.insisive5.authntick7 {
   position: relative;
@@ -4819,10 +4834,11 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
 }
 @media screen and (max-width: 1920px) {
   .portfolio-page.authntick .auth-sec-3 .white-bg.insisive3 .box-content-white {
-    margin-left: 200px;
+    margin-left: auto;
   }
   .portfolio-page.authntick .auth-sec-3 .white-bg.insisive3 {
     background-image: none;
+    background-color: #FFFFFF;
   }
   .portfolio-page.authntick .auth-sec-6.vimson-sec5.authntick4.authntick6 .box-content-white {
     max-width: 450px;
@@ -4962,6 +4978,10 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+}
+.portfolio-page.authntick .auth-sec-4 {
+  position: relative;
+  z-index: 1;
 }
 .portfolio-page.authntick .auth-sec-4 .cus-flexx .vimson-sec5-img img {
   width: 781px;
