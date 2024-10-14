@@ -539,6 +539,21 @@ h6, .h6 {
     margin-bottom: 7px;
   }
 }
+.portfolio-page .pr-header .nav.cus-container.pr-main-nav {
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in;
+}
+.portfolio-page .pr-header .nav.cus-container.pr-main-nav.nav-up {
+  top: 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.portfolio-page .pr-header .nav.cus-container.pr-main-nav.nav-down {
+  top: -180px;
+  padding-bottom: 16px;
+}
+
 .pr-header .pr-top-menu .header-flex-wrapper .nav-link-wrap .nav-link {
   position: relative;
   display: block;
@@ -3096,9 +3111,6 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
 }
 
 @media screen and (max-width: 1200px) {
-  .smart-sec-1 .smart-360-div {
-    padding-left: 60px !important;
-  }
   .smart-sec-3 .white-bg.insisive3 {
     justify-content: center !important;
   }
@@ -3423,9 +3435,6 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
   .heading-24 {
     font-size: 54px;
     line-height: 72.8px;
-  }
-  .smart-sec-1 .smart-360-div {
-    padding-left: 150px;
   }
   .smart-sec-3 .white-bg.insisive3 {
     justify-content: start;
@@ -3805,35 +3814,9 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
     line-height: 88px;
     margin-top: 0;
   }
-  .concerro-6.smart360-7.smart-sec-7 {
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: 1255px auto;
-    background-position-x: 200px;
-    background-position-y: 140px;
-  }
-  .vimson-sec5.remove-bg.smart-sec-8 {
-    background-repeat: no-repeat;
-    background-size: 1255px auto;
-    background-position-x: 200px;
-    background-position-y: 140px;
-    background-color: rgb(234, 235, 244);
-  }
-  .smart-sec-3 .white-bg.insisive3 .box-content-white {
-    margin-left: 200px;
-  }
   .smart-sec-6 .box-content-white.max50,
   .smart-sec-9 .box-content-white.max50 {
     padding-left: 0px;
-  }
-  .smart360-1.smart-sec-1,
-  .aaloch-s-1.smart3602.smart-sec-2,
-  .side-bt-side-content.vimson-sec3.smart-sec-3,
-  .single-image.smart-sec-4 {
-    background-repeat: no-repeat;
-    background-size: 1255px auto;
-    background-position-x: 200px;
-    background-position-y: 140px;
   }
   .smart-sec-3 .heading-26 {
     margin-bottom: 15px;
@@ -4049,13 +4032,6 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
   .bottom-image.center .box-content-white {
     max-width: 450px;
     margin-left: 80px;
-  }
-  .white-bg.insisive3 .box-content-white {
-    max-width: 450px;
-    margin-left: 220px;
-  }
-  .blue-bg.other-blue.nav-blu .box-content-white {
-    max-width: 450px;
   }
   .single-image .cus-container {
     max-width: 1400px !important;
@@ -4343,9 +4319,6 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
   }
 }
 @media only screen and (min-width: 1023px) and (max-width: 1199px) {
-  .smart-sec-1 .smart-360-div {
-    padding-left: 40px;
-  }
   .vimson-sec4.smart3606.smart-sec-6 {
     padding-left: 0;
   }
@@ -5035,4 +5008,7 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
   line-height: 25.9px;
   font-weight: 300;
   font-family: "Poppins", sans-serif;
+}
+.portfolio-page.smart-360 .smart360-sec-1 {
+  background: linear-gradient(90deg, transparent 50%, #EAEBF4 50%);
 }/*# sourceMappingURL=custom.css.map */

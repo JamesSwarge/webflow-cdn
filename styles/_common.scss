@@ -601,6 +601,28 @@ h6, .h6 {
   }
 }
 
+.portfolio-page {
+  .pr-header {
+    .nav.cus-container.pr-main-nav {
+      background: rgba(255, 255, 255, 0.9);
+      box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.1);
+      transition: all .3s ease-in;
+      &.nav-up {
+        top: 0;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        // height: 80px;
+      }
+      &.nav-down {
+        top: -180px;
+        // padding-top: 16px;
+        padding-bottom: 16px;
+        // height: 80px;
+      }
+    }
+  }
+}
+
 
 // Full Menu
 .pr-header {

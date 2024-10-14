@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 1200px) {
   .smart-sec-1 .smart-360-div {
-    padding-left: 60px !important;
+    // padding-left: 60px !important;
   }
 
   .smart-sec-3 .white-bg.insisive3 {
@@ -431,7 +431,7 @@
   }
 
   .smart-sec-1 .smart-360-div {
-    padding-left: 150px;
+    // padding-left: 150px;
   }
 
   .smart-sec-3 .white-bg.insisive3 {
@@ -915,40 +915,39 @@
 
   }
 
-  .concerro-6.smart360-7.smart-sec-7 {
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: 1255px auto;
-    background-position-x: 200px;
-    background-position-y: 140px;
-  }
+  // .concerro-6.smart360-7.smart-sec-7 {
+  //   height: 100vh;
+  //   background-repeat: no-repeat;
+  //   background-size: 1255px auto;
+  //   background-position-x: 200px;
+  //   background-position-y: 140px;
+  // }
 
-  .vimson-sec5.remove-bg.smart-sec-8 {
-    background-repeat: no-repeat;
-    background-size: 1255px auto;
-    background-position-x: 200px;
-    background-position-y: 140px;
-    background-color: rgb(234, 235, 244);
-  }
+  // .vimson-sec5.remove-bg.smart-sec-8 {
+  //   background-repeat: no-repeat;
+  //   background-size: 1255px auto;
+  //   background-position-x: 200px;
+  //   background-position-y: 140px;
+  //   background-color: rgb(234, 235, 244);
+  // }
 
-  .smart-sec-3 .white-bg.insisive3 .box-content-white {
-    margin-left: 200px;
-  }
+  // .smart-sec-3 .white-bg.insisive3 .box-content-white {
+  //   // margin-left: 200px;
+  // }
 
   .smart-sec-6 .box-content-white.max50,
   .smart-sec-9 .box-content-white.max50 {
     padding-left: 0px;
   }
 
-  .smart360-1.smart-sec-1,
-  .aaloch-s-1.smart3602.smart-sec-2,
-  .side-bt-side-content.vimson-sec3.smart-sec-3,
-  .single-image.smart-sec-4 {
-    background-repeat: no-repeat;
-    background-size: 1255px auto;
-    background-position-x: 200px;
-    background-position-y: 140px;
-  }
+  // .aaloch-s-1.smart3602.smart-sec-2,
+  // .side-bt-side-content.vimson-sec3.smart-sec-3,
+  // .single-image.smart-sec-4 {
+  //   background-repeat: no-repeat;
+  //   background-size: 1255px auto;
+  //   background-position-x: 200px;
+  //   background-position-y: 140px;
+  // }
 
   .smart-sec-3 .heading-26 {
     margin-bottom: 15px;
@@ -1226,14 +1225,14 @@
     margin-left: 80px;
   }
 
-  .white-bg.insisive3 .box-content-white {
-    max-width: 450px;
-    margin-left: 220px;
-  }
+  // .white-bg.insisive3 .box-content-white {
+  //   max-width: 450px;
+  //   margin-left: 220px;
+  // }
 
-  .blue-bg.other-blue.nav-blu .box-content-white {
-    max-width: 450px;
-  }
+  // .blue-bg.other-blue.nav-blu .box-content-white {
+  //   max-width: 450px;
+  // }
 
   .single-image .cus-container {
     max-width: 1400px !important;
@@ -1603,7 +1602,7 @@
 
 @media only screen and (min-width: 1023px) and (max-width: 1199px) {
   .smart-sec-1 .smart-360-div {
-    padding-left: 40px;
+    // padding-left: 40px;
   }
 
   .vimson-sec4.smart3606.smart-sec-6 {
@@ -1641,7 +1640,6 @@
 
 
 // Authentick
-
 .portfolio-page {
   &.authntick {
     .authntick-sec-1 {
@@ -2477,4 +2475,18 @@
     }
 
   }
+  &.smart-360 {
+
+  }
 }
+
+
+// Smart 360
+.portfolio-page {
+  &.smart-360 {
+    .smart360-sec-1 {
+      background: linear-gradient(90deg, transparent 50%, #EAEBF4 50%);
+    }
+  }
+}
+
