@@ -883,6 +883,20 @@
 		}
 	}
 	&.pr-home-sec-3 {
+		@media screen and (min-width: 1500px) {
+			// padding-top: 0;
+			padding-bottom: 0;
+			height: auto;
+			.home-tab-wrappper {
+				height: auto;
+			}
+			.home-sec-3-tabs.slide-in-bottom {
+				margin-bottom: 100px;
+			}
+			.home-sec3-tab-para.para-20 {
+				margin-bottom: 120px;
+			}
+		}
 		.home-sec-3-tabs {
 			.home-sec-3-tabs-link {
 				height: 40px;
@@ -969,6 +983,9 @@
 		}
 	}
 	&.pr-home-sec-6 {
+		.pr-container {
+			height: 100%;
+		}
 		.pr-home-common-img-blk {
 			max-width: 520px;
 			margin-left: auto;
@@ -1000,6 +1017,9 @@
 		background: linear-gradient(90deg, var(--color-bg-dark-2) 50%, #FFFFFF 50%);
 	}
 	&.pr-home-sec-9 {
+		.pr-container {
+			height: 100%;
+		}
 		.pr-home-common-img-blk {
 			max-width: 520px;
 			margin-left: auto;
@@ -1014,6 +1034,12 @@
 		}
 	}
 	&.pr-home-sec-10 {
+		@media screen and (min-width: 1500px) {
+			padding-top: 20px;
+			.awards-scroller-wrap {
+				padding-bottom: 20px;
+			}
+		}
 		.awards-scroller-wrap {
 			overflow-x: hidden;
 			overflow-y: auto;
@@ -1053,6 +1079,13 @@
 		}
 	}
 	&.pr-home-sec-12 {
+		@media screen and (min-width: 1500px) {
+			padding-top: 20px;
+			.pr-home-common-img-blk .pr-home-common-sec-img {
+				left: -100px;
+				top: 60px;
+			}
+		}
 		.pr-home-common-img-blk {
 			position: relative;
 			min-height: 600px;
@@ -1072,6 +1105,10 @@
 		}
 	}
 	&.pr-home-sec-13 {
+		@media screen and (min-width: 1500px) {
+			padding-top: 20px;
+			padding-bottom: 0;
+		}
 		.home-common-sec-heading {
 			margin-bottom: 0 !important;
 		}

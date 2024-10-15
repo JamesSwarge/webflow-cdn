@@ -1,20 +1,20 @@
 // All Portfolios CSS
 
-.aaloch-s-1.smart3602.smart-sec-2 {
-  background-repeat: no-repeat;
-  background-size: 1255px auto;
-  background-position-x: 200px;
-  background-position-y: 140px;
-  height: 100%;
-  width: 100%;
-  top: 50%;
-  left: 50%;
-}
+// .aaloch-s-1.smart3602.smart-sec-2 {
+//   background-repeat: no-repeat;
+//   background-size: 1255px auto;
+//   background-position-x: 200px;
+//   background-position-y: 140px;
+//   height: 100%;
+//   width: 100%;
+//   top: 50%;
+//   left: 50%;
+// }
 
 @media screen and (max-width: 1200px) {
-  .smart-sec-1 .smart-360-div {
-    // padding-left: 60px !important;
-  }
+  // .smart-sec-1 .smart-360-div {
+  //   // padding-left: 60px !important;
+  // }
 
   .smart-sec-3 .white-bg.insisive3 {
     justify-content: center !important;
@@ -354,9 +354,9 @@
     margin-bottom: 15px;
   }
 
-  .blue-bg.other-blue.nav-blu {
-    background-color: #24264C;
-  }
+  // .blue-bg.other-blue.nav-blu {
+  //   background-color: #24264C;
+  // }
 
   .vimson-sec4 {
     height: 100vh;
@@ -658,10 +658,10 @@
     margin-bottom: 15px;
   }
 
-  .blue-bg.other-blue.nav-blu {
-    background-color: #24264C;
-    height: 100vh;
-  }
+  // .blue-bg.other-blue.nav-blu {
+  //   background-color: #24264C;
+  //   height: 100vh;
+  // }
 
   .vimson-sec4 {
     height: 100vh;
@@ -1030,9 +1030,9 @@
     margin-bottom: 15px;
   }
 
-  .blue-bg.other-blue.nav-blu {
-    background-color: #24264C;
-  }
+  // .blue-bg.other-blue.nav-blu {
+  //   background-color: #24264C;
+  // }
 
   .vimson-sec4 {
     height: 100vh;
@@ -1265,10 +1265,10 @@
     margin-bottom: 15px;
   }
 
-  .blue-bg.other-blue.nav-blu {
-    background-color: #24264C;
-    height: 100vh;
-  }
+  // .blue-bg.other-blue.nav-blu {
+  //   background-color: #24264C;
+  //   height: 100vh;
+  // }
 
   .vimson-sec4 {
     height: 100vh;
@@ -1639,6 +1639,121 @@
 }
 
 
+// common portfolio css
+.portfolio-page {
+  section {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    // .pr-container {
+    //   height: 100%;
+    // }
+  }
+  .box-content-white {
+    max-width: 450px !important;
+    margin: 0 !important;
+  }
+  .failure-learning-common-sec {
+    position: relative;
+    height: 100vh;
+    background-color: #f4f2f3;
+    overflow: hidden;
+    z-index: 1;
+    .failure-learnings-img-blk {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      .failure-learnings-img {
+        position: absolute;
+        top: 0px;
+        left: auto;
+        right: 0;
+        height: 100vh;
+        width: auto;
+      }
+    }
+    .pr-container {
+      display: flex;
+      height: 100%;
+      .failure-learnings-box {
+        max-width: 550px;
+        padding: 0;
+        &::before {
+          content: "";
+          position: absolute;
+          top: 12px;
+          left: 0;
+          width: 12px;
+          height: 0px;
+          border: 1px solid #1E2329;
+        }
+        .black-pera {
+          display: block;
+          color: #717171;
+          margin-bottom: 30px;
+          &.main-para {
+            color: var(--color-bg-dark-1);
+            margin-bottom: 60px;
+          }
+        }
+      }
+    }
+  }
+  .w-background-video > video {
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: 100%;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .work-two-col-testimonial {
+    height: 100vh;
+    .work-two-col-testimonial-col1 {
+      display: flex;
+      background-color: #242424;
+      flex-flow: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      padding: 40px 80px;
+      padding-left: 300px;
+      padding-right: 0;
+    }
+    .heading-32,
+    .text-left-side,
+    .custom-align {
+      color: #FFFFFF;
+      text-align: left;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 29px;
+    }
+    .heading-26 {
+      color: #FFFFFF;
+      text-align: left;
+    }
+    .testimovial {
+      display: block;
+      .heading-32 {
+        text-align: center;
+        color: #FFFFFF;
+        font-weight: 400;
+      }
+    }
+  }
+}
+
 // Authentick
 .portfolio-page {
   &.authntick {
@@ -1679,6 +1794,16 @@
       animation: mover 90s infinite alternate;
       z-index: 0;
     }
+    .authntick-sec-2 {
+      .pr-container {
+        height: auto;
+        .content-block-flex {
+          .h3 {
+            text-align: center;
+          }
+        }
+      }
+    }
     .authntick-sec-3 {
       position: relative;
       z-index: 1;
@@ -1698,6 +1823,13 @@
 
     .swiper {
       background: linear-gradient(to top, rgb(210, 20, 58) 30%, rgba(51, 51, 51, 0) 30%);
+    }
+
+    .authntick-sec-8 {
+      height: auto;
+      .pr-container {
+        height: auto;
+      }
     }
 
     @media screen and (max-width: 1200px) {
@@ -2475,9 +2607,6 @@
     }
 
   }
-  &.smart-360 {
-
-  }
 }
 
 
@@ -2486,7 +2615,658 @@
   &.smart-360 {
     .smart360-sec-1 {
       background: linear-gradient(90deg, transparent 50%, #EAEBF4 50%);
+      .smart-360-col {
+        img {
+          height: auto;
+          width: 720px;
+          object-fit: cover;
+          position: absolute;
+          max-width: unset;
+          right: -180px;
+        }
+      } 
     }
+    .smart360-sec-4 {
+      .slide-in-bg-cover-half.bg-dark-1 {
+        background-color: #24264C;
+      }
+      .blue-bg {
+        background-color: transparent;        
+        .box-content-white .h3 {
+          color: #FFFFFF;
+        }
+      }
+    }
+    .smart360-sec-9 {
+      
+    }
+    .smart360-sec-10 {
+      .center-content {
+        .h3 {
+          color: #FFFFFF;
+          text-align: center;
+        }
+      }
+    }
+    .smart360-sec-11 {
+      height: 100vh;
+      .center-content {
+        position: relative;
+        min-height: 70vh;
+        img {
+          position: absolute;
+          width: auto;
+          height: 761px;
+          max-width: unset;
+          top: -130px;
+          left: -10px;
+          object-fit: cover;
+        }
+      }
+    }
+    .smart360-sec-12 {
+      background-color: rgb(234, 235, 244);
+      height: 100vh;
+      .vimson-sec5-img {
+        position: relative;
+        min-height: 600px;
+        img {
+          position: relative;
+          width: 620px;
+          max-width: unset;
+          height: auto;
+          object-fit: cover;
+          top: -20px;
+          left: -60px;
+          z-index: 0;
+        }
+      } 
+    }
+    .smart360-sec-13 {
+      position: relative;
+      z-index: 1;
+    }
+
+
+
   }
 }
 
+
+// Moneyguru App
+.portfolio-page {
+  &.moneyguru {
+    .moneyguru-sec-1 {
+      overflow: hidden;
+      height: 100vh;
+      margin: 0;
+      .bgcolr {
+        background-color: #f1f3f7;
+      }
+      .heading-24 {
+        position: relative;
+        width: 130%;
+      }
+      .bottom-image {
+        .money-app-img {
+          width: 660px;
+          height: 760px;
+          object-fit: cover;
+          max-width: unset;
+          position: absolute;
+          top: auto;
+          bottom: -2px;
+          left: 50px;
+        }
+      }
+    }
+    .moneyguru-sec-2 {
+      .pr-container {
+        display: flex;
+        height: 100%;
+      }
+    } 
+    .moneyguru-sec-3 {
+      .blue-bg {
+        .box-content-white {
+          .h3 {
+            color: #FFFFFF;
+          }
+        }
+      }
+    }
+    .moneyguru-sec-4 {
+      padding: 150px 0 0;
+      .center-content {
+        .h3 {
+          text-align: center;
+          margin-bottom: 120px;
+        }
+      }
+      .wireframes-wrapper {
+        max-width: 100%;
+        overflow-y: auto;
+        margin: 20px 20px;
+        padding: 20px 0;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+        &::-webkit-scrollbar {
+          display: none;
+        }
+        .wireframes-img-blk {
+          position: relative;
+          height: 400px;
+          .wireframes-img {
+            position: absolute;
+            height: 100%;
+            width: auto;
+            max-width: unset;
+            object-fit: cover;
+            cursor: move;
+          }
+        }
+      }
+    }
+    .moneyguru-sec-5 {
+      height: 100vh;
+      .starting-with-a-img {
+        display: block;
+        height: 90vh;
+        .starting-with-a-img-img {
+          object-fit: cover;
+          position: absolute;
+          height: 70%;
+          width: auto;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+      }
+      .box-content-white {
+        max-width: 600px !important;
+      }
+    }
+    .moneyguru-sec-6 {
+      height: 100vh;
+      .pr-container {
+        display: flex;
+        .cus-flexx {
+          .box-content-white {
+            .h3 {
+              position: relative;
+              color: #FFFFFF;
+              width: 142%;
+            }
+          }
+          .vimson-sec5-img {
+            left: 20%;
+            top: 10vh;
+          }
+          .video-box {
+            position: relative;
+            height: 660px;
+            width: auto;
+            top: 0;
+            left: 90px;
+            transform: scale(1.2);
+            video {
+              position: absolute;
+              height: 100%;
+              width: auto;
+              object-fit: cover;
+              top: 0;
+              left: 0;
+              right: auto;
+              bottom: auto;
+              margin: 0;
+              background-position: center;
+              background-size: cover;
+              z-index: 1;
+            }
+          }
+        }
+      }
+    } 
+    .moneyguru-sec-7 {
+      .pr-container {
+        display: flex;
+        height: 100%;
+        .box-content-white {
+          .h3 {
+            position: relative;
+            width: 140%;
+          }
+        }
+      }
+      .video-box {
+        video {
+
+        }
+      } 
+    }
+    .moneyguru-sec-8 {
+      height: 100vh;
+      .pr-container {
+        display: flex;
+        .cus-flexx {
+          .video-box {
+            position: relative;
+            height: 660px;
+            width: 600px;
+            top: 0;
+            left: -180px;
+            transform: scale(1.2);
+            video {
+              position: absolute;
+              height: 100%;
+              width: auto;
+              object-fit: cover;
+              top: 0;
+              left: 0;
+              right: auto;
+              bottom: auto;
+              margin: 0;
+              background-position: center;
+              background-size: cover;
+              z-index: 1;
+            }
+          }
+        }
+      }
+    }
+    .moneyguru-sec-9 {
+      .pr-container {
+        display: flex;
+        height: 100%;
+        .box-content-white {
+          .h3 {
+            position: relative;
+            width: 140%;
+          }
+        }
+      }
+      .video-box {
+        video {
+
+        }
+      } 
+    }
+    .moneyguru-sec-10 {
+      height: 100vh;
+      .pr-container {
+        display: flex;
+        .content-block-flex {
+          max-width: 100%;
+          margin-left: auto;
+          margin-right: auto;
+          .h3 {
+            text-align: center;
+          }
+          p {
+            text-align: center;
+            max-width: 1000px;
+          }
+          .video-box {
+            position: relative;
+            height: 400px;
+            width: 100%;
+            top: 0;
+            left: 0;
+            transform: scale(1);
+            video {
+              position: absolute;
+              height: auto;
+              width: 100%;
+              object-fit: cover;
+              top: 0;
+              left: 0;
+              right: auto;
+              bottom: auto;
+              margin: 0;
+              background-position: center;
+              background-size: cover;
+              z-index: 1;
+            }
+          }
+        }
+      }
+    }
+    .moneyguru-sec-11 {
+      padding: 150px 0;
+    }
+
+
+
+  }
+}
+
+
+
+// aaloch
+.portfolio-page {
+  &.aaloch {
+    .aaloch-sec-1 {
+      .banner-text-div {
+        .h1 {
+          color: #FFFFFF;
+        }
+      }
+      .aaloch-main {
+        position: relative;
+        width: 523px;
+        height: 767px;
+        top: 50px;
+        left: -40px;
+      }
+    }
+
+    .aaloch-sec-2 {
+      &::after {
+        content: "";
+        position: absolute;
+        top: -500px;
+        right: -375px;
+        width: 1368px;
+        height: 1217px;
+        background: #5c202e;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        z-index: -1;
+      }
+      .aaloch-sec2-right-img-blk {
+        .aaloch-sec2-right-img {
+          position: relative;
+          top: 120px;
+        }
+      }
+    }
+    .aaloch-sec-3 {
+      .box-content-white {
+        .h3 {
+          color: #FFFFFF;
+        }
+      }
+      .brown-bg.w-col ,
+      .white-bg.w-col {
+        padding: 0;
+        align-self: center;
+        align-items: center;
+        .box-content-white {
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+      }
+      .white-bg.w-col {
+        .h3 {
+          color: #1E2329;
+        }
+      }
+    }
+    .aaloch-sec-4 {
+      background-position: 0;
+      background-repeat: no-repeat;
+      background-size: cover;
+      .h3 {
+        color: #FFFFFF;
+      }
+    }
+    .aaloch-sec-6 {
+      min-height: 95vh;
+      height: auto;
+      padding: 100px 0;
+      .pr-container {
+        height: 100%;
+      }
+      .w-col > img {
+        position: relative;
+        width: 600px;
+        height: auto;
+      }
+    }
+    .aaloch-sec-7 {
+      min-height: 90vh;
+      height: auto;
+      padding: 100px 0;
+      .heading-part {
+        margin-bottom: 100px;
+      }
+    }
+    .aaloch-sec-8 {
+      min-height: 90vh;
+      height: auto;
+      padding: 100px 0;
+      .pr-container {
+        .create-event-img-left {
+          position: relative;
+          width: 600px;
+          height: auto;
+          max-width: unset;
+          top: 0;
+          left: 60px;
+          z-index: 1;
+        }
+      }
+    }
+
+  }
+}
+
+
+// easyplan
+.portfolio-page {
+  &.easyplan {
+    .w-row {
+      width: 100%;
+      align-content: center;
+    }
+    .easyplan-sec-1 {
+      height: 100vh;
+      position: relative;
+      z-index: 1;
+      .pr-container {
+        display: flex;
+        height: 100%;
+      }
+      .easyplan-sec1-img {
+        position: relative;
+        width: 520px;
+        max-width: unset;
+        height: auto;
+        top: 20vh;
+        left: -70px;
+        z-index: 1;
+      }
+      .ep-s1-cont-col {
+        height: 100%;
+      }
+    }
+    .easyplan-sec-2 {
+      height: 100vh;
+      position: relative;
+      z-index: 1;
+      .pr-container {
+        display: flex;
+        height: 100%;
+      }
+      .content-block-flex {
+        align-self: center;
+        margin: 0 auto 20px;
+        .h3 {
+          text-align: center;
+        }
+        p {
+          text-align: center;
+        }
+      }
+    }
+    .easyplan-sec-3 {
+      height: 100vh;
+      position: relative;
+      z-index: 1;
+      .h3 {
+        color: #FFFFFF;
+      }
+    }
+    .easyplan-sec-4 {
+      height: 100vh;
+      position: relative;
+      z-index: 1;
+      background-color: #0D3645;
+      background-image: url('https://cdn.prod.website-files.com/66b622a8c4666078c780e47e/66b622a8c4666078c780e72f_image_2024_05_22T09_29_27_682Z.webp');
+      .pr-container {
+        display: flex;
+        height: 100%;
+      }
+      .ep-s-4-content {
+        justify-content: initial;
+        color: #FFFFFF;
+        .box-content-white {
+          // margin-left: 20px;
+        }
+        .h3 {
+          color: #FFFFFF;
+        }
+      }
+    }
+    .easyplan-sec-5 {
+      height: 100vh;
+      position: relative;
+      z-index: 1;
+      .pr-container {
+        display: flex;
+        height: 100%;
+      }
+      .box-content-white {
+        max-width: unset !important;
+      }
+    }
+    .easyplan-sec-6 {
+      height: 100vh;
+      position: relative;
+      z-index: 1;
+      .right-col-animated {
+        .goal-img-main {
+          width: 520px;
+          height: auto;
+          left: -40px;
+          position: relative;
+        }
+        .easyplan-sec6-rotate-img {
+          position: absolute;
+          width: 520px;
+          max-width: unset;
+          height: auto;
+          left: -40px;
+          animation: rotation-ani 15s infinite linear;
+          -webkit-animation: rotation-ani 15s infinite linear;
+        }
+      }
+    }
+    .easyplan-sec-7 {
+      height: 100vh;
+      position: relative;
+      z-index: 1;
+      background-color: #212043;
+      .rp6-cont-heading {
+        .h3 {
+          color: #FFFFFF;
+          max-width: 700px;
+        }
+      }
+      .right-col-animated {
+        position: relative;
+        .goal-img-main {
+          width: auto;
+          height: 80vh;
+          left: -40px;
+          top: 40px;
+          position: relative;
+        }
+        .easyplan-sec6-rotate-img {
+          position: absolute;
+          width: 650px;
+          max-width: unset;
+          height: auto;
+          left: -170px;
+          top: 60px;
+          animation: rotation-ani 15s infinite linear;
+          -webkit-animation: rotation-ani 15s infinite linear;
+        }
+      }      
+    }
+    .easyplan-sec-8 {
+      height: 100vh;
+      position: relative;
+      z-index: 1;
+      .pr-container {
+        display: flex;
+        height: 100%;
+      }
+    }
+    .easyplan-sec-9 {
+      height: 100vh;
+      position: relative;
+      z-index: 1;
+      .pr-container {
+        display: flex;
+        height: 100%;
+      }
+      .rp6-cont {
+        width: 100%;
+      }
+      .rp6-cont-heading {
+        flex: 1;
+        .h3 {
+          max-width: 350px;
+          color: #FFFFFF;
+        }
+      }
+      .right-col-animated {
+        flex: 0;
+        .withdraw-mobile {
+          position: relative;
+          width: 640px;
+          height: auto;
+          max-width: unset;
+          top: 50px;
+          left: -170px;
+        }
+        .easyplan-sec6-rotate-img {
+          position: absolute;
+          width: 650px;
+          max-width: unset;
+          height: auto;
+          left: -80px;
+          top: 10px;
+          animation: rotation-ani 15s infinite linear;
+          -webkit-animation: rotation-ani 15s infinite linear;
+        }
+      }
+    }
+    .easyplan-sec-10 {
+      height: 100vh;
+      position: relative;
+      z-index: 1;
+      background-size: 100%;
+      .pr-container {
+        display: flex;
+        height: 100%;
+      }
+      .box-content-white {
+        max-width: 700px !important;
+      }
+      .animated-img-blue.last-animation-section {
+        position: absolute;
+        width: 520px;
+        height: auto;
+        top: 10vh;
+        left: -50px;
+        z-index: -1;
+        animation: rotation-ani 15s infinite linear;
+        -webkit-animation: rotation-ani 15s infinite linear;
+      }
+    }
+  }
+}

@@ -86,29 +86,69 @@ $(document).ready(function () {
 // });
 
 
-$(document).ready(function() {
-  let lastScrollTop = 0; // Stores the last scroll position
-  let nav = $('.pr-main-nav'); // Replace '.navigation' with your navigation class or ID
+// $(document).ready(function() {
+//   let lastScrollTop = 0; // Stores the last scroll position
+//   let nav = $('.pr-main-nav'); // Replace '.navigation' with your navigation class or ID
 
-  $(window).scroll(function() {
-      let currentScroll = $(this).scrollTop(); // Get the current scroll position
+//   $(window).scroll(function() {
+//       let currentScroll = $(this).scrollTop(); // Get the current scroll position
+//       var st = $(window).scrollTop();
+//       var navbarHeight = $("#pr-main-nav").outerHeight();
+//       // Check if we've scrolled to the top of the page
+//       if (currentScroll === 0) {
+//         // Hide navigation at the top of the page
+//         // nav.fadeOut();
+//       } else {
+//         // Show navigation when scrolling
+//         // nav.fadeIn();
+//         if (currentScroll > lastScrollTop) {
+//             // If scrolling down
+//             nav.removeClass('nav-up').addClass('nav-down');
+//         } else {
+//             // If scrolling up
+//             nav.removeClass('nav-down').addClass('nav-up');
+//         }
+        
+//         // if (st > lastScrollTop && st > navbarHeight) {
+//         //   $("#pr-main-nav").removeClass("nav-down nav-up").addClass("nav-up");
+//         // } else {
+//         //   if (st + $(window).height() < $(document).height()) {
+//         //     if ($(window).scrollTop() < 80) {
+//         //       $("#pr-main-nav").removeClass("nav-up").removeClass("nav-down");
+//         //     } else {
+//         //       $("#pr-main-nav").removeClass("nav-down").addClass("nav-up");
+//         //     }
+//         //   }
+//         // }
+//       }
 
-      // Check if we've scrolled to the top of the page
-      if (currentScroll === 0) {
-        // Hide navigation at the top of the page
-        // nav.fadeOut();
-      } else {
-        // Show navigation when scrolling
-        // nav.fadeIn();
-          if (currentScroll > lastScrollTop) {
-              // If scrolling down
-              nav.removeClass('nav-up').addClass('nav-down');
-          } else {
-              // If scrolling up
-              nav.removeClass('nav-down').addClass('nav-up');
-          }
+//       lastScrollTop = currentScroll; // Update the last scroll position
+//   });
+// });
+
+
+
+$(document).ready(function () {
+  var lastScrollTop = 0; // Keep track of the last scroll position
+  var $navbar = $('#pr-main-nav'); // Get the navbar by its ID
+  var navbarHeight = $navbar.outerHeight(); // Get the height of the navbar
+
+  // Function to handle the scroll event
+  $(window).scroll(function () {
+      var scrollTop = $(this).scrollTop();
+
+      if (scrollTop === 0) {
+          // If the user is at the top of the page, remove both classes
+          $navbar.removeClass('nav-up nav-down');
+      } else if (scrollTop > lastScrollTop && scrollTop > navbarHeight) {
+          // If the user is scrolling down and passed the navbar height, apply "nav-down" and remove "nav-up"
+          $navbar.addClass('nav-down').removeClass('nav-up');
+      } else if (scrollTop < lastScrollTop) {
+          // If the user is scrolling up, apply "nav-up" and remove "nav-down"
+          $navbar.addClass('nav-up').removeClass('nav-down');
       }
 
-      lastScrollTop = currentScroll; // Update the last scroll position
+      // Update lastScrollTop to the current scroll position
+      lastScrollTop = scrollTop;
   });
 });
