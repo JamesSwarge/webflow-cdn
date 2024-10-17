@@ -97,9 +97,10 @@ $(document).ready(function () {
   var swiper = new Swiper(".image-slider1", {
       grabCursor: true,
       loop: true,
+      effect: "fade",
       slidesPerView: 1,
       autoplay: {
-          delay: 1200,
+          delay: 2000,
           disableOnInteraction: false,
       },
   });
@@ -107,6 +108,7 @@ $(document).ready(function () {
   var swiper2 = new Swiper(".image-slider2", {
       grabCursor: true,
       loop: true,
+      effect: "fade",
       slidesPerView: 1,
       autoplay: {
           delay: 1500,

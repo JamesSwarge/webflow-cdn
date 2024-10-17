@@ -7527,6 +7527,9 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
 .portfolio-page.phychem .phychem-sec-1 .center-content .banner-full-title {
   text-align: center;
 }
+.portfolio-page.phychem .phychem-sec-2 .box-content-white.max50 {
+  padding-right: 0;
+}
 .portfolio-page.phychem .phychem-sec-6 {
   height: 100vh;
 }
