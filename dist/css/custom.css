@@ -7530,6 +7530,37 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
 .portfolio-page.phychem .phychem-sec-2 .box-content-white.max50 {
   padding-right: 0;
 }
+.portfolio-page.phychem .phychem-sec-3 .blue-bg {
+  background-color: #0a0333;
+}
+.portfolio-page.phychem .phychem-sec-4 .white-bg {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.portfolio-page.phychem .phychem-sec-4 .blue-bg {
+  background-color: #0a0333;
+}
+.portfolio-page.phychem .phychem-sec-4 .phycheme-slider-1 {
+  padding-left: 120px;
+}
+.portfolio-page.phychem .phychem-sec-4 .phycheme-slider-1 .phycheme-slider-1-inner {
+  background-color: #0a0333;
+  min-height: 400px;
+}
+.portfolio-page.phychem .phychem-sec-4 .phycheme-slider-1 .phycheme-slider-1-inner .phycheme-slider-1-img1,
+.portfolio-page.phychem .phychem-sec-4 .phycheme-slider-1 .phycheme-slider-1-inner .phycheme-slider-1-img2,
+.portfolio-page.phychem .phychem-sec-4 .phycheme-slider-1 .phycheme-slider-1-inner .phycheme-slider-1-img3 {
+  display: block;
+  height: 200px;
+  width: auto;
+  object-fit: cover;
+}
+.portfolio-page.phychem .phychem-sec-4 .phycheme-slider-1 .phycheme-slider-1-inner .phycheme-slider-1-img3 {
+  height: 94px;
+  margin-bottom: 200px;
+}
 .portfolio-page.phychem .phychem-sec-6 {
   height: 100vh;
 }

@@ -100,7 +100,7 @@ $(document).ready(function () {
       effect: "fade",
       slidesPerView: 1,
       autoplay: {
-          delay: 20000000,
+          delay: 2000,
           disableOnInteraction: false,
       },
   });
@@ -111,7 +111,7 @@ $(document).ready(function () {
       effect: "fade",
       slidesPerView: 1,
       autoplay: {
-          delay: 30000000,
+          delay: 3000,
           disableOnInteraction: false,
       },
   });
