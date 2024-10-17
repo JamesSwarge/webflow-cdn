@@ -7529,9 +7529,18 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
 }
 .portfolio-page.phychem .phychem-sec-2 .box-content-white.max50 {
   padding-right: 0;
+  padding-left: 0;
+  position: relative;
+  left: -6%;
 }
 .portfolio-page.phychem .phychem-sec-3 .blue-bg {
   background-color: #0a0333;
+}
+.portfolio-page.phychem .phychem-sec-3 .blue-bg {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .portfolio-page.phychem .phychem-sec-4 .white-bg {
   padding: 0;
@@ -7561,10 +7570,77 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
   height: 94px;
   margin-bottom: 200px;
 }
-.portfolio-page.phychem .phychem-sec-6 {
-  height: 100vh;
+.portfolio-page.phychem .phychem-sec-6 .white-heading-center {
+  text-align: center;
 }
-
-.portfolio-page.phychem .phychem-sec-6 {
-  height: 100vh;
+.portfolio-page.phychem .phychem-sec-8 {
+  background-position-x: 100% !important;
+  background-position-y: 50% !important;
+  background-size: 50% 100% !important;
+  object-fit: cover;
+}
+.portfolio-page.phychem .phychem-sec-8 .pr-container {
+  height: 100%;
+  display: flex;
+}
+.portfolio-page.phychem .phychem-sec-8 .absulate-lft-center {
+  position: static;
+}
+.portfolio-page.phychem .phychem-sec-8 .absulate-lft-center .h3 {
+  margin-bottom: 40px;
+  position: relative;
+  width: 140%;
+}
+.portfolio-page.phychem .phychem-sec-9 .background-video-3 {
+  display: block;
+  background-color: #0c25fa;
+}
+.portfolio-page.phychem .phychem-sec-9 .background-video-3 video {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+.portfolio-page.phychem .phychem-sec-bg-common {
+  position: relative;
+}
+.portfolio-page.phychem .phychem-sec-bg-common .phychem-sec-bg-common-img {
+  position: absolute;
+  object-fit: cover;
+  top: 50%;
+  left: 50%;
+  height: 100%;
+  max-height: 80vh;
+  width: auto;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.portfolio-page.phychem .phychem-sec-11 {
+  background: linear-gradient(90deg, #111bde 50%, #F2F2F2 50%);
+}
+.portfolio-page.phychem .phychem-sec-12 {
+  background: linear-gradient(90deg, #FFFFFF 50%, #ff5b82 50%);
+}
+.portfolio-page.phychem .phychem-sec-13 {
+  background: linear-gradient(90deg, #00d1a3 50%, #FFFFFF 50%);
+}
+.portfolio-page.phychem .phychem-sec-14 {
+  background: linear-gradient(90deg, #FFFFFF 50%, #111bde 50%);
+}
+.portfolio-page.phychem .phychem-sec-14 .phychem-sec-bg-common-img {
+  left: 0px;
+  top: auto;
+  bottom: 0px;
+  transform: translate(0);
+  max-height: 92vh;
+}
+.portfolio-page.phychem .work-testimonial .testimovial {
+  max-width: 500px;
+}
+.portfolio-page.phychem .work-testimonial .testimovial .heading-32,
+.portfolio-page.phychem .work-testimonial .testimovial .designation {
+  color: #FFFFFF;
 }/*# sourceMappingURL=custom.css.map */
