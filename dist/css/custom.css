@@ -2050,10 +2050,10 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
     height: auto;
   }
   .pr-section-padding.pr-home-sec-3 .home-sec-3-tabs.slide-in-bottom {
-    margin-bottom: 100px;
+    margin-bottom: 40px;
   }
   .pr-section-padding.pr-home-sec-3 .home-sec3-tab-para.para-20 {
-    margin-bottom: 120px;
+    margin-bottom: 80px;
   }
 }
 .pr-section-padding.pr-home-sec-3 .home-sec-3-tabs .home-sec-3-tabs-link {
@@ -6808,4 +6808,321 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
 .portfolio-page.insisive .failure-learning-common-sec .failure-learnings-box {
   max-width: 550px !important;
   width: auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .portfolio-page.notionedge .cus-container {
+    max-width: 100%;
+    padding: 0 30px;
+  }
+  .portfolio-page.notionedge .vimson-sec1.notionedge1 {
+    margin-top: 20px;
+    height: auto;
+    padding: 100px 0;
+  }
+  .portfolio-page.notionedge .vimson-sec1.notionedge1 .banner-full-title.white {
+    font-size: 48px;
+    line-height: 1.3;
+  }
+  .portfolio-page.notionedge .vimson-sec2.notionedge2 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .portfolio-page.notionedge .side-bt-side-content.vimson-sec3 .white-bg.w-col.w-col-6 {
+    padding: 60px 40px 60px 40px;
+    height: auto;
+  }
+  .portfolio-page.notionedge .side-bt-side-content.vimson-sec3 .blue-bg.other-blue.nav-blu.black-bg.w-col.w-col-6 {
+    padding: 60px 40px 60px 40px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 991px) {
+  .portfolio-page.notionedge .vimson-sec1.notionedge1 .banner-full-title.white {
+    font-size: 38px;
+  }
+  .portfolio-page.notionedge .vimson-sec2.notionedge2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .portfolio-page.notionedge .heading-25 {
+    font-size: 32px;
+    margin-top: 0;
+  }
+  .portfolio-page.notionedge .heading-26.black-font {
+    font-size: 32px;
+    margin-top: 0;
+  }
+  .portfolio-page.notionedge .heading-26 {
+    margin-top: 0;
+    font-size: 32px;
+  }
+  .portfolio-page.notionedge .vimson-sec4.notionedge4 {
+    height: auto;
+    padding: 30px 0;
+    background-size: 50%;
+  }
+  .portfolio-page.notionedge .box-content-white.max50 {
+    padding-right: 20px;
+  }
+  .portfolio-page.notionedge .vimson-sec5.notionedge5 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .portfolio-page.notionedge .vimson-sec6 {
+    height: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .portfolio-page.notionedge .vimson-sec1.notionedge1 .banner-full-title.white {
+    font-size: 32px;
+  }
+  .portfolio-page.notionedge .vimson-sec4.notionedge4 {
+    background-size: 0;
+  }
+  .portfolio-page.notionedge .box-content-white.max50 {
+    padding-right: 0;
+    max-width: 100%;
+  }
+  .portfolio-page.notionedge .vimson-sec5.notionedge5 .cus-flexx.w-row {
+    display: grid;
+  }
+  .portfolio-page.notionedge .vimson-sec5.notionedge5 .cus-flexx.w-row .w-col.w-col-6 {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 1940px) {
+  .portfolio-page.notionedge .vimson-sec1.notionedge1 {
+    margin: 0;
+    margin-top: -64px;
+  }
+  .portfolio-page.notionedge .banner-full-title {
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 88px;
+  }
+  .portfolio-page.notionedge .cus-container {
+    max-width: 1260px !important;
+  }
+  .portfolio-page.notionedge .vimson-sec2.notionedge2 {
+    height: 100vh;
+  }
+  .portfolio-page.notionedge .content-block-flex {
+    margin: 0 auto;
+  }
+  .portfolio-page.notionedge .heading-25 {
+    line-height: 74px;
+    font-size: 54px;
+    font-weight: 600;
+  }
+  .portfolio-page.notionedge .blue-bg.other-blue {
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 0px;
+  }
+  .portfolio-page.notionedge .white-bg {
+    justify-content: end;
+    align-items: center;
+    padding-top: 0px;
+  }
+  .portfolio-page.notionedge .blue-bg .box-content-white {
+    max-width: 490px;
+  }
+  .portfolio-page.notionedge .white-bg .box-content-white {
+    max-width: 490px;
+  }
+  .portfolio-page.notionedge .heading-26 {
+    margin-bottom: 20px;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+  }
+  .portfolio-page.notionedge .vimson-sec4 {
+    height: 100vh;
+  }
+  .portfolio-page.notionedge .cus-flexx {
+    height: 100vh;
+  }
+  .portfolio-page.notionedge .vimson-sec5 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .portfolio-page.notionedge .vimson-sec4 {
+    height: 90vh;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .portfolio-page.notionedge .vimson-sec4 {
+    height: 80vh;
+  }
+  .portfolio-page.notionedge .cus-container {
+    max-width: 1110px !important;
+  }
+  .portfolio-page.notionedge .vimson-sec7 img {
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .portfolio-page.notionedge .white-bg {
+    padding-left: 60px;
+    padding-right: 80px;
+  }
+  .portfolio-page.notionedge .blue-bg {
+    padding-left: 60px;
+    padding-right: 80px;
+  }
+  .portfolio-page.notionedge .vimson-sec4 {
+    height: 75vh;
+  }
+  .portfolio-page.notionedge .banner-full-title {
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 73px;
+  }
+  .portfolio-page.notionedge .heading-25 {
+    line-height: 52px;
+    font-size: 40px;
+  }
+  .portfolio-page.notionedge .heading-26 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    line-height: 52px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .portfolio-page.notionedge .cus-container {
+    max-width: 960px !important;
+  }
+  .portfolio-page.notionedge .white-bg {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .portfolio-page.notionedge .blue-bg {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .portfolio-page.notionedge .vimson-sec1 {
+    height: auto;
+    padding: 120px 0;
+  }
+  .portfolio-page.notionedge .banner-full-title {
+    line-height: normal;
+  }
+  .portfolio-page.notionedge .heading-25 {
+    line-height: 52px;
+    font-size: 32px;
+  }
+  .portfolio-page.notionedge .vimson-sec2.notionedge2 {
+    height: auto;
+  }
+  .portfolio-page.notionedge .white-bg {
+    justify-content: start;
+    align-items: center;
+    height: auto;
+    padding: 50px 20px;
+  }
+  .portfolio-page.notionedge .white-bg .box-content-white {
+    max-width: 100%;
+  }
+  .portfolio-page.notionedge .blue-bg .box-content-white {
+    max-width: 100%;
+  }
+  .portfolio-page.notionedge .blue-bg.other-blue {
+    justify-content: start;
+    align-items: center;
+    height: auto;
+    padding: 50px 20px;
+  }
+  .portfolio-page.notionedge .heading-26 {
+    margin-bottom: 10px;
+    font-size: 32px;
+    line-height: 52px;
+  }
+  .portfolio-page.notionedge .cus-flexx {
+    height: auto;
+  }
+  .portfolio-page.notionedge .vimson-sec7 img {
+    height: 50vh;
+  }
+  .portfolio-page.notionedge .vimson-sec6 {
+    height: 50vh;
+  }
+}
+.portfolio-page.notionedge .notionedge-sec-1,
+.portfolio-page.notionedge .notionedge-sec-2,
+.portfolio-page.notionedge .notionedge-sec-3,
+.portfolio-page.notionedge .notionedge-sec-4,
+.portfolio-page.notionedge .notionedge-sec-5,
+.portfolio-page.notionedge .notionedge-sec-6,
+.portfolio-page.notionedge .notionedge-sec-7,
+.portfolio-page.notionedge .notionedge-sec-8 {
+  position: relative;
+  height: 100vh;
+  margin: 0 !important;
+}
+.portfolio-page.notionedge .notionedge-sec-1 .columns-2, .portfolio-page.notionedge .notionedge-sec-1 .w-row,
+.portfolio-page.notionedge .notionedge-sec-2 .columns-2,
+.portfolio-page.notionedge .notionedge-sec-2 .w-row,
+.portfolio-page.notionedge .notionedge-sec-3 .columns-2,
+.portfolio-page.notionedge .notionedge-sec-3 .w-row,
+.portfolio-page.notionedge .notionedge-sec-4 .columns-2,
+.portfolio-page.notionedge .notionedge-sec-4 .w-row,
+.portfolio-page.notionedge .notionedge-sec-5 .columns-2,
+.portfolio-page.notionedge .notionedge-sec-5 .w-row,
+.portfolio-page.notionedge .notionedge-sec-6 .columns-2,
+.portfolio-page.notionedge .notionedge-sec-6 .w-row,
+.portfolio-page.notionedge .notionedge-sec-7 .columns-2,
+.portfolio-page.notionedge .notionedge-sec-7 .w-row,
+.portfolio-page.notionedge .notionedge-sec-8 .columns-2,
+.portfolio-page.notionedge .notionedge-sec-8 .w-row {
+  width: 100%;
+}
+.portfolio-page.notionedge .notionedge-sec-1 .banner-full-title {
+  text-align: center;
+}
+.portfolio-page.notionedge .notionedge-sec-1 .notionedge-sec-1-bg {
+  position: absolute;
+  display: block;
+  width: 1097px;
+  height: 815px;
+  top: -136px;
+  left: -270px;
+}
+.portfolio-page.notionedge .notionedge-sec-2 .content-block-flex .h3 {
+  text-align: center;
+}
+.portfolio-page.notionedge .notionedge-sec-4 .blue-bg {
+  position: relative;
+}
+.portfolio-page.notionedge .notionedge-sec-4 .blue-bg img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+.portfolio-page.notionedge .notionedge-sec-7 {
+  position: relative;
+  z-index: 1;
+}
+.portfolio-page.notionedge .notionedge-sec-7 .notionedge-sec-7-bg-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.portfolio-page.notionedge .notionedge-sec-8 {
+  position: relative;
+  z-index: 1;
+}
+.portfolio-page.notionedge .notionedge-sec-8 .notionedge-sec-8-bg-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }/*# sourceMappingURL=custom.css.map */
