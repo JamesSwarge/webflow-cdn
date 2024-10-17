@@ -5006,3 +5006,472 @@
 
   }
 }
+
+
+
+// phychem
+.portfolio-page {
+  &.phychem {
+    @media screen and (max-width: 1024px) {
+      .cus-container {
+        max-width: 100%;
+        padding: 0 30px;
+      }
+    
+      .vimson-sec1 {
+        height: auto;
+        padding: 100px 0;
+      }
+    
+      .vimson-sec1.vigan {
+        margin-top: 20px;
+      }
+    
+      .vimson-sec4 {
+        height: auto;
+        padding-bottom: 50px;
+        padding-top: 50px;
+      }
+    
+      .vimson-sec4 .paragraph-18 {
+        font-size: 16px;
+      }
+    
+      .vimson-sec4.phychem4 {
+        height: auto;
+      }
+    
+      .side-bt-side-content .blue-bg {
+        padding: 100px 30px;
+        height: auto;
+      }
+    
+      .side-bt-side-content .white-bg {
+        padding: 100px 30px;
+        height: auto;
+      }
+    
+      .side-bt-side-content .paragraph-18 {
+        font-size: 16px;
+      }
+    
+      .swiper-slide {
+        padding-left: 0;
+      }
+    
+      .zig-zag-left-con {
+        height: auto;
+      }
+    
+      .zig-zag-left-con .columns-4._100vh {
+        height: auto;
+        padding: 100px 0;
+      }
+    
+      .zig-zag-left-con .columns-4._100vh .paragraph-19 {
+        font-size: 16px;
+      }
+    
+      .vimson-sec4.phychem4.phychem8 .box-content-white.absulate-lft-center {
+        position: relative;
+        top: 0;
+      }
+    
+      .vimson-sec4 .custom-list .list-item-5 {
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+    
+      .work-testimonial {
+        padding-top: 60px;
+        padding-bottom: 60px;
+      }
+    }
+    @media screen and (max-width: 767px) {
+      .vimson-sec1 {
+        height: auto;
+        padding: 50px 0;
+      }
+    
+      .vimson-sec1.vigan.phychem .banner-full-title {
+        font-size: 36px;
+        line-height: normal;
+      }
+    
+      .vimson-sec4 {
+        padding: 30px 0;
+      }
+    
+      .vimson-sec4.phychem4 .box-content-white.max50 {
+        max-width: 100%;
+      }
+    
+      .vimson-sec4.phychem4 {
+        background-size: cover;
+        position: relative;
+      }
+    
+      .vimson-sec4.phychem4::before {
+        content: '';
+        background: #000;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        opacity: 0.5;
+      }
+    
+      .vimson-sec4.phychem4 .box-content-white.max50 {
+        position: relative;
+      }
+    
+      .vimson-sec4 .heading-26 {
+        font-size: 28px;
+      }
+    
+      .side-bt-side-content .heading-26 {
+        font-size: 28px;
+      }
+    
+      .side-bt-side-content .white-bg {
+        padding: 30px;
+      }
+    
+      .side-bt-side-content .blue-bg {
+        padding: 30px;
+      }
+    
+      .concerro-6 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+    
+      .concerro-6 .white-heading-center {
+        font-size: 28px;
+      }
+    
+      .zig-zag-left-con .columns-4._100vh {
+        display: block;
+      }
+    
+      .zig-zag-left-con .heading-27 {
+        font-size: 28px;
+      }
+    
+      .vimson-sec4.phychem4.phychem8 {
+        background-size: cover;
+        position: relative;
+      }
+    
+      .vimson-sec4.phychem4.phychem8::before {
+        content: '';
+        background: #000;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        opacity: 0.7;
+      }
+    
+      .vimson-sec4.phychem4.phychem8 .box-content-white.absulate-lft-center {
+        position: relative;
+      }
+    }
+    @media screen and (max-width:1940px) {
+      .vimson-sec1.vigan {
+        margin: 0;
+        margin-top: -64px;
+      }
+    
+      .banner-full-title {
+        font-size: 70px;
+        font-weight: 700;
+        line-height: 88px;
+      }
+    
+      .cus-container {
+        max-width: 1260px !important;
+      }
+    
+      .heading-26 {
+    
+        font-size: 54px;
+        font-weight: 600;
+        line-height: 74px;
+      }
+    
+      .box-content-white.max50 {
+        max-width: 50%;
+        padding-right: 160px;
+      }
+    
+      .paragraph-18 {
+        font-size: 20px;
+        line-height: 32px;
+      }
+    
+      .blue-bg.other-blue {
+        justify-content: end;
+        align-items: center;
+        padding-top: 0px;
+      }
+    
+      .white-bg {
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 0px;
+    
+      }
+    
+      .blue-bg .box-content-white {
+        max-width: 490px;
+      }
+    
+      .white-bg .box-content-white {
+        max-width: 490px;
+      }
+    
+      .full-width-image-slider img {
+        background-size: cover;
+        width: 100%;
+      }
+    
+      .swiper-slide {
+        padding-left: 0;
+      }
+    
+      .center-content {
+        height: 100vh;
+        justify-content: center;
+        align-content: center;
+      }
+    
+      .concerro-6 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+      }
+    
+      .white-heading-center {
+    
+        margin-bottom: 50px;
+        font-size: 54px;
+        line-height: 74px;
+      }
+    
+      .heading-27 {
+        margin-bottom: 20px;
+        font-size: 54px;
+        line-height: 74px;
+      }
+    
+      .cust-pera-list::before,
+      ul.custom-list li::before {
+        width: 6px;
+        height: 6px;
+        background: #fff;
+        top: 13.5px;
+      }
+    
+      .work-testimonial {
+        padding: 0;
+      }
+    
+      .testimovial {
+        height: 100vh;
+        justify-content: center;
+        align-content: center;
+      }
+    
+    }
+    @media screen and (max-width: 1600px) {
+      .vimson-sec4.phychem4 {
+        height: 85vh;
+      }
+    }
+    @media screen and (max-width: 1400px) {
+      .banner-full-title {
+        font-size: 54px;
+        line-height: 73px;
+      }
+    
+      .heading-26 {
+        font-size: 40px;
+        line-height: 53px;
+      }
+    
+      .vimson-sec4.phychem4 {
+        height: 93vh;
+      }
+    
+      .white-bg {
+        padding-left: 80px;
+      }
+    }
+    @media screen and (max-width: 1200px) {
+      .cus-container {
+        max-width: 1110px !important;
+      }
+    
+      .vimson-sec4.phychem4 {
+        height: 80vh;
+      }
+    
+      .box-content-white.max50 {
+        padding-top: 50px;
+        padding-right: 80px;
+      }
+    
+      .blue-bg {
+        padding-right: 80px;
+        padding-left: 40px;
+      }
+    
+      .white-bg {
+        padding-right: 80px;
+        padding-left: 40px;
+      }
+    
+      .vimson-sec7 img {
+        height: 90vh;
+      }
+    
+    }
+    @media screen and (max-width: 1024px) {
+      .cus-container {
+        max-width: 960px !important;
+      }
+    
+      .vimson-sec4.phychem4 {
+        height: 100vh;
+      }
+    
+      .blue-bg {
+        padding-right: 20px;
+        padding-left: 40px;
+      }
+    
+      .white-bg {
+        padding-right: 20px;
+        padding-left: 40px;
+      }
+    }
+    @media screen and (max-width: 767px) {
+      .center-content {
+        height: auto;
+        padding: 50px 0;
+      }
+    
+      .vimson-sec1.vigan.phychem .banner-full-title {
+        font-size: 30px;
+        line-height: normal;
+      }
+    
+      .vimson-sec4.phychem4 {
+        height: auto;
+        position: relative;
+      }
+    
+      .vimson-sec4.phychem4::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.9);
+      }
+    
+      .blue-bg.other-blue {
+        justify-content: start;
+        padding-top: 20px;
+      }
+    
+      .box-content-white.max50 {
+        padding-top: 40px;
+        padding-right: 10px;
+      }
+    
+      .blue-bg {
+        height: auto;
+      }
+    
+      .white-bg {
+        height: auto;
+      }
+    
+      .white-bg .box-content-white {
+        max-width: 100%;
+      }
+    
+      .blue-bg .box-content-white {
+        max-width: 100%;
+      }
+    
+      .paragraph-18 {
+        font-size: 16px;
+        line-height: 32px;
+      }
+    
+      .columns-4._100vh {
+        height: auto;
+      }
+    
+      .vimson-sec4.phychem4.phychem8 .box-content-white.absulate-lft-center {
+        position: relative;
+        top: 0;
+      }
+    
+      .background-video-3 {
+        height: 50vh;
+      }
+    
+      .vimson-sec7 img {
+        height: 50vh;
+      }
+    
+      .testimovial {
+        height: auto;
+        padding: 50px 0;
+      }
+    }
+
+    .phychem-sec-1,
+    .phychem-sec-2,
+    .phychem-sec-3,
+    .phychem-sec-4,
+    .phychem-sec-5,
+    .phychem-sec-6,
+    .phychem-sec-7,
+    .phychem-sec-8,
+    .phychem-sec-9,
+    .phychem-sec-10,
+    .phychem-sec-11,
+    .phychem-sec-12,
+    .phychem-sec-13,
+    .phychem-sec-14,
+    .phychem-sec-15 {
+      position: relative;
+      height: 100vh;
+      margin: 0 !important;
+      .columns-2, .w-row {
+        width: 100%;
+      }
+    }
+
+    .phychem-sec-6 {
+      height: 100vh;
+    }
+
+  }
+}
+
+
+.portfolio-page.phychem .phychem-sec-6 {
+  height: 100vh;
+}

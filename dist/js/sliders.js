@@ -93,6 +93,28 @@ $(document).ready(function () {
   }); 
 
 
+
+  var swiper = new Swiper(".image-slider1", {
+      grabCursor: true,
+      loop: true,
+      slidesPerView: 1,
+      autoplay: {
+          delay: 1200,
+          disableOnInteraction: false,
+      },
+  });
+  
+  var swiper2 = new Swiper(".image-slider2", {
+      grabCursor: true,
+      loop: true,
+      slidesPerView: 1,
+      autoplay: {
+          delay: 1500,
+          disableOnInteraction: false,
+      },
+  });
+
+
 });
 
 if ($(window).width() > 992) {
