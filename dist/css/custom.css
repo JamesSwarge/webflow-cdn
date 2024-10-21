@@ -7643,4 +7643,1132 @@ footer.pr-footer-wrapper .pr-footer-container .pr-footer .pr-footer-common .foot
 .portfolio-page.phychem .work-testimonial .testimovial .heading-32,
 .portfolio-page.phychem .work-testimonial .testimovial .designation {
   color: #FFFFFF;
+}
+
+@media screen and (max-width: 1200px) {
+  .portfolio-page.phychem .cus-container {
+    max-width: 100%;
+    padding: 0 30px;
+  }
+  .portfolio-page.phychem section.aaloch-s-1.moneyguru1 {
+    padding: 50px 0;
+  }
+  .portfolio-page.phychem section.aaloch-s-1.moneyguru1 .heading-24.black {
+    font-size: 42px;
+    line-height: 1.4;
+  }
+  .portfolio-page.phychem section.aaloch-s-1.moneyguru1 .w-col.w-col-6 {
+    height: auto;
+  }
+  .portfolio-page.phychem section.aaloch-s-1.moneyguru1 .w-row {
+    display: flex;
+  }
+  .portfolio-page.phychem .vimson-sec2.vigan.smartlink.insisive {
+    height: auto;
+    padding: 50px 0 0;
+  }
+  .portfolio-page.phychem .side-bt-side-content.vimson-sec3 .white-bg.insisive3.w-col.w-col-6 {
+    padding: 60px 40px 60px 40px;
+    height: auto;
+  }
+  .portfolio-page.phychem .side-bt-side-content.vimson-sec3 .blue-bg.other-blue.nav-blu.black-bg.w-col.w-col-6 {
+    padding: 60px 40px 60px 40px;
+    height: auto;
+  }
+  .portfolio-page.phychem .concerro-6.smart360-7.moneyguru4.money58 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .portfolio-page.phychem .moneyguru7 {
+    height: auto;
+    padding: 100px 0;
+  }
+  .portfolio-page.phychem .moneyguru7 .moneyguru-left-col {
+    height: auto;
+  }
+  .portfolio-page.phychem .moneyguru7 .w-row {
+    display: flex;
+    align-items: center;
+  }
+  .portfolio-page.phychem .concerro-6.smart360-7.moneyguru4 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .portfolio-page.phychem section.vimson-sec5.authntick4.moneyguru-comb {
+    padding: 80px 0;
+  }
+}
+@media screen and (max-width: 991px) {
+  .portfolio-page.phychem section.aaloch-s-1.moneyguru1 .heading-24.black {
+    font-size: 38px;
+  }
+  .portfolio-page.phychem .vigan-s4.smart360-9 {
+    position: relative;
+    height: auto;
+    padding: 50px 0;
+  }
+  .portfolio-page.phychem .vigan-s4.smart360-9::before {
+    content: "";
+    background: #000;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.5;
+  }
+  .portfolio-page.phychem .vigan-s4.smart360-9 .box-content-white.max50 {
+    position: relative;
+    padding: 0;
+    max-width: 100%;
+  }
+  .portfolio-page.phychem .vigan-s4.smart360-9 .box-content-white.max50 h1,
+  .portfolio-page.phychem .vigan-s4.smart360-9 .box-content-white.max50 p {
+    color: #fff;
+  }
+  .portfolio-page.phychem .work-testimonial {
+    padding: 50px 0px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .portfolio-page.phychem section.aaloch-s-1.moneyguru1 {
+    height: auto;
+  }
+  .portfolio-page.phychem section.aaloch-s-1.moneyguru1 .w-row {
+    display: block;
+  }
+  .portfolio-page.phychem section.aaloch-s-1.moneyguru1 .heading-24.black {
+    font-size: 32px;
+  }
+  .portfolio-page.phychem .heading-25 {
+    font-size: 32px;
+    margin-top: 0;
+  }
+  .portfolio-page.phychem .heading-26.black-font {
+    font-size: 32px;
+    margin-top: 0;
+  }
+  .portfolio-page.phychem .heading-26 {
+    font-size: 32px;
+    margin-top: 0;
+  }
+  .portfolio-page.phychem .concerro-6.smart360-7.moneyguru4 .white-heading-center.black {
+    font-size: 32px;
+  }
+  .portfolio-page.phychem .zig-zag-left-con.bgf7f7f7.adsaaas .columns-3.w-row {
+    display: grid;
+  }
+  .portfolio-page.phychem .zig-zag-left-con.bgf7f7f7.adsaaas .columns-3.w-row .column-4.w-col.w-col-6 {
+    order: 1;
+    margin-bottom: 30px;
+  }
+  .portfolio-page.phychem .zig-zag-left-con.bgf7f7f7.adsaaas .columns-3.w-row .w-col.w-col-6 {
+    order: 2;
+  }
+  .portfolio-page.phychem section.moneyguru7 {
+    background-color: #ffaa04;
+  }
+  .portfolio-page.phychem section.moneyguru7 .w-row {
+    display: block;
+  }
+  .portfolio-page.phychem .moneyguru7 .moneyguru-left-col {
+    max-width: 65%;
+  }
+  .portfolio-page.phychem .moneyguru7.moneyguru9 .box-content-white.pd-l-40 {
+    max-width: 75%;
+  }
+  .portfolio-page.phychem section.vimson-sec5.authntick4.moneyguru-comb .cus-flexx.w-row {
+    display: block;
+  }
+  .portfolio-page.phychem section.vimson-sec5.authntick4.moneyguru-comb .cus-flexx.w-row .w-col.w-col-6 {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 1940px) {
+  .portfolio-page.phychem .vimson-sec1.notionedge1 {
+    margin: 0;
+    margin-top: -64px;
+  }
+  .portfolio-page.phychem .banner-full-title {
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 88px;
+  }
+  .portfolio-page.phychem .cus-container {
+    max-width: 1260px !important;
+  }
+  .portfolio-page.phychem .vimson-sec2 {
+    height: 100vh;
+  }
+  .portfolio-page.phychem .content-block-flex {
+    margin: 0 auto;
+  }
+  .portfolio-page.phychem .heading-25 {
+    line-height: 74px;
+    font-size: 54px;
+    font-weight: 600;
+  }
+  .portfolio-page.phychem .blue-bg.other-blue {
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 0px;
+  }
+  .portfolio-page.phychem .white-bg {
+    justify-content: end;
+    align-items: center;
+    padding-top: 0px;
+  }
+  .portfolio-page.phychem .blue-bg .box-content-white {
+    max-width: 490px;
+  }
+  .portfolio-page.phychem .white-bg .box-content-white {
+    max-width: 490px;
+  }
+  .portfolio-page.phychem .heading-26 {
+    margin-bottom: 20px;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+  }
+  .portfolio-page.phychem .vimson-sec4 {
+    height: 100vh;
+  }
+  .portfolio-page.phychem .cus-flexx {
+    height: 100vh;
+  }
+  .portfolio-page.phychem .vimson-sec5 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .portfolio-page.phychem .work-testimonial {
+    padding: 0;
+  }
+  .portfolio-page.phychem .testimovial {
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .portfolio-page.phychem .vimson-sec4 {
+    height: 90vh;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .portfolio-page.phychem .vimson-sec4 {
+    height: 80vh;
+  }
+  .portfolio-page.phychem .cus-container {
+    max-width: 1110px !important;
+  }
+  .portfolio-page.phychem .vimson-sec7 img {
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .portfolio-page.phychem .white-bg {
+    padding-left: 60px;
+    padding-right: 80px;
+  }
+  .portfolio-page.phychem .blue-bg {
+    padding-left: 60px;
+    padding-right: 80px;
+  }
+  .portfolio-page.phychem .vimson-sec4 {
+    height: 75vh;
+  }
+  .portfolio-page.phychem .banner-full-title {
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 73px;
+  }
+  .portfolio-page.phychem .heading-25 {
+    line-height: 52px;
+    font-size: 40px;
+  }
+  .portfolio-page.phychem .heading-26 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    line-height: 52px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .portfolio-page.phychem .cus-container {
+    max-width: 960px !important;
+  }
+  .portfolio-page.phychem .white-bg {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .portfolio-page.phychem .blue-bg {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .portfolio-page.phychem .vimson-sec8 img {
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 1940px) {
+  .portfolio-page.phychem .aaloch-s-1 {
+    margin: 0;
+    margin-top: -64px;
+  }
+  .portfolio-page.phychem .cus-container {
+    max-width: 1260px !important;
+  }
+  .portfolio-page.phychem .heading-24 {
+    font-size: 60px;
+    font-weight: 700 !important;
+    line-height: 80px !important;
+  }
+  .portfolio-page.phychem .content-block-flex {
+    margin: 0 auto;
+  }
+  .portfolio-page.phychem .heading-25 {
+    font-size: 54px;
+    line-height: 74px;
+  }
+  .portfolio-page.phychem .blue-bg.other-blue {
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 0px;
+  }
+  .portfolio-page.phychem .white-bg {
+    justify-content: end;
+    align-items: center;
+    padding-top: 0px;
+  }
+  .portfolio-page.phychem .blue-bg .box-content-white {
+    max-width: 490px;
+  }
+  .portfolio-page.phychem .white-bg .box-content-white {
+    max-width: 490px;
+  }
+  .portfolio-page.phychem .heading-26 {
+    margin-bottom: 20px;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+  }
+  .portfolio-page.phychem .blue-bg.other-blue.nav-blu.black-bg {
+    background-color: #1E1E1E;
+  }
+  .portfolio-page.phychem .white-heading-center {
+    font-size: 54px;
+    line-height: 74px;
+  }
+  .portfolio-page.phychem .concerro-6.smart360-7.moneyguru4 .cus-container {
+    max-width: 1400px !important;
+  }
+  .portfolio-page.phychem .concerro-6.smart360-7.moneyguru4 img {
+    padding-top: 50px;
+  }
+  .portfolio-page.phychem .concerro-6.smart360-7.moneyguru4.money58 .cus-container {
+    max-width: 1260px !important;
+  }
+  .portfolio-page.phychem .center-content {
+    height: 100vh;
+    align-content: end;
+  }
+  .portfolio-page.phychem .concerro-6 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .portfolio-page.phychem .landing-image {
+    width: 80%;
+  }
+  .portfolio-page.phychem .columns-3 {
+    height: 100vh;
+  }
+  .portfolio-page.phychem .zig-zag-left-con {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .portfolio-page.phychem .data-img {
+    width: 80%;
+  }
+  .portfolio-page.phychem .work-testimonial {
+    padding: 0;
+  }
+  .portfolio-page.phychem .testimovial {
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+  }
+  .portfolio-page.phychem .vigan-s4.smart360-9 .paragraph-18 {
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+  .portfolio-page.phychem .paragraph-18 {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .portfolio-page.phychem .paragraph-17 {
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .portfolio-page.phychem .cus-container {
+    max-width: 1110px !important;
+  }
+  .portfolio-page.phychem .heading-24 {
+    margin-top: 10px;
+    font-size: 52px;
+    line-height: 73px !important;
+  }
+  .portfolio-page.phychem .vimson-sec2 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .portfolio-page.phychem .white-heading-center {
+    font-size: 40px;
+    line-height: 52px;
+  }
+  .portfolio-page.phychem .heading-26 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+  .portfolio-page.phychem .moneyguru7 {
+    background-position: 90%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .portfolio-page.phychem .heading-25 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+  .portfolio-page.phychem .white-bg {
+    padding-left: 0px;
+    padding-right: 60px;
+  }
+  .portfolio-page.phychem .blue-bg {
+    padding-left: 60px;
+    padding-right: 0px;
+  }
+  .portfolio-page.phychem .concerro-6.smart360-7.moneyguru4 .cus-container {
+    max-width: 1110px !important;
+  }
+  .portfolio-page.phychem .concerro-6.smart360-7.moneyguru4 img {
+    padding-top: 150px;
+  }
+  .portfolio-page.phychem .paragraph-18.center.black {
+    max-width: 850px;
+    margin: 0 auto;
+  }
+  .portfolio-page.phychem .moneyguru7 {
+    background-position: 50%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .portfolio-page.phychem .cus-container {
+    max-width: 960px !important;
+  }
+  .portfolio-page.phychem .heading-24 {
+    margin-top: 10px;
+    font-size: 48px;
+    line-height: 73px !important;
+  }
+  .portfolio-page.phychem .white-bg {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .portfolio-page.phychem .blue-bg {
+    padding-left: 30px;
+    padding-right: 40px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .portfolio-page.phychem .column-5 {
+    height: auto;
+    padding-top: 120px;
+  }
+  .portfolio-page.phychem .bottom-image {
+    height: auto;
+  }
+  .portfolio-page.phychem section.aaloch-s-1.moneyguru1 .heading-24.black {
+    line-height: normal !important;
+  }
+  .portfolio-page.phychem .vimson-sec2.vigan.smartlink {
+    height: auto;
+    padding: 50px 0;
+  }
+  .portfolio-page.phychem .white-bg {
+    height: auto;
+    padding: 50px 20px;
+  }
+  .portfolio-page.phychem .paragraph-17 {
+    font-size: 16px;
+    line-height: 32px;
+  }
+  .portfolio-page.phychem .paragraph-18 {
+    font-size: 16px;
+    line-height: 32px;
+  }
+  .portfolio-page.phychem .white-bg .box-content-white {
+    max-width: 100%;
+  }
+  .portfolio-page.phychem .blue-bg {
+    height: auto;
+    padding: 50px 20px !important;
+  }
+  .portfolio-page.phychem .blue-bg .box-content-white {
+    max-width: 100%;
+  }
+  .portfolio-page.phychem .center-content {
+    height: auto;
+    padding-top: 50px;
+    align-content: end;
+  }
+  .portfolio-page.phychem .concerro-6.smart360-7.moneyguru4 img {
+    padding-top: 50px;
+  }
+  .portfolio-page.phychem .columns-3 {
+    height: auto;
+    padding-top: 50px;
+  }
+  .portfolio-page.phychem .moneyguru7 {
+    height: auto;
+  }
+  .portfolio-page.phychem .moneyguru-left-col {
+    height: 50vh;
+  }
+  .portfolio-page.phychem .heading-26 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .portfolio-page.phychem .concerro-6.smart360-7.moneyguru4 .white-heading-center.black {
+    line-height: normal;
+  }
+  .portfolio-page.phychem .vimson-sec5 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .portfolio-page.phychem .testimovial {
+    height: auto;
+    padding: 50px 0;
+  }
+}
+.portfolio-page.phychem .phychem-sec-1,
+.portfolio-page.phychem .phychem-sec-2,
+.portfolio-page.phychem .phychem-sec-3,
+.portfolio-page.phychem .phychem-sec-4,
+.portfolio-page.phychem .phychem-sec-5,
+.portfolio-page.phychem .phychem-sec-6,
+.portfolio-page.phychem .phychem-sec-7,
+.portfolio-page.phychem .phychem-sec-8,
+.portfolio-page.phychem .phychem-sec-9,
+.portfolio-page.phychem .phychem-sec-10,
+.portfolio-page.phychem .phychem-sec-11,
+.portfolio-page.phychem .phychem-sec-12,
+.portfolio-page.phychem .phychem-sec-13,
+.portfolio-page.phychem .phychem-sec-14,
+.portfolio-page.phychem .phychem-sec-15 {
+  position: relative;
+  height: 100vh;
+  margin: 0 !important;
+}
+.portfolio-page.phychem .phychem-sec-1 .columns-2, .portfolio-page.phychem .phychem-sec-1 .w-row,
+.portfolio-page.phychem .phychem-sec-2 .columns-2,
+.portfolio-page.phychem .phychem-sec-2 .w-row,
+.portfolio-page.phychem .phychem-sec-3 .columns-2,
+.portfolio-page.phychem .phychem-sec-3 .w-row,
+.portfolio-page.phychem .phychem-sec-4 .columns-2,
+.portfolio-page.phychem .phychem-sec-4 .w-row,
+.portfolio-page.phychem .phychem-sec-5 .columns-2,
+.portfolio-page.phychem .phychem-sec-5 .w-row,
+.portfolio-page.phychem .phychem-sec-6 .columns-2,
+.portfolio-page.phychem .phychem-sec-6 .w-row,
+.portfolio-page.phychem .phychem-sec-7 .columns-2,
+.portfolio-page.phychem .phychem-sec-7 .w-row,
+.portfolio-page.phychem .phychem-sec-8 .columns-2,
+.portfolio-page.phychem .phychem-sec-8 .w-row,
+.portfolio-page.phychem .phychem-sec-9 .columns-2,
+.portfolio-page.phychem .phychem-sec-9 .w-row,
+.portfolio-page.phychem .phychem-sec-10 .columns-2,
+.portfolio-page.phychem .phychem-sec-10 .w-row,
+.portfolio-page.phychem .phychem-sec-11 .columns-2,
+.portfolio-page.phychem .phychem-sec-11 .w-row,
+.portfolio-page.phychem .phychem-sec-12 .columns-2,
+.portfolio-page.phychem .phychem-sec-12 .w-row,
+.portfolio-page.phychem .phychem-sec-13 .columns-2,
+.portfolio-page.phychem .phychem-sec-13 .w-row,
+.portfolio-page.phychem .phychem-sec-14 .columns-2,
+.portfolio-page.phychem .phychem-sec-14 .w-row,
+.portfolio-page.phychem .phychem-sec-15 .columns-2,
+.portfolio-page.phychem .phychem-sec-15 .w-row {
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .portfolio-page.bynry .aaloch-s-1 {
+    margin-top: 20px;
+  }
+  .portfolio-page.bynry .aaloch-s-1 .heading-24 {
+    font-size: 49px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .portfolio-page.bynry .cus-container {
+    max-width: 100%;
+    padding-left: 30px;
+  }
+  .portfolio-page.bynry .aaloch-s-1 .heading-24 {
+    font-size: 44px;
+  }
+  .portfolio-page.bynry .aaloch-s-1 {
+    margin-top: 20px;
+    height: auto;
+    padding: 100px 0;
+  }
+  .portfolio-page.bynry .aaloch-s-1 .column-5 {
+    height: auto;
+  }
+  .portfolio-page.bynry .aaloch-s-1 .bottom-image {
+    height: auto;
+  }
+  .portfolio-page.bynry .vimson-sec5 {
+    padding: 60px 0;
+  }
+  .portfolio-page.bynry .vimson-sec5 .paragraph-18 {
+    font-size: 16px;
+  }
+  .portfolio-page.bynry .side-bt-side-content .blue-bg {
+    padding: 100px 30px;
+    height: auto;
+  }
+  .portfolio-page.bynry .side-bt-side-content .white-bg {
+    padding: 100px 30px;
+    height: auto;
+  }
+  .portfolio-page.bynry .side-bt-side-content .paragraph-18 {
+    font-size: 16px;
+  }
+  .portfolio-page.bynry .vimson-sec2 .paragraph-17 {
+    font-size: 16px;
+  }
+  .portfolio-page.bynry .vimson-sec2 {
+    padding-top: 70px;
+  }
+  .portfolio-page.bynry .vimson-sec4 .paragraph-18 {
+    font-size: 16px;
+  }
+  .portfolio-page.bynry .zig-zag-left-con .paragraph-18 {
+    font-size: 16px;
+    padding-right: 30px;
+  }
+  .portfolio-page.bynry .vigan-s4 {
+    height: auto;
+    padding: 50px 0;
+    display: block;
+  }
+  .portfolio-page.bynry .vigan-s4 .paragraph-18 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .portfolio-page.bynry .aaloch-s-1 .heading-24 {
+    font-size: 40px;
+  }
+  .portfolio-page.bynry .vimson-sec5 .cus-flexx {
+    display: block;
+  }
+  .portfolio-page.bynry .vimson-sec5 {
+    padding: 30px 10px 30px 0;
+  }
+  .portfolio-page.bynry .side-bt-side-content .heading-26 {
+    font-size: 28px;
+  }
+  .portfolio-page.bynry .side-bt-side-content .white-bg {
+    padding: 30px;
+  }
+  .portfolio-page.bynry .side-bt-side-content .blue-bg {
+    padding: 30px;
+  }
+  .portfolio-page.bynry .vimson-sec2 .heading-25 {
+    font-size: 28px;
+  }
+  .portfolio-page.bynry .vimson-sec4.notionedge4.bynry5 {
+    position: relative;
+    background-size: cover;
+    height: auto;
+    padding: 50px 0;
+  }
+  .portfolio-page.bynry .vimson-sec4.notionedge4.bynry5::before {
+    content: "";
+    background: #000;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.7;
+    position: relative;
+  }
+  .portfolio-page.bynry .box-content-white.max50 {
+    position: relative;
+    max-width: 100%;
+  }
+  .portfolio-page.bynry .vimson-sec4 .heading-26 br {
+    display: none;
+  }
+  .portfolio-page.bynry .vimson-sec4 .heading-26 {
+    font-size: 28px;
+  }
+  .portfolio-page.bynry .zig-zag-left-con .columns-3 {
+    display: block;
+  }
+  .portfolio-page.bynry .zig-zag-left-con {
+    padding: 30px 0;
+  }
+  .portfolio-page.bynry .zig-zag-left-con .heading-26 {
+    font-size: 28px;
+  }
+  .portfolio-page.bynry .zig-zag-left-con .heading-26 br {
+    display: none;
+  }
+  .portfolio-page.bynry .work-two-col-testimonial-col1 {
+    padding: 30px;
+    height: auto;
+  }
+  .portfolio-page.bynry .iocn-box .iconbox-vol {
+    width: 100%;
+  }
+  .portfolio-page.bynry .work-two-col-testimonial-col2 {
+    padding: 40px;
+    height: auto;
+  }
+  .portfolio-page.bynry .vigan-s4 .box-content-white.max50 {
+    max-width: 100%;
+    position: relative;
+  }
+  .portfolio-page.bynry .vigan-s4.smart360-9 {
+    position: relative;
+  }
+  .portfolio-page.bynry .vigan-s4.smart360-9::before {
+    content: "";
+    background: #fff;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.7;
+  }
+  .portfolio-page.bynry .vigan-s4 .heading-26 {
+    font-size: 28px;
+  }
+  .portfolio-page.bynry .vimson-sec5 .heading-26 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 1940px) {
+  .portfolio-page.bynry .aaloch-s-1 {
+    margin: 0;
+    margin-top: -64px;
+  }
+  .portfolio-page.bynry .heading-24 {
+    font-size: 70px;
+    font-weight: 700 !important;
+    line-height: 88px !important;
+  }
+  .portfolio-page.bynry .heading-26 {
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+  }
+  .portfolio-page.bynry .vimson-sec5-cont .box-content-white {
+    max-width: 490px;
+  }
+  .portfolio-page.bynry .vimson-sec5-img .image-54 {
+    max-width: 800px !important;
+    width: 800px !important;
+  }
+  .portfolio-page.bynry .vimson-sec5 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .portfolio-page.bynry .cus-flexx {
+    height: 100vh;
+  }
+  .portfolio-page.bynry .blue-bg.other-blue {
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 0px;
+  }
+  .portfolio-page.bynry .white-bg {
+    justify-content: end;
+    align-items: center;
+    padding-top: 0px;
+  }
+  .portfolio-page.bynry .blue-bg .box-content-white {
+    max-width: 490px;
+  }
+  .portfolio-page.bynry .white-bg .box-content-white {
+    max-width: 490px;
+  }
+  .portfolio-page.bynry .heading-26 {
+    margin-bottom: 20px;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+  }
+  .portfolio-page.bynry .heading-25 {
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+  }
+  .portfolio-page.bynry .vimson-sec2.vigan.smartlink.insisive.authntick2.mytux-web2.d-blovk {
+    padding-bottom: 0px;
+  }
+  .portfolio-page.bynry .vimson-sec2 {
+    padding-top: 50px;
+  }
+  .portfolio-page.bynry .vimson-sec4 {
+    height: 100vh;
+  }
+  .portfolio-page.bynry .columns-3 {
+    height: 100vh;
+  }
+  .portfolio-page.bynry .zig-zag-left-con {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .portfolio-page.bynry .zig-zag-left-con.bgf7f7f7.adsaaas.bynry6 .box-content-white.pd-l-40 {
+    padding-left: 50px;
+  }
+  .portfolio-page.bynry .column-4 img {
+    width: 650px;
+    max-width: 650px;
+  }
+  .portfolio-page.bynry .iconbox-vol {
+    align-items: center;
+  }
+  .portfolio-page.bynry .work-two-col-testimonial-col1 {
+    padding-left: 400px;
+  }
+  .portfolio-page.bynry .work-two-col-testimonial-col2 {
+    justify-content: start;
+  }
+  .portfolio-page.bynry .testimovial {
+    max-width: 490px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .portfolio-page.bynry .white-bg .box-content-white {
+    max-width: 400px;
+  }
+  .portfolio-page.bynry .work-two-col-testimonial-col1 {
+    padding-left: 250px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .portfolio-page.bynry .heading-24 {
+    font-size: 52px;
+    line-height: 73px !important;
+  }
+  .portfolio-page.bynry .heading-26 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+  .portfolio-page.bynry .heading-25 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 52px;
+  }
+  .portfolio-page.bynry .vimson-sec2 {
+    padding-top: 150px;
+  }
+  .portfolio-page.bynry .work-two-col-testimonial-col1 {
+    padding-left: 150px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .portfolio-page.bynry .heading-24 {
+    font-size: 47px;
+    line-height: 73px !important;
+  }
+  .portfolio-page.bynry .white-bg {
+    padding-left: 120px;
+  }
+  .portfolio-page.bynry .vimson-sec4 {
+    height: 75vh;
+  }
+  .portfolio-page.bynry .zig-zag-left-con.bgf7f7f7.adsaaas .paragraph-18 {
+    padding-right: 40px;
+  }
+  .portfolio-page.bynry .work-two-col-testimonial-col1 {
+    padding-left: 130px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .portfolio-page.bynry .aaloch-s-1 {
+    height: 100vh;
+    align-content: center;
+  }
+  .portfolio-page.bynry .vimson-sec5-img .image-54 {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+  .portfolio-page.bynry .vimson-sec5 .paragraph-18 {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .portfolio-page.bynry .side-bt-side-content .white-bg {
+    padding: 0px 50px;
+    height: 100vh;
+  }
+  .portfolio-page.bynry .side-bt-side-content .blue-bg {
+    padding: 0px 30px;
+    height: 100vh;
+  }
+  .portfolio-page.bynry .side-bt-side-content .paragraph-18 {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .portfolio-page.bynry .vimson-sec2 .paragraph-17 {
+    font-size: 20px;
+  }
+  .portfolio-page.bynry .vimson-sec4 .paragraph-18 {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .portfolio-page.bynry .zig-zag-left-con .paragraph-18 {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .portfolio-page.bynry .work-two-col-testimonial-col1 {
+    padding-left: 60px;
+  }
+  .portfolio-page.bynry .cus-container {
+    max-width: 960px !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .portfolio-page.bynry .aaloch-s-1 {
+    height: auto;
+    align-content: center;
+    padding: 120px 0;
+  }
+  .portfolio-page.bynry .aaloch-s-1 .heading-24 {
+    font-size: 40px;
+    line-height: normal !important;
+  }
+  .portfolio-page.bynry .vimson-sec5 .paragraph-18 {
+    font-size: 16px;
+  }
+  .portfolio-page.bynry .vimson-sec5-cont .box-content-white {
+    max-width: 100%;
+  }
+  .portfolio-page.bynry .cus-flexx {
+    height: auto;
+  }
+  .portfolio-page.bynry .side-bt-side-content .white-bg {
+    padding: 50px 40px;
+    height: auto;
+  }
+  .portfolio-page.bynry .white-bg .box-content-white {
+    max-width: 100%;
+  }
+  .portfolio-page.bynry .side-bt-side-content .paragraph-18 {
+    font-size: 16px;
+  }
+  .portfolio-page.bynry .side-bt-side-content .blue-bg {
+    padding: 50px 40px;
+    height: auto;
+  }
+  .portfolio-page.bynry .blue-bg .box-content-white {
+    max-width: 100%;
+  }
+  .portfolio-page.bynry .vimson-sec2 {
+    padding-top: 50px;
+  }
+  .portfolio-page.bynry .vimson-sec2 .paragraph-17 {
+    font-size: 16px;
+  }
+  .portfolio-page.bynry .vimson-sec4.notionedge4.bynry5::before {
+    opacity: 0.8;
+  }
+  .portfolio-page.bynry .vimson-sec4.notionedge4.bynry5 {
+    padding: 100px 0;
+  }
+  .portfolio-page.bynry .columns-3 {
+    height: auto;
+    padding: 50px 0;
+  }
+  .portfolio-page.bynry .zig-zag-left-con.bgf7f7f7.adsaaas.bynry6 .box-content-white.pd-l-40 {
+    padding-left: 0px;
+  }
+  .portfolio-page.bynry .iocn-box {
+    align-content: center;
+    justify-content: center;
+  }
+  .portfolio-page.bynry .testimovial {
+    max-width: 100%;
+  }
+  .portfolio-page.bynry .vimson-sec4 .paragraph-18 {
+    font-size: 16px;
+  }
+  .portfolio-page.bynry .zig-zag-left-con .paragraph-18 {
+    font-size: 16px;
+  }
+  .portfolio-page.bynry .box-content-white.max50 {
+    padding-right: 0;
+  }
+}
+.portfolio-page.bynry .bynry-sec-1,
+.portfolio-page.bynry .bynry-sec-2,
+.portfolio-page.bynry .bynry-sec-3,
+.portfolio-page.bynry .bynry-sec-4,
+.portfolio-page.bynry .bynry-sec-5,
+.portfolio-page.bynry .bynry-sec-6,
+.portfolio-page.bynry .bynry-sec-7,
+.portfolio-page.bynry .bynry-sec-8,
+.portfolio-page.bynry .bynry-sec-9 {
+  position: relative;
+  height: 100vh !important;
+  margin: 0 !important;
+}
+.portfolio-page.bynry .bynry-sec-1 .columns-2, .portfolio-page.bynry .bynry-sec-1 .w-row,
+.portfolio-page.bynry .bynry-sec-2 .columns-2,
+.portfolio-page.bynry .bynry-sec-2 .w-row,
+.portfolio-page.bynry .bynry-sec-3 .columns-2,
+.portfolio-page.bynry .bynry-sec-3 .w-row,
+.portfolio-page.bynry .bynry-sec-4 .columns-2,
+.portfolio-page.bynry .bynry-sec-4 .w-row,
+.portfolio-page.bynry .bynry-sec-5 .columns-2,
+.portfolio-page.bynry .bynry-sec-5 .w-row,
+.portfolio-page.bynry .bynry-sec-6 .columns-2,
+.portfolio-page.bynry .bynry-sec-6 .w-row,
+.portfolio-page.bynry .bynry-sec-7 .columns-2,
+.portfolio-page.bynry .bynry-sec-7 .w-row,
+.portfolio-page.bynry .bynry-sec-8 .columns-2,
+.portfolio-page.bynry .bynry-sec-8 .w-row,
+.portfolio-page.bynry .bynry-sec-9 .columns-2,
+.portfolio-page.bynry .bynry-sec-9 .w-row {
+  width: 100% !important;
+}
+.portfolio-page.bynry .bynry-sec-4 {
+  height: 100vh;
+}
+.portfolio-page.bynry .bynry-sec-1 p {
+  margin-bottom: 30px;
+}
+.portfolio-page.bynry .bynry-sec-2 {
+  background-image: none;
+}
+.portfolio-page.bynry .bynry-sec-3 .white-bg .box-content-white {
+  position: relative;
+  left: -70px;
+}
+.portfolio-page.bynry .bynry-sec-4 .content-block-flex .h3 {
+  text-align: center;
+  margin-top: 40px;
+}
+.portfolio-page.bynry .bynry-sec-4 .result-div {
+  display: block;
+}
+.portfolio-page.bynry .bynry-sec-4 .result-div .result-img {
+  position: absolute;
+  display: block;
+  width: 1014px;
+  margin: 0 auto;
+  height: auto;
+  top: auto;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.portfolio-page.bynry .bynry-sec-4::after {
+  content: "";
+  position: absolute;
+  background: #051941;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 140px;
+  z-index: -1;
+}
+.portfolio-page.bynry .bynry-sec-5 {
+  background-size: 50% 100%;
+}
+.portfolio-page.bynry .bynry-sec-5 .box-content-white.max50 {
+  padding-right: 0;
+}
+.portfolio-page.bynry .bynry-sec-6 .col-3-img {
+  position: relative;
+  width: 850px;
+  height: auto;
+  max-width: unset;
+  top: 0;
+  left: -140px;
+}
+.portfolio-page.bynry .bynry-sec-7 .box-content-white .h3 {
+  position: relative;
+  width: 130%;
+}
+
+.portfolio-page.crubba .crubba-sec-1,
+.portfolio-page.crubba .crubba-sec-2,
+.portfolio-page.crubba .crubba-sec-3,
+.portfolio-page.crubba .crubba-sec-4,
+.portfolio-page.crubba .crubba-sec-5,
+.portfolio-page.crubba .crubba-sec-6,
+.portfolio-page.crubba .crubba-sec-7,
+.portfolio-page.crubba .crubba-sec-8,
+.portfolio-page.crubba .crubba-sec-9 {
+  position: relative;
+  height: 100vh !important;
+  margin: 0 !important;
+}
+.portfolio-page.crubba .crubba-sec-1 .columns-2, .portfolio-page.crubba .crubba-sec-1 .w-row,
+.portfolio-page.crubba .crubba-sec-2 .columns-2,
+.portfolio-page.crubba .crubba-sec-2 .w-row,
+.portfolio-page.crubba .crubba-sec-3 .columns-2,
+.portfolio-page.crubba .crubba-sec-3 .w-row,
+.portfolio-page.crubba .crubba-sec-4 .columns-2,
+.portfolio-page.crubba .crubba-sec-4 .w-row,
+.portfolio-page.crubba .crubba-sec-5 .columns-2,
+.portfolio-page.crubba .crubba-sec-5 .w-row,
+.portfolio-page.crubba .crubba-sec-6 .columns-2,
+.portfolio-page.crubba .crubba-sec-6 .w-row,
+.portfolio-page.crubba .crubba-sec-7 .columns-2,
+.portfolio-page.crubba .crubba-sec-7 .w-row,
+.portfolio-page.crubba .crubba-sec-8 .columns-2,
+.portfolio-page.crubba .crubba-sec-8 .w-row,
+.portfolio-page.crubba .crubba-sec-9 .columns-2,
+.portfolio-page.crubba .crubba-sec-9 .w-row {
+  width: 100% !important;
+}
+.portfolio-page.crubba .crubba-sec-2 {
+  position: relative;
+}
+.portfolio-page.crubba .crubba-sec-2 .crubba-sec-2-img-1 {
+  position: absolute;
+  top: auto;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+.portfolio-page.crubba .crubba-sec-2 .crubba-sec-2-img-2 {
+  position: absolute;
+  top: auto;
+  left: auto;
+  right: -100px;
+  bottom: 160px;
+  z-index: 1;
+}
+.portfolio-page.crubba .crubba-sec-2 .crubba-sec-2-img-3 {
+  position: absolute;
+  top: auto;
+  left: -100px;
+  right: auto;
+  bottom: 160px;
+  z-index: 1;
 }/*# sourceMappingURL=custom.css.map */

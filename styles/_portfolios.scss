@@ -5602,10 +5602,1353 @@
           color: #FFFFFF;
         }
       }
+    }   
+
+  }
+}
+
+
+
+// Moneyguru website
+.portfolio-page {
+  &.phychem {
+    @media screen and (max-width: 1200px) {
+      .cus-container {
+        max-width: 100%;
+        padding: 0 30px;
+      }
+
+      section.aaloch-s-1.moneyguru1 {
+        padding: 50px 0;
+      }
+
+      section.aaloch-s-1.moneyguru1 .heading-24.black {
+        font-size: 42px;
+        line-height: 1.4;
+      }
+
+      section.aaloch-s-1.moneyguru1 .w-col.w-col-6 {
+        height: auto;
+      }
+
+      section.aaloch-s-1.moneyguru1 .w-row {
+        display: flex;
+      }
+
+      .vimson-sec2.vigan.smartlink.insisive {
+        height: auto;
+        padding: 50px 0 0;
+      }
+
+      .side-bt-side-content.vimson-sec3 .white-bg.insisive3.w-col.w-col-6 {
+        padding: 60px 40px 60px 40px;
+        height: auto;
+      }
+
+      .side-bt-side-content.vimson-sec3 .blue-bg.other-blue.nav-blu.black-bg.w-col.w-col-6 {
+        padding: 60px 40px 60px 40px;
+        height: auto;
+      }
+
+      .concerro-6.smart360-7.moneyguru4.money58 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+      }
+
+      .moneyguru7 {
+        height: auto;
+        padding: 100px 0;
+      }
+
+      .moneyguru7 .moneyguru-left-col {
+        height: auto;
+      }
+
+      .moneyguru7 .w-row {
+        display: flex;
+        align-items: center;
+      }
+
+      .concerro-6.smart360-7.moneyguru4 {
+        padding-top: 80px;
+        padding-bottom: 80px;
+      }
+
+      section.vimson-sec5.authntick4.moneyguru-comb {
+        padding: 80px 0;
+      }
+    }
+    @media screen and (max-width: 991px) {
+      section.aaloch-s-1.moneyguru1 .heading-24.black {
+        font-size: 38px;
+      }
+
+      .vigan-s4.smart360-9 {
+        position: relative;
+        height: auto;
+        padding: 50px 0;
+      }
+
+      .vigan-s4.smart360-9::before {
+        content: '';
+        background: #000;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0.5;
+      }
+
+      .vigan-s4.smart360-9 .box-content-white.max50 {
+        position: relative;
+        padding: 0;
+        max-width: 100%;
+      }
+
+      .vigan-s4.smart360-9 .box-content-white.max50 h1,
+      .vigan-s4.smart360-9 .box-content-white.max50 p {
+        color: #fff;
+      }
+
+      .work-testimonial {
+        padding: 50px 0px;
+      }
+    }
+    @media screen and (max-width: 767px) {
+
+      section.aaloch-s-1.moneyguru1 {
+        height: auto;
+      }
+
+      section.aaloch-s-1.moneyguru1 .w-row {
+        display: block;
+      }
+
+      section.aaloch-s-1.moneyguru1 .heading-24.black {
+        font-size: 32px;
+      }
+
+      .heading-25 {
+        font-size: 32px;
+        margin-top: 0;
+      }
+
+      .heading-26.black-font {
+        font-size: 32px;
+        margin-top: 0;
+      }
+
+      .heading-26 {
+        font-size: 32px;
+        margin-top: 0;
+      }
+
+      .concerro-6.smart360-7.moneyguru4 .white-heading-center.black {
+        font-size: 32px;
+      }
+
+      .zig-zag-left-con.bgf7f7f7.adsaaas .columns-3.w-row {
+        display: grid;
+      }
+
+      .zig-zag-left-con.bgf7f7f7.adsaaas .columns-3.w-row .column-4.w-col.w-col-6 {
+        order: 1;
+        margin-bottom: 30px;
+      }
+
+      .zig-zag-left-con.bgf7f7f7.adsaaas .columns-3.w-row .w-col.w-col-6 {
+        order: 2;
+      }
+
+      section.moneyguru7 {
+        background-color: #ffaa04;
+      }
+
+      section.moneyguru7 .w-row {
+        display: block;
+      }
+
+      .moneyguru7 .moneyguru-left-col {
+        max-width: 65%;
+      }
+
+      .moneyguru7.moneyguru9 .box-content-white.pd-l-40 {
+        max-width: 75%;
+      }
+
+      section.vimson-sec5.authntick4.moneyguru-comb .cus-flexx.w-row {
+        display: block;
+      }
+
+      section.vimson-sec5.authntick4.moneyguru-comb .cus-flexx.w-row .w-col.w-col-6 {
+        padding: 0;
+      }
+
+    }
+    @media screen and (max-width:1940px) {
+      .vimson-sec1.notionedge1 {
+        margin: 0;
+        margin-top: -64px;
+      }
+
+      .banner-full-title {
+        font-size: 70px;
+        font-weight: 700;
+        line-height: 88px;
+      }
+
+      .cus-container {
+        max-width: 1260px !important;
+      }
+
+      .vimson-sec2 {
+        height: 100vh
+      }
+
+      .content-block-flex {
+        margin: 0 auto;
+      }
+
+      .heading-25 {
+        line-height: 74px;
+        font-size: 54px;
+        font-weight: 600;
+      }
+
+      .blue-bg.other-blue {
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 0px;
+      }
+
+      .white-bg {
+        justify-content: end;
+        align-items: center;
+        padding-top: 0px;
+
+      }
+
+      .blue-bg .box-content-white {
+        max-width: 490px;
+      }
+
+      .white-bg .box-content-white {
+        max-width: 490px;
+      }
+
+      .heading-26 {
+        margin-bottom: 20px;
+        font-size: 54px;
+        font-weight: 600;
+        line-height: 74px;
+      }
+
+      .vimson-sec4 {
+        height: 100vh;
+      }
+
+      .cus-flexx {
+        height: 100vh;
+      }
+
+      .vimson-sec5 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+      }
+
+      .work-testimonial {
+        padding: 0;
+      }
+
+      .testimovial {
+        height: 100vh;
+        justify-content: center;
+        align-content: center;
+      }
+    }
+    @media screen and (max-width:1600px) {
+      .vimson-sec4 {
+        height: 90vh;
+      }
+    }
+    @media screen and (max-width:1400px) {
+      .vimson-sec4 {
+        height: 80vh;
+      }
+
+      .cus-container {
+        max-width: 1110px !important;
+      }
+
+      .vimson-sec7 img {
+        height: 100vh;
+      }
+    }
+    @media screen and (max-width: 1200px) {
+      .white-bg {
+
+        padding-left: 60px;
+        padding-right: 80px;
+      }
+
+      .blue-bg {
+        padding-left: 60px;
+        padding-right: 80px;
+      }
+
+      .vimson-sec4 {
+        height: 75vh;
+      }
+
+      .banner-full-title {
+        font-size: 54px;
+        font-weight: 700;
+        line-height: 73px;
+      }
+
+      .heading-25 {
+        line-height: 52px;
+        font-size: 40px;
+      }
+
+      .heading-26 {
+        margin-bottom: 20px;
+        font-size: 40px;
+        line-height: 52px;
+      }
+    }
+    @media screen and (max-width: 1024px) {
+      .cus-container {
+        max-width: 960px !important;
+      }
+
+      .white-bg {
+        padding-left: 40px;
+        padding-right: 40px;
+      }
+
+      .blue-bg {
+        padding-left: 40px;
+        padding-right: 40px;
+      }
+
+      .vimson-sec8 img {
+        height: 100vh;
+      }
+
+    }
+    @media screen and (max-width: 1940px) {
+      .aaloch-s-1 {
+        margin: 0;
+        margin-top: -64px;
+      }
+
+      .cus-container {
+        max-width: 1260px !important;
+      }
+
+      .heading-24 {
+        font-size: 60px;
+        font-weight: 700 !important;
+        line-height: 80px !important;
+      }
+
+      .content-block-flex {
+        margin: 0 auto;
+      }
+
+      .heading-25 {
+        font-size: 54px;
+        line-height: 74px;
+      }
+
+      .blue-bg.other-blue {
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 0px;
+      }
+
+      .white-bg {
+        justify-content: end;
+        align-items: center;
+        padding-top: 0px;
+
+      }
+
+      .blue-bg .box-content-white {
+        max-width: 490px;
+      }
+
+      .white-bg .box-content-white {
+        max-width: 490px;
+      }
+
+      .heading-26 {
+        margin-bottom: 20px;
+        font-size: 54px;
+        font-weight: 600;
+        line-height: 74px;
+      }
+
+      .blue-bg.other-blue.nav-blu.black-bg {
+        background-color: #1E1E1E;
+      }
+
+      .white-heading-center {
+        font-size: 54px;
+        line-height: 74px;
+      }
+
+      .concerro-6.smart360-7.moneyguru4 .cus-container {
+        max-width: 1400px !important;
+      }
+
+      .concerro-6.smart360-7.moneyguru4 img {
+        padding-top: 50px;
+      }
+
+      .concerro-6.smart360-7.moneyguru4.money58 .cus-container {
+        max-width: 1260px !important;
+      }
+
+      .center-content {
+        height: 100vh;
+        align-content: end;
+      }
+
+      .concerro-6 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+      }
+
+      .landing-image {
+        width: 80%;
+      }
+
+      .columns-3 {
+        height: 100vh;
+      }
+
+      .zig-zag-left-con {
+        padding-top: 0px;
+        padding-bottom: 0px;
+      }
+
+      .data-img {
+        width: 80%;
+      }
+
+      .work-testimonial {
+        padding: 0;
+      }
+
+      .testimovial {
+        height: 100vh;
+        justify-content: center;
+        align-content: center;
+      }
+
+      .vigan-s4.smart360-9 .paragraph-18 {
+        margin-bottom: 30px;
+        font-size: 20px;
+      }
+
+      .paragraph-18 {
+        font-size: 20px;
+        line-height: 32px;
+      }
+
+      .paragraph-17 {
+        font-size: 20px;
+        line-height: 32px;
+      }
+    }
+    @media screen and (max-width: 1400px) {
+      .cus-container {
+        max-width: 1110px !important;
+      }
+
+      .heading-24 {
+        margin-top: 10px;
+        font-size: 52px;
+        line-height: 73px !important;
+      }
+
+      .vimson-sec2 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+
+      }
+
+      .white-heading-center {
+        font-size: 40px;
+        line-height: 52px;
+      }
+
+      .heading-26 {
+        font-size: 40px;
+        line-height: 52px;
+      }
+
+      .moneyguru7 {
+        background-position: 90%;
+      }
+    }
+    @media screen and (max-width: 1200px) {
+      .heading-25 {
+        font-size: 40px;
+        line-height: 52px;
+      }
+
+      .white-bg {
+
+        padding-left: 0px;
+        padding-right: 60px;
+      }
+
+      .blue-bg {
+        padding-left: 60px;
+        padding-right: 0px;
+      }
+
+      .concerro-6.smart360-7.moneyguru4 .cus-container {
+        max-width: 1110px !important;
+      }
+
+      .concerro-6.smart360-7.moneyguru4 img {
+        padding-top: 150px;
+      }
+
+      .paragraph-18.center.black {
+        max-width: 850px;
+        margin: 0 auto;
+      }
+
+      .moneyguru7 {
+        background-position: 50%;
+      }
+    }
+    @media screen and (max-width: 1024px) {
+      .cus-container {
+        max-width: 960px !important;
+      }
+
+      .heading-24 {
+        margin-top: 10px;
+        font-size: 48px;
+        line-height: 73px !important;
+      }
+
+      .white-bg {
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+
+      .blue-bg {
+        padding-left: 30px;
+        padding-right: 40px;
+      }
+    }
+    @media screen and (max-width:767px) {
+      .column-5 {
+        height: auto;
+        padding-top: 120px;
+      }
+
+      .bottom-image {
+        height: auto;
+      }
+
+      section.aaloch-s-1.moneyguru1 .heading-24.black {
+        line-height: normal !important;
+      }
+
+      .vimson-sec2.vigan.smartlink {
+        height: auto;
+        padding: 50px 0;
+      }
+
+      .white-bg {
+        height: auto;
+        padding: 50px 20px;
+      }
+
+      .paragraph-17 {
+        font-size: 16px;
+        line-height: 32px;
+      }
+
+      .paragraph-18 {
+        font-size: 16px;
+        line-height: 32px;
+      }
+
+      .white-bg .box-content-white {
+        max-width: 100%;
+      }
+
+      .blue-bg {
+        height: auto;
+        padding: 50px 20px !important;
+      }
+
+      .blue-bg .box-content-white {
+        max-width: 100%;
+
+      }
+
+      .center-content {
+        height: auto;
+        padding-top: 50px;
+        align-content: end;
+      }
+
+      .concerro-6.smart360-7.moneyguru4 img {
+        padding-top: 50px;
+      }
+
+      .columns-3 {
+        height: auto;
+        padding-top: 50px;
+      }
+
+      .moneyguru7 {
+        height: auto;
+      }
+
+      .moneyguru-left-col {
+        height: 50vh;
+      }
+
+      .heading-26 {
+        font-size: 30px;
+        line-height: 40px;
+      }
+
+      .concerro-6.smart360-7.moneyguru4 .white-heading-center.black {
+        line-height: normal;
+      }
+
+      .vimson-sec5 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+
+      .testimovial {
+        height: auto;
+        padding: 50px 0;
+      }
     }
 
 
-    
+    .phychem-sec-1,
+    .phychem-sec-2,
+    .phychem-sec-3,
+    .phychem-sec-4,
+    .phychem-sec-5,
+    .phychem-sec-6,
+    .phychem-sec-7,
+    .phychem-sec-8,
+    .phychem-sec-9,
+    .phychem-sec-10,
+    .phychem-sec-11,
+    .phychem-sec-12,
+    .phychem-sec-13,
+    .phychem-sec-14,
+    .phychem-sec-15 {
+      position: relative;
+      height: 100vh;
+      margin: 0 !important;
+      .columns-2, .w-row {
+        width: 100%;
+      }
+    }
 
+
+  }
+}
+
+
+
+
+// bynry
+.portfolio-page {
+  &.bynry {
+    @media screen and (max-width: 1200px) {
+      .aaloch-s-1 {
+        margin-top: 20px;
+      }
+
+      .aaloch-s-1 .heading-24 {
+        font-size: 49px;
+      }
+    }  
+    @media screen and (max-width: 1024px) {
+      .cus-container {
+        max-width: 100%;
+        padding-left: 30px;
+      }
+
+      .aaloch-s-1 .heading-24 {
+        font-size: 44px;
+      }
+
+      .aaloch-s-1 {
+        margin-top: 20px;
+        height: auto;
+        padding: 100px 0;
+      }
+
+      .aaloch-s-1 .column-5 {
+        height: auto;
+      }
+
+      .aaloch-s-1 .bottom-image {
+        height: auto;
+      }
+
+      .vimson-sec5 {
+        padding: 60px 0;
+      }
+
+      .vimson-sec5 .paragraph-18 {
+        font-size: 16px;
+      }
+
+      .side-bt-side-content .blue-bg {
+        padding: 100px 30px;
+        height: auto;
+      }
+
+      .side-bt-side-content .white-bg {
+        padding: 100px 30px;
+        height: auto;
+      }
+
+      .side-bt-side-content .paragraph-18 {
+        font-size: 16px;
+      }
+
+      .vimson-sec2 .paragraph-17 {
+        font-size: 16px;
+      }
+
+      .vimson-sec2 {
+        padding-top: 70px;
+      }
+
+      .vimson-sec4 .paragraph-18 {
+        font-size: 16px;
+      }
+
+      .zig-zag-left-con .paragraph-18 {
+        font-size: 16px;
+        padding-right: 30px;
+      }
+
+      .vigan-s4 {
+        height: auto;
+        padding: 50px 0;
+        display: block
+      }
+
+      .vigan-s4 .paragraph-18 {
+        font-size: 16px;
+      }
+    }  
+    @media screen and (max-width: 767px) {
+      .aaloch-s-1 .heading-24 {
+        font-size: 40px;
+      }
+
+      .vimson-sec5 .cus-flexx {
+        display: block;
+      }
+
+      .vimson-sec5 {
+        padding: 30px 10px 30px 0;
+      }
+
+      .side-bt-side-content .heading-26 {
+        font-size: 28px;
+      }
+
+      .side-bt-side-content .white-bg {
+        padding: 30px;
+      }
+
+      .side-bt-side-content .blue-bg {
+        padding: 30px;
+      }
+
+      .vimson-sec2 .heading-25 {
+        font-size: 28px;
+      }
+
+      .vimson-sec4.notionedge4.bynry5 {
+        position: relative;
+        background-size: cover;
+        height: auto;
+        padding: 50px 0;
+      }
+
+      .vimson-sec4.notionedge4.bynry5::before {
+        content: '';
+        background: #000;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        opacity: 0.7;
+        position: relative;
+      }
+
+      .box-content-white.max50 {
+        position: relative;
+        max-width: 100%;
+      }
+
+      .vimson-sec4 .heading-26 br {
+        display: none;
+      }
+
+      .vimson-sec4 .heading-26 {
+        font-size: 28px;
+      }
+
+      .zig-zag-left-con .columns-3 {
+        display: block;
+      }
+
+      .zig-zag-left-con {
+        padding: 30px 0;
+      }
+
+      .zig-zag-left-con .heading-26 {
+        font-size: 28px;
+      }
+
+      .zig-zag-left-con .heading-26 br {
+        display: none;
+      }
+
+      .work-two-col-testimonial-col1 {
+        padding: 30px;
+        height: auto;
+      }
+
+      .iocn-box .iconbox-vol {
+        width: 100%;
+      }
+
+      .work-two-col-testimonial-col2 {
+        padding: 40px;
+        height: auto;
+      }
+
+      .vigan-s4 .box-content-white.max50 {
+        max-width: 100%;
+        position: relative;
+
+      }
+
+      .vigan-s4.smart360-9 {
+        position: relative;
+      }
+
+      .vigan-s4.smart360-9::before {
+        content: '';
+        background: #fff;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        opacity: 0.7;
+      }
+
+      .vigan-s4 .heading-26 {
+        font-size: 28px;
+      }
+
+      .vimson-sec5 .heading-26 {
+        font-size: 28px;
+      }
+    }  
+    @media screen and (max-width: 1940px) {
+      .aaloch-s-1 {
+        margin: 0;
+        margin-top: -64px;
+      }
+
+      .heading-24 {
+        font-size: 70px;
+        font-weight: 700 !important;
+        line-height: 88px !important;
+      }
+
+      .heading-26 {
+        font-size: 54px;
+        font-weight: 600;
+        line-height: 74px;
+      }
+
+      .vimson-sec5-cont .box-content-white {
+        max-width: 490px;
+      }
+
+      .vimson-sec5-img .image-54 {
+        max-width: 800px !important;
+        width: 800px !important;
+      }
+
+      .vimson-sec5 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+      }
+
+      .cus-flexx {
+        height: 100vh;
+      }
+
+      .blue-bg.other-blue {
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 0px;
+      }
+
+      .white-bg {
+        justify-content: end;
+        align-items: center;
+        padding-top: 0px;
+
+      }
+
+      .blue-bg .box-content-white {
+        max-width: 490px;
+      }
+
+      .white-bg .box-content-white {
+        max-width: 490px;
+      }
+
+      .heading-26 {
+        margin-bottom: 20px;
+        font-size: 54px;
+        font-weight: 600;
+        line-height: 74px;
+      }
+
+      .heading-25 {
+        font-size: 54px;
+        font-weight: 600;
+        line-height: 74px;
+      }
+
+      .vimson-sec2.vigan.smartlink.insisive.authntick2.mytux-web2.d-blovk {
+        padding-bottom: 0px;
+      }
+
+      .vimson-sec2 {
+        padding-top: 50px;
+      }
+
+      .vimson-sec4 {
+        height: 100vh;
+      }
+
+      .columns-3 {
+        height: 100vh;
+      }
+
+      .zig-zag-left-con {
+        padding-top: 0px;
+        padding-bottom: 0px;
+      }
+
+      .zig-zag-left-con.bgf7f7f7.adsaaas.bynry6 .box-content-white.pd-l-40 {
+        padding-left: 50px;
+      }
+
+      .column-4 img {
+        width: 650px;
+        max-width: 650px;
+      }
+
+      .iconbox-vol {
+        align-items: center;
+      }
+
+      .work-two-col-testimonial-col1 {
+        padding-left: 400px
+      }
+
+      .work-two-col-testimonial-col2 {
+        justify-content: start;
+      }
+
+      .testimovial {
+        max-width: 490px;
+      }
+    }  
+    @media screen and (max-width: 1600px) {
+      .white-bg .box-content-white {
+        max-width: 400px;
+      }
+
+      .work-two-col-testimonial-col1 {
+        padding-left: 250px;
+      }
+    }  
+    @media screen and (max-width: 1400px) {
+      .heading-24 {
+        font-size: 52px;
+        line-height: 73px !important;
+      }
+
+      .heading-26 {
+        font-size: 40px;
+        line-height: 52px;
+      }
+
+      .heading-25 {
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 52px;
+      }
+
+      .vimson-sec2 {
+        padding-top: 150px;
+      }
+
+      .work-two-col-testimonial-col1 {
+        padding-left: 150px;
+      }
+    }  
+    @media screen and (max-width: 1200px) {
+      .heading-24 {
+        font-size: 47px;
+        line-height: 73px !important;
+      }
+
+      .white-bg {
+        padding-left: 120px;
+      }
+
+      .vimson-sec4 {
+        height: 75vh;
+      }
+
+      .zig-zag-left-con.bgf7f7f7.adsaaas .paragraph-18 {
+        padding-right: 40px;
+      }
+
+      .work-two-col-testimonial-col1 {
+        padding-left: 130px;
+      }
+    }  
+    @media screen and (max-width: 1024px) {
+      .aaloch-s-1 {
+        height: 100vh;
+        align-content: center;
+      }
+
+      .vimson-sec5-img .image-54 {
+        max-width: 100% !important;
+        width: 100% !important;
+      }
+
+      .vimson-sec5 .paragraph-18 {
+        font-size: 20px;
+        line-height: 32px;
+      }
+
+      .side-bt-side-content .white-bg {
+        padding: 0px 50px;
+        height: 100vh;
+      }
+
+      .side-bt-side-content .blue-bg {
+        padding: 0px 30px;
+        height: 100vh;
+      }
+
+      .side-bt-side-content .paragraph-18 {
+        font-size: 20px;
+        line-height: 32px;
+      }
+
+      .vimson-sec2 .paragraph-17 {
+        font-size: 20px;
+      }
+
+      .vimson-sec4 .paragraph-18 {
+        font-size: 20px;
+        line-height: 32px;
+      }
+
+      .zig-zag-left-con .paragraph-18 {
+        font-size: 20px;
+        line-height: 32px;
+      }
+
+      .work-two-col-testimonial-col1 {
+        padding-left: 60px;
+      }
+
+      .cus-container {
+        max-width: 960px !important;
+      }
+    }  
+    @media screen and (max-width: 767px) {
+      .aaloch-s-1 {
+        height: auto;
+        align-content: center;
+        padding: 120px 0;
+      }
+
+      .aaloch-s-1 .heading-24 {
+        font-size: 40px;
+        line-height: normal !important;
+      }
+
+      .vimson-sec5 .paragraph-18 {
+        font-size: 16px;
+      }
+
+      .vimson-sec5-cont .box-content-white {
+        max-width: 100%;
+      }
+
+      .cus-flexx {
+        height: auto;
+      }
+
+      .side-bt-side-content .white-bg {
+        padding: 50px 40px;
+        height: auto;
+      }
+
+      .white-bg .box-content-white {
+        max-width: 100%;
+      }
+
+      .side-bt-side-content .paragraph-18 {
+        font-size: 16px;
+      }
+
+      .side-bt-side-content .blue-bg {
+        padding: 50px 40px;
+        height: auto;
+      }
+
+      .blue-bg .box-content-white {
+        max-width: 100%;
+      }
+
+      .vimson-sec2 {
+        padding-top: 50px;
+      }
+
+      .vimson-sec2 .paragraph-17 {
+        font-size: 16px;
+      }
+
+      .vimson-sec4.notionedge4.bynry5::before {
+        opacity: 0.8;
+      }
+
+      .vimson-sec4.notionedge4.bynry5 {
+        padding: 100px 0;
+      }
+
+      .columns-3 {
+        height: auto;
+        padding: 50px 0;
+      }
+
+      .zig-zag-left-con.bgf7f7f7.adsaaas.bynry6 .box-content-white.pd-l-40 {
+        padding-left: 0px;
+      }
+
+      .iocn-box {
+
+        align-content: center;
+        justify-content: center;
+      }
+
+      .testimovial {
+        max-width: 100%;
+      }
+
+      .vimson-sec4 .paragraph-18 {
+        font-size: 16px;
+      }
+
+      .zig-zag-left-con .paragraph-18 {
+        font-size: 16px;
+      }
+
+      .box-content-white.max50 {
+        padding-right: 0;
+      }
+    }
+
+    .bynry-sec-1,
+    .bynry-sec-2,
+    .bynry-sec-3,
+    .bynry-sec-4,
+    .bynry-sec-5,
+    .bynry-sec-6,
+    .bynry-sec-7,
+    .bynry-sec-8,
+    .bynry-sec-9 {
+      position: relative;
+      height: 100vh !important;
+      margin: 0 !important;
+      .columns-2, .w-row {
+        width: 100% !important;
+      }
+    }
+
+    .bynry-sec-4 {
+      height: 100vh;
+    }
+
+    .bynry-sec-1 {
+      p {
+        margin-bottom: 30px;
+      }
+    } 
+    .bynry-sec-2 {
+      background-image: none;
+    }
+    .bynry-sec-3 {
+      .white-bg {
+        .box-content-white {
+          position: relative;
+          left: -70px;
+        } 
+      }
+    }
+    .bynry-sec-4 {
+      .content-block-flex {
+        .h3 {
+          text-align: center;
+          margin-top: 40px;
+        }
+      }
+      .result-div {
+        display: block;
+        .result-img {
+          position: absolute;
+          display: block;
+          width: 1014px;
+          margin: 0 auto;
+          height: auto;
+          top: auto;
+          bottom: 0;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        background: #051941;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 140px;
+        z-index: -1;
+      }
+    }
+    .bynry-sec-5 {
+      background-size: 50% 100%;
+      .box-content-white.max50 {
+        padding-right: 0;
+      }
+    }
+    .bynry-sec-6 {
+      .col-3-img {
+        position: relative;
+        width: 850px;
+        height: auto;
+        max-width: unset;
+        top: 0;
+        left: -140px;
+      }
+    }
+    .bynry-sec-7 {
+      .box-content-white {
+        .h3 {
+          position: relative;
+          width: 130%;
+        }
+      }
+    }
+
+  }
+}
+
+
+
+
+// crubba
+.portfolio-page {
+  &.crubba {
+
+
+    .crubba-sec-1,
+    .crubba-sec-2,
+    .crubba-sec-3,
+    .crubba-sec-4,
+    .crubba-sec-5,
+    .crubba-sec-6,
+    .crubba-sec-7,
+    .crubba-sec-8,
+    .crubba-sec-9 {
+      position: relative;
+      height: 100vh !important;
+      margin: 0 !important;
+      .columns-2, .w-row {
+        width: 100% !important;
+      }
+    }
+    .crubba-sec-1 {}
+    .crubba-sec-2 {
+      position: relative;
+      .crubba-sec-2-img-1 {
+        position: absolute;
+        top: auto;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+      }
+      .crubba-sec-2-img-2 {
+        position: absolute;
+        top: auto;
+        left: auto;
+        right: -100px;
+        bottom: 160px;
+        z-index: 1;
+      }
+      .crubba-sec-2-img-3 {
+        position: absolute;
+        top: auto;
+        left: -100px;
+        right: auto;
+        bottom: 160px;
+        z-index: 1;
+      }
+    }
   }
 }

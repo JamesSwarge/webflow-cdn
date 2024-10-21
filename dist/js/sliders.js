@@ -116,6 +116,20 @@ $(document).ready(function () {
       },
   });
 
+  var swiper = new Swiper(".cruba-slider", {
+    grabCursor: true,
+    loop:true,
+    centeredSlides: true,
+    slidesPerView: "1",
+    slideShadows: true,
+    coverflowEffect: {
+      slideShadows: true,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
+
 
 });
 
