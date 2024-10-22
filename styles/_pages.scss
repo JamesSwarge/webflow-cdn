@@ -2543,7 +2543,6 @@
 }
 
 
-
 // AI
 .ai-page {
 	.growth-l {
@@ -3004,17 +3003,14 @@
 }
 
 
-
 .fintech-page {
 	.custom-button {
 		color: #000 !important;
 	}
-
 	.custom-button:hover {
 		color: #000;
 
 	}
-
 	.fileds-wrapper input,
 	.fileds-wrapper select,
 	.fileds-wrapper textarea {
@@ -3030,60 +3026,49 @@
 		font-family: 'Open Sans';
 		font-weight: 400;
 	}
-
 	.captch-filed {
 		display: flex;
 	}
-
 	.captch-filed label.w-checkbox {
 		width: 48%;
 		margin: 0 0 0 1%;
 	}
-
 	.w-form-formrecaptcha {
 		width: 48%;
 		margin: 0 2% 0 0;
 	}
-
 	.check-box-wrap {
 		align-items: flex-start;
 		margin-bottom: 30px;
 	}
-
 	.cont-form-row {
 		max-width: 1040px;
 		margin: 90px auto 0;
 	}
-
 	.w-checkbox {
 		width: 100%;
 		margin-bottom: 5px;
 		padding-left: 35px;
 		display: block;
 	}
-
 	.checkbox-label {
 		line-height: 29px;
 	}
-
 	.w-checkbox-input {
 		margin: 5px 0 0 -35px;
 		width: 20px;
 		height: 20px;
 	}
-
 	.w-radio-input {
 		margin: 5px 0 0 -35px;
 		width: 20px;
 		height: 20px;
 	}
-
 	@media screen and (max-width: 1440px) {
 		.contact-form-wrapper {
 			padding-top: 0px;
 		}
 	}
-
 	@media screen and (max-width: 1200px) {
 		.contact-form-wrapper {
 			margin-left: 30px;
@@ -3108,7 +3093,6 @@
 			margin: 90px 0 0;
 		}
 	}
-
 	@media screen and (max-width: 1024px) {
 		.contact-details .cont-det-wrapper {
 			padding: 30px;
@@ -3125,9 +3109,6 @@
 		}
 
 	}
-
-
-
 	@media screen and (max-width: 767px) {
 		.fileds-wrapper {
 			grid-template-columns: 1fr;
@@ -3235,13 +3216,11 @@
 			align-items: center;
 		}
 	}
-
 	@media screen and (max-width: 1600px) {
 		.div-block-8 {
 			width: 100%;
 		}
 	}
-
 	@media screen and (max-width: 1200px) {
 		.heading-6.fw-6 {
 			font-size: 40px;
@@ -3285,7 +3264,6 @@
 			max-height: 450px;
 		}
 	}
-
 	@media screen and (max-width: 767px) {
 		.about-sec-one {
 			height: auto;
@@ -3433,7 +3411,6 @@
 			max-width: 100%;
 		}
 	}
-
 	@media screen and (max-width: 1920px) {
 		.fint-sec-1 .about-sec-one {
 			height: auto;
@@ -3458,7 +3435,6 @@
 			padding: 100px 0;
 		}
 	}
-
 	@media screen and (max-width: 767px) {
 		.about-section1.fint-sec-1 {
 			display: none;
@@ -3540,4 +3516,8 @@
 			padding-right: 5px;
 		}
 	}
+
+	
+
+
 }
