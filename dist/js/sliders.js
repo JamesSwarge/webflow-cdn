@@ -116,7 +116,7 @@ $(document).ready(function () {
       },
   });
 
-  var swiper = new Swiper(".cruba-slider", {
+  var swiper3 = new Swiper(".cruba-slider", {
     grabCursor: true,
     loop:true,
     centeredSlides: true,
@@ -133,6 +133,26 @@ $(document).ready(function () {
       disableOnInteraction: false,
     },
   });
+
+  var swiper4 = new Swiper(".esop-y-slider", {
+    grabCursor: true,
+    loop:true,
+    centeredSlides: true,
+    slidesPerView: "1",
+    speed: 1200,
+    effect: "cards",
+    grabCursor: true,
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });  
 
 
 });

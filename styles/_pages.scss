@@ -2491,26 +2491,6 @@
 		}
 	}
 
-
-	.fintech-form-wrap {
-		.fintech-form {
-			.pr-input-text-wrapper {
-				.pr-input-text-label {
-					color: #FFFFFF;
-				}
-				.pr-input-text-field {
-					color: #FFFFFF;
-					background: transparent;
-					padding-left: 0;
-					&:focus {
-						color: #FFFFFF;
-						border-color: #FFFFFF;
-					}
-				}
-			}
-		}
-	}
-
 	.ux-sec-5,
 	.ux-sec-6,
 	.ux-sec-8 {
@@ -3517,7 +3497,60 @@
 		}
 	}
 
-	
 
+	.fint-sec-1,
+	.fint-sec-2,
+	.fint-sec-3,
+	.fint-sec-4,
+	.fint-sec-5,
+	.fint-sec-6,
+	.fint-sec-9 {
+		margin: 0 !important;
+		min-height: 100vh;
+		height: auto;
+	}
+
+	.fint-sec-1 {
+		.indus-heading {
+			font-size: 54px;
+			line-height: 68px;
+			font-weight: 700;
+		}
+	}
+	.fint-sec-2 {
+		padding: 200px 0;
+		.brand-head {
+			.h3 {
+				margin-bottom: 100px;
+			}
+		}
+	}
+	.fint-sec-3 {
+		.custom-list {
+			padding: 0;
+			.fintect-list {
+				position: relative;
+				padding-left: 18px;
+				margin: 0;
+				&::before {
+					position: absolute;
+					content: '';
+					display: block;
+					background-color: #FF5500;
+					height: 5px;
+					width: 5px;
+					border-radius: 50%;
+					top: 12px;
+					left: 4px;
+					z-index: 1;
+				}
+			}
+		}
+	}
+
+	.fint-sec-5 {
+		padding: 100px 0;
+	}
+	
 
 }

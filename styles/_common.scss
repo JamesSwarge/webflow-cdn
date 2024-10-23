@@ -1227,3 +1227,30 @@ footer.pr-footer-wrapper {
     }
   }
 }
+
+
+.fintech-form-wrap {
+  .fintech-form {
+    .pr-input-text-wrapper {
+      .pr-input-text-label {
+        color: #FFFFFF;
+      }
+      .pr-input-text-field {
+        color: #FFFFFF;
+        background: transparent;
+        padding-left: 0;
+        &:focus {
+          color: #FFFFFF;
+          border-color: #FFFFFF;
+        }
+      }
+    }
+  }
+}
+
+.w-row {
+  width: 100%;
+}
+strong {
+  font-weight: 600;
+}
