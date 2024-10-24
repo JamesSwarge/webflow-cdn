@@ -137,20 +137,32 @@ $(document).ready(function () {
   var swiper4 = new Swiper(".esop-y-slider", {
     grabCursor: true,
     loop:true,
-    centeredSlides: true,
-    slidesPerView: "1",
-    speed: 1200,
-    effect: "cards",
+    // centeredSlides: true,
+    // slidesPerView: "1",
+    // speed: 1200,
+    // effect: "cards",
+    // grabCursor: true,
+    // coverflowEffect: {
+    //   rotate: 50,
+    //   stretch: 0,
+    //   depth: 100,
+    //   modifier: 1,
+    //   slideShadows: true,
+    // },
+    // pagination: {
+    //   el: ".swiper-pagination",
+    // },
+
+    effect: "coverflow",
     grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
     coverflowEffect: {
       rotate: 50,
       stretch: 0,
       depth: 100,
       modifier: 1,
-      slideShadows: true,
-    },
-    pagination: {
-      el: ".swiper-pagination",
+      slideShadows: false,
     },
   });  
 

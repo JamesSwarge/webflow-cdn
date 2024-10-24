@@ -8517,11 +8517,117 @@
       }
       .esop-sec7-bg-img {
         position: absolute;
+        display: block;
+        width: 1008px;
+        height: 640px;
         left: 50%;
         top: auto;
         bottom: -140px;
         transform: translateX(-50%);
         z-index: 1;
+      }
+    }
+
+    .esop-sec-9,
+    .esop-sec-10,
+    .esop-sec-11 {
+      position: relative;
+      z-index: 1;
+      background: none;
+      &::before {
+        position: absolute;
+        content: '';
+        width: 764.94px;
+        height: 764.94px;
+        background: #909090;
+        opacity: 0.1;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        margin-top: 13px;
+        z-index: 0;
+      }
+    }
+
+
+    .esop-sec-9,
+    .esop-sec-11 {
+      .esop8-zig-left-img-r-abs {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        z-index: 1;
+      }
+    }
+
+    .esop-sec-10 {
+      .esop8-zig-left-img-r-abs {
+        position: absolute;
+        top: 56% !important;
+        left: auto;
+        right: 0;
+        transform: translateY(-50%);
+        z-index: 1;
+      }
+    }
+
+    .esop-sec-11 {
+      .esop8-zig-left-img-r-abs {
+        left: 162px;
+      }
+    }
+
+    .esop-sec-12 {
+      padding-top: 150px;
+      .h3 {
+        text-align: center;
+        margin-bottom: 70px;
+      }
+    }
+    .esop-y-slider {
+      .swiper-wrapper {
+        .swiper-slide {
+          position: relative;
+          width: auto;
+          img {
+            object-fit: cover;
+          }
+        }
+      }
+    }
+
+    .esop-above-testi-content {
+      .esop-above-testi-content-roe {
+        display: flex;
+        .esop-above-testi-content1,
+        .esop-above-testi-content2 {
+          display: flex;
+          justify-content: center;
+          align-self: center;
+          flex-direction: column;
+          align-items: center;
+          align-content: center;
+          padding: 0;
+        }
+        .esop-above-testi-content2 {
+          > h3 {
+            position: relative;
+            left: -54px;
+          }
+        } 
+      }
+    }
+
+    .esop-sec-14 {
+      .testimovial {
+        max-width: 550px;
+        margin-left: auto;
+        margin-right: auto;
+        p {
+          text-align: center;
+        }
       }
     }
 

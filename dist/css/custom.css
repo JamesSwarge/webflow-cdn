@@ -11156,9 +11156,93 @@ strong {
 }
 .portfolio-page.esop .esop-sec-7 .esop-sec7-bg-img {
   position: absolute;
+  display: block;
+  width: 1008px;
+  height: 640px;
   left: 50%;
   top: auto;
   bottom: -140px;
   transform: translateX(-50%);
   z-index: 1;
+}
+.portfolio-page.esop .esop-sec-9,
+.portfolio-page.esop .esop-sec-10,
+.portfolio-page.esop .esop-sec-11 {
+  position: relative;
+  z-index: 1;
+  background: none;
+}
+.portfolio-page.esop .esop-sec-9::before,
+.portfolio-page.esop .esop-sec-10::before,
+.portfolio-page.esop .esop-sec-11::before {
+  position: absolute;
+  content: "";
+  width: 764.94px;
+  height: 764.94px;
+  background: #909090;
+  opacity: 0.1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  margin-top: 13px;
+  z-index: 0;
+}
+.portfolio-page.esop .esop-sec-9 .esop8-zig-left-img-r-abs,
+.portfolio-page.esop .esop-sec-11 .esop8-zig-left-img-r-abs {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+.portfolio-page.esop .esop-sec-10 .esop8-zig-left-img-r-abs {
+  position: absolute;
+  top: 56% !important;
+  left: auto;
+  right: 0;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+.portfolio-page.esop .esop-sec-11 .esop8-zig-left-img-r-abs {
+  left: 162px;
+}
+.portfolio-page.esop .esop-sec-12 {
+  padding-top: 150px;
+}
+.portfolio-page.esop .esop-sec-12 .h3 {
+  text-align: center;
+  margin-bottom: 70px;
+}
+.portfolio-page.esop .esop-y-slider .swiper-wrapper .swiper-slide {
+  position: relative;
+  width: auto;
+}
+.portfolio-page.esop .esop-y-slider .swiper-wrapper .swiper-slide img {
+  object-fit: cover;
+}
+.portfolio-page.esop .esop-above-testi-content .esop-above-testi-content-roe {
+  display: flex;
+}
+.portfolio-page.esop .esop-above-testi-content .esop-above-testi-content-roe .esop-above-testi-content1,
+.portfolio-page.esop .esop-above-testi-content .esop-above-testi-content-roe .esop-above-testi-content2 {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  padding: 0;
+}
+.portfolio-page.esop .esop-above-testi-content .esop-above-testi-content-roe .esop-above-testi-content2 > h3 {
+  position: relative;
+  left: -54px;
+}
+.portfolio-page.esop .esop-sec-14 .testimovial {
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.portfolio-page.esop .esop-sec-14 .testimovial p {
+  text-align: center;
 }/*# sourceMappingURL=custom.css.map */
