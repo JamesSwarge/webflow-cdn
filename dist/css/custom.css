@@ -11245,4 +11245,291 @@ strong {
 }
 .portfolio-page.esop .esop-sec-14 .testimovial p {
   text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .portfolio-page.mytrux-branding .cus-container {
+    max-width: 100%;
+    padding: 0 30px;
+  }
+  .portfolio-page.mytrux-branding .vimson-sec1.notionedge1 {
+    margin-top: 20px;
+    height: auto;
+    padding: 100px 0;
+  }
+  .portfolio-page.mytrux-branding .vimson-sec1.notionedge1 .banner-full-title.white {
+    font-size: 48px;
+    line-height: 1.3;
+  }
+  .portfolio-page.mytrux-branding .vimson-sec2.notionedge2 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .portfolio-page.mytrux-branding .side-bt-side-content.vimson-sec3 .white-bg.w-col.w-col-6 {
+    padding: 60px 40px 60px 40px;
+    height: auto;
+  }
+  .portfolio-page.mytrux-branding .side-bt-side-content.vimson-sec3 .blue-bg.other-blue.nav-blu.black-bg.w-col.w-col-6 {
+    padding: 60px 40px 60px 40px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 991px) {
+  .portfolio-page.mytrux-branding .vimson-sec1.notionedge1 .banner-full-title.white {
+    font-size: 38px;
+  }
+  .portfolio-page.mytrux-branding .vimson-sec2.notionedge2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .portfolio-page.mytrux-branding .heading-25 {
+    font-size: 32px;
+    margin-top: 0;
+  }
+  .portfolio-page.mytrux-branding .heading-26.black-font {
+    font-size: 32px;
+    margin-top: 0;
+  }
+  .portfolio-page.mytrux-branding .heading-26 {
+    margin-top: 0;
+    font-size: 32px;
+  }
+  .portfolio-page.mytrux-branding .vimson-sec4.notionedge4 {
+    height: auto;
+    padding: 30px 0;
+    background-size: 50%;
+  }
+  .portfolio-page.mytrux-branding .box-content-white.max50 {
+    padding-right: 20px;
+  }
+  .portfolio-page.mytrux-branding .vimson-sec5.notionedge5 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .portfolio-page.mytrux-branding .vimson-sec6 {
+    height: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .portfolio-page.mytrux-branding .vimson-sec1.notionedge1 .banner-full-title.white {
+    font-size: 32px;
+  }
+  .portfolio-page.mytrux-branding .vimson-sec4.notionedge4 {
+    background-size: 0;
+  }
+  .portfolio-page.mytrux-branding .box-content-white.max50 {
+    padding-right: 0;
+    max-width: 100%;
+  }
+  .portfolio-page.mytrux-branding .vimson-sec5.notionedge5 .cus-flexx.w-row {
+    display: grid;
+  }
+  .portfolio-page.mytrux-branding .vimson-sec5.notionedge5 .cus-flexx.w-row .w-col.w-col-6 {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 1940px) {
+  .portfolio-page.mytrux-branding .vimson-sec1.notionedge1 {
+    margin: 0;
+    margin-top: -64px;
+  }
+  .portfolio-page.mytrux-branding .banner-full-title {
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 88px;
+  }
+  .portfolio-page.mytrux-branding .cus-container {
+    max-width: 1260px !important;
+  }
+  .portfolio-page.mytrux-branding .vimson-sec2.notionedge2 {
+    height: 100vh;
+  }
+  .portfolio-page.mytrux-branding .content-block-flex {
+    margin: 0 auto;
+  }
+  .portfolio-page.mytrux-branding .heading-25 {
+    line-height: 74px;
+    font-size: 54px;
+    font-weight: 600;
+  }
+  .portfolio-page.mytrux-branding .blue-bg.other-blue {
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 0px;
+  }
+  .portfolio-page.mytrux-branding .white-bg {
+    justify-content: end;
+    align-items: center;
+    padding-top: 0px;
+  }
+  .portfolio-page.mytrux-branding .blue-bg .box-content-white {
+    max-width: 490px;
+  }
+  .portfolio-page.mytrux-branding .white-bg .box-content-white {
+    max-width: 490px;
+  }
+  .portfolio-page.mytrux-branding .heading-26 {
+    margin-bottom: 20px;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+  }
+  .portfolio-page.mytrux-branding .vimson-sec4 {
+    height: 100vh;
+  }
+  .portfolio-page.mytrux-branding .cus-flexx {
+    height: 100vh;
+  }
+  .portfolio-page.mytrux-branding .vimson-sec5 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .portfolio-page.mytrux-branding .vimson-sec4 {
+    height: 90vh;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .portfolio-page.mytrux-branding .vimson-sec4 {
+    height: 80vh;
+  }
+  .portfolio-page.mytrux-branding .cus-container {
+    max-width: 1110px !important;
+  }
+  .portfolio-page.mytrux-branding .vimson-sec7 img {
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .portfolio-page.mytrux-branding .white-bg {
+    padding-left: 60px;
+    padding-right: 80px;
+  }
+  .portfolio-page.mytrux-branding .blue-bg {
+    padding-left: 60px;
+    padding-right: 80px;
+  }
+  .portfolio-page.mytrux-branding .vimson-sec4 {
+    height: 75vh;
+  }
+  .portfolio-page.mytrux-branding .banner-full-title {
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 73px;
+  }
+  .portfolio-page.mytrux-branding .heading-25 {
+    line-height: 52px;
+    font-size: 40px;
+  }
+  .portfolio-page.mytrux-branding .heading-26 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    line-height: 52px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .portfolio-page.mytrux-branding .cus-container {
+    max-width: 960px !important;
+  }
+  .portfolio-page.mytrux-branding .white-bg {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .portfolio-page.mytrux-branding .blue-bg {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .portfolio-page.mytrux-branding .vimson-sec1 {
+    height: auto;
+    padding: 120px 0;
+  }
+  .portfolio-page.mytrux-branding .banner-full-title {
+    line-height: normal;
+  }
+  .portfolio-page.mytrux-branding .heading-25 {
+    line-height: 52px;
+    font-size: 32px;
+  }
+  .portfolio-page.mytrux-branding .vimson-sec2.notionedge2 {
+    height: auto;
+  }
+  .portfolio-page.mytrux-branding .white-bg {
+    justify-content: start;
+    align-items: center;
+    height: auto;
+    padding: 50px 20px;
+  }
+  .portfolio-page.mytrux-branding .white-bg .box-content-white {
+    max-width: 100%;
+  }
+  .portfolio-page.mytrux-branding .blue-bg .box-content-white {
+    max-width: 100%;
+  }
+  .portfolio-page.mytrux-branding .blue-bg.other-blue {
+    justify-content: start;
+    align-items: center;
+    height: auto;
+    padding: 50px 20px;
+  }
+  .portfolio-page.mytrux-branding .heading-26 {
+    margin-bottom: 10px;
+    font-size: 32px;
+    line-height: 52px;
+  }
+  .portfolio-page.mytrux-branding .cus-flexx {
+    height: auto;
+  }
+  .portfolio-page.mytrux-branding .vimson-sec7 img {
+    height: 50vh;
+  }
+  .portfolio-page.mytrux-branding .vimson-sec6 {
+    height: 50vh;
+  }
+}
+.portfolio-page.mytrux-branding .mytrux-branding-1,
+.portfolio-page.mytrux-branding .mytrux-branding-2,
+.portfolio-page.mytrux-branding .mytrux-branding-3,
+.portfolio-page.mytrux-branding .mytrux-branding-4,
+.portfolio-page.mytrux-branding .mytrux-branding-5,
+.portfolio-page.mytrux-branding .mytrux-branding-6,
+.portfolio-page.mytrux-branding .mytrux-branding-7,
+.portfolio-page.mytrux-branding .mytrux-branding-8,
+.portfolio-page.mytrux-branding .mytrux-branding-9 {
+  position: relative;
+  height: auto;
+  min-height: 100vh;
+  margin: 0 !important;
+}
+.portfolio-page.mytrux-branding .mytrux-branding-1 .pr-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.portfolio-page.mytrux-branding .mytrux-branding-1 .pr-container .center-content {
+  margin-left: auto;
+  margin-right: auto;
+}
+.portfolio-page.mytrux-branding .mytrux-branding-2 .content-block-flex .h3 {
+  text-align: center;
+}
+.portfolio-page.mytrux-branding .mytrux-branding-4 .vimson-sec4-cont {
+  display: flex;
+  justify-content: center;
+}
+.portfolio-page.mytrux-branding .mytrux-branding-4 .vimson-sec4-img {
+  position: relative;
+  padding: 0;
+}
+.portfolio-page.mytrux-branding .mytrux-branding-4 .vimson-sec4-img .mytrux-4-img {
+  position: relative;
+  top: 0;
+  left: -1px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
 }/*# sourceMappingURL=custom.css.map */

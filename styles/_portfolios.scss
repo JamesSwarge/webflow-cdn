@@ -8629,9 +8629,372 @@
           text-align: center;
         }
       }
+    }  
+  
+  }
+}
+
+
+
+
+// mytrux-branding
+.portfolio-page {
+  &.mytrux-branding {
+
+    @media screen and (max-width: 1200px) {
+      .cus-container {
+        max-width: 100%;
+        padding: 0 30px;
+      }
+
+      .vimson-sec1.notionedge1 {
+        margin-top: 20px;
+        height: auto;
+        padding: 100px 0;
+      }
+
+      .vimson-sec1.notionedge1 .banner-full-title.white {
+        font-size: 48px;
+        line-height: 1.3;
+      }
+
+      .vimson-sec2.notionedge2 {
+        padding-top: 100px;
+        padding-bottom: 100px;
+      }
+
+      .side-bt-side-content.vimson-sec3 .white-bg.w-col.w-col-6 {
+        padding: 60px 40px 60px 40px;
+        height: auto;
+      }
+
+      .side-bt-side-content.vimson-sec3 .blue-bg.other-blue.nav-blu.black-bg.w-col.w-col-6 {
+        padding: 60px 40px 60px 40px;
+        height: auto;
+      }
+    }
+    @media screen and (max-width: 991px) {
+      .vimson-sec1.notionedge1 .banner-full-title.white {
+        font-size: 38px;
+      }
+
+      .vimson-sec2.notionedge2 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+
+      .heading-25 {
+        font-size: 32px;
+        margin-top: 0;
+      }
+
+      .heading-26.black-font {
+        font-size: 32px;
+        margin-top: 0;
+      }
+
+      .heading-26 {
+        margin-top: 0;
+        font-size: 32px;
+      }
+
+      .vimson-sec4.notionedge4 {
+        height: auto;
+        padding: 30px 0;
+        background-size: 50%;
+      }
+
+      .box-content-white.max50 {
+        padding-right: 20px;
+      }
+
+      .vimson-sec5.notionedge5 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+
+      .vimson-sec6 {
+        height: auto;
+      }
+    }
+    @media screen and (max-width: 767px) {
+      .vimson-sec1.notionedge1 .banner-full-title.white {
+        font-size: 32px;
+      }
+
+      .vimson-sec4.notionedge4 {
+        background-size: 0;
+      }
+
+      .box-content-white.max50 {
+        padding-right: 0;
+        max-width: 100%;
+      }
+
+      .vimson-sec5.notionedge5 .cus-flexx.w-row {
+        display: grid;
+      }
+
+      .vimson-sec5.notionedge5 .cus-flexx.w-row .w-col.w-col-6 {
+        padding: 0;
+      }
+    }
+    @media screen and (max-width:1940px) {
+      .vimson-sec1.notionedge1 {
+        margin: 0;
+        margin-top: -64px;
+      }
+
+      .banner-full-title {
+        font-size: 70px;
+        font-weight: 700;
+        line-height: 88px;
+      }
+
+      .cus-container {
+        max-width: 1260px !important;
+      }
+
+      .vimson-sec2.notionedge2 {
+        height: 100vh
+      }
+
+      .content-block-flex {
+        margin: 0 auto;
+      }
+
+      .heading-25 {
+        line-height: 74px;
+        font-size: 54px;
+        font-weight: 600;
+      }
+
+      .blue-bg.other-blue {
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 0px;
+      }
+
+      .white-bg {
+        justify-content: end;
+        align-items: center;
+        padding-top: 0px;
+
+      }
+
+      .blue-bg .box-content-white {
+        max-width: 490px;
+      }
+
+      .white-bg .box-content-white {
+        max-width: 490px;
+      }
+
+      .heading-26 {
+        margin-bottom: 20px;
+        font-size: 54px;
+        font-weight: 600;
+        line-height: 74px;
+      }
+
+      .vimson-sec4 {
+        height: 100vh;
+      }
+
+      .cus-flexx {
+        height: 100vh;
+      }
+
+      .vimson-sec5 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+      }
+
+    }
+    @media screen and (max-width:1600px) {
+      .vimson-sec4 {
+        height: 90vh;
+      }
+    }
+    @media screen and (max-width:1400px) {
+      .vimson-sec4 {
+        height: 80vh;
+      }
+
+      .cus-container {
+        max-width: 1110px !important;
+      }
+
+      .vimson-sec7 img {
+        height: 100vh;
+      }
+    }
+    @media screen and (max-width: 1200px) {
+      .white-bg {
+
+        padding-left: 60px;
+        padding-right: 80px;
+      }
+
+      .blue-bg {
+        padding-left: 60px;
+        padding-right: 80px;
+      }
+
+      .vimson-sec4 {
+        height: 75vh;
+      }
+
+      .banner-full-title {
+        font-size: 54px;
+        font-weight: 700;
+        line-height: 73px;
+      }
+
+      .heading-25 {
+        line-height: 52px;
+        font-size: 40px;
+      }
+
+      .heading-26 {
+        margin-bottom: 20px;
+        font-size: 40px;
+        line-height: 52px;
+      }
+    }
+    @media screen and (max-width: 1024px) {
+      .cus-container {
+        max-width: 960px !important;
+      }
+
+      .white-bg {
+        padding-left: 40px;
+        padding-right: 40px;
+      }
+
+      .blue-bg {
+        padding-left: 40px;
+        padding-right: 40px;
+      }
+
+    }
+    @media screen and (max-width:767px) {
+      .vimson-sec1 {
+        height: auto;
+        padding: 120px 0;
+      }
+
+      .banner-full-title {
+        line-height: normal;
+      }
+
+      .heading-25 {
+        line-height: 52px;
+        font-size: 32px;
+      }
+
+      .vimson-sec2.notionedge2 {
+        height: auto;
+      }
+
+      .white-bg {
+        justify-content: start;
+        align-items: center;
+        height: auto;
+        padding: 50px 20px;
+      }
+
+      .white-bg .box-content-white {
+        max-width: 100%;
+      }
+
+      .blue-bg .box-content-white {
+        max-width: 100%;
+      }
+
+      .blue-bg.other-blue {
+        justify-content: start;
+        align-items: center;
+        height: auto;
+        padding: 50px 20px;
+      }
+
+      .heading-26 {
+        margin-bottom: 10px;
+        font-size: 32px;
+        line-height: 52px;
+      }
+
+      .cus-flexx {
+        height: auto;
+      }
+
+      .vimson-sec7 img {
+        height: 50vh;
+      }
+
+      .vimson-sec6 {
+        height: 50vh;
+      }
     }
 
-  
-  
+    .mytrux-branding-1,
+    .mytrux-branding-2,
+    .mytrux-branding-3,
+    .mytrux-branding-4,
+    .mytrux-branding-5,
+    .mytrux-branding-6,
+    .mytrux-branding-7,
+    .mytrux-branding-8,
+    .mytrux-branding-9 {
+      position: relative;
+      height: auto;
+      min-height: 100vh;
+      margin: 0 !important;
+    }
+
+    .mytrux-branding-1 {
+      .pr-container {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        .center-content {
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+    }
+    .mytrux-branding-2 {
+      .content-block-flex {
+        .h3 {
+          text-align: center;
+        }
+      }
+    }
+    .mytrux-branding-4 {
+      .vimson-sec4-cont {
+        display: flex;
+        justify-content: center;
+        .box-content-white {
+
+        }
+      }
+      .vimson-sec4-img {
+        position: relative;
+        padding: 0;
+        .mytrux-4-img {
+          position: relative;
+          top: 0;
+          left: -1px;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          z-index: 1;
+        }
+      }
+    }
+
+
   }
 }
