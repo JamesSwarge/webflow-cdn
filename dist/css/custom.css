@@ -12146,6 +12146,90 @@ strong {
   right: 12%;
   bottom: 0;
 }
+.portfolio-page.mytrux-web-app .mytrux-web-app-sec-5 .mytrux-app-5-cont .h3 {
+  position: relative;
+  max-width: 540px;
+}
+.portfolio-page.mytrux-web-app .mytrux-web-app-sec-5 .mytrux-app-5-img-bg {
+  display: block;
+  position: absolute;
+  height: 400px;
+  width: auto;
+  max-width: unset;
+  top: auto;
+  left: -170px;
+  right: auto;
+  bottom: 90px;
+  z-index: -1;
+}
+.portfolio-page.mytrux-web-app .mytrux-web-app-sec-5 .mytrux-app-5-img {
+  display: block;
+  position: absolute;
+  height: 756px;
+  width: 1075px;
+  max-width: unset !important;
+  top: 20vh;
+  left: auto;
+  right: -350px;
+  bottom: auto;
+  z-index: 1;
+  transform: none;
+}
+.portfolio-page.mytrux-web-app .mytrux-web-app-sec-6 .mytrux-web-app-sec-6-left {
+  position: absolute;
+  top: 11vh;
+  left: 12vw;
+  right: auto;
+  z-index: 1;
+}
+.portfolio-page.mytrux-web-app .mytrux-web-app-sec-6 .mytrux-web-app-sec-6-left .mytrux-web-app-sec-6-img-ttl {
+  display: inline-block;
+  position: relative;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.portfolio-page.mytrux-web-app .mytrux-web-app-sec-6 .mytrux-web-app-sec-6-left .mytrux-web-app-sec-6-img {
+  display: block;
+  position: relative;
+  top: 0;
+  left: 0px;
+  z-index: 1;
+}
+.portfolio-page.mytrux-web-app .mytrux-web-app-sec-6 .mytrux-web-app-sec-6-right {
+  position: absolute;
+  top: auto;
+  left: auto;
+  right: 12vw;
+  bottom: 7vh;
+}
+.portfolio-page.mytrux-web-app .mytrux-web-app-sec-6 .mytrux-web-app-sec-6-right .mytrux-web-app-sec-6-img-ttl {
+  display: inline-block;
+  position: relative;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.portfolio-page.mytrux-web-app .mytrux-web-app-sec-6 .mytrux-web-app-sec-6-right .mytrux-web-app-sec-6-img {
+  display: block;
+  position: relative;
+  top: 0;
+  left: 0px;
+  z-index: 1;
+}
+.portfolio-page.mytrux-web-app .mytrux-web-app-sec-7 .pr-container {
+  display: flex;
+  height: 100%;
+  align-content: center;
+  align-items: center;
+}
+.portfolio-page.mytrux-web-app .mytrux-web-app-sec-7 .mytrux-web-app-sec-7-img {
+  display: block;
+  height: 540px;
+  width: auto;
+  margin: 0 auto;
+  object-fit: cover;
+}
 .portfolio-page.mytrux-web-app .mytrux-web-app-sec-8 {
   background-color: #1e1e1e;
 }
@@ -12155,4 +12239,345 @@ strong {
   justify-content: center;
   align-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .portfolio-page.concerro .vimson-sec2.vigan.smartlink.concerro {
+    background-size: cover;
+    height: auto;
+  }
+  .portfolio-page.concerro .vimson-sec2 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .portfolio-page.concerro .vimson-sec4.concerro4 {
+    height: auto;
+    padding: 100px 0;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .portfolio-page.concerro .vimson-sec1 {
+    height: auto;
+    margin: 0;
+    padding: 80px 10px;
+    background-size: cover;
+  }
+  .portfolio-page.concerro .vimson-sec2 .paragraph-17 {
+    font-size: 16px;
+  }
+  .portfolio-page.concerro .vimson-sec1.concerro1 .banner-full-title {
+    font-size: 38px;
+    line-height: normal;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .portfolio-page.concerro .side-bt-side-content .blue-bg {
+    padding: 50px;
+    padding-bottom: 80px;
+    height: auto;
+  }
+  .portfolio-page.concerro .side-bt-side-content .white-bg {
+    padding: 50px;
+    height: auto;
+  }
+  .portfolio-page.concerro .side-bt-side-content .paragraph-18 {
+    font-size: 16px;
+  }
+  .portfolio-page.concerro .vimson-sec4.concerro4 {
+    padding-left: 40px;
+  }
+  .portfolio-page.concerro .vimson-sec4 .paragraph-18 {
+    font-size: 16px;
+  }
+  .portfolio-page.concerro .work-testimonial {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .portfolio-page.concerro .vimson-sec1 {
+    height: auto;
+    margin: 0;
+    padding: 50px 10px;
+  }
+  .portfolio-page.concerro .vimson-sec1.concerro1 .banner-full-title {
+    font-size: 36px;
+    line-height: normal;
+  }
+  .portfolio-page.concerro .vimson-sec2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .portfolio-page.concerro .vimson-sec2 .heading-25 {
+    font-size: 28px;
+  }
+  .portfolio-page.concerro .side-bt-side-content .heading-26 {
+    font-size: 28px;
+  }
+  .portfolio-page.concerro .side-bt-side-content .white-bg {
+    padding: 40px;
+  }
+  .portfolio-page.concerro .side-bt-side-content .blue-bg {
+    padding: 40px;
+  }
+  .portfolio-page.concerro .vimson-sec4.concerro4 {
+    background-size: 100%;
+    padding: 50px 20px;
+  }
+  .portfolio-page.concerro .vimson-sec4 .heading-26 {
+    font-size: 28px;
+    line-height: normal;
+  }
+  .portfolio-page.concerro .vimson-sec4 .box-content-white {
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 1940px) {
+  .portfolio-page.concerro .vimson-sec1.notionedge1 {
+    margin: 0;
+    margin-top: -64px;
+  }
+  .portfolio-page.concerro .banner-full-title {
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 88px;
+  }
+  .portfolio-page.concerro .cus-container {
+    max-width: 1260px !important;
+  }
+  .portfolio-page.concerro .vimson-sec2 {
+    height: 100vh;
+  }
+  .portfolio-page.concerro .vimson-sec2.vigan.smartlink {
+    background-size: cover;
+  }
+  .portfolio-page.concerro .content-block-flex {
+    margin: 0 auto;
+  }
+  .portfolio-page.concerro .heading-25 {
+    line-height: 74px;
+    font-size: 54px;
+    font-weight: 600;
+  }
+  .portfolio-page.concerro .blue-bg.other-blue {
+    justify-content: end;
+    align-items: center;
+    padding-top: 0px;
+  }
+  .portfolio-page.concerro .white-bg {
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 0px;
+  }
+  .portfolio-page.concerro .concerro-6 {
+    height: 100vh;
+    padding: 0;
+  }
+  .portfolio-page.concerro .blue-bg .box-content-white {
+    max-width: 490px;
+  }
+  .portfolio-page.concerro .white-bg .box-content-white {
+    max-width: 490px;
+  }
+  .portfolio-page.concerro .heading-26 {
+    margin-bottom: 20px;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+  }
+  .portfolio-page.concerro .white-heading-center {
+    margin-bottom: 40px;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+  }
+  .portfolio-page.concerro .work-testimonial {
+    padding: 0;
+  }
+  .portfolio-page.concerro .testimovial {
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .portfolio-page.concerro .vimson-sec4.concerro4 {
+    background-size: contain;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .portfolio-page.concerro .vimson-sec4.concerro4 {
+    height: 80vh;
+  }
+  .portfolio-page.concerro .cus-container {
+    max-width: 1110px !important;
+  }
+  .portfolio-page.concerro .banner-full-title {
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 73px;
+  }
+  .portfolio-page.concerro .blue-bg .box-content-white {
+    padding-left: 65px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .portfolio-page.concerro .white-bg {
+    padding-left: 60px;
+    padding-right: 80px;
+  }
+  .portfolio-page.concerro .blue-bg {
+    padding-left: 60px;
+    padding-right: 80px;
+  }
+  .portfolio-page.concerro .blue-bg .box-content-white {
+    padding-left: 0px;
+  }
+  .portfolio-page.concerro .heading-26 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    line-height: 52px;
+  }
+  .portfolio-page.concerro .vimson-sec4.concerro4 {
+    height: 75vh;
+  }
+  .portfolio-page.concerro .vimson-sec7 img {
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .portfolio-page.concerro .vimson-sec1 {
+    height: 100vh;
+    padding: 0;
+    background-size: cover;
+  }
+  .portfolio-page.concerro .cus-container {
+    max-width: 960px !important;
+  }
+  .portfolio-page.concerro .white-bg {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .portfolio-page.concerro .blue-bg {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .portfolio-page.concerro .side-bt-side-content .blue-bg {
+    padding-bottom: 80px;
+    height: 100vh;
+  }
+  .portfolio-page.concerro .side-bt-side-content .white-bg {
+    padding: 50px;
+    height: 100vh;
+  }
+  .portfolio-page.concerro .heading-25 {
+    line-height: 52px;
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .portfolio-page.concerro .white-heading-center {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 52px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .portfolio-page.concerro .vimson-sec1 {
+    height: auto;
+    padding: 120px 0;
+  }
+  .portfolio-page.concerro .vimson-sec1 .banner-full-title {
+    font-size: 32px;
+    line-height: normal;
+  }
+  .portfolio-page.concerro .vimson-sec2 {
+    height: auto;
+  }
+  .portfolio-page.concerro .white-bg {
+    justify-content: start;
+    align-items: center;
+    height: auto;
+    padding: 50px 20px;
+  }
+  .portfolio-page.concerro .white-bg .box-content-white {
+    max-width: 100%;
+  }
+  .portfolio-page.concerro .blue-bg .box-content-white {
+    max-width: 100%;
+  }
+  .portfolio-page.concerro .box-content-white.max50 {
+    max-width: 100%;
+    padding-right: 0px;
+  }
+  .portfolio-page.concerro .vimson-sec4 {
+    height: auto;
+  }
+  .portfolio-page.concerro .blue-bg.other-blue {
+    justify-content: start;
+    align-items: center;
+    height: auto;
+    padding: 50px 20px;
+  }
+  .portfolio-page.concerro .heading-26 {
+    margin-bottom: 10px;
+    font-size: 32px;
+    line-height: 52px;
+  }
+  .portfolio-page.concerro .cus-flexx {
+    height: auto;
+  }
+  .portfolio-page.concerro .vimson-sec7 img {
+    height: 50vh;
+  }
+  .portfolio-page.concerro .vimson-sec6 {
+    height: 50vh;
+  }
+  .portfolio-page.concerro .testimovial {
+    height: auto;
+    padding: 80px 0;
+  }
+  .portfolio-page.concerro .background-video-3 {
+    height: 50vh;
+  }
+  .portfolio-page.concerro .concerro-6 {
+    height: auto;
+    padding: 50px 0;
+  }
+  .portfolio-page.concerro .side-bt-side-content .white-bg {
+    padding: 50px 20px;
+    height: auto;
+  }
+  .portfolio-page.concerro .vimson-sec4.concerro4 {
+    height: auto;
+    background: none;
+  }
+  .portfolio-page.concerro .cus-container {
+    padding: 0;
+  }
+  .portfolio-page.concerro .vimson-sec2.vigan.smartlink {
+    height: auto;
+  }
+  .portfolio-page.concerro .white-heading-center {
+    font-size: 28px;
+  }
+}
+@media only screen and (min-width: 1900px) and (max-width: 2500px) {
+  .portfolio-page.concerro .con-sec-2 .div-block-11 img {
+    width: 70%;
+  }
+}
+.portfolio-page.concerro .concerro-sec-1,
+.portfolio-page.concerro .concerro-sec-2,
+.portfolio-page.concerro .concerro-sec-3,
+.portfolio-page.concerro .concerro-sec-4,
+.portfolio-page.concerro .concerro-sec-5,
+.portfolio-page.concerro .concerro-sec-6,
+.portfolio-page.concerro .concerro-sec-7,
+.portfolio-page.concerro .concerro-sec-8,
+.portfolio-page.concerro .concerro-sec-9,
+.portfolio-page.concerro .concerro-sec-10 {
+  position: relative;
+  height: 100vh;
+  margin: 0 !important;
+  z-index: 1;
 }/*# sourceMappingURL=custom.css.map */

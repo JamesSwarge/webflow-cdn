@@ -9743,6 +9743,102 @@
       }
     }
 
+    .mytrux-web-app-sec-5 {
+      .mytrux-app-5-cont {
+        .h3 {
+          position: relative;
+          max-width: 540px;
+        }
+      }
+      .mytrux-app-5-img-bg {
+        display: block;
+        position: absolute;
+        height: 400px;
+        width: auto;
+        max-width: unset;
+        top: auto;
+        left: -170px;
+        right: auto;
+        bottom: 90px;
+        z-index: -1;
+      }
+      .mytrux-app-5-img {
+        display: block;
+        position: absolute;
+        height: 756px;
+        width: 1075px;
+        // max-height: 411px;
+        max-width: unset !important;
+        top: 20vh;
+        left: auto;
+        right: -350px;
+        bottom: auto;
+        z-index: 1;
+        transform: none;
+      }
+    }
+
+    .mytrux-web-app-sec-6 {
+      .mytrux-web-app-sec-6-left {
+        position: absolute;
+        top: 11vh;
+        left: 12vw;
+        right: auto;
+        z-index: 1;
+        .mytrux-web-app-sec-6-img-ttl {
+          display: inline-block;
+          position: relative;
+          top: 16px;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+        .mytrux-web-app-sec-6-img {
+          display: block;
+          position: relative;
+          top: 0;
+          left: 0px;
+          z-index: 1;
+        }
+      }
+      .mytrux-web-app-sec-6-right {
+        position: absolute;
+        top: auto;
+        left: auto;
+        right: 12vw;
+        bottom: 7vh;
+        .mytrux-web-app-sec-6-img-ttl {
+          display: inline-block;
+          position: relative;
+          top: 16px;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+        .mytrux-web-app-sec-6-img {
+          display: block;
+          position: relative;
+          top: 0;
+          left: 0px;
+          z-index: 1;
+        }
+      }
+    }
+
+    .mytrux-web-app-sec-7 {
+      .pr-container {
+        display: flex;
+        height: 100%;
+        align-content: center;
+        align-items: center;
+      }
+      .mytrux-web-app-sec-7-img {
+        display: block;
+        height: 540px;
+        width: auto;
+        margin: 0 auto;
+        object-fit: cover;
+      }
+    } 
+
     .mytrux-web-app-sec-8 {
       background-color: #1e1e1e;
       .pr-container {
@@ -9753,7 +9849,435 @@
         align-items: center;
       }
     }
-    
+
+  }
+}
+
+
+
+// concerro
+.portfolio-page {
+  &.concerro {
+
+    @media screen and (max-width : 1200px) {
+      .vimson-sec2.vigan.smartlink.concerro {
+        background-size: cover;
+        height: auto;
+      }
+
+      .vimson-sec2 {
+        padding-top: 100px;
+        padding-bottom: 100px;
+      }
+
+      .vimson-sec4.concerro4 {
+        height: auto;
+        padding: 100px 0;
+      }
+    }
+    @media screen and (max-width: 1024px) {
+      .vimson-sec1 {
+        height: auto;
+        margin: 0;
+        padding: 80px 10px;
+        background-size: cover;
+      }
+
+      .vimson-sec2 .paragraph-17 {
+        font-size: 16px;
+      }
+
+      .vimson-sec1.concerro1 .banner-full-title {
+        font-size: 38px;
+        line-height: normal;
+        padding-left: 50px;
+        padding-right: 50px
+      }
+
+      .side-bt-side-content .blue-bg {
+        padding: 50px;
+        padding-bottom: 80px;
+        height: auto;
+      }
+
+      .side-bt-side-content .white-bg {
+        padding: 50px;
+        height: auto;
+      }
+
+      .side-bt-side-content .paragraph-18 {
+        font-size: 16px;
+      }
+
+      .vimson-sec4.concerro4 {
+        padding-left: 40px;
+      }
+
+      .vimson-sec4 .paragraph-18 {
+        font-size: 16px;
+      }
+
+      .work-testimonial {
+        padding-top: 60px;
+        padding-bottom: 60px;
+      }
+    }
+    @media screen and (max-width: 767px) {
+      .vimson-sec1 {
+        height: auto;
+        margin: 0;
+        padding: 50px 10px;
+      }
+
+      .vimson-sec1.concerro1 .banner-full-title {
+        font-size: 36px;
+        line-height: normal;
+      }
+
+      .vimson-sec2 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+
+      .vimson-sec2 .heading-25 {
+        font-size: 28px;
+      }
+
+      .side-bt-side-content .heading-26 {
+        font-size: 28px;
+      }
+
+      .side-bt-side-content .white-bg {
+        padding: 40px;
+      }
+
+      .side-bt-side-content .blue-bg {
+        padding: 40px;
+      }
+
+      .vimson-sec4.concerro4 {
+        background-size: 100%;
+        padding: 50px 20px;
+      }
+
+      .vimson-sec4 .heading-26 {
+        font-size: 28px;
+        line-height: normal;
+      }
+
+      .vimson-sec4 .box-content-white {
+        max-width: 50%;
+      }
+    }
+    @media screen and (max-width:1940px) {
+      .vimson-sec1.notionedge1 {
+        margin: 0;
+        margin-top: -64px;
+      }
+
+      .banner-full-title {
+        font-size: 70px;
+        font-weight: 700;
+        line-height: 88px;
+      }
+
+      .cus-container {
+        max-width: 1260px !important;
+      }
+
+      .vimson-sec2 {
+        height: 100vh
+      }
+
+      .vimson-sec2.vigan.smartlink {
+        background-size: cover;
+      }
+
+      .content-block-flex {
+        margin: 0 auto;
+      }
+
+      .heading-25 {
+        line-height: 74px;
+        font-size: 54px;
+        font-weight: 600;
+      }
+
+      .blue-bg.other-blue {
+        justify-content: end;
+        align-items: center;
+        padding-top: 0px;
+      }
+
+      .white-bg {
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 0px;
+
+      }
+
+      .concerro-6 {
+        height: 100vh;
+        padding: 0;
+      }
+
+      .blue-bg .box-content-white {
+        max-width: 490px;
+      }
+
+      .white-bg .box-content-white {
+        max-width: 490px;
+      }
+
+      .heading-26 {
+        margin-bottom: 20px;
+        font-size: 54px;
+        font-weight: 600;
+        line-height: 74px;
+      }
+
+      .white-heading-center {
+        margin-bottom: 40px;
+        font-size: 54px;
+        font-weight: 600;
+        line-height: 74px;
+      }
+
+      .work-testimonial {
+        padding: 0;
+      }
+
+      .testimovial {
+        height: 100vh;
+        justify-content: center;
+        align-content: center;
+      }
+
+    }
+    @media screen and (max-width: 1600px) {
+      .vimson-sec4.concerro4 {
+        background-size: contain;
+      }
+    }
+    @media screen and (max-width: 1400px) {
+      .vimson-sec4.concerro4 {
+        height: 80vh;
+      }
+
+      .cus-container {
+        max-width: 1110px !important;
+      }
+
+      .banner-full-title {
+        font-size: 54px;
+        font-weight: 700;
+        line-height: 73px;
+      }
+
+      .blue-bg .box-content-white {
+        padding-left: 65px;
+      }
+    }
+    @media screen and (max-width: 1200px) {
+      .white-bg {
+
+        padding-left: 60px;
+        padding-right: 80px;
+      }
+
+      .blue-bg {
+        padding-left: 60px;
+        padding-right: 80px;
+      }
+
+      .blue-bg .box-content-white {
+        padding-left: 0px;
+      }
+
+      .heading-26 {
+        margin-bottom: 20px;
+        font-size: 40px;
+        line-height: 52px;
+      }
+
+      .vimson-sec4.concerro4 {
+        height: 75vh;
+      }
+
+      .vimson-sec7 img {
+        height: 100vh;
+      }
+
+    }
+    @media screen and (max-width: 1024px) {
+      .vimson-sec1 {
+        height: 100vh;
+        padding: 0;
+        background-size: cover;
+      }
+
+      .cus-container {
+        max-width: 960px !important;
+      }
+
+      .white-bg {
+        padding-left: 40px;
+        padding-right: 40px;
+      }
+
+      .blue-bg {
+        padding-left: 40px;
+        padding-right: 40px;
+      }
+
+      .side-bt-side-content .blue-bg {
+
+        padding-bottom: 80px;
+        height: 100vh;
+      }
+
+      .side-bt-side-content .white-bg {
+        padding: 50px;
+        height: 100vh;
+      }
+
+      .heading-25 {
+        line-height: 52px;
+        font-size: 40px;
+        font-weight: 600;
+      }
+
+      .white-heading-center {
+
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 52px;
+      }
+    }
+    @media screen and (max-width:767px) {
+      .vimson-sec1 {
+        height: auto;
+        padding: 120px 0;
+      }
+
+      .vimson-sec1 .banner-full-title {
+        font-size: 32px;
+        line-height: normal;
+      }
+
+
+      .vimson-sec2 {
+        height: auto;
+      }
+
+      .white-bg {
+        justify-content: start;
+        align-items: center;
+        height: auto;
+        padding: 50px 20px;
+      }
+
+      .white-bg .box-content-white {
+        max-width: 100%;
+      }
+
+      .blue-bg .box-content-white {
+        max-width: 100%;
+      }
+
+      .box-content-white.max50 {
+        max-width: 100%;
+        padding-right: 0px;
+      }
+
+      .vimson-sec4 {
+        height: auto;
+      }
+
+      .blue-bg.other-blue {
+        justify-content: start;
+        align-items: center;
+        height: auto;
+        padding: 50px 20px;
+      }
+
+      .heading-26 {
+        margin-bottom: 10px;
+        font-size: 32px;
+        line-height: 52px;
+      }
+
+      .cus-flexx {
+        height: auto;
+      }
+
+      .vimson-sec7 img {
+        height: 50vh;
+      }
+
+      .vimson-sec6 {
+        height: 50vh;
+      }
+
+      .testimovial {
+        height: auto;
+        padding: 80px 0;
+      }
+
+      .background-video-3 {
+        height: 50vh;
+      }
+
+      .concerro-6 {
+        height: auto;
+        padding: 50px 0;
+      }
+
+      .side-bt-side-content .white-bg {
+        padding: 50px 20px;
+        height: auto;
+      }
+
+      .vimson-sec4.concerro4 {
+        height: auto;
+        background: none;
+      }
+
+      .cus-container {
+        padding: 0;
+      }
+
+      .vimson-sec2.vigan.smartlink {
+        height: auto
+      }
+
+      .white-heading-center {
+        font-size: 28px;
+
+      }
+    }
+    @media only screen and (min-width: 1900px) and (max-width: 2500px) {
+      .con-sec-2 .div-block-11 img {
+        width: 70%;
+      }
+    }
+
+
+    .concerro-sec-1,
+    .concerro-sec-2,
+    .concerro-sec-3,
+    .concerro-sec-4,
+    .concerro-sec-5,
+    .concerro-sec-6,
+    .concerro-sec-7,
+    .concerro-sec-8,
+    .concerro-sec-9,
+    .concerro-sec-10 {
+      position: relative;
+      height: 100vh;
+      margin: 0 !important;
+      z-index: 1;
+    }
 
 
   }
