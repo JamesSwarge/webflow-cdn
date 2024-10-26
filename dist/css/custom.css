@@ -11497,7 +11497,10 @@ strong {
 .portfolio-page.mytrux-branding .mytrux-branding-6,
 .portfolio-page.mytrux-branding .mytrux-branding-7,
 .portfolio-page.mytrux-branding .mytrux-branding-8,
-.portfolio-page.mytrux-branding .mytrux-branding-9 {
+.portfolio-page.mytrux-branding .mytrux-branding-9,
+.portfolio-page.mytrux-branding .mytrux-branding-10,
+.portfolio-page.mytrux-branding .mytrux-branding-11,
+.portfolio-page.mytrux-branding .mytrux-branding-12 {
   position: relative;
   height: auto;
   min-height: 100vh;
@@ -11532,4 +11535,624 @@ strong {
   height: 100%;
   object-fit: cover;
   z-index: 1;
+}
+.portfolio-page.mytrux-branding .mytrux-branding-6 {
+  height: 100vh;
+}
+.portfolio-page.mytrux-branding .mytrux-branding-6 .pr-container {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.portfolio-page.mytrux-branding .mytrux-branding-6 .brand-13-head {
+  margin-bottom: 40px;
+}
+.portfolio-page.mytrux-branding .mytrux-branding-6 .brand-13-head .h3 {
+  text-align: center;
+}
+.portfolio-page.mytrux-branding .mytrux-branding-6 .mytrux-branding-6-imgblk {
+  position: relative;
+}
+.portfolio-page.mytrux-branding .mytrux-branding-6 .mytrux-branding-6-imgblk .mytrux-branding-6-ttl {
+  display: block;
+  position: absolute;
+  color: #FFFFFF;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+}
+.portfolio-page.mytrux-branding .mytrux-branding-6 .mytrux-branding-6-imgblk .mytrux-branding-6-img {
+  animation: rotation-ani 15s infinite linear 0.4s;
+  -webkit-animation: rotation-ani 15s infinite linear 0.4s;
+}
+.portfolio-page.mytrux-branding .mytrux-branding-8 .branding-head .h3 {
+  display: block;
+  text-align: center;
+  padding: 0;
+  margin: 30px 0 180px;
+}
+.portfolio-page.mytrux-branding .mytrux-branding-8 .brands-col {
+  height: auto;
+}
+.portfolio-page.mytrux-branding .mytrux-branding-8 .brands-col img {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+.portfolio-page.mytrux-branding .mytrux-branding-8 .brands-col .h5 {
+  font: normal normal 300 20px/30px "Poppins", sans-serif;
+  display: block;
+  margin: 0;
+  padding: 0;
+  padding-top: 180px;
+}
+.portfolio-page.mytrux-branding .mytrux-branding-9 .brand-image-head .h3 {
+  display: block;
+  text-align: center;
+  margin-bottom: 90px;
+}
+.portfolio-page.mytrux-branding .mytrux-branding-10 {
+  height: 100vh;
+}
+.portfolio-page.mytrux-branding .mytrux-branding-10 .pr-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 100%;
+}
+.portfolio-page.mytrux-branding .mytrux-branding-10 .column-36 {
+  position: relative;
+}
+.portfolio-page.mytrux-branding .mytrux-branding-10 .column-36 .mytrux-branding-10-img {
+  display: block;
+  position: absolute;
+  width: 490px;
+  max-width: unset;
+  top: -270px;
+  left: 200px;
+  z-index: 1;
+}
+.portfolio-page.mytrux-branding .mytrux-branding-10 .column-36 .pink-rotate-img {
+  display: block;
+  position: absolute;
+  height: 904px;
+  width: 904px;
+  max-width: unset;
+  animation: rotation-ani 35s infinite linear;
+  -webkit-animation: rotation-ani 35s infinite linear;
+  top: -210px;
+  left: 0;
+  bottom: auto;
+  z-index: 0;
+}
+.portfolio-page.mytrux-branding .mytrux-branding-11,
+.portfolio-page.mytrux-branding .mytrux-branding-12,
+.portfolio-page.mytrux-branding .mytrux-branding-13 {
+  height: 100vh;
+  background-color: #101F35;
+}
+
+.portfolio-page.mytrux-web-app .mytrux-app-5-img {
+  right: -100px;
+  top: 50%;
+  transform: translateY(-45%);
+  max-width: 100% !important;
+}
+.portfolio-page.mytrux-web-app .mytux-app-2-r-img {
+  max-width: 420px;
+  right: 10%;
+}
+@media screen and (max-width: 1200px) {
+  .portfolio-page.mytrux-web-app .mytux-app-1 {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .portfolio-page.mytrux-web-app .cus-container {
+    max-width: 100%;
+    padding-left: 30px;
+  }
+  .portfolio-page.mytrux-web-app .mytux-app-1 {
+    height: auto;
+  }
+  .portfolio-page.mytrux-web-app .mytux-app-1-r-image {
+    position: relative;
+  }
+  .portfolio-page.mytrux-web-app .mytux-app-1-content {
+    height: auto;
+    padding-top: 50px;
+    max-width: 100%;
+  }
+  .portfolio-page.mytrux-web-app .mytux-app-1-content .heading-36 {
+    font-size: 18px;
+    padding-bottom: 30px;
+  }
+  .portfolio-page.mytrux-web-app .mytux-app-1-content .heading-36 br {
+    display: block;
+  }
+  .portfolio-page.mytrux-web-app .ep-s-2 {
+    height: auto;
+  }
+  .portfolio-page.mytrux-web-app .over-cont {
+    height: auto;
+    padding: 80px 0;
+  }
+  .portfolio-page.mytrux-web-app .ep-s-2 .paragraph-17 {
+    font-size: 16px;
+  }
+  .portfolio-page.mytrux-web-app .side-bt-side-content .blue-bg {
+    padding: 100px 30px;
+    height: auto;
+  }
+  .portfolio-page.mytrux-web-app .side-bt-side-content .white-bg {
+    padding: 100px 30px;
+    height: auto;
+  }
+  .portfolio-page.mytrux-web-app .side-bt-side-content .paragraph-18 {
+    font-size: 16px;
+  }
+  .portfolio-page.mytrux-web-app .smart360-5 {
+    height: auto;
+    padding: 100px 0;
+  }
+  .portfolio-page.mytrux-web-app .box-content-white.max40.bottom-content {
+    margin-top: 20px;
+  }
+  .portfolio-page.mytrux-web-app .mytrux-app-5 {
+    height: auto;
+  }
+  .portfolio-page.mytrux-web-app .mytrux-app-5-cont {
+    height: auto;
+    padding: 150px 0;
+  }
+  .portfolio-page.mytrux-web-app .smart360-5.mytux-app-4 .paragraph-18 {
+    font-size: 16px;
+  }
+  .portfolio-page.mytrux-web-app .vigan-s4 {
+    height: auto;
+    padding: 70px 0;
+    display: block;
+  }
+  .portfolio-page.mytrux-web-app .vigan-s4 .paragraph-18 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .portfolio-page.mytrux-web-app .mytux-app-1-content .heading-35 {
+    font-size: 44px;
+    line-height: normal;
+  }
+  .portfolio-page.mytrux-web-app .mytux-app-1-content .heading-36 br {
+    display: none;
+  }
+  .portfolio-page.mytrux-web-app .mytux-app-1-content .heading-36 {
+    padding-right: 20px;
+  }
+  .portfolio-page.mytrux-web-app .mytux-app-1 img {
+    width: 100%;
+  }
+  .portfolio-page.mytrux-web-app .ep-s-2.mytux-app-2 {
+    padding: 20px 0;
+  }
+  .portfolio-page.mytrux-web-app .ep-s-2 .heading-25 {
+    font-size: 28px;
+  }
+  .portfolio-page.mytrux-web-app .over-cont {
+    height: auto;
+    padding: 30px 0;
+  }
+  .portfolio-page.mytrux-web-app .mytux-app-2-r-img {
+    opacity: 0.4;
+  }
+  .portfolio-page.mytrux-web-app .side-bt-side-content .heading-26 {
+    font-size: 28px;
+  }
+  .portfolio-page.mytrux-web-app .side-bt-side-content .white-bg {
+    padding: 30px;
+  }
+  .portfolio-page.mytrux-web-app .side-bt-side-content .blue-bg {
+    padding: 30px;
+  }
+  .portfolio-page.mytrux-web-app .smart360-5 .heading-26 {
+    font-size: 28px;
+  }
+  .portfolio-page.mytrux-web-app .mytrux-app-5-img {
+    position: relative;
+    width: 100%;
+    right: 0;
+  }
+  .portfolio-page.mytrux-web-app .mytrux-app-5-cont {
+    padding: 30px 0;
+  }
+  .portfolio-page.mytrux-web-app .mytrux-app-5 {
+    height: auto;
+    transform: none;
+  }
+  .portfolio-page.mytrux-web-app .vigan-s4 .box-content-white.max50 {
+    max-width: 100%;
+    position: relative;
+  }
+  .portfolio-page.mytrux-web-app .vigan-s4.smart360-9 {
+    position: relative;
+  }
+  .portfolio-page.mytrux-web-app .vigan-s4.smart360-9::before {
+    content: "";
+    background: #fff;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.7;
+  }
+  .portfolio-page.mytrux-web-app .vigan-s4 .heading-26 {
+    font-size: 28px;
+  }
+  .portfolio-page.mytrux-web-app .single-center-image.vlack-bg {
+    padding: 30px 0;
+  }
+  .portfolio-page.mytrux-web-app .mytrux-app-5 .heading-26 {
+    font-size: 28px;
+  }
+  .portfolio-page.mytrux-web-app .mytrux-app-5 .heading-26 br {
+    display: none;
+  }
+}
+@media screen and (max-width: 1940px) {
+  .portfolio-page.mytrux-web-app .mytux-app-1 {
+    margin: 0;
+    margin-top: -64px;
+  }
+  .portfolio-page.mytrux-web-app .mytux-app-1-r-image {
+    height: 100%;
+  }
+  .portfolio-page.mytrux-web-app .heading-35 {
+    font-size: 70px;
+    line-height: 88px;
+  }
+  .portfolio-page.mytrux-web-app .mytux-app-1-content {
+    max-width: 70%;
+  }
+  .portfolio-page.mytrux-web-app .heading-25 {
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+  }
+  .portfolio-page.mytrux-web-app .paragraph-17 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .portfolio-page.mytrux-web-app .over-cont {
+    max-width: 750px;
+  }
+  .portfolio-page.mytrux-web-app .content-block-flex {
+    max-width: 700px;
+  }
+  .portfolio-page.mytrux-web-app .white-bg {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 140px;
+    padding-left: 140px;
+    padding-right: 140px;
+    display: flex;
+  }
+  .portfolio-page.mytrux-web-app .blue-bg.other-blue {
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+  }
+  .portfolio-page.mytrux-web-app .white-bg.navy-blue.cust-navi .box-content-white {
+    padding-left: 220px;
+  }
+  .portfolio-page.mytrux-web-app .heading-26 {
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+  }
+  .portfolio-page.mytrux-web-app .paragraph-18 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .portfolio-page.mytrux-web-app .paragraph-18.black-pera.cust-pera-list {
+    margin-bottom: 30px;
+  }
+  .portfolio-page.mytrux-web-app .single-center-image.vlack-bg {
+    padding-top: 180px;
+    padding-bottom: 180px;
+  }
+  .portfolio-page.mytrux-web-app .mytrux-app-5-img {
+    top: 10%;
+  }
+}
+@media screen and (max-width: 1940px) and (max-width: 1600px) {
+  .portfolio-page.mytrux-web-app .cus-container {
+    max-width: 1260px !important;
+  }
+  .portfolio-page.mytrux-web-app .heading-35 {
+    font-size: 60px;
+    line-height: 88px;
+  }
+  .portfolio-page.mytrux-web-app .white-bg.navy-blue.cust-navi .box-content-white {
+    padding-left: 20px;
+  }
+  .portfolio-page.mytrux-web-app .mytrux-app-5-img {
+    right: -5%;
+  }
+}
+@media screen and (max-width: 1940px) and (max-width: 1440px) {
+  .portfolio-page.mytrux-web-app .heading-35 {
+    font-size: 54px;
+    line-height: 73px;
+  }
+  .portfolio-page.mytrux-web-app .mytux-app-1-r-image {
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: auto;
+    right: -5%;
+  }
+  .portfolio-page.mytrux-web-app .cus-container {
+    max-width: 1110px !important;
+  }
+  .portfolio-page.mytrux-web-app .heading-25 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+  .portfolio-page.mytrux-web-app .heading-26 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+  .portfolio-page.mytrux-web-app .mytrux-app-5-img {
+    top: 15%;
+    right: -5%;
+  }
+}
+@media screen and (max-width: 1940px) and (max-width: 1200px) {
+  .portfolio-page.mytrux-web-app .mytux-app-1-r-image {
+    width: 45%;
+  }
+  .portfolio-page.mytrux-web-app .heading-35 {
+    margin-top: 60px;
+  }
+  .portfolio-page.mytrux-web-app .mytux-app-1-content {
+    padding-left: 15px;
+  }
+  .portfolio-page.mytrux-web-app .white-bg {
+    padding-left: 30px;
+  }
+  .portfolio-page.mytrux-web-app .blue-bg.other-blue {
+    padding-left: 60px;
+    padding-right: 80px;
+    padding-top: 80px;
+  }
+  .portfolio-page.mytrux-web-app .smart360-5 {
+    background-position: 80%;
+  }
+  .portfolio-page.mytrux-web-app .mytrux-app-5-img {
+    max-width: 80%;
+    position: absolute;
+    top: 20%;
+    right: -5%;
+  }
+}
+@media screen and (max-width: 1940px) and (max-width: 1024px) {
+  .portfolio-page.mytrux-web-app .mytux-app-1-content {
+    height: 100vh;
+    padding-top: 50px;
+    max-width: 60%;
+    padding-left: 0;
+  }
+  .portfolio-page.mytrux-web-app .mytux-app-1-r-image {
+    width: 50%;
+  }
+  .portfolio-page.mytrux-web-app .mytux-app-1-content .heading-36 {
+    font-size: 22px;
+    padding-bottom: 38px;
+    max-width: 90%;
+  }
+  .portfolio-page.mytrux-web-app .over-cont {
+    height: 100vh;
+    padding: 0;
+  }
+  .portfolio-page.mytrux-web-app .side-bt-side-content .white-bg {
+    padding: 100px 30px;
+    height: 100vh;
+  }
+  .portfolio-page.mytrux-web-app .smart360-5 {
+    height: 100vh;
+    padding: 100px 0;
+    background-position: 70%;
+  }
+  .portfolio-page.mytrux-web-app .mytrux-app-5-cont {
+    height: 100vh;
+    padding: 10px 0;
+  }
+  .portfolio-page.mytrux-web-app .vigan-s4 {
+    height: 95vh;
+    padding: 100px 0;
+    display: block;
+  }
+}
+@media screen and (max-width: 1940px) and (max-width: 767px) {
+  .portfolio-page.mytrux-web-app .mytux-app-1-r-image {
+    display: none;
+  }
+  .portfolio-page.mytrux-web-app .mytux-app-1-content {
+    height: auto;
+    padding: 150px 0;
+    max-width: 100%;
+  }
+  .portfolio-page.mytrux-web-app .over-cont {
+    height: auto;
+    padding: 30px 10px;
+  }
+  .portfolio-page.mytrux-web-app .side-bt-side-content .white-bg {
+    padding: 50px 30px;
+    height: auto;
+  }
+  .portfolio-page.mytrux-web-app .smart360-5 {
+    height: auto;
+    padding: 100px 0;
+    background-position: 70%;
+  }
+  .portfolio-page.mytrux-web-app .mytrux-app-5-cont {
+    height: auto;
+    padding: 10px 0;
+  }
+  .portfolio-page.mytrux-web-app .mytrux-app-5-img {
+    max-width: 80%;
+    position: relative;
+    top: 20%;
+    right: -5%;
+  }
+  .portfolio-page.mytrux-web-app .mytrux-app-6 {
+    height: 50vh;
+  }
+  .portfolio-page.mytrux-web-app .mytrux-app-7 {
+    height: 50vh;
+  }
+  .portfolio-page.mytrux-web-app .single-center-image.vlack-bg {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .portfolio-page.mytrux-web-app .vigan-s4 {
+    height: auto;
+    padding: 100px 0;
+    display: block;
+  }
+  .portfolio-page.mytrux-web-app .mytux-app-1-content .heading-35 {
+    font-size: 30px;
+    line-height: normal;
+  }
+  .portfolio-page.mytrux-web-app .mytux-app-1-content .heading-36 {
+    font-size: 16px;
+    padding-bottom: 25px;
+    max-width: 100%;
+  }
+}
+.portfolio-page.mytrux-web-app .mytrux-web-app-sec-1,
+.portfolio-page.mytrux-web-app .mytrux-web-app-sec-2,
+.portfolio-page.mytrux-web-app .mytrux-web-app-sec-3,
+.portfolio-page.mytrux-web-app .mytrux-web-app-sec-4,
+.portfolio-page.mytrux-web-app .mytrux-web-app-sec-5,
+.portfolio-page.mytrux-web-app .mytrux-web-app-sec-6,
+.portfolio-page.mytrux-web-app .mytrux-web-app-sec-7,
+.portfolio-page.mytrux-web-app .mytrux-web-app-sec-8 {
+  position: relative;
+  height: 100vh;
+  margin: 0 !important;
+  z-index: 1;
+}
+.portfolio-page.mytrux-web-app .mytrux-web-app-sec-1 {
+  background: linear-gradient(90deg, #0f2541 66%, transparent 34%);
+}
+.portfolio-page.mytrux-web-app .mytrux-web-app-sec-1 .mytrux-first-sec-img {
+  position: absolute;
+  top: auto;
+  left: 60px;
+  right: auto;
+  bottom: -100px;
+  width: 504px;
+  max-width: unset;
+  height: 606px;
+  z-index: -1;
+}
+.portfolio-page.mytrux-web-app .mytrux-web-app-sec-1 .mytux-app-1-r-image {
+  position: absolute;
+  top: 0;
+  left: auto;
+  right: 120px;
+  width: auto;
+  height: 100%;
+  z-index: 1;
+}
+.portfolio-page.mytrux-web-app .mytrux-web-app-sec-2 .content-block-flex .h3 {
+  text-align: center;
+}
+.portfolio-page.mytrux-web-app .mytrux-web-app-sec-2 .content-block-flex p {
+  font-weight: 300;
+}
+.portfolio-page.mytrux-web-app .mytrux-web-app-sec-2 .mytrux-overview {
+  position: absolute;
+  width: 505px;
+  height: 606px;
+  max-width: unset;
+  top: auto;
+  left: auto;
+  bottom: -120px;
+  right: 120px;
+  z-index: 0;
+}
+.portfolio-page.mytrux-web-app .mytrux-web-app-sec-3 .white-bg .box-content-white {
+  padding-left: 0 !important;
+}
+.portfolio-page.mytrux-web-app .mytrux-web-app-sec-3 .blue-bg .box-content-white {
+  position: relative;
+  left: -70px;
+}
+.portfolio-page.mytrux-web-app .mytrux-web-app-sec-3 .blue-bg .box-content-white .cust-pera-list {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 24px;
+}
+.portfolio-page.mytrux-web-app .mytrux-web-app-sec-3 .blue-bg .box-content-white .cust-pera-list::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: url("https://cdn.prod.website-files.com/66b622a8c4666078c780e47e/671b9d499e68d7b93a2efb1b_circle-red.svg") no-repeat;
+  top: 7px;
+  left: 1px;
+  z-index: 1;
+}
+.portfolio-page.mytrux-web-app .mytrux-web-app-sec-4 {
+  height: 100vh !important;
+}
+.portfolio-page.mytrux-web-app .mytrux-web-app-sec-4 .bottom-content {
+  margin-top: 200px !important;
+}
+.portfolio-page.mytrux-web-app .mytrux-web-app-sec-4 .mytrux-web-app-sec-4-img1,
+.portfolio-page.mytrux-web-app .mytrux-web-app-sec-4 .mytrux-web-app-sec-4-img2,
+.portfolio-page.mytrux-web-app .mytrux-web-app-sec-4 .mytrux-web-app-sec-4-img3 {
+  position: absolute;
+  z-index: 1;
+}
+.portfolio-page.mytrux-web-app .mytrux-web-app-sec-4 .mytrux-web-app-sec-4-img1 {
+  top: auto;
+  left: 12%;
+  right: auto;
+  bottom: 0;
+}
+.portfolio-page.mytrux-web-app .mytrux-web-app-sec-4 .mytrux-web-app-sec-4-img2 {
+  top: 13vh;
+  left: auto;
+  right: 12%;
+  bottom: auto;
+}
+.portfolio-page.mytrux-web-app .mytrux-web-app-sec-4 .mytrux-web-app-sec-4-img3 {
+  top: 70vh;
+  left: auto;
+  right: 12%;
+  bottom: 0;
+}
+.portfolio-page.mytrux-web-app .mytrux-web-app-sec-8 {
+  background-color: #1e1e1e;
+}
+.portfolio-page.mytrux-web-app .mytrux-web-app-sec-8 .pr-container {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }/*# sourceMappingURL=custom.css.map */
