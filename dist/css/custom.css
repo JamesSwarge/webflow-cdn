@@ -6258,6 +6258,14 @@ strong {
   font-family: "Poppins", sans-serif;
 }
 
+.portfolio-page.smart-360 .smart360-sec-5,
+.portfolio-page.smart-360 .smart360-sec-6,
+.portfolio-page.smart-360 .smart360-sec-9,
+.portfolio-page.smart-360 .smart360-sec-10,
+.portfolio-page.smart-360 .smart360-sec-11,
+.portfolio-page.smart-360 .smart360-sec-12 {
+  background-image: none;
+}
 .portfolio-page.smart-360 .smart360-sec-1 {
   background: linear-gradient(90deg, transparent 50%, #EAEBF4 50%);
 }
@@ -6269,6 +6277,19 @@ strong {
   max-width: unset;
   right: -180px;
 }
+.portfolio-page.smart-360 .smart360-sec-3 img {
+  position: absolute;
+  top: auto;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  max-width: 614px;
+}
+.portfolio-page.smart-360 .smart360-sec-5 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .portfolio-page.smart-360 .smart360-sec-4 .slide-in-bg-cover-half.bg-dark-1 {
   background-color: #24264C;
 }
@@ -6278,13 +6299,18 @@ strong {
 .portfolio-page.smart-360 .smart360-sec-4 .blue-bg .box-content-white .h3 {
   color: #FFFFFF;
 }
-.portfolio-page.smart-360 .smart360-sec-5,
-.portfolio-page.smart-360 .smart360-sec-6,
-.portfolio-page.smart-360 .smart360-sec-9,
-.portfolio-page.smart-360 .smart360-sec-10,
-.portfolio-page.smart-360 .smart360-sec-11,
-.portfolio-page.smart-360 .smart360-sec-12 {
-  background-image: none !important;
+.portfolio-page.smart-360 .smart360-5.smart-sec-5 {
+  background-image: url("https://cdn.prod.website-files.com/66b622a8c4666078c780e47e/66b622a8c4666078c780e8de_abc.webp") !important;
+}
+.portfolio-page.smart-360 .smart360-sec-9 .smart-360-styleguide-img {
+  position: absolute;
+  background-size: cover;
+  height: 100%;
+  width: 50%;
+  top: 0;
+  left: auto;
+  right: 0;
+  z-index: 1;
 }
 .portfolio-page.smart-360 .smart360-sec-10 {
   padding-top: 100px;
