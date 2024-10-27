@@ -2637,10 +2637,18 @@
         }
       }
     }
-    .smart360-sec-9 {
-      
+    .smart360-sec-5,
+    .smart360-sec-6,
+    .smart360-sec-9,
+    .smart360-sec-10,
+    .smart360-sec-11,
+    .smart360-sec-12 {
+      background-image: none !important;
     }
+    
     .smart360-sec-10 {
+      padding-top: 100px;
+      height: 100vh;
       .center-content {
         .h3 {
           color: #FFFFFF;
@@ -2667,6 +2675,10 @@
     .smart360-sec-12 {
       background-color: rgb(234, 235, 244);
       height: 100vh;
+      .pr-container {
+        display: flex;
+        height: 100%;
+      }
       .vimson-sec5-img {
         position: relative;
         min-height: 600px;
@@ -10272,12 +10284,135 @@
     .concerro-sec-7,
     .concerro-sec-8,
     .concerro-sec-9,
-    .concerro-sec-10 {
+    .concerro-sec-10,
+    .concerro-sec-11 {
       position: relative;
       height: 100vh;
       margin: 0 !important;
       z-index: 1;
     }
+
+
+    .concerro-sec-1 {
+      .pr-container {
+        display: flex;
+        height: 100%;
+        align-content: center;
+        align-items: center;
+      }
+      .center-content {
+        > img {
+          animation: rotation-ani 30s infinite linear;
+          -webkit-animation: rotation-ani 30s infinite linear;
+          object-fit: cover;
+        }
+        .h1 {
+          text-align: center;
+        }
+      }
+      .image-78 {
+        position: absolute;
+        top: auto;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        z-index: 1;
+      }
+    }
+
+    .concerro-sec-2 {
+      .pr-container {
+        display: flex;
+        height: 100%;
+        align-content: center;
+        align-items: center;
+      }
+      .content-block-flex {
+        .h3 {
+          text-align: center;
+        }
+      }
+      .concerro-sec-2-bg-img {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        bottom: auto;
+        transform: translateX(-50%);
+        z-index: 1;
+      }
+    }
+
+    .concerro-sec-4 {
+      background-size: 50% 100%;
+      .pr-container {
+        display: flex;
+        height: 100%;
+        align-content: center;
+        align-items: center;
+      }
+    }
+
+    .concerro-sec-5 {
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        object-fit: cover;
+      }
+    }
+
+    .concerro-sec-6 {
+      .h3 {
+        text-align: center;
+        color: #FFFFFF;
+      }
+    }
+
+    .concerro-sec-7 {
+      background-color: #EBEBEB;
+      .con-video {
+        position: relative;
+        height: 100%;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #EBEBEB;
+        z-index: 1;
+        video {
+          width: auto;
+          display: block;
+          margin: 0 auto;
+        }
+      } 
+    }
+
+    .concerro-sec-8,
+    .concerro-sec-9 {
+      .concerro-sec-5-bg-img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        object-fit: cover;
+      }
+    }
+
+    .concerro-sec-11 {
+      .testimovial {
+        max-width: 650px;
+        p {
+          font-weight: 300;
+        }
+        .designation {
+          text-align: right;
+        }
+      }
+    }   
 
 
   }
