@@ -12887,6 +12887,14 @@ strong {
   top: 30px;
   z-index: 1;
 }
+.portfolio-page.moneyguru-website .moneyguru-website-sec-7 .h3 {
+  position: relative;
+  width: 130%;
+}
+.portfolio-page.moneyguru-website .moneyguru-website-sec-8 .h3 {
+  position: relative;
+  width: 130%;
+}
 .portfolio-page.moneyguru-website .moneyguru-website-sec-9 .center-content {
   padding-bottom: 320px;
 }
