@@ -6401,18 +6401,14 @@ strong {
 }
 .portfolio-page.moneyguru .moneyguru-sec-4 .wireframes-wrapper {
   max-width: 100%;
-  overflow-y: auto;
+  overflow-x: auto;
   margin: 20px 20px;
   padding: 20px 0;
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
-}
-.portfolio-page.moneyguru .moneyguru-sec-4 .wireframes-wrapper::-webkit-scrollbar {
-  display: none;
 }
 .portfolio-page.moneyguru .moneyguru-sec-4 .wireframes-wrapper .wireframes-img-blk {
   position: relative;
   height: 400px;
+  overflow-x: auto;
 }
 .portfolio-page.moneyguru .moneyguru-sec-4 .wireframes-wrapper .wireframes-img-blk .wireframes-img {
   position: absolute;
@@ -6420,22 +6416,32 @@ strong {
   width: auto;
   max-width: unset;
   object-fit: cover;
+  padding-bottom: 20px;
   cursor: move;
 }
 .portfolio-page.moneyguru .moneyguru-sec-5 {
   height: 100vh;
 }
 .portfolio-page.moneyguru .moneyguru-sec-5 .starting-with-a-img {
+  position: relative;
   display: block;
-  height: 90vh;
+  height: 72vh;
+  padding: 20px;
 }
-.portfolio-page.moneyguru .moneyguru-sec-5 .starting-with-a-img .starting-with-a-img-img {
-  object-fit: cover;
+.portfolio-page.moneyguru .moneyguru-sec-5 .starting-with-a-img .moneyguru-sec-5-img {
+  display: block;
   position: absolute;
-  height: 70%;
-  width: auto;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 80px;
+  left: 80px;
+  height: 100%;
+  z-index: 1;
+}
+.portfolio-page.moneyguru .moneyguru-sec-5 .starting-with-a-img .moneyguru-sec-5-img-bg {
+  display: block;
+  position: absolute;
+  top: 230px;
+  left: -180px;
+  z-index: 1;
 }
 .portfolio-page.moneyguru .moneyguru-sec-5 .box-content-white {
   max-width: 600px !important;
@@ -6452,8 +6458,21 @@ strong {
   width: 142%;
 }
 .portfolio-page.moneyguru .moneyguru-sec-6 .pr-container .cus-flexx .vimson-sec5-img {
+  position: relative;
   left: 20%;
   top: 10vh;
+}
+.portfolio-page.moneyguru .moneyguru-sec-6 .pr-container .cus-flexx .vimson-sec5-img .moneyguru-sec-6-img-bg {
+  position: absolute;
+  top: 30px;
+  left: -140px;
+  z-index: 0;
+}
+.portfolio-page.moneyguru .moneyguru-sec-6 .pr-container .cus-flexx .vimson-sec5-img .moneyguru-sec-6-img {
+  position: relative;
+  top: 40px;
+  left: -130px;
+  z-index: 1;
 }
 .portfolio-page.moneyguru .moneyguru-sec-6 .pr-container .cus-flexx .video-box {
   position: relative;
@@ -6485,33 +6504,29 @@ strong {
   position: relative;
   width: 140%;
 }
+.portfolio-page.moneyguru .moneyguru-sec-7 .pr-container .full-col {
+  align-self: stretch;
+  background-position-x: 0px;
+  background-position-y: 100%;
+  background-repeat: repeat-x;
+}
 .portfolio-page.moneyguru .moneyguru-sec-8 {
   height: 100vh;
 }
 .portfolio-page.moneyguru .moneyguru-sec-8 .pr-container {
   display: flex;
 }
-.portfolio-page.moneyguru .moneyguru-sec-8 .pr-container .cus-flexx .video-box {
+.portfolio-page.moneyguru .moneyguru-sec-8 .box-content-white .h3 {
   position: relative;
-  height: 660px;
-  width: 600px;
-  top: 0;
-  left: -180px;
-  transform: scale(1.2);
+  width: 130%;
 }
-.portfolio-page.moneyguru .moneyguru-sec-8 .pr-container .cus-flexx .video-box video {
-  position: absolute;
-  height: 100%;
-  width: auto;
+.portfolio-page.moneyguru .moneyguru-sec-8 .moneyguru-sec-8-img {
+  position: relative;
+  width: 800px;
+  max-width: unset;
+  height: auto;
+  left: -340px;
   object-fit: cover;
-  top: 0;
-  left: 0;
-  right: auto;
-  bottom: auto;
-  margin: 0;
-  background-position: center;
-  background-size: cover;
-  z-index: 1;
 }
 .portfolio-page.moneyguru .moneyguru-sec-9 .pr-container {
   display: flex;
@@ -6520,6 +6535,15 @@ strong {
 .portfolio-page.moneyguru .moneyguru-sec-9 .pr-container .box-content-white .h3 {
   position: relative;
   width: 140%;
+}
+.portfolio-page.moneyguru .moneyguru-sec-9 .moneyguru-sec-9-img {
+  position: relative;
+  width: 641px;
+  max-width: unset;
+  height: auto;
+  top: 4vh;
+  right: 150px;
+  object-fit: cover;
 }
 .portfolio-page.moneyguru .moneyguru-sec-10 {
   height: 100vh;
@@ -6531,6 +6555,7 @@ strong {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 400px;
 }
 .portfolio-page.moneyguru .moneyguru-sec-10 .pr-container .content-block-flex .h3 {
   text-align: center;
@@ -6561,8 +6586,34 @@ strong {
   background-size: cover;
   z-index: 1;
 }
+.portfolio-page.moneyguru .moneyguru-sec-10 .pr-container .moneyguru-sec-10-img {
+  position: absolute;
+  top: auto;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+.portfolio-page.moneyguru .moneyguru-sec-10 .pr-container .moneyguru-sec-10-img-bg {
+  position: absolute;
+  width: 100%;
+  max-width: 920px;
+  top: auto;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  z-index: 0;
+}
 .portfolio-page.moneyguru .moneyguru-sec-11 {
-  padding: 150px 0;
+  padding: 250px 0;
+}
+.portfolio-page.moneyguru .moneyguru-sec-11 .vimson-sec5-img img {
+  display: block;
+  max-width: 200px;
+}
+.portfolio-page.moneyguru .moneyguru-sec-11 .w-layout-grid {
+  grid-column-gap: 40px;
+  grid-row-gap: 80px;
 }
 
 .portfolio-page.aaloch .aaloch-sec-1 .banner-text-div .h1 {
@@ -6984,6 +7035,7 @@ strong {
   width: 100%;
 }
 .portfolio-page.vigan .vigan-sec-10 {
+  display: none;
   height: 100vh;
 }
 .portfolio-page.vigan .vigan-sec-8,
@@ -8699,6 +8751,11 @@ strong {
 .portfolio-page.phychem .phychem-sec-15 .w-row {
   width: 100%;
 }
+.portfolio-page.phychem .phychem-sec-1 .center-content {
+  align-self: center;
+  align-items: center;
+  align-content: center;
+}
 .portfolio-page.phychem .phychem-sec-1 .center-content .banner-full-title {
   text-align: center;
 }
@@ -8709,6 +8766,7 @@ strong {
   left: -6%;
 }
 .portfolio-page.phychem .phychem-sec-3 .blue-bg {
+  justify-content: center !important;
   background-color: #0a0333;
 }
 .portfolio-page.phychem .phychem-sec-3 .blue-bg {
@@ -8744,6 +8802,9 @@ strong {
 .portfolio-page.phychem .phychem-sec-4 .phycheme-slider-1 .phycheme-slider-1-inner .phycheme-slider-1-img3 {
   height: 94px;
   margin-bottom: 200px;
+}
+.portfolio-page.phychem .phychem-sec-6 .center-content {
+  align-content: center !important;
 }
 .portfolio-page.phychem .phychem-sec-6 .white-heading-center {
   text-align: center;
@@ -8792,6 +8853,9 @@ strong {
   width: auto;
   transform: translate(-50%, -50%);
   z-index: 1;
+}
+.portfolio-page.phychem .phychem-sec-10 {
+  display: none;
 }
 .portfolio-page.phychem .phychem-sec-11 {
   background: linear-gradient(90deg, #111bde 50%, #F2F2F2 50%);
@@ -9829,6 +9893,7 @@ strong {
 }
 .portfolio-page.bynry .bynry-sec-4 {
   height: 100vh;
+  padding-top: 200px;
 }
 .portfolio-page.bynry .bynry-sec-1 p {
   margin-bottom: 30px;
