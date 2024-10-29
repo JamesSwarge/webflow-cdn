@@ -2903,7 +2903,7 @@
           position: absolute;
           top: 230px;
           left: -180px;
-          z-index: 1;
+          z-index: -1;
         }
       }
 
@@ -3182,8 +3182,8 @@
         position: absolute;
         top: -500px;
         right: -375px;
-        width: 1368px;
-        height: 1217px;
+        width: 77vw;
+        height: 125vh;
         background: #5c202e;
         border-radius: 50%;
         -webkit-border-radius: 50%;
@@ -3234,6 +3234,23 @@
 
       .h3 {
         color: #FFFFFF;
+      }
+      .design-stra-image {
+        position: relative;
+        top: 7vh;
+      }
+    }
+
+    .aaloch-sec-5 {
+      position: relative;
+      height: 100vh;
+      > img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        object-fit: cover;
       }
     }
 
@@ -11230,6 +11247,238 @@
         }
       }
     }
+
+  }
+}
+
+
+
+// intelehealth
+.portfolio-page {
+  &.intelehealth {
+
+    .intelehealth-sec-1,
+    .intelehealth-sec-2,
+    .intelehealth-sec-3,
+    .intelehealth-sec-4,
+    .intelehealth-sec-5,
+    .intelehealth-sec-6,
+    .intelehealth-sec-7,
+    .intelehealth-sec-8,
+    .intelehealth-sec-9,
+    .intelehealth-sec-10,
+    .intelehealth-sec-11,
+    .intelehealth-sec-12,
+    .intelehealth-sec-13,
+    .intelehealth-sec-14,
+    .intelehealth-sec-15,
+    .intelehealth-sec-16,
+    .intelehealth-sec-17,
+    .intelehealth-sec-18,
+    .intelehealth-sec-19,
+    .intelehealth-sec-20,
+    .intelehealth-sec-22,
+    .intelehealth-sec-23,
+    .intelehealth-sec-24,
+    .intelehealth-sec-25,
+    .intelehealth-sec-26 {
+      position: relative;
+      height: 100vh;
+      margin: 0;
+      z-index: 1;
+    }
+
+    .box-content-white {
+      p {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 300;
+        margin-bottom: 0;
+      }
+    }
+
+    .intelehealth-sec-1 {
+      .column-49 {
+        justify-content: center;
+      }
+      .intelehealth-sec-1-content {
+        max-width: 600px;
+        .intelehealth-sec-ttl {
+        }
+      } 
+    }
+
+    .intelehealth-sec-2 {
+      .intelehealth-sec-ttl {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      p {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 300;
+      }
+    } 
+
+    .intelehealth-sec-4 {
+      .intelehealth-sec-ttl {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+    }
+
+    .intelehealth-sec-5 {
+      .intelehealth-sec-ttl {
+        text-align: center;
+        margin-bottom: 80px;
+      }
+    }
+
+    .intelehealth-sec-7 {
+      .intelehealth-sec-7-img {
+
+      }
+    }
+
+    .intelehealth-sec-8 {
+      .intelehealth-sec-ttl {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+    }
+
+    .intelehealth-sec-9 {
+      padding-top: 100px;
+      .intelehealth-sec-ttl {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 340px;
+        background: #11d092;
+        z-index: -1;
+      } 
+      .mobile-wire-frame-blk {
+        margin-top: 100px;
+        .mobile-wire-frame-cols {
+          .mobile-wire-frame-col {
+            .flow-img {
+              display: block;
+              width: 264px;
+              height: auto;
+            }
+          }
+        }
+      }
+    }
+
+    .intelehealth-sec-10 {
+      .intelehealth-sec-ttl {
+        display: block;
+        text-align: center;
+        margin-bottom: 44px;
+      }
+      .web-app-weirefremes {
+        display: block;
+      }
+    }
+
+    .intelehealth-sec-12 {
+      .intelehealth-sec-12-img {
+        position: relative;
+        display: block;
+        max-width: 620px;
+        width: 100%;
+        left: -70px;
+      }
+    }
+
+    .intelehealth-sec-13 {
+      .green-bg {
+        justify-content: center;
+      }
+    }
+
+    .intelehealth-sec-14 {
+      padding-top: 60px;
+      .intelehealth-sec-ttl {
+        text-align: center;
+        margin-bottom: 0;
+        padding-bottom: 120px;
+      }
+      .image-animation {
+        position: relative;
+        padding-top: 0;
+        width: 1000px;
+        margin: 0 auto;
+        .intelehealth-sec-14-img {
+          display: block;
+          margin: 0 auto; 
+        }
+        .anim-img {
+          display: block;
+          position: absolute;
+          width: 100%;
+          max-width: 100%;
+          top: -80px;
+          bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          animation: rotation-ani 20s infinite linear;
+          -webkit-animation: rotation-ani 20s infinite linear;
+          z-index: -1;
+        }
+      }
+    } 
+
+    .intelehealth-sec-15 {
+      .w-background-video {
+        position: relative;
+        top: 0;
+        left: -80px;
+      }
+    } 
+
+    .intelehealth-sec-17 {
+      .pink-bg {
+        justify-content: center;
+      }
+    }
+
+    .intelehealth-sec-18 {
+      .intelehealth-sec-ttl {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+    } 
+
+    .intelehealth-sec-24 {
+      .intelehealth-sec-ttl {
+        text-align: center;
+        padding-bottom: 80px;
+      }
+    } 
+
+    .intelehealth-sec-25 {
+      .testimovial {
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        h5 {
+          font-weight: 400;
+        }
+        p {
+          text-align: center;
+          font-weight: 300;
+        }
+      }
+    } 
 
   }
 }

@@ -6442,7 +6442,7 @@ strong {
   position: absolute;
   top: 230px;
   left: -180px;
-  z-index: 1;
+  z-index: -1;
 }
 .portfolio-page.moneyguru .moneyguru-sec-5 .box-content-white {
   max-width: 600px !important;
@@ -6632,8 +6632,8 @@ strong {
   position: absolute;
   top: -500px;
   right: -375px;
-  width: 1368px;
-  height: 1217px;
+  width: 77vw;
+  height: 125vh;
   background: #5c202e;
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -6670,6 +6670,22 @@ strong {
 }
 .portfolio-page.aaloch .aaloch-sec-4 .h3 {
   color: #FFFFFF;
+}
+.portfolio-page.aaloch .aaloch-sec-4 .design-stra-image {
+  position: relative;
+  top: 7vh;
+}
+.portfolio-page.aaloch .aaloch-sec-5 {
+  position: relative;
+  height: 100vh;
+}
+.portfolio-page.aaloch .aaloch-sec-5 > img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
 }
 .portfolio-page.aaloch .aaloch-sec-6 {
   min-height: 95vh;
@@ -12948,4 +12964,171 @@ strong {
 .portfolio-page.moneyguru-website .moneyguru-website-sec-13 .testimovial .heading-32 {
   color: #FFFFFF;
   text-align: center;
+}
+
+.portfolio-page.intelehealth .intelehealth-sec-1,
+.portfolio-page.intelehealth .intelehealth-sec-2,
+.portfolio-page.intelehealth .intelehealth-sec-3,
+.portfolio-page.intelehealth .intelehealth-sec-4,
+.portfolio-page.intelehealth .intelehealth-sec-5,
+.portfolio-page.intelehealth .intelehealth-sec-6,
+.portfolio-page.intelehealth .intelehealth-sec-7,
+.portfolio-page.intelehealth .intelehealth-sec-8,
+.portfolio-page.intelehealth .intelehealth-sec-9,
+.portfolio-page.intelehealth .intelehealth-sec-10,
+.portfolio-page.intelehealth .intelehealth-sec-11,
+.portfolio-page.intelehealth .intelehealth-sec-12,
+.portfolio-page.intelehealth .intelehealth-sec-13,
+.portfolio-page.intelehealth .intelehealth-sec-14,
+.portfolio-page.intelehealth .intelehealth-sec-15,
+.portfolio-page.intelehealth .intelehealth-sec-16,
+.portfolio-page.intelehealth .intelehealth-sec-17,
+.portfolio-page.intelehealth .intelehealth-sec-18,
+.portfolio-page.intelehealth .intelehealth-sec-19,
+.portfolio-page.intelehealth .intelehealth-sec-20,
+.portfolio-page.intelehealth .intelehealth-sec-22,
+.portfolio-page.intelehealth .intelehealth-sec-23,
+.portfolio-page.intelehealth .intelehealth-sec-24,
+.portfolio-page.intelehealth .intelehealth-sec-25,
+.portfolio-page.intelehealth .intelehealth-sec-26 {
+  position: relative;
+  height: 100vh;
+  margin: 0;
+  z-index: 1;
+}
+.portfolio-page.intelehealth .box-content-white p {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+.portfolio-page.intelehealth .intelehealth-sec-1 .column-49 {
+  justify-content: center;
+}
+.portfolio-page.intelehealth .intelehealth-sec-1 .intelehealth-sec-1-content {
+  max-width: 600px;
+}
+.portfolio-page.intelehealth .intelehealth-sec-2 .intelehealth-sec-ttl {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.portfolio-page.intelehealth .intelehealth-sec-2 p {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+}
+.portfolio-page.intelehealth .intelehealth-sec-4 .intelehealth-sec-ttl {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.portfolio-page.intelehealth .intelehealth-sec-5 .intelehealth-sec-ttl {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.portfolio-page.intelehealth .intelehealth-sec-8 .intelehealth-sec-ttl {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.portfolio-page.intelehealth .intelehealth-sec-9 {
+  padding-top: 100px;
+}
+.portfolio-page.intelehealth .intelehealth-sec-9 .intelehealth-sec-ttl {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.portfolio-page.intelehealth .intelehealth-sec-9::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 340px;
+  background: #11d092;
+  z-index: -1;
+}
+.portfolio-page.intelehealth .intelehealth-sec-9 .mobile-wire-frame-blk {
+  margin-top: 100px;
+}
+.portfolio-page.intelehealth .intelehealth-sec-9 .mobile-wire-frame-blk .mobile-wire-frame-cols .mobile-wire-frame-col .flow-img {
+  display: block;
+  width: 264px;
+  height: auto;
+}
+.portfolio-page.intelehealth .intelehealth-sec-10 .intelehealth-sec-ttl {
+  display: block;
+  text-align: center;
+  margin-bottom: 44px;
+}
+.portfolio-page.intelehealth .intelehealth-sec-10 .web-app-weirefremes {
+  display: block;
+}
+.portfolio-page.intelehealth .intelehealth-sec-12 .intelehealth-sec-12-img {
+  position: relative;
+  display: block;
+  max-width: 620px;
+  width: 100%;
+  left: -70px;
+}
+.portfolio-page.intelehealth .intelehealth-sec-13 .green-bg {
+  justify-content: center;
+}
+.portfolio-page.intelehealth .intelehealth-sec-14 {
+  padding-top: 60px;
+}
+.portfolio-page.intelehealth .intelehealth-sec-14 .intelehealth-sec-ttl {
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 120px;
+}
+.portfolio-page.intelehealth .intelehealth-sec-14 .image-animation {
+  position: relative;
+  padding-top: 0;
+  width: 1000px;
+  margin: 0 auto;
+}
+.portfolio-page.intelehealth .intelehealth-sec-14 .image-animation .intelehealth-sec-14-img {
+  display: block;
+  margin: 0 auto;
+}
+.portfolio-page.intelehealth .intelehealth-sec-14 .image-animation .anim-img {
+  display: block;
+  position: absolute;
+  width: 100%;
+  max-width: 100%;
+  top: -80px;
+  bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  animation: rotation-ani 20s infinite linear;
+  -webkit-animation: rotation-ani 20s infinite linear;
+  z-index: -1;
+}
+.portfolio-page.intelehealth .intelehealth-sec-15 .w-background-video {
+  position: relative;
+  top: 0;
+  left: -80px;
+}
+.portfolio-page.intelehealth .intelehealth-sec-17 .pink-bg {
+  justify-content: center;
+}
+.portfolio-page.intelehealth .intelehealth-sec-18 .intelehealth-sec-ttl {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.portfolio-page.intelehealth .intelehealth-sec-24 .intelehealth-sec-ttl {
+  text-align: center;
+  padding-bottom: 80px;
+}
+.portfolio-page.intelehealth .intelehealth-sec-25 .testimovial {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.portfolio-page.intelehealth .intelehealth-sec-25 .testimovial h5 {
+  font-weight: 400;
+}
+.portfolio-page.intelehealth .intelehealth-sec-25 .testimovial p {
+  text-align: center;
+  font-weight: 300;
 }/*# sourceMappingURL=custom.css.map */
