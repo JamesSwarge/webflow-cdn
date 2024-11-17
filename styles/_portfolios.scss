@@ -1451,6 +1451,12 @@
     padding-top: 50px !important;
   }
 
+  .side-bt-side-content .white-bg {
+    height: auto;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
 
   .bottom-image {
     height: auto;
@@ -1654,6 +1660,19 @@
   .box-content-white {
     max-width: 450px !important;
     margin: 0 !important;
+    @media screen and (max-width: 767px) {
+      margin-left: auto !important;
+      margin-right: auto !important;
+      .h3 {
+        margin-top: 0 !important;
+      }
+      p,
+      .paragraph-54, 
+      .black-pera {
+        font-size: 14px !important;
+        line-height: 20px !important;
+      }
+    }
   }
 
   .failure-learning-common-sec {
@@ -11286,6 +11305,12 @@
       height: 100vh;
       margin: 0;
       z-index: 1;
+      @media screen and (max-width: 768px) {
+        height: auto;
+        min-height: 50vh;
+        padding-top: 80px;
+        padding-bottom: 80px;
+      }
     }
 
     .box-content-white {
@@ -11300,12 +11325,35 @@
     .intelehealth-sec-1 {
       .column-49 {
         justify-content: center;
+        @media screen and (max-width: 768px) {
+          padding: 180px 0 80px;          
+          height: auto;
+          .intelehealth-sec-1-content {
+            max-width: 540px;
+            margin: 0 auto;
+          }
+        }
+      }
+      .column-50 {
+        .image-135 {
+          @media screen and (max-width: 768px) {
+            height: auto;
+            max-height: 420px;
+            width: 100%;
+          }
+        }
       }
       .intelehealth-sec-1-content {
         max-width: 600px;
         .intelehealth-sec-ttl {
         }
       } 
+    }
+
+    .intelehealth-sec-1 {
+      @media screen and (max-width: 768px) {
+        padding-top: 0;
+      }
     }
 
     .intelehealth-sec-2 {
@@ -11317,8 +11365,22 @@
         font-size: 20px;
         line-height: 30px;
         font-weight: 300;
+        @media screen and (max-width: 768px) {
+          font-size: 14px;
+          line-height: 20px;
+        }
       }
     } 
+
+    .intelehealth-sec-3 {
+      .white-bg.interhealth-white-bg,
+      .blue-bg.intelehealth-solution {
+        @media screen and (max-width: 768px) {
+          padding-top: 80px;
+          padding-bottom: 80px;
+        }
+      }
+    }
 
     .intelehealth-sec-4 {
       .intelehealth-sec-ttl {
@@ -11334,9 +11396,28 @@
       }
     }
 
-    .intelehealth-sec-7 {
-      .intelehealth-sec-7-img {
+    .intelehealth-sec-6 {
+      .health-worker {
+        img {
+          @media screen and (max-width: 768px) {
+            margin: 40px auto;
+            display: block;
+          }
+        }
+      }
+    }
 
+    .intelehealth-sec-7 {
+      @media screen and (max-width: 768px) {
+        padding-top: 0;
+        .white-bg.red-bg {
+          padding: 80px 0;
+        }
+        .intelehealth-sec-7-img {
+          max-width: 100vw;
+          height: auto;
+          max-height: 400px;
+        }
       }
     }
 
@@ -11348,6 +11429,9 @@
     }
 
     .intelehealth-sec-9 {
+      @media screen and (max-width: 768px) {
+        display: none;
+      }
       padding-top: 100px;
       .intelehealth-sec-ttl {
         text-align: center;
@@ -11389,6 +11473,22 @@
       }
     }
 
+    .intelehealth-sec-11 {
+      @media screen and (max-width: 768px) {
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+      .w-col {
+        img {
+          @media screen and (max-width: 768px) {
+            display: block;
+            margin: 80px auto;
+            height: 250px;
+          }
+        }
+      }
+    }
+
     .intelehealth-sec-12 {
       .intelehealth-sec-12-img {
         position: relative;
@@ -11396,12 +11496,27 @@
         max-width: 620px;
         width: 100%;
         left: -70px;
+        @media screen and (max-width: 768px) {
+          position: static;
+          max-height: 300px;
+          width: auto;
+          margin: 20px auto 60px;
+        }
+      }
+      @media screen and (max-width: 768px) {
+        padding-bottom: 0;
       }
     }
 
     .intelehealth-sec-13 {
       .green-bg {
         justify-content: center;
+      }
+      .background-video-7 {
+        @media screen and (max-width: 768px) {
+          display: block;
+          margin: 20px auto;
+        }
       }
     }
 
@@ -11417,6 +11532,18 @@
         padding-top: 0;
         width: 1000px;
         margin: 0 auto;
+        @media screen and (max-width: 768px) {
+          max-width: 80vw;
+          width: 540px;
+          .anim-img {
+            max-width: 80% !important;
+            left: 12%;
+            transform: translateX(-50%);
+          }
+          .intelehealth-sec-14-img {
+            width: 45%;
+          }
+        }
         .intelehealth-sec-14-img {
           display: block;
           margin: 0 auto; 
@@ -11443,11 +11570,50 @@
         top: 0;
         left: -80px;
       }
+      @media screen and (max-width: 768px) {
+        .w-row {
+          display: flex !important;
+          flex-direction: column;
+          .blue-bg.w-col {
+            order: 1;
+          }
+          .video-col {
+            order: 2;
+            padding-top: 80px;
+            padding-bottom: 0;
+            .w-background-video {
+              left: 50%;
+              transform: translateX(-50%);
+            }
+          }
+        } 
+      }
     } 
+
+    .intelehealth-sec-16 {
+      @media screen and (max-width: 768px) {
+        .img-small-mobile {
+          max-height: 450px;
+        }
+      }
+    }
 
     .intelehealth-sec-17 {
       .pink-bg {
         justify-content: center;
+      }
+      @media screen and (max-width: 768px) {
+        .w-row {
+          .video-col {
+            order: 2;
+            padding-top: 80px;
+            padding-bottom: 0;
+            .w-background-video {
+              left: 50%;
+              transform: translateX(-50%);
+            }
+          }
+        } 
       }
     }
 
@@ -11456,7 +11622,42 @@
         text-align: center;
         margin-bottom: 30px;
       }
+      .paragraph-60 {
+        @media screen and (max-width: 768px) {
+          font-size: 14px;
+          line-height: 20px;
+        }
+      }
     } 
+
+    .intelehealth-sec-19 {
+      .health-worker img {
+        @media screen and (max-width: 768px) {
+          margin: 40px auto;
+          display: block;
+        }
+      }
+    }
+
+    .intelehealth-sec-21,
+    .intelehealth-sec-22,
+    .intelehealth-sec-23 {
+      @media screen and (max-width: 768px) {
+        .w-row {
+          display: flex !important;
+          flex-direction: column;
+          .full-with-inner-container {
+            order: 1;
+          }
+          .remove-padding-mobile-inner {
+            order: 2;
+            margin-top: 60px;
+            padding-top: 80px !important;
+            padding-bottom: 80px !important;
+          }
+        } 
+      }
+    }
 
     .intelehealth-sec-24 {
       .intelehealth-sec-ttl {
@@ -12234,5 +12435,61 @@
 
 
 
+  }
+}
+
+//  commom css
+.portfolio-page {
+  @media screen and (max-width: 768px) {
+    .w-row {
+      height: auto !important;
+      display: block !important;
+      width: 100% !important;
+      .w-col, .w-col-6 {
+        height: auto !important;
+        display: block !important;
+        width: 100% !important;
+      }
+    }
+    .work-testimonial {
+      .testimovial {
+        img {
+          height: 85px;
+          width: 85px;
+          margin-bottom: 10px;
+        }
+        .heading-127,
+        .text-white {
+          font-size: 14px;
+          line-height: 18.2px !important;
+          &.designation {
+            opacity: 0.5;
+          }
+        }
+        p, .paragraph-64 {
+          font-size: 14px;
+          line-height: 18.2px !important;
+        }
+      }
+    }
+    .next-work {
+      padding: 20px 0;
+      .nxt-heading {
+        font-size: 14px;
+        line-height: 18.2px !important;
+        margin: 0 0 12px;
+      }
+      .nxt-link {
+        margin-top: 12px;
+        margin-bottom: 20px;
+        font-size: 26px;
+        line-height: 34px !important;
+        font-weight: 600 !important;
+      }
+      .nxt-subheading {
+        font-size: 14px;
+        line-height: 20px !important;
+      }
+    }
   }
 }

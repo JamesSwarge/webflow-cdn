@@ -5613,6 +5613,11 @@ form input.pr-bttn:hover, form input.pr-bttn:focus {
     height: auto;
     padding-top: 50px !important;
   }
+  .side-bt-side-content .white-bg {
+    height: auto;
+    justify-content: flex-start;
+    align-items: center;
+  }
   .bottom-image {
     height: auto;
   }
@@ -5758,6 +5763,21 @@ form input.pr-bttn:hover, form input.pr-bttn:focus {
 .portfolio-page .box-content-white {
   max-width: 450px !important;
   margin: 0 !important;
+}
+@media screen and (max-width: 767px) {
+  .portfolio-page .box-content-white {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .portfolio-page .box-content-white .h3 {
+    margin-top: 0 !important;
+  }
+  .portfolio-page .box-content-white p,
+  .portfolio-page .box-content-white .paragraph-54,
+  .portfolio-page .box-content-white .black-pera {
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
 }
 .portfolio-page .failure-learning-common-sec {
   position: relative;
@@ -13279,6 +13299,38 @@ form input.pr-bttn:hover, form input.pr-bttn:focus {
   margin: 0;
   z-index: 1;
 }
+@media screen and (max-width: 768px) {
+  .portfolio-page.intelehealth .intelehealth-sec-1,
+  .portfolio-page.intelehealth .intelehealth-sec-2,
+  .portfolio-page.intelehealth .intelehealth-sec-3,
+  .portfolio-page.intelehealth .intelehealth-sec-4,
+  .portfolio-page.intelehealth .intelehealth-sec-5,
+  .portfolio-page.intelehealth .intelehealth-sec-6,
+  .portfolio-page.intelehealth .intelehealth-sec-7,
+  .portfolio-page.intelehealth .intelehealth-sec-8,
+  .portfolio-page.intelehealth .intelehealth-sec-9,
+  .portfolio-page.intelehealth .intelehealth-sec-10,
+  .portfolio-page.intelehealth .intelehealth-sec-11,
+  .portfolio-page.intelehealth .intelehealth-sec-12,
+  .portfolio-page.intelehealth .intelehealth-sec-13,
+  .portfolio-page.intelehealth .intelehealth-sec-14,
+  .portfolio-page.intelehealth .intelehealth-sec-15,
+  .portfolio-page.intelehealth .intelehealth-sec-16,
+  .portfolio-page.intelehealth .intelehealth-sec-17,
+  .portfolio-page.intelehealth .intelehealth-sec-18,
+  .portfolio-page.intelehealth .intelehealth-sec-19,
+  .portfolio-page.intelehealth .intelehealth-sec-20,
+  .portfolio-page.intelehealth .intelehealth-sec-22,
+  .portfolio-page.intelehealth .intelehealth-sec-23,
+  .portfolio-page.intelehealth .intelehealth-sec-24,
+  .portfolio-page.intelehealth .intelehealth-sec-25,
+  .portfolio-page.intelehealth .intelehealth-sec-26 {
+    height: auto;
+    min-height: 50vh;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
 .portfolio-page.intelehealth .box-content-white p {
   font-size: 20px;
   line-height: 30px;
@@ -13288,8 +13340,30 @@ form input.pr-bttn:hover, form input.pr-bttn:focus {
 .portfolio-page.intelehealth .intelehealth-sec-1 .column-49 {
   justify-content: center;
 }
+@media screen and (max-width: 768px) {
+  .portfolio-page.intelehealth .intelehealth-sec-1 .column-49 {
+    padding: 180px 0 80px;
+    height: auto;
+  }
+  .portfolio-page.intelehealth .intelehealth-sec-1 .column-49 .intelehealth-sec-1-content {
+    max-width: 540px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .portfolio-page.intelehealth .intelehealth-sec-1 .column-50 .image-135 {
+    height: auto;
+    max-height: 420px;
+    width: 100%;
+  }
+}
 .portfolio-page.intelehealth .intelehealth-sec-1 .intelehealth-sec-1-content {
   max-width: 600px;
+}
+@media screen and (max-width: 768px) {
+  .portfolio-page.intelehealth .intelehealth-sec-1 {
+    padding-top: 0;
+  }
 }
 .portfolio-page.intelehealth .intelehealth-sec-2 .intelehealth-sec-ttl {
   text-align: center;
@@ -13300,6 +13374,19 @@ form input.pr-bttn:hover, form input.pr-bttn:focus {
   line-height: 30px;
   font-weight: 300;
 }
+@media screen and (max-width: 768px) {
+  .portfolio-page.intelehealth .intelehealth-sec-2 p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .portfolio-page.intelehealth .intelehealth-sec-3 .white-bg.interhealth-white-bg,
+  .portfolio-page.intelehealth .intelehealth-sec-3 .blue-bg.intelehealth-solution {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
 .portfolio-page.intelehealth .intelehealth-sec-4 .intelehealth-sec-ttl {
   text-align: center;
   margin-bottom: 30px;
@@ -13308,12 +13395,36 @@ form input.pr-bttn:hover, form input.pr-bttn:focus {
   text-align: center;
   margin-bottom: 80px;
 }
+@media screen and (max-width: 768px) {
+  .portfolio-page.intelehealth .intelehealth-sec-6 .health-worker img {
+    margin: 40px auto;
+    display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+  .portfolio-page.intelehealth .intelehealth-sec-7 {
+    padding-top: 0;
+  }
+  .portfolio-page.intelehealth .intelehealth-sec-7 .white-bg.red-bg {
+    padding: 80px 0;
+  }
+  .portfolio-page.intelehealth .intelehealth-sec-7 .intelehealth-sec-7-img {
+    max-width: 100vw;
+    height: auto;
+    max-height: 400px;
+  }
+}
 .portfolio-page.intelehealth .intelehealth-sec-8 .intelehealth-sec-ttl {
   text-align: center;
   margin-bottom: 40px;
 }
 .portfolio-page.intelehealth .intelehealth-sec-9 {
   padding-top: 100px;
+}
+@media screen and (max-width: 768px) {
+  .portfolio-page.intelehealth .intelehealth-sec-9 {
+    display: none;
+  }
 }
 .portfolio-page.intelehealth .intelehealth-sec-9 .intelehealth-sec-ttl {
   text-align: center;
@@ -13346,6 +13457,19 @@ form input.pr-bttn:hover, form input.pr-bttn:focus {
 .portfolio-page.intelehealth .intelehealth-sec-10 .web-app-weirefremes {
   display: block;
 }
+@media screen and (max-width: 768px) {
+  .portfolio-page.intelehealth .intelehealth-sec-11 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .portfolio-page.intelehealth .intelehealth-sec-11 .w-col img {
+    display: block;
+    margin: 80px auto;
+    height: 250px;
+  }
+}
 .portfolio-page.intelehealth .intelehealth-sec-12 .intelehealth-sec-12-img {
   position: relative;
   display: block;
@@ -13353,8 +13477,27 @@ form input.pr-bttn:hover, form input.pr-bttn:focus {
   width: 100%;
   left: -70px;
 }
+@media screen and (max-width: 768px) {
+  .portfolio-page.intelehealth .intelehealth-sec-12 .intelehealth-sec-12-img {
+    position: static;
+    max-height: 300px;
+    width: auto;
+    margin: 20px auto 60px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .portfolio-page.intelehealth .intelehealth-sec-12 {
+    padding-bottom: 0;
+  }
+}
 .portfolio-page.intelehealth .intelehealth-sec-13 .green-bg {
   justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .portfolio-page.intelehealth .intelehealth-sec-13 .background-video-7 {
+    display: block;
+    margin: 20px auto;
+  }
 }
 .portfolio-page.intelehealth .intelehealth-sec-14 {
   padding-top: 60px;
@@ -13369,6 +13512,20 @@ form input.pr-bttn:hover, form input.pr-bttn:focus {
   padding-top: 0;
   width: 1000px;
   margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+  .portfolio-page.intelehealth .intelehealth-sec-14 .image-animation {
+    max-width: 80vw;
+    width: 540px;
+  }
+  .portfolio-page.intelehealth .intelehealth-sec-14 .image-animation .anim-img {
+    max-width: 80% !important;
+    left: 12%;
+    transform: translateX(-50%);
+  }
+  .portfolio-page.intelehealth .intelehealth-sec-14 .image-animation .intelehealth-sec-14-img {
+    width: 45%;
+  }
 }
 .portfolio-page.intelehealth .intelehealth-sec-14 .image-animation .intelehealth-sec-14-img {
   display: block;
@@ -13392,12 +13549,79 @@ form input.pr-bttn:hover, form input.pr-bttn:focus {
   top: 0;
   left: -80px;
 }
+@media screen and (max-width: 768px) {
+  .portfolio-page.intelehealth .intelehealth-sec-15 .w-row {
+    display: flex !important;
+    flex-direction: column;
+  }
+  .portfolio-page.intelehealth .intelehealth-sec-15 .w-row .blue-bg.w-col {
+    order: 1;
+  }
+  .portfolio-page.intelehealth .intelehealth-sec-15 .w-row .video-col {
+    order: 2;
+    padding-top: 80px;
+    padding-bottom: 0;
+  }
+  .portfolio-page.intelehealth .intelehealth-sec-15 .w-row .video-col .w-background-video {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+@media screen and (max-width: 768px) {
+  .portfolio-page.intelehealth .intelehealth-sec-16 .img-small-mobile {
+    max-height: 450px;
+  }
+}
 .portfolio-page.intelehealth .intelehealth-sec-17 .pink-bg {
   justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .portfolio-page.intelehealth .intelehealth-sec-17 .w-row .video-col {
+    order: 2;
+    padding-top: 80px;
+    padding-bottom: 0;
+  }
+  .portfolio-page.intelehealth .intelehealth-sec-17 .w-row .video-col .w-background-video {
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 .portfolio-page.intelehealth .intelehealth-sec-18 .intelehealth-sec-ttl {
   text-align: center;
   margin-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+  .portfolio-page.intelehealth .intelehealth-sec-18 .paragraph-60 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .portfolio-page.intelehealth .intelehealth-sec-19 .health-worker img {
+    margin: 40px auto;
+    display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+  .portfolio-page.intelehealth .intelehealth-sec-21 .w-row,
+  .portfolio-page.intelehealth .intelehealth-sec-22 .w-row,
+  .portfolio-page.intelehealth .intelehealth-sec-23 .w-row {
+    display: flex !important;
+    flex-direction: column;
+  }
+  .portfolio-page.intelehealth .intelehealth-sec-21 .w-row .full-with-inner-container,
+  .portfolio-page.intelehealth .intelehealth-sec-22 .w-row .full-with-inner-container,
+  .portfolio-page.intelehealth .intelehealth-sec-23 .w-row .full-with-inner-container {
+    order: 1;
+  }
+  .portfolio-page.intelehealth .intelehealth-sec-21 .w-row .remove-padding-mobile-inner,
+  .portfolio-page.intelehealth .intelehealth-sec-22 .w-row .remove-padding-mobile-inner,
+  .portfolio-page.intelehealth .intelehealth-sec-23 .w-row .remove-padding-mobile-inner {
+    order: 2;
+    margin-top: 60px;
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+  }
 }
 .portfolio-page.intelehealth .intelehealth-sec-24 .intelehealth-sec-ttl {
   text-align: center;
@@ -14024,4 +14248,54 @@ form input.pr-bttn:hover, form input.pr-bttn:focus {
 .portfolio-page.flexitime .flexitime-sec-15 .w-row,
 .portfolio-page.flexitime .flexitime-sec-16 .w-row {
   height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio-page .w-row {
+    height: auto !important;
+    display: block !important;
+    width: 100% !important;
+  }
+  .portfolio-page .w-row .w-col, .portfolio-page .w-row .w-col-6 {
+    height: auto !important;
+    display: block !important;
+    width: 100% !important;
+  }
+  .portfolio-page .work-testimonial .testimovial img {
+    height: 85px;
+    width: 85px;
+    margin-bottom: 10px;
+  }
+  .portfolio-page .work-testimonial .testimovial .heading-127,
+  .portfolio-page .work-testimonial .testimovial .text-white {
+    font-size: 14px;
+    line-height: 18.2px !important;
+  }
+  .portfolio-page .work-testimonial .testimovial .heading-127.designation,
+  .portfolio-page .work-testimonial .testimovial .text-white.designation {
+    opacity: 0.5;
+  }
+  .portfolio-page .work-testimonial .testimovial p, .portfolio-page .work-testimonial .testimovial .paragraph-64 {
+    font-size: 14px;
+    line-height: 18.2px !important;
+  }
+  .portfolio-page .next-work {
+    padding: 20px 0;
+  }
+  .portfolio-page .next-work .nxt-heading {
+    font-size: 14px;
+    line-height: 18.2px !important;
+    margin: 0 0 12px;
+  }
+  .portfolio-page .next-work .nxt-link {
+    margin-top: 12px;
+    margin-bottom: 20px;
+    font-size: 26px;
+    line-height: 34px !important;
+    font-weight: 600 !important;
+  }
+  .portfolio-page .next-work .nxt-subheading {
+    font-size: 14px;
+    line-height: 20px !important;
+  }
 }/*# sourceMappingURL=custom.css.map */

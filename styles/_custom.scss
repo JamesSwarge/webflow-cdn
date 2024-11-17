@@ -352,3 +352,17 @@ app-ourwork + pr-footer #comman-footer{
     opacity: 1 !important;
   }
 }
+
+
+@media (min-width: 1200px) and (max-width: 1599px) {}
+@media screen and (max-width: 1599px) {}
+@media screen and (max-width: 1200px) {}
+@media screen and (max-width: 992px) {}
+@media screen and (max-width: 768px) {}
+
+
+.p2 {
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+}
