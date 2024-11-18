@@ -11296,6 +11296,7 @@
     .intelehealth-sec-18,
     .intelehealth-sec-19,
     .intelehealth-sec-20,
+    .intelehealth-sec-21,
     .intelehealth-sec-22,
     .intelehealth-sec-23,
     .intelehealth-sec-24,
@@ -11310,6 +11311,16 @@
         min-height: 50vh;
         padding-top: 80px;
         padding-bottom: 80px;
+      }
+      @media screen and (max-width: 576px) {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        .intelehealth-sec-ttl.h3,
+        .h3 {
+          font-size: 24px !important;
+          line-height: 34px !important;
+          font-weight: 600;
+        }
       }
     }
 
@@ -11326,7 +11337,7 @@
       .column-49 {
         justify-content: center;
         @media screen and (max-width: 768px) {
-          padding: 180px 0 80px;          
+          padding: 180px 20px 80px;          
           height: auto;
           .intelehealth-sec-1-content {
             max-width: 540px;
@@ -11379,6 +11390,10 @@
           padding-top: 80px;
           padding-bottom: 80px;
         }
+        @media screen and (max-width: 576px) {
+          padding-left: 20px;
+          padding-right: 20px;
+        }
       }
     }
 
@@ -11405,13 +11420,22 @@
           }
         }
       }
+      .intelehealth-sec-ttl {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .health-worker {
+        @media screen and (max-width: 576px) {
+          padding-top: 0;
+        }
+      }
     }
 
     .intelehealth-sec-7 {
       @media screen and (max-width: 768px) {
         padding-top: 0;
         .white-bg.red-bg {
-          padding: 80px 0;
+          padding: 80px 20px;
         }
         .intelehealth-sec-7-img {
           max-width: 100vw;
@@ -11425,6 +11449,9 @@
       .intelehealth-sec-ttl {
         text-align: center;
         margin-bottom: 40px;
+      }
+      @media screen and (max-width: 576px) {
+        display: none;
       }
     }
 
@@ -11463,6 +11490,10 @@
     }
 
     .intelehealth-sec-10 {
+      @media screen and (max-width: 576px) {
+        height: auto;
+        min-height: unset;
+      }
       .intelehealth-sec-ttl {
         display: block;
         text-align: center;
@@ -11522,6 +11553,9 @@
 
     .intelehealth-sec-14 {
       padding-top: 60px;
+      @media screen and (max-width: 576px) {
+        padding-top: 0;
+      }
       .intelehealth-sec-ttl {
         text-align: center;
         margin-bottom: 0;
@@ -11618,6 +11652,13 @@
     }
 
     .intelehealth-sec-18 {
+      @media screen and (max-width: 576px) {
+        padding-bottom: 0;
+        .intelehealth-sec-ttl {
+          text-align: left;
+          padding-bottom: 30px;
+        }
+      }
       .intelehealth-sec-ttl {
         text-align: center;
         margin-bottom: 30px;
@@ -11657,12 +11698,34 @@
           }
         } 
       }
+      @media screen and (max-width: 576px) {
+        height: auto;
+        min-height: unset;
+        .w-row {
+          .remove-padding-mobile-inner {
+            margin-top: 30px;
+            padding-top: 40px !important;
+            padding-bottom: 40px !important;
+          }
+        }
+      }
     }
 
     .intelehealth-sec-24 {
       .intelehealth-sec-ttl {
         text-align: center;
         padding-bottom: 80px;
+      }
+      @media screen and (max-width: 576px) {
+        padding-bottom: 0;
+        padding-top: 0;
+        min-height: unset;
+        .intelehealth-sec-ttl {
+          text-align: left;
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-bottom: 30px;
+        }
       }
     } 
 

@@ -13289,6 +13289,7 @@ form input.pr-bttn:hover, form input.pr-bttn:focus {
 .portfolio-page.intelehealth .intelehealth-sec-18,
 .portfolio-page.intelehealth .intelehealth-sec-19,
 .portfolio-page.intelehealth .intelehealth-sec-20,
+.portfolio-page.intelehealth .intelehealth-sec-21,
 .portfolio-page.intelehealth .intelehealth-sec-22,
 .portfolio-page.intelehealth .intelehealth-sec-23,
 .portfolio-page.intelehealth .intelehealth-sec-24,
@@ -13320,6 +13321,7 @@ form input.pr-bttn:hover, form input.pr-bttn:focus {
   .portfolio-page.intelehealth .intelehealth-sec-18,
   .portfolio-page.intelehealth .intelehealth-sec-19,
   .portfolio-page.intelehealth .intelehealth-sec-20,
+  .portfolio-page.intelehealth .intelehealth-sec-21,
   .portfolio-page.intelehealth .intelehealth-sec-22,
   .portfolio-page.intelehealth .intelehealth-sec-23,
   .portfolio-page.intelehealth .intelehealth-sec-24,
@@ -13329,6 +13331,93 @@ form input.pr-bttn:hover, form input.pr-bttn:focus {
     min-height: 50vh;
     padding-top: 80px;
     padding-bottom: 80px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .portfolio-page.intelehealth .intelehealth-sec-1,
+  .portfolio-page.intelehealth .intelehealth-sec-2,
+  .portfolio-page.intelehealth .intelehealth-sec-3,
+  .portfolio-page.intelehealth .intelehealth-sec-4,
+  .portfolio-page.intelehealth .intelehealth-sec-5,
+  .portfolio-page.intelehealth .intelehealth-sec-6,
+  .portfolio-page.intelehealth .intelehealth-sec-7,
+  .portfolio-page.intelehealth .intelehealth-sec-8,
+  .portfolio-page.intelehealth .intelehealth-sec-9,
+  .portfolio-page.intelehealth .intelehealth-sec-10,
+  .portfolio-page.intelehealth .intelehealth-sec-11,
+  .portfolio-page.intelehealth .intelehealth-sec-12,
+  .portfolio-page.intelehealth .intelehealth-sec-13,
+  .portfolio-page.intelehealth .intelehealth-sec-14,
+  .portfolio-page.intelehealth .intelehealth-sec-15,
+  .portfolio-page.intelehealth .intelehealth-sec-16,
+  .portfolio-page.intelehealth .intelehealth-sec-17,
+  .portfolio-page.intelehealth .intelehealth-sec-18,
+  .portfolio-page.intelehealth .intelehealth-sec-19,
+  .portfolio-page.intelehealth .intelehealth-sec-20,
+  .portfolio-page.intelehealth .intelehealth-sec-21,
+  .portfolio-page.intelehealth .intelehealth-sec-22,
+  .portfolio-page.intelehealth .intelehealth-sec-23,
+  .portfolio-page.intelehealth .intelehealth-sec-24,
+  .portfolio-page.intelehealth .intelehealth-sec-25,
+  .portfolio-page.intelehealth .intelehealth-sec-26 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .portfolio-page.intelehealth .intelehealth-sec-1 .intelehealth-sec-ttl.h3,
+  .portfolio-page.intelehealth .intelehealth-sec-1 .h3,
+  .portfolio-page.intelehealth .intelehealth-sec-2 .intelehealth-sec-ttl.h3,
+  .portfolio-page.intelehealth .intelehealth-sec-2 .h3,
+  .portfolio-page.intelehealth .intelehealth-sec-3 .intelehealth-sec-ttl.h3,
+  .portfolio-page.intelehealth .intelehealth-sec-3 .h3,
+  .portfolio-page.intelehealth .intelehealth-sec-4 .intelehealth-sec-ttl.h3,
+  .portfolio-page.intelehealth .intelehealth-sec-4 .h3,
+  .portfolio-page.intelehealth .intelehealth-sec-5 .intelehealth-sec-ttl.h3,
+  .portfolio-page.intelehealth .intelehealth-sec-5 .h3,
+  .portfolio-page.intelehealth .intelehealth-sec-6 .intelehealth-sec-ttl.h3,
+  .portfolio-page.intelehealth .intelehealth-sec-6 .h3,
+  .portfolio-page.intelehealth .intelehealth-sec-7 .intelehealth-sec-ttl.h3,
+  .portfolio-page.intelehealth .intelehealth-sec-7 .h3,
+  .portfolio-page.intelehealth .intelehealth-sec-8 .intelehealth-sec-ttl.h3,
+  .portfolio-page.intelehealth .intelehealth-sec-8 .h3,
+  .portfolio-page.intelehealth .intelehealth-sec-9 .intelehealth-sec-ttl.h3,
+  .portfolio-page.intelehealth .intelehealth-sec-9 .h3,
+  .portfolio-page.intelehealth .intelehealth-sec-10 .intelehealth-sec-ttl.h3,
+  .portfolio-page.intelehealth .intelehealth-sec-10 .h3,
+  .portfolio-page.intelehealth .intelehealth-sec-11 .intelehealth-sec-ttl.h3,
+  .portfolio-page.intelehealth .intelehealth-sec-11 .h3,
+  .portfolio-page.intelehealth .intelehealth-sec-12 .intelehealth-sec-ttl.h3,
+  .portfolio-page.intelehealth .intelehealth-sec-12 .h3,
+  .portfolio-page.intelehealth .intelehealth-sec-13 .intelehealth-sec-ttl.h3,
+  .portfolio-page.intelehealth .intelehealth-sec-13 .h3,
+  .portfolio-page.intelehealth .intelehealth-sec-14 .intelehealth-sec-ttl.h3,
+  .portfolio-page.intelehealth .intelehealth-sec-14 .h3,
+  .portfolio-page.intelehealth .intelehealth-sec-15 .intelehealth-sec-ttl.h3,
+  .portfolio-page.intelehealth .intelehealth-sec-15 .h3,
+  .portfolio-page.intelehealth .intelehealth-sec-16 .intelehealth-sec-ttl.h3,
+  .portfolio-page.intelehealth .intelehealth-sec-16 .h3,
+  .portfolio-page.intelehealth .intelehealth-sec-17 .intelehealth-sec-ttl.h3,
+  .portfolio-page.intelehealth .intelehealth-sec-17 .h3,
+  .portfolio-page.intelehealth .intelehealth-sec-18 .intelehealth-sec-ttl.h3,
+  .portfolio-page.intelehealth .intelehealth-sec-18 .h3,
+  .portfolio-page.intelehealth .intelehealth-sec-19 .intelehealth-sec-ttl.h3,
+  .portfolio-page.intelehealth .intelehealth-sec-19 .h3,
+  .portfolio-page.intelehealth .intelehealth-sec-20 .intelehealth-sec-ttl.h3,
+  .portfolio-page.intelehealth .intelehealth-sec-20 .h3,
+  .portfolio-page.intelehealth .intelehealth-sec-21 .intelehealth-sec-ttl.h3,
+  .portfolio-page.intelehealth .intelehealth-sec-21 .h3,
+  .portfolio-page.intelehealth .intelehealth-sec-22 .intelehealth-sec-ttl.h3,
+  .portfolio-page.intelehealth .intelehealth-sec-22 .h3,
+  .portfolio-page.intelehealth .intelehealth-sec-23 .intelehealth-sec-ttl.h3,
+  .portfolio-page.intelehealth .intelehealth-sec-23 .h3,
+  .portfolio-page.intelehealth .intelehealth-sec-24 .intelehealth-sec-ttl.h3,
+  .portfolio-page.intelehealth .intelehealth-sec-24 .h3,
+  .portfolio-page.intelehealth .intelehealth-sec-25 .intelehealth-sec-ttl.h3,
+  .portfolio-page.intelehealth .intelehealth-sec-25 .h3,
+  .portfolio-page.intelehealth .intelehealth-sec-26 .intelehealth-sec-ttl.h3,
+  .portfolio-page.intelehealth .intelehealth-sec-26 .h3 {
+    font-size: 24px !important;
+    line-height: 34px !important;
+    font-weight: 600;
   }
 }
 .portfolio-page.intelehealth .box-content-white p {
@@ -13342,7 +13431,7 @@ form input.pr-bttn:hover, form input.pr-bttn:focus {
 }
 @media screen and (max-width: 768px) {
   .portfolio-page.intelehealth .intelehealth-sec-1 .column-49 {
-    padding: 180px 0 80px;
+    padding: 180px 20px 80px;
     height: auto;
   }
   .portfolio-page.intelehealth .intelehealth-sec-1 .column-49 .intelehealth-sec-1-content {
@@ -13387,6 +13476,13 @@ form input.pr-bttn:hover, form input.pr-bttn:focus {
     padding-bottom: 80px;
   }
 }
+@media screen and (max-width: 576px) {
+  .portfolio-page.intelehealth .intelehealth-sec-3 .white-bg.interhealth-white-bg,
+  .portfolio-page.intelehealth .intelehealth-sec-3 .blue-bg.intelehealth-solution {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
 .portfolio-page.intelehealth .intelehealth-sec-4 .intelehealth-sec-ttl {
   text-align: center;
   margin-bottom: 30px;
@@ -13401,12 +13497,21 @@ form input.pr-bttn:hover, form input.pr-bttn:focus {
     display: block;
   }
 }
+.portfolio-page.intelehealth .intelehealth-sec-6 .intelehealth-sec-ttl {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media screen and (max-width: 576px) {
+  .portfolio-page.intelehealth .intelehealth-sec-6 .health-worker {
+    padding-top: 0;
+  }
+}
 @media screen and (max-width: 768px) {
   .portfolio-page.intelehealth .intelehealth-sec-7 {
     padding-top: 0;
   }
   .portfolio-page.intelehealth .intelehealth-sec-7 .white-bg.red-bg {
-    padding: 80px 0;
+    padding: 80px 20px;
   }
   .portfolio-page.intelehealth .intelehealth-sec-7 .intelehealth-sec-7-img {
     max-width: 100vw;
@@ -13417,6 +13522,11 @@ form input.pr-bttn:hover, form input.pr-bttn:focus {
 .portfolio-page.intelehealth .intelehealth-sec-8 .intelehealth-sec-ttl {
   text-align: center;
   margin-bottom: 40px;
+}
+@media screen and (max-width: 576px) {
+  .portfolio-page.intelehealth .intelehealth-sec-8 {
+    display: none;
+  }
 }
 .portfolio-page.intelehealth .intelehealth-sec-9 {
   padding-top: 100px;
@@ -13448,6 +13558,12 @@ form input.pr-bttn:hover, form input.pr-bttn:focus {
   display: block;
   width: 264px;
   height: auto;
+}
+@media screen and (max-width: 576px) {
+  .portfolio-page.intelehealth .intelehealth-sec-10 {
+    height: auto;
+    min-height: unset;
+  }
 }
 .portfolio-page.intelehealth .intelehealth-sec-10 .intelehealth-sec-ttl {
   display: block;
@@ -13501,6 +13617,11 @@ form input.pr-bttn:hover, form input.pr-bttn:focus {
 }
 .portfolio-page.intelehealth .intelehealth-sec-14 {
   padding-top: 60px;
+}
+@media screen and (max-width: 576px) {
+  .portfolio-page.intelehealth .intelehealth-sec-14 {
+    padding-top: 0;
+  }
 }
 .portfolio-page.intelehealth .intelehealth-sec-14 .intelehealth-sec-ttl {
   text-align: center;
@@ -13586,6 +13707,15 @@ form input.pr-bttn:hover, form input.pr-bttn:focus {
     transform: translateX(-50%);
   }
 }
+@media screen and (max-width: 576px) {
+  .portfolio-page.intelehealth .intelehealth-sec-18 {
+    padding-bottom: 0;
+  }
+  .portfolio-page.intelehealth .intelehealth-sec-18 .intelehealth-sec-ttl {
+    text-align: left;
+    padding-bottom: 30px;
+  }
+}
 .portfolio-page.intelehealth .intelehealth-sec-18 .intelehealth-sec-ttl {
   text-align: center;
   margin-bottom: 30px;
@@ -13623,9 +13753,37 @@ form input.pr-bttn:hover, form input.pr-bttn:focus {
     padding-bottom: 80px !important;
   }
 }
+@media screen and (max-width: 576px) {
+  .portfolio-page.intelehealth .intelehealth-sec-21,
+  .portfolio-page.intelehealth .intelehealth-sec-22,
+  .portfolio-page.intelehealth .intelehealth-sec-23 {
+    height: auto;
+    min-height: unset;
+  }
+  .portfolio-page.intelehealth .intelehealth-sec-21 .w-row .remove-padding-mobile-inner,
+  .portfolio-page.intelehealth .intelehealth-sec-22 .w-row .remove-padding-mobile-inner,
+  .portfolio-page.intelehealth .intelehealth-sec-23 .w-row .remove-padding-mobile-inner {
+    margin-top: 30px;
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+  }
+}
 .portfolio-page.intelehealth .intelehealth-sec-24 .intelehealth-sec-ttl {
   text-align: center;
   padding-bottom: 80px;
+}
+@media screen and (max-width: 576px) {
+  .portfolio-page.intelehealth .intelehealth-sec-24 {
+    padding-bottom: 0;
+    padding-top: 0;
+    min-height: unset;
+  }
+  .portfolio-page.intelehealth .intelehealth-sec-24 .intelehealth-sec-ttl {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+  }
 }
 .portfolio-page.intelehealth .intelehealth-sec-25 .testimovial {
   max-width: 700px;
