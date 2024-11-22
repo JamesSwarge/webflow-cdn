@@ -7281,6 +7281,111 @@ form input.pr-bttn:hover, form input.pr-bttn:focus {
   height: auto;
   object-fit: cover;
 }
+@media screen and (max-width: 992px) {
+  .portfolio-page.smartlink .smartlink-sec-1 {
+    background-size: 50% !important;
+    padding: 160px 0 160px;
+  }
+  .portfolio-page.smartlink .smartlink-sec-2 {
+    background-size: 50% !important;
+    padding: 160px 0 160px;
+  }
+  .portfolio-page.smartlink .smartlink-sec-2 .content-block-flex p {
+    font-size: 20px;
+    line-height: 32.4px;
+  }
+  .portfolio-page.smartlink .smartlink-sec-3 {
+    background: linear-gradient(90deg, #FFFFFF 50%, #1161df 50%);
+  }
+  .portfolio-page.smartlink .smartlink-sec-3 .w-row {
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .portfolio-page.smartlink .smartlink-sec-3 .w-row .w-col {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .portfolio-page.smartlink .smartlink-sec-3 .w-row .white-bg {
+    height: auto;
+  }
+  .portfolio-page.smartlink .smartlink-sec-3 .w-row .blue-bg {
+    background-color: transparent;
+  }
+  .portfolio-page.smartlink .smartlink-sec-4 {
+    height: auto;
+    padding: 80px 0;
+  }
+  .portfolio-page.smartlink .smartlink-sec-4 .box-content-white .black-pera {
+    font-size: 20px;
+    line-height: 32.4px;
+  }
+  .portfolio-page.smartlink .smartlink-sec-5,
+  .portfolio-page.smartlink .smartlink-sec-6,
+  .portfolio-page.smartlink .smartlink-sec-7 {
+    height: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .portfolio-page.smartlink .smartlink-sec-1 .banner-full-title {
+    font-size: 30px;
+    line-height: 39px;
+  }
+  .portfolio-page.smartlink .smartlink-sec-2 {
+    padding-top: 80px;
+    padding-bottom: 40px;
+  }
+  .portfolio-page.smartlink .smartlink-sec-2 .content-block-flex p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+  }
+  .portfolio-page.smartlink .smartlink-sec-3 {
+    background: none;
+  }
+  .portfolio-page.smartlink .smartlink-sec-3 .w-row {
+    max-width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .portfolio-page.smartlink .smartlink-sec-3 .w-row .w-col {
+    padding: 40px 0;
+  }
+  .portfolio-page.smartlink .smartlink-sec-3 .w-row .white-bg {
+    height: auto;
+  }
+  .portfolio-page.smartlink .smartlink-sec-3 .w-row .blue-bg {
+    background-color: #1E2329;
+  }
+  .portfolio-page.smartlink .smartlink-sec-7 .smartlink-sec-7-img {
+    position: static;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
+@media screen and (max-width: 576px) {
+  .portfolio-page.smartlink .smartlink-sec-3 {
+    background: none;
+  }
+  .portfolio-page.smartlink .smartlink-sec-3 .w-row {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .portfolio-page.smartlink .smartlink-sec-3 .w-row .w-col {
+    padding: 40px 24px;
+  }
+  .portfolio-page.smartlink .smartlink-sec-3 .w-row .white-bg {
+    height: auto;
+  }
+  .portfolio-page.smartlink .smartlink-sec-3 .w-row .blue-bg {
+    background-color: #1E2329;
+  }
+  .portfolio-page.smartlink .smartlink-sec-4 .box-content-white {
+    max-width: 100% !important;
+  }
+}
 
 .portfolio-page.vigan .content-block-flex {
   max-width: 710px;
@@ -14409,6 +14514,11 @@ form input.pr-bttn:hover, form input.pr-bttn:focus {
 }
 
 @media screen and (max-width: 768px) {
+  .portfolio-page .heading-26 {
+    font-size: 26px;
+    line-height: 34px;
+    font-weight: 600;
+  }
   .portfolio-page .w-row {
     height: auto !important;
     display: block !important;
