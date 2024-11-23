@@ -7706,7 +7706,8 @@ form input.pr-bttn:hover, form input.pr-bttn:focus {
     font-size: 28px;
   }
   .portfolio-page.vimson .side-bt-side-content .heading-26 {
-    font-size: 28px;
+    font-size: 26px;
+    line-height: 34px;
   }
   .portfolio-page.vimson .side-bt-side-content .white-bg {
     padding: 40px;
@@ -7989,6 +7990,122 @@ form input.pr-bttn:hover, form input.pr-bttn:focus {
 .portfolio-page.vimson .vimson-sec-9 .pr-container .testimovial .heading-32 {
   color: #FFFFFF;
   font-weight: 400;
+}
+@media screen and (max-width: 992px) {
+  .portfolio-page.vimson .vimson-sec-1,
+  .portfolio-page.vimson .vimson-sec-2,
+  .portfolio-page.vimson .vimson-sec-3,
+  .portfolio-page.vimson .vimson-sec-4,
+  .portfolio-page.vimson .vimson-sec-5,
+  .portfolio-page.vimson .vimson-sec-6,
+  .portfolio-page.vimson .vimson-sec-7,
+  .portfolio-page.vimson .vimson-sec-8,
+  .portfolio-page.vimson .vimson-sec-9 {
+    height: auto;
+    padding: 150px 0;
+  }
+  .portfolio-page.vimson .vimson-sec-3 {
+    padding: 0;
+    background: linear-gradient(90deg, #FFFFFF 50%, #1161df 50%);
+  }
+  .portfolio-page.vimson .vimson-sec-3 .w-row {
+    display: flex;
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .portfolio-page.vimson .vimson-sec-3 .w-row .w-col {
+    padding-left: 30px;
+    padding-right: 30px;
+    align-self: center;
+  }
+  .portfolio-page.vimson .vimson-sec-3 .w-row .white-bg {
+    height: auto;
+    padding-left: 0;
+  }
+  .portfolio-page.vimson .vimson-sec-3 .w-row .blue-bg {
+    background-color: transparent;
+    padding-left: 30px;
+  }
+  .portfolio-page.vimson .vimson-sec-4 {
+    padding: 0;
+  }
+  .portfolio-page.vimson .vimson-sec-5 .cus-flexx {
+    height: auto;
+  }
+  .portfolio-page.vimson .vimson-sec-5 .cus-flexx .vimson-sec5-img {
+    height: auto;
+  }
+  .portfolio-page.vimson .vimson-sec-6 img {
+    height: 260px;
+  }
+  .portfolio-page.vimson .vimson-sec-7,
+  .portfolio-page.vimson .vimson-sec-8 {
+    padding: 0;
+  }
+  .portfolio-page.vimson .vimson-sec-7 .vimson-sec-bg-img,
+  .portfolio-page.vimson .vimson-sec-8 .vimson-sec-bg-img {
+    position: static;
+    object-fit: cover;
+  }
+}
+@media screen and (max-width: 768px) {
+  .portfolio-page.vimson .vimson-sec-1 .vimson-sec-1-bg {
+    display: none;
+  }
+  .portfolio-page.vimson .vimson-sec-1 .center-content img {
+    height: 90px;
+  }
+  .portfolio-page.vimson .vimson-sec-2 .content-block-flex p {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+  }
+  .portfolio-page.vimson .vimson-sec-3 {
+    background: none;
+  }
+  .portfolio-page.vimson .vimson-sec-3 .w-row .blue-bg {
+    background-color: #1E2329;
+  }
+  .portfolio-page.vimson .vimson-sec-4 {
+    background: none;
+  }
+  .portfolio-page.vimson .vimson-sec-4 .w-row .blue-bg {
+    height: 400px;
+    padding: 150px 0;
+  }
+  .portfolio-page.vimson .vimson-sec-6 img {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .portfolio-page.vimson .vimson-sec-2 {
+    padding: 80px 0;
+  }
+  .portfolio-page.vimson .vimson-sec-3 {
+    background: none;
+  }
+  .portfolio-page.vimson .vimson-sec-3 .w-row .w-col {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .portfolio-page.vimson .vimson-sec-4 .box-content-white p {
+    padding-bottom: 10px;
+  }
+  .portfolio-page.vimson .vimson-sec-4 .w-row .blue-bg {
+    height: 400px;
+    padding: 120px 0;
+  }
+  .portfolio-page.vimson .vimson-sec-5 {
+    padding: 80px 0;
+  }
+  .portfolio-page.vimson .vimson-sec-5 .cus-flexx .vimson-sec5-img img {
+    height: 240px;
+  }
+  .portfolio-page.vimson .vimson-sec-7,
+  .portfolio-page.vimson .vimson-sec-8 {
+    height: 420px;
+  }
 }
 
 .portfolio-page.insisive .insisive4.insisive5 {

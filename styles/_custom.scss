@@ -367,3 +367,23 @@ app-ourwork + pr-footer #comman-footer{
   line-height: 20px;
   margin: 0;
 }
+
+.vimson-sec-3 {
+  padding: 0;
+  background: linear-gradient(90deg, #FFFFFF 50%, #1161df 50%);
+  .w-row {
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    .w-col {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .white-bg {
+      height: auto;
+    }
+    .blue-bg {
+      background-color: transparent;
+    }
+  }
+}

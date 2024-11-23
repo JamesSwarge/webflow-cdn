@@ -4210,7 +4210,8 @@
       }
 
       .side-bt-side-content .heading-26 {
-        font-size: 28px;
+        font-size: 26px;
+        line-height: 34px;
       }
 
       .side-bt-side-content .white-bg {
@@ -4583,6 +4584,157 @@
           }
         }
       }
+    }
+
+
+    @media screen and (max-width: 992px) {
+      .vimson-sec-1,
+      .vimson-sec-2,
+      .vimson-sec-3,
+      .vimson-sec-4,
+      .vimson-sec-5,
+      .vimson-sec-6,
+      .vimson-sec-7,
+      .vimson-sec-8,
+      .vimson-sec-9 {
+        height: auto;
+        padding: 150px 0;
+      }
+      .vimson-sec-3 {
+        padding: 0;
+        background: linear-gradient(90deg, #FFFFFF 50%, #1161df 50%);
+        .w-row {
+          display: flex;
+          max-width: 720px;
+          margin-left: auto;
+          margin-right: auto;
+          .w-col {
+            padding-left: 30px;
+            padding-right: 30px;
+            align-self: center;
+          }
+          .white-bg {
+            height: auto;
+            padding-left: 0;
+          }
+          .blue-bg {
+            background-color: transparent;
+            padding-left: 30px;
+          }
+        }
+      }
+      .vimson-sec-4 {
+        padding: 0;
+      }
+      .vimson-sec-5 {
+        .cus-flexx {
+          height: auto;
+          .vimson-sec5-img {
+            height: auto;
+          }
+        }
+      }
+      .vimson-sec-6 {
+        img {
+          height: 260px;
+        }
+      }
+      .vimson-sec-7,
+      .vimson-sec-8 {
+        padding: 0;
+        .vimson-sec-bg-img {
+          position: static;
+          object-fit: cover;
+        }
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      .vimson-sec-1 {
+        .vimson-sec-1-bg {
+          display: none;
+        }
+        .center-content {
+          img {
+            height: 90px;
+          }
+        }
+      }
+      .vimson-sec-2 {
+        .content-block-flex {
+          p {
+            font-size: 14px;
+            line-height: 22px;
+            font-weight: 300;
+          }
+        }
+      }
+      .vimson-sec-3 {
+        background: none;
+        .w-row {
+          .blue-bg {
+            background-color: #1E2329;
+          }
+        }
+      }
+      .vimson-sec-4 {
+        background: none;
+        .w-row {
+          .blue-bg {
+            height: 400px;
+            padding: 150px 0;
+          }
+        }
+      }
+      .vimson-sec-6 {
+        img {
+          height: 200px;
+        }
+      }
+    }
+
+    @media screen and (max-width: 576px) {
+
+      .vimson-sec-2 {
+        padding: 80px 0;
+      }
+      .vimson-sec-3 {
+        background: none;
+        .w-row {
+          .w-col {
+            padding-left: 30px;
+            padding-right: 30px;
+          }
+        }
+      }
+      .vimson-sec-4 {
+        .box-content-white {
+          p {
+            padding-bottom: 10px;
+          }
+        }
+        .w-row {
+          .blue-bg {
+            height: 400px;
+            padding: 120px 0;
+          }
+        }
+      }
+      .vimson-sec-5 {
+        padding: 80px 0;
+        .cus-flexx {
+          .vimson-sec5-img {
+            img {
+              height: 240px;
+            }
+          }
+        }
+      }
+      .vimson-sec-7,
+      .vimson-sec-8 {
+        height: 420px;
+      }
+
     }
 
 
