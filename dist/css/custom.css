@@ -12301,6 +12301,109 @@ form input.pr-bttn:hover, form input.pr-bttn:focus {
   .portfolio-page.esop .esop-sec-13,
   .portfolio-page.esop .esop-sec-14 {
     height: auto;
+    min-height: unset;
+    padding: 200px 0;
+  }
+  .portfolio-page.esop .esop-slider-outer-wrap .esop-slider {
+    width: 160px;
+    height: 180px;
+    padding-top: 50px;
+  }
+  .portfolio-page.esop .esop-slider-outer-wrap .esop-slider img {
+    max-width: 90px;
+  }
+  .portfolio-page.esop .esop-sec-1 {
+    padding-bottom: 100px;
+  }
+  .portfolio-page.esop .esop-sec-1 .esop-sec-cols {
+    display: flex;
+    flex-direction: column;
+  }
+  .portfolio-page.esop .esop-sec-1 .esop-sec-cols .esop-right-col .esop-first-sec-img {
+    width: 560px;
+  }
+  .portfolio-page.esop .esop-sec-2 {
+    padding: 100px 0;
+  }
+  .portfolio-page.esop .esop-sec-3 {
+    padding: 0;
+  }
+  .portfolio-page.esop .esop-sec-3 .w-row {
+    display: flex;
+  }
+  .portfolio-page.esop .esop-sec-3 .w-row .w-col {
+    align-self: stretch;
+  }
+  .portfolio-page.esop .esop-sec-4 {
+    padding: 0;
+  }
+  .portfolio-page.esop .esop-sec-6 {
+    padding: 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .portfolio-page.esop .esop-sec-6 .w-row {
+    display: flex;
+  }
+  .portfolio-page.esop .esop-sec-6 .esop-slider-sec-r-col {
+    height: auto;
+    align-self: center;
+  }
+  .portfolio-page.esop .esop-sec-7 {
+    padding-top: 120px;
+  }
+  .portfolio-page.esop .esop-sec-7::after {
+    height: 33%;
+  }
+  .portfolio-page.esop .esop-sec-7 h3 {
+    margin-bottom: 200px;
+  }
+  .portfolio-page.esop .esop-sec-7 .esop-sec7-bg-img {
+    width: 600px;
+    height: auto;
+    bottom: -20px;
+  }
+  .portfolio-page.esop .esop-sec-8 .box-content-white {
+    padding-top: 0 !important;
+  }
+  .portfolio-page.esop .esop-sec-9,
+  .portfolio-page.esop .esop-sec-10,
+  .portfolio-page.esop .esop-sec-11 {
+    padding: 80px 0;
+  }
+  .portfolio-page.esop .esop-sec-9::before,
+  .portfolio-page.esop .esop-sec-10::before,
+  .portfolio-page.esop .esop-sec-11::before {
+    max-height: 600px;
+    width: 600px;
+  }
+  .portfolio-page.esop .esop-sec-9 .esop8-zig-left-img-r-abs,
+  .portfolio-page.esop .esop-sec-9 .esop8-zig-left-img-r-abs.left-3,
+  .portfolio-page.esop .esop-sec-10 .esop8-zig-left-img-r-abs,
+  .portfolio-page.esop .esop-sec-10 .esop8-zig-left-img-r-abs.left-3,
+  .portfolio-page.esop .esop-sec-11 .esop8-zig-left-img-r-abs,
+  .portfolio-page.esop .esop-sec-11 .esop8-zig-left-img-r-abs.left-3 {
+    max-width: 60% !important;
+    top: 50%;
+    left: 0;
+  }
+  .portfolio-page.esop .esop-sec-9 .esop8-zig-left-img-r-abs.img-right-abs,
+  .portfolio-page.esop .esop-sec-9 .esop8-zig-left-img-r-abs.left-3.img-right-abs,
+  .portfolio-page.esop .esop-sec-10 .esop8-zig-left-img-r-abs.img-right-abs,
+  .portfolio-page.esop .esop-sec-10 .esop8-zig-left-img-r-abs.left-3.img-right-abs,
+  .portfolio-page.esop .esop-sec-11 .esop8-zig-left-img-r-abs.img-right-abs,
+  .portfolio-page.esop .esop-sec-11 .esop8-zig-left-img-r-abs.left-3.img-right-abs {
+    left: auto;
+  }
+  .portfolio-page.esop .esop-sec-12 {
+    padding: 100px 0;
+  }
+  .portfolio-page.esop .esop-sec-12 .h3 {
+    margin-bottom: 40px;
+  }
+  .portfolio-page.esop .esop-sec-12 .esop-y-slider .swiper-wrapper .swiper-slide img {
+    object-fit: cover;
+    max-width: 440px;
   }
 }
 
@@ -13785,7 +13888,7 @@ form input.pr-bttn:hover, form input.pr-bttn:focus {
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 1;
+  z-index: -1;
 }
 .portfolio-page.moneyguru-website .moneyguru-website-sec-4 .center-content {
   padding-bottom: 320px;
@@ -13890,6 +13993,128 @@ form input.pr-bttn:hover, form input.pr-bttn:focus {
 .portfolio-page.moneyguru-website .moneyguru-website-sec-13 .testimovial .heading-32 {
   color: #FFFFFF;
   text-align: center;
+}
+@media screen and (max-width: 992px) {
+  .portfolio-page.moneyguru-website .moneyguru-website-sec-1,
+  .portfolio-page.moneyguru-website .moneyguru-website-sec-2,
+  .portfolio-page.moneyguru-website .moneyguru-website-sec-3,
+  .portfolio-page.moneyguru-website .moneyguru-website-sec-4,
+  .portfolio-page.moneyguru-website .moneyguru-website-sec-5,
+  .portfolio-page.moneyguru-website .moneyguru-website-sec-6,
+  .portfolio-page.moneyguru-website .moneyguru-website-sec-7,
+  .portfolio-page.moneyguru-website .moneyguru-website-sec-8,
+  .portfolio-page.moneyguru-website .moneyguru-website-sec-9,
+  .portfolio-page.moneyguru-website .moneyguru-website-sec-10,
+  .portfolio-page.moneyguru-website .moneyguru-website-sec-11,
+  .portfolio-page.moneyguru-website .moneyguru-website-sec-13 {
+    height: auto;
+  }
+  .portfolio-page.moneyguru-website .moneyguru-website-sec-1 {
+    padding-bottom: 120px;
+  }
+  .portfolio-page.moneyguru-website .moneyguru-website-sec-1 .w-row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .portfolio-page.moneyguru-website .moneyguru-website-sec-1 .bottom-image {
+    display: block;
+    height: auto;
+  }
+  .portfolio-page.moneyguru-website .moneyguru-website-sec-1 .w-col {
+    width: 100%;
+    height: auto;
+  }
+  .portfolio-page.moneyguru-website .moneyguru-website-sec-1 .moneyguru-website-sec-1-img {
+    display: block;
+    margin: 80px auto 0;
+    max-width: 500px;
+  }
+  .portfolio-page.moneyguru-website .moneyguru-website-sec-1 .moneyguru-website-sec-1-img-bg {
+    width: 260px;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .portfolio-page.moneyguru-website .moneyguru-website-sec-1 p {
+    margin-top: 50px;
+    text-align: center;
+  }
+  .portfolio-page.moneyguru-website .moneyguru-website-sec-1 h1 {
+    text-align: center;
+  }
+  .portfolio-page.moneyguru-website .moneyguru-website-sec-2 {
+    padding: 120px 0 !important;
+  }
+  .portfolio-page.moneyguru-website .moneyguru-website-sec-4 {
+    height: auto !important;
+    padding: 120px 0;
+  }
+  .portfolio-page.moneyguru-website .moneyguru-website-sec-4 .moneyguru-website-sec-4-bg {
+    width: 100% !important;
+    max-width: 100% !important;
+    top: auto;
+    bottom: 120px;
+    left: 0;
+  }
+  .portfolio-page.moneyguru-website .moneyguru-website-sec-5 {
+    padding: 120px 0 0;
+  }
+  .portfolio-page.moneyguru-website .moneyguru-website-sec-5 .landing-image {
+    width: 660px;
+    height: auto;
+    left: -30px;
+  }
+  .portfolio-page.moneyguru-website .moneyguru-website-sec-6 {
+    padding: 120px 0;
+  }
+  .portfolio-page.moneyguru-website .moneyguru-website-sec-6 .moneyguru-website-sec-6-img {
+    width: 460px;
+    height: auto;
+    left: -100px;
+    top: 30px;
+  }
+  .portfolio-page.moneyguru-website .moneyguru-website-sec-7 .moneyguru-left-col {
+    height: auto;
+    padding: 80px 0;
+  }
+  .portfolio-page.moneyguru-website .moneyguru-website-sec-7 .moneyguru-website-sec-7-bg-img {
+    position: relative;
+    width: 360px;
+    max-width: unset;
+    left: 50px;
+  }
+  .portfolio-page.moneyguru-website .moneyguru-website-sec-8 .moneyguru-left-col {
+    height: auto;
+    padding: 140px 0;
+  }
+  .portfolio-page.moneyguru-website .moneyguru-website-sec-8 .moneyguru-website-sec-8-bg-img {
+    position: relative;
+    width: 360px;
+    max-width: unset;
+    left: 50px;
+  }
+  .portfolio-page.moneyguru-website .moneyguru-website-sec-9 .center-content {
+    padding-bottom: 260px;
+  }
+  .portfolio-page.moneyguru-website .moneyguru-website-sec-9 .center-content h3 {
+    margin-top: 80px;
+  }
+  .portfolio-page.moneyguru-website .moneyguru-website-sec-11 {
+    padding: 120px 0;
+  }
+  .portfolio-page.moneyguru-website .moneyguru-website-sec-11 .box-content-white p {
+    display: none;
+  }
+  .portfolio-page.moneyguru-website .moneyguru-website-sec-11 .vimson-sec5-img {
+    height: auto;
+  }
+  .portfolio-page.moneyguru-website .moneyguru-website-sec-11 .w-layout-grid {
+    grid-column-gap: 80px;
+    grid-row-gap: 80px;
+  }
+  .portfolio-page.moneyguru-website .moneyguru-website-sec-11 .w-layout-grid img {
+    max-width: 90px;
+  }
 }
 
 .portfolio-page.intelehealth .intelehealth-sec-1,
@@ -15085,6 +15310,42 @@ form input.pr-bttn:hover, form input.pr-bttn:focus {
   .portfolio-page .work-two-col-testimonial .work-two-col-testimonial-col2 .testimovial {
     width: 80%;
     max-width: 100%;
+  }
+  .portfolio-page .esop-above-testi-content {
+    padding: 0 !important;
+  }
+  .portfolio-page .esop-above-testi-content .esop-above-testi-content-roe .esop-above-testi-content1 {
+    height: auto;
+    padding: 100px 0 !important;
+    align-self: stretch !important;
+  }
+  .portfolio-page .esop-above-testi-content .esop-above-testi-content-roe .esop-above-testi-content1 .box-content-white {
+    max-width: 320px !important;
+  }
+  .portfolio-page .esop-above-testi-content .esop-above-testi-content-roe .esop-above-testi-content2 {
+    height: auto;
+    padding: 100px 0 !important;
+    align-self: stretch !important;
+  }
+  .portfolio-page .esop-above-testi-content .esop-above-testi-content-roe .esop-above-testi-content2 h3 {
+    position: static !important;
+    max-width: 360px !important;
+  }
+  .portfolio-page .esop-above-testi-content .esop-above-testi-content-roe .esop-above-testi-content2 .w-row {
+    max-width: 360px;
+  }
+  .portfolio-page .esop-above-testi-content .esop-above-testi-content-roe .esop-above-testi-content2 .w-row .w-col {
+    width: 33%;
+    flex: 1;
+    padding-top: 5px;
+  }
+  .portfolio-page .esop-above-testi-content .esop-above-testi-content-roe .esop-above-testi-content2 .w-row .w-col .paragraph-18 {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .portfolio-page .esop-above-testi-content .esop-above-testi-content-roe .esop-above-testi-content2 .w-row .w-col h4 {
+    font-size: 20px;
+    line-height: 32px;
   }
 }
 @media screen and (max-width: 768px) {
