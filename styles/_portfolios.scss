@@ -7528,6 +7528,77 @@
       }
     }
 
+    @media screen and (max-width: 992px) {
+
+      .phychem-sec-1,
+      .phychem-sec-2,
+      .phychem-sec-3,
+      .phychem-sec-4,
+      .phychem-sec-5,
+      .phychem-sec-6,
+      .phychem-sec-7,
+      .phychem-sec-8,
+      .phychem-sec-9,
+      .phychem-sec-10,
+      .phychem-sec-11,
+      .phychem-sec-12,
+      .phychem-sec-13,
+      .phychem-sec-14,
+      .phychem-sec-15 {
+        padding: 100px 0;
+        height: auto;
+        .center-content {
+          height: auto;
+        }
+      }
+
+      .phychem-sec-2 {
+        background-size: 50vw 100%;
+        height: auto !important;
+        padding: 30px 0 60px;
+        .box-content-white.max50 {
+          max-width: 400px !important;
+        }
+      }
+
+      .phychem-sec-3 {
+        padding: 0;
+        .white-bg {
+          padding-top: 60px;
+          padding-bottom: 60px;
+        }
+      }
+
+      .phychem-sec-4 {
+        padding: 0;
+        .phycheme-slider-1 {
+          padding-left: 40px;
+        }
+      }
+
+      .phychem-sec-5 {
+        padding: 0;
+      }
+
+      .phychem-sec-9 {
+        padding: 0;
+        .background-video-3 {
+          height: 600px;
+        }
+      }
+
+      .phychem-sec-11,
+      .phychem-sec-12,
+      .phychem-sec-13,
+      .phychem-sec-14 {
+        padding: 0;
+        height: 600px;
+      }
+      
+
+
+  }
+
 
   }
 }
@@ -10689,6 +10760,130 @@
       background-color: #101F35;
     }
 
+    @media screen and (max-width: 992px) {
+
+      .mytrux-branding-1,
+      .mytrux-branding-2,
+      .mytrux-branding-3,
+      .mytrux-branding-4,
+      .mytrux-branding-5,
+      .mytrux-branding-6,
+      .mytrux-branding-7,
+      .mytrux-branding-8,
+      .mytrux-branding-9,
+      .mytrux-branding-10,
+      .mytrux-branding-11,
+      .mytrux-branding-12 {
+        padding: 100px 0;
+        min-height: unset;
+        height: auto;
+        .pr-container {
+          height: auto;
+        }
+      }
+
+      .cus-flexx {
+        height: auto;
+      }
+
+      .mytrux-branding-2 {
+        padding: 100px 0 !important;
+        height: auto !important;
+      }
+
+      .myturx-branding-3 {
+        .columns-2 {
+          display: flex;
+          .w-col {
+            align-self: stretch;
+          }
+        }
+        .h3 {
+          font-size: 32px;
+        }
+      }
+
+      .mytrux-branding-4 {
+        padding: 0 !important;
+        .cus-flexx {
+          height: auto;
+          flex-direction: row;
+        }
+      }
+
+      .mytrux-branding-5 {
+        // padding: 0 !important;
+        .cus-flexx {
+          height: auto;
+          flex-direction: row;
+        }
+        .vimson-sec5-img {
+          height: auto;
+        }
+      }
+
+      .mytrux-branding-8 {
+        padding-top: 50px;
+        .branding-head {
+          .h3 {
+            margin-bottom: 50px;
+          }
+        }
+        .brands-col {
+          img {
+            width: 250px;
+            height: auto;
+            max-width: 90%;
+          }
+          .h5 {
+            padding-top: 60px;
+          }
+        }
+      }
+
+      .mytrux-branding-10 {
+        .column-36 {
+          .mytrux-branding-10-img {
+            width: 220px;
+            top: -90px;
+            left: 120px;
+          }
+          .pink-rotate-img {
+            height: 440px;
+            width: 440px;
+            top: -50px;
+          }
+        }
+      }
+
+      .mytrux-branding-11,
+      .mytrux-branding-12,
+      .mytrux-branding-13 {
+        height: 600px;
+        padding: 0;
+      }
+
+      .mytrux-branding-11 {
+        .image-block {
+          .mytrux-branding-11-img {
+            height: 450px;
+            width: auto;
+          }
+        }
+      }
+
+      .mytrux-branding-12 {
+        .image-block {
+          .mytrux-branding-12-img {
+            height: 450px;
+            width: auto;
+          }
+        }
+      }
+        
+
+    }
+
   }
 }
 
@@ -12020,6 +12215,52 @@
           text-align: right;
         }
       }
+    }
+
+
+    @media screen and (max-width: 992px) {
+
+      .concerro-sec-1,
+      .concerro-sec-2,
+      .concerro-sec-3,
+      .concerro-sec-4,
+      .concerro-sec-5,
+      .concerro-sec-6,
+      .concerro-sec-7,
+      .concerro-sec-8,
+      .concerro-sec-9,
+      .concerro-sec-10,
+      .concerro-sec-11 {
+        height: auto;
+        padding: 100px 0;
+      }
+
+      .concerro-sec-8,
+      .concerro-sec-9 {
+        padding: 0;
+        height: 600px;
+      }
+
+      .concerro-sec-5,
+      .concerro-sec-7 {
+        padding: 0;
+        height: 600px;
+      }
+
+      .concerro-sec-3 {
+        padding: 0;
+      }
+
+      .concerro-sec-4 {
+        height: auto;
+        background-size: 50vw 100% !important;
+        .box-content-white {
+          max-width: 40vw !important;
+          padding-left: 0;
+          padding-right: 100px;
+        }
+      }
+
     }
 
 

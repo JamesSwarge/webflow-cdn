@@ -10372,6 +10372,80 @@ form input.pr-bttn:hover, form input.pr-bttn:focus {
 .portfolio-page.phychem .phychem-sec-15 .w-row {
   width: 100%;
 }
+@media screen and (max-width: 992px) {
+  .portfolio-page.phychem .phychem-sec-1,
+  .portfolio-page.phychem .phychem-sec-2,
+  .portfolio-page.phychem .phychem-sec-3,
+  .portfolio-page.phychem .phychem-sec-4,
+  .portfolio-page.phychem .phychem-sec-5,
+  .portfolio-page.phychem .phychem-sec-6,
+  .portfolio-page.phychem .phychem-sec-7,
+  .portfolio-page.phychem .phychem-sec-8,
+  .portfolio-page.phychem .phychem-sec-9,
+  .portfolio-page.phychem .phychem-sec-10,
+  .portfolio-page.phychem .phychem-sec-11,
+  .portfolio-page.phychem .phychem-sec-12,
+  .portfolio-page.phychem .phychem-sec-13,
+  .portfolio-page.phychem .phychem-sec-14,
+  .portfolio-page.phychem .phychem-sec-15 {
+    padding: 100px 0;
+    height: auto;
+  }
+  .portfolio-page.phychem .phychem-sec-1 .center-content,
+  .portfolio-page.phychem .phychem-sec-2 .center-content,
+  .portfolio-page.phychem .phychem-sec-3 .center-content,
+  .portfolio-page.phychem .phychem-sec-4 .center-content,
+  .portfolio-page.phychem .phychem-sec-5 .center-content,
+  .portfolio-page.phychem .phychem-sec-6 .center-content,
+  .portfolio-page.phychem .phychem-sec-7 .center-content,
+  .portfolio-page.phychem .phychem-sec-8 .center-content,
+  .portfolio-page.phychem .phychem-sec-9 .center-content,
+  .portfolio-page.phychem .phychem-sec-10 .center-content,
+  .portfolio-page.phychem .phychem-sec-11 .center-content,
+  .portfolio-page.phychem .phychem-sec-12 .center-content,
+  .portfolio-page.phychem .phychem-sec-13 .center-content,
+  .portfolio-page.phychem .phychem-sec-14 .center-content,
+  .portfolio-page.phychem .phychem-sec-15 .center-content {
+    height: auto;
+  }
+  .portfolio-page.phychem .phychem-sec-2 {
+    background-size: 50vw 100%;
+    height: auto !important;
+    padding: 30px 0 60px;
+  }
+  .portfolio-page.phychem .phychem-sec-2 .box-content-white.max50 {
+    max-width: 400px !important;
+  }
+  .portfolio-page.phychem .phychem-sec-3 {
+    padding: 0;
+  }
+  .portfolio-page.phychem .phychem-sec-3 .white-bg {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .portfolio-page.phychem .phychem-sec-4 {
+    padding: 0;
+  }
+  .portfolio-page.phychem .phychem-sec-4 .phycheme-slider-1 {
+    padding-left: 40px;
+  }
+  .portfolio-page.phychem .phychem-sec-5 {
+    padding: 0;
+  }
+  .portfolio-page.phychem .phychem-sec-9 {
+    padding: 0;
+  }
+  .portfolio-page.phychem .phychem-sec-9 .background-video-3 {
+    height: 600px;
+  }
+  .portfolio-page.phychem .phychem-sec-11,
+  .portfolio-page.phychem .phychem-sec-12,
+  .portfolio-page.phychem .phychem-sec-13,
+  .portfolio-page.phychem .phychem-sec-14 {
+    padding: 0;
+    height: 600px;
+  }
+}
 
 @media screen and (max-width: 1200px) {
   .portfolio-page.bynry .aaloch-s-1 {
@@ -12873,6 +12947,106 @@ form input.pr-bttn:hover, form input.pr-bttn:focus {
   height: 100vh;
   background-color: #101F35;
 }
+@media screen and (max-width: 992px) {
+  .portfolio-page.mytrux-branding .mytrux-branding-1,
+  .portfolio-page.mytrux-branding .mytrux-branding-2,
+  .portfolio-page.mytrux-branding .mytrux-branding-3,
+  .portfolio-page.mytrux-branding .mytrux-branding-4,
+  .portfolio-page.mytrux-branding .mytrux-branding-5,
+  .portfolio-page.mytrux-branding .mytrux-branding-6,
+  .portfolio-page.mytrux-branding .mytrux-branding-7,
+  .portfolio-page.mytrux-branding .mytrux-branding-8,
+  .portfolio-page.mytrux-branding .mytrux-branding-9,
+  .portfolio-page.mytrux-branding .mytrux-branding-10,
+  .portfolio-page.mytrux-branding .mytrux-branding-11,
+  .portfolio-page.mytrux-branding .mytrux-branding-12 {
+    padding: 100px 0;
+    min-height: unset;
+    height: auto;
+  }
+  .portfolio-page.mytrux-branding .mytrux-branding-1 .pr-container,
+  .portfolio-page.mytrux-branding .mytrux-branding-2 .pr-container,
+  .portfolio-page.mytrux-branding .mytrux-branding-3 .pr-container,
+  .portfolio-page.mytrux-branding .mytrux-branding-4 .pr-container,
+  .portfolio-page.mytrux-branding .mytrux-branding-5 .pr-container,
+  .portfolio-page.mytrux-branding .mytrux-branding-6 .pr-container,
+  .portfolio-page.mytrux-branding .mytrux-branding-7 .pr-container,
+  .portfolio-page.mytrux-branding .mytrux-branding-8 .pr-container,
+  .portfolio-page.mytrux-branding .mytrux-branding-9 .pr-container,
+  .portfolio-page.mytrux-branding .mytrux-branding-10 .pr-container,
+  .portfolio-page.mytrux-branding .mytrux-branding-11 .pr-container,
+  .portfolio-page.mytrux-branding .mytrux-branding-12 .pr-container {
+    height: auto;
+  }
+  .portfolio-page.mytrux-branding .cus-flexx {
+    height: auto;
+  }
+  .portfolio-page.mytrux-branding .mytrux-branding-2 {
+    padding: 100px 0 !important;
+    height: auto !important;
+  }
+  .portfolio-page.mytrux-branding .myturx-branding-3 .columns-2 {
+    display: flex;
+  }
+  .portfolio-page.mytrux-branding .myturx-branding-3 .columns-2 .w-col {
+    align-self: stretch;
+  }
+  .portfolio-page.mytrux-branding .myturx-branding-3 .h3 {
+    font-size: 32px;
+  }
+  .portfolio-page.mytrux-branding .mytrux-branding-4 {
+    padding: 0 !important;
+  }
+  .portfolio-page.mytrux-branding .mytrux-branding-4 .cus-flexx {
+    height: auto;
+    flex-direction: row;
+  }
+  .portfolio-page.mytrux-branding .mytrux-branding-5 .cus-flexx {
+    height: auto;
+    flex-direction: row;
+  }
+  .portfolio-page.mytrux-branding .mytrux-branding-5 .vimson-sec5-img {
+    height: auto;
+  }
+  .portfolio-page.mytrux-branding .mytrux-branding-8 {
+    padding-top: 50px;
+  }
+  .portfolio-page.mytrux-branding .mytrux-branding-8 .branding-head .h3 {
+    margin-bottom: 50px;
+  }
+  .portfolio-page.mytrux-branding .mytrux-branding-8 .brands-col img {
+    width: 250px;
+    height: auto;
+    max-width: 90%;
+  }
+  .portfolio-page.mytrux-branding .mytrux-branding-8 .brands-col .h5 {
+    padding-top: 60px;
+  }
+  .portfolio-page.mytrux-branding .mytrux-branding-10 .column-36 .mytrux-branding-10-img {
+    width: 220px;
+    top: -90px;
+    left: 120px;
+  }
+  .portfolio-page.mytrux-branding .mytrux-branding-10 .column-36 .pink-rotate-img {
+    height: 440px;
+    width: 440px;
+    top: -50px;
+  }
+  .portfolio-page.mytrux-branding .mytrux-branding-11,
+  .portfolio-page.mytrux-branding .mytrux-branding-12,
+  .portfolio-page.mytrux-branding .mytrux-branding-13 {
+    height: 600px;
+    padding: 0;
+  }
+  .portfolio-page.mytrux-branding .mytrux-branding-11 .image-block .mytrux-branding-11-img {
+    height: 450px;
+    width: auto;
+  }
+  .portfolio-page.mytrux-branding .mytrux-branding-12 .image-block .mytrux-branding-12-img {
+    height: 450px;
+    width: auto;
+  }
+}
 
 .portfolio-page.mytrux-web-app .mytrux-app-5-img {
   right: -100px;
@@ -13913,6 +14087,44 @@ form input.pr-bttn:hover, form input.pr-bttn:focus {
 }
 .portfolio-page.concerro .concerro-sec-11 .testimovial .designation {
   text-align: right;
+}
+@media screen and (max-width: 992px) {
+  .portfolio-page.concerro .concerro-sec-1,
+  .portfolio-page.concerro .concerro-sec-2,
+  .portfolio-page.concerro .concerro-sec-3,
+  .portfolio-page.concerro .concerro-sec-4,
+  .portfolio-page.concerro .concerro-sec-5,
+  .portfolio-page.concerro .concerro-sec-6,
+  .portfolio-page.concerro .concerro-sec-7,
+  .portfolio-page.concerro .concerro-sec-8,
+  .portfolio-page.concerro .concerro-sec-9,
+  .portfolio-page.concerro .concerro-sec-10,
+  .portfolio-page.concerro .concerro-sec-11 {
+    height: auto;
+    padding: 100px 0;
+  }
+  .portfolio-page.concerro .concerro-sec-8,
+  .portfolio-page.concerro .concerro-sec-9 {
+    padding: 0;
+    height: 600px;
+  }
+  .portfolio-page.concerro .concerro-sec-5,
+  .portfolio-page.concerro .concerro-sec-7 {
+    padding: 0;
+    height: 600px;
+  }
+  .portfolio-page.concerro .concerro-sec-3 {
+    padding: 0;
+  }
+  .portfolio-page.concerro .concerro-sec-4 {
+    height: auto;
+    background-size: 50vw 100% !important;
+  }
+  .portfolio-page.concerro .concerro-sec-4 .box-content-white {
+    max-width: 40vw !important;
+    padding-left: 0;
+    padding-right: 100px;
+  }
 }
 
 .portfolio-page.moneyguru-website .moneyguru-website-sec-1,
