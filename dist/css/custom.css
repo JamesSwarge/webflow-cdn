@@ -7781,6 +7781,81 @@ form input.pr-bttn:hover, form input.pr-bttn:focus {
   color: #FFFFFF;
   font-weight: 400;
 }
+@media screen and (max-width: 992px) {
+  .portfolio-page.vigan .vigan-sec-1,
+  .portfolio-page.vigan .vigan-sec-2,
+  .portfolio-page.vigan .vigan-sec-3,
+  .portfolio-page.vigan .vigan-sec-4,
+  .portfolio-page.vigan .vigan-sec-5,
+  .portfolio-page.vigan .vigan-sec-6,
+  .portfolio-page.vigan .vigan-sec-7,
+  .portfolio-page.vigan .vigan-sec-8,
+  .portfolio-page.vigan .vigan-sec-9,
+  .portfolio-page.vigan .vigan-sec-10,
+  .portfolio-page.vigan .vigan-sec-11,
+  .portfolio-page.vigan .vigan-sec-12 {
+    height: auto;
+    padding: 120px 0;
+  }
+  .portfolio-page.vigan .w-col.w-col-6 {
+    width: 100%;
+  }
+  .portfolio-page.vigan .w-col.w-col-6 .box-content-white {
+    max-width: 100% !important;
+  }
+  .portfolio-page.vigan .w-col.w-col-6 .box-content-white .paragraph-18.black-pera {
+    width: 100%;
+    max-width: unset;
+  }
+  .portfolio-page.vigan .vimson-sec5-img {
+    height: auto;
+  }
+  .portfolio-page.vigan .vigan-sec-3 {
+    padding: 0;
+  }
+  .portfolio-page.vigan .vigan-sec-3 .w-col {
+    padding: 100px 30px;
+  }
+  .portfolio-page.vigan .vigan-sec-3 .w-col.w-col-6 {
+    width: 50%;
+  }
+  .portfolio-page.vigan .vigan-sec-3 .white-bg {
+    height: auto;
+  }
+  .portfolio-page.vigan .vigan-sec-4 {
+    background-size: 100% 100%;
+  }
+  .portfolio-page.vigan .vigan-sec-4 .vimson-sec5-img {
+    height: auto;
+  }
+  .portfolio-page.vigan .vigan-sec-4 .vimson-sec5-img img {
+    max-width: 450px;
+  }
+  .portfolio-page.vigan .vigan-sec-5 {
+    padding-bottom: 0;
+  }
+  .portfolio-page.vigan .vigan-sec-5 .vimson-sec5-img {
+    display: block;
+    margin: 30px auto;
+  }
+  .portfolio-page.vigan .vigan-sec-6 .vimson-sec5-img .logo-mark-img {
+    display: block;
+    height: 250px;
+    width: auto;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .portfolio-page.vigan .vigan-sec-7 .vimson-sec5-img img {
+    display: block;
+    margin: 30px auto;
+  }
+  .portfolio-page.vigan .vigan-sec-8,
+  .portfolio-page.vigan .vigan-sec-9,
+  .portfolio-page.vigan .vigan-sec-11 {
+    padding: 0;
+    height: 600px;
+  }
+}
 
 @media screen and (max-width: 1024px) {
   .portfolio-page.vimson .vimson-sec1 .banner-full-title {
@@ -14011,6 +14086,10 @@ form input.pr-bttn:hover, form input.pr-bttn:focus {
   }
   .portfolio-page.moneyguru-website .moneyguru-website-sec-1 {
     padding-bottom: 120px;
+  }
+  .portfolio-page.moneyguru-website .moneyguru-website-sec-1 .h1 {
+    font-size: 54px;
+    line-height: 72.8px;
   }
   .portfolio-page.moneyguru-website .moneyguru-website-sec-1 .w-row {
     display: flex;

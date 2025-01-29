@@ -4149,7 +4149,6 @@
       max-width: 710px;
       margin: 0 auto;
     }
-
     .vigan-sec-1 {
       height: 100vh;
       margin: 0;
@@ -4158,7 +4157,6 @@
         text-align: center;
       }
     }
-
     .vigan-sec-2 {
       height: 100vh;
 
@@ -4168,7 +4166,6 @@
         }
       }
     }
-
     .vigan-sec-3 {
       height: 100vh;
 
@@ -4187,12 +4184,10 @@
         }
       }
     }
-
     .vigan-sec-4 {
       height: 100vh;
       background-size: cover;
     }
-
     .vigan-sec-5 {
       height: 100vh;
       background-size: cover;
@@ -4214,7 +4209,6 @@
         }
       }
     }
-
     .vigan-sec-6 {
       height: 100vh;
 
@@ -4233,7 +4227,6 @@
         }
       }
     }
-
     .vigan-sec-7 {
       height: 100vh;
 
@@ -4246,12 +4239,10 @@
         }
       }
     }
-
     .vigan-sec-10 {
       display: none;
       height: 100vh;
     }
-
     .vigan-sec-8,
     .vigan-sec-9,
     .vigan-sec-11 {
@@ -4268,7 +4259,6 @@
         z-index: 1;
       }
     }
-
     .vigan-sec-12 {
       height: 100vh;
 
@@ -4289,6 +4279,100 @@
         }
       }
     }
+
+    @media screen and (max-width: 992px) {
+
+      .vigan-sec-1,
+      .vigan-sec-2,
+      .vigan-sec-3,
+      .vigan-sec-4,
+      .vigan-sec-5,
+      .vigan-sec-6,
+      .vigan-sec-7,
+      .vigan-sec-8,
+      .vigan-sec-9,
+      .vigan-sec-10,
+      .vigan-sec-11,
+      .vigan-sec-12 {
+        height: auto;
+        padding: 120px 0; 
+      }
+
+      .w-col.w-col-6 {
+        width: 100%;
+        .box-content-white {
+          max-width: 100% !important;
+          .paragraph-18.black-pera {
+            width: 100%;
+            max-width: unset;
+          }
+        }
+      }
+      .vimson-sec5-img {
+        height: auto;
+      }
+
+      .vigan-sec-3 {
+        padding: 0;
+        .w-col {
+          padding: 100px 30px;
+          &.w-col-6 {
+            width: 50%;
+          }
+        }
+        .white-bg {
+          height: auto;
+        }
+      }
+
+      .vigan-sec-4 {
+        background-size: 100% 100%;
+        .vimson-sec5-img {
+          height: auto;
+          img {
+            max-width: 450px;
+          }
+        }
+      }
+
+      .vigan-sec-5 {
+        padding-bottom: 0;
+        .vimson-sec5-img {
+          display: block;
+          margin: 30px auto;
+        }
+      }
+
+      .vigan-sec-6 {
+        .vimson-sec5-img {
+          .logo-mark-img {
+            display: block;
+            height: 250px;
+            width: auto;
+            max-width: 100%;
+            margin: 0 auto;
+          }
+        }
+      }
+
+      .vigan-sec-7 {
+        .vimson-sec5-img {
+          img {
+            display: block;
+            margin: 30px auto;
+          }
+        }
+      }
+
+      .vigan-sec-8,
+      .vigan-sec-9,
+      .vigan-sec-11 {
+        padding: 0;
+        height: 600px;
+      }
+
+    }
+
   }
 }
 
@@ -12172,6 +12256,10 @@
       }
 
       .moneyguru-website-sec-1 {
+        .h1 {
+          font-size: 54px;
+          line-height: 72.8px;
+        }
         padding-bottom: 120px;
         .w-row {
           display: flex;
