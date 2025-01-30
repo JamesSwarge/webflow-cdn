@@ -11646,6 +11646,153 @@
       }
     }
 
+    @media screen and (max-width: 992px) {
+
+      .mytrux-web-app-sec-1,
+      .mytrux-web-app-sec-2,
+      .mytrux-web-app-sec-3,
+      .mytrux-web-app-sec-4,
+      .mytrux-web-app-sec-5,
+      .mytrux-web-app-sec-6,
+      .mytrux-web-app-sec-7,
+      .mytrux-web-app-sec-8 {
+        padding: 100px 0;
+        height: auto;
+      }
+
+      .mytrux-web-app-sec-1 {
+        background: #0f2541;
+        padding-bottom: 150px;
+        .mytux-app-1-content {
+          justify-content: center;
+          height: auto;
+          padding-top: 10px;
+          max-width: 100%;
+          padding-left: 0;
+          .h1, p {
+            text-align: center;
+          }
+        }
+        .mytrux-first-sec-img {
+          left: 60px;
+          bottom: 0px;
+          width: 250px;
+          height: auto;
+        }
+        .mytux-app-1-r-image {
+          display: none;
+        }
+      }
+
+      .mytrux-web-app-sec-2 {
+        .over-cont {
+          height: auto;
+        }
+        .mytrux-overview {
+          display: none;
+        }
+      }
+
+      .mytrux-web-app-sec-3 {
+        padding: 0;
+        .columns-2 {
+          display: flex;
+          flex-direction: column;
+          .w-col {
+            height: auto;
+            width: 100%;
+          }
+        }
+        .blue-bg .box-content-white {
+          position: static;
+        }
+      }
+
+      .mytrux-web-app-sec-4 {
+        padding-top: 0;
+        padding-bottom: 0;
+        height: auto !important;
+        .bottom-content {
+          // max-width: unset !important;
+          margin-top: 0 !important;
+          margin-left: auto !important;
+          margin-right: auto !important;
+          .h3, p {
+            display: block;
+            width: 100%;
+            text-align: center;
+          }
+        }
+        .mytrux-web-app-sec-4-img1,
+        .mytrux-web-app-sec-4-img2,
+        .mytrux-web-app-sec-4-img3 {
+          position: static;
+          display: block;
+          margin: 30px auto 60px;
+          height: 300px;
+          width: auto;
+          max-width: 90%;
+        }
+      }
+
+      .mytrux-web-app-sec-8 {
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+      }
+
+      .mytrux-web-app-sec-7 {
+        .mytrux-web-app-sec-7-img {
+          height: 300px;
+          width: auto;
+          max-width: 100%;
+        }
+      }
+
+      .mytrux-web-app-sec-6 {
+        padding: 0;
+        .mytrux-web-app-sec-6-left {
+          position: static;
+          .mytrux-web-app-sec-6-img {
+            height: 320px;
+            display: block;
+            margin: 30px auto 0;
+          }
+        }
+        .mytrux-web-app-sec-6-right {
+          position: static;
+          .mytrux-web-app-sec-6-img {
+            height: 320px;
+            display: block;
+            margin: 30px auto 0;
+          }
+        }
+      }
+
+      .mytrux-web-app-sec-5 {
+        .mytrux-app-5-cont {
+          .h3 {
+            text-align: center;
+            margin: 0 auto;
+          }
+        }
+        .w-row {
+          .w-col {
+            height: auto;
+            width: 100%;
+            .mytrux-app-5-img {
+              position: static;
+              max-width: 90vw !important;
+              width: 600px;
+              display: block;
+              margin: 0 auto;
+              height: auto;
+            }
+          }
+        }
+      }
+
+    }
+
   }
 }
 
