@@ -8939,6 +8939,72 @@ form input.pr-bttn:hover, form input.pr-bttn:focus {
   max-width: 550px !important;
   width: auto;
 }
+@media screen and (max-width: 992px) {
+  .portfolio-page.insisive .insisive-sec-1,
+  .portfolio-page.insisive .insisive-sec-2,
+  .portfolio-page.insisive .insisive-sec-3,
+  .portfolio-page.insisive .insisive-sec-4,
+  .portfolio-page.insisive .insisive-sec-5,
+  .portfolio-page.insisive .insisive-sec-6,
+  .portfolio-page.insisive .insisive-sec-7,
+  .portfolio-page.insisive .insisive-sec-8,
+  .portfolio-page.insisive .insisive-sec-9 {
+    padding: 100px 0;
+    height: auto;
+  }
+  .portfolio-page.insisive .insisive-sec-1 .insisive-sec1-bg-img {
+    display: block;
+    position: static;
+    transform: none;
+    margin: 10px auto 40px;
+  }
+  .portfolio-page.insisive .insisive-sec-1 .content-block-flex {
+    max-width: 100%;
+  }
+  .portfolio-page.insisive .insisive-sec-1 .content-block-flex .h1 {
+    font-size: 54px;
+    line-height: 72.8px;
+  }
+  .portfolio-page.insisive .insisive-sec-3 {
+    padding: 0;
+  }
+  .portfolio-page.insisive .insisive-sec-4 .insisive4-cont,
+  .portfolio-page.insisive .insisive-sec-4 .insisive4-img {
+    height: auto;
+  }
+  .portfolio-page.insisive .insisive-sec-5 {
+    padding-top: 40px;
+  }
+  .portfolio-page.insisive .insisive-sec-5.insisive4.insisive5::before {
+    top: 0;
+  }
+  .portfolio-page.insisive .insisive-sec-5 .insisive5-row {
+    height: auto;
+  }
+  .portfolio-page.insisive .insisive-sec-7 {
+    padding: 0;
+  }
+  .portfolio-page.insisive .insisive-sec-7 .h3 {
+    margin-bottom: 40px;
+  }
+  .portfolio-page.insisive .insisive-sec-7 .animate-imnage .insisive-website-sect7-lazy {
+    width: 520px;
+  }
+  .portfolio-page.insisive .insisive-sec-7 .animate-imnage .insisive-website-sect7-hover {
+    width: 345px;
+  }
+  .portfolio-page.insisive .insisive-sec-8 {
+    padding-bottom: 0;
+  }
+  .portfolio-page.insisive .insisive-sec-8 .h3 {
+    margin-bottom: 40px;
+  }
+  .portfolio-page.insisive .insisive-sec-8 .center-content .insisive-website-sect8-lazy {
+    max-width: 420px;
+    top: 0;
+    left: 0;
+  }
+}
 
 @media screen and (max-width: 1200px) {
   .portfolio-page.notionedge .cus-container {
@@ -15762,6 +15828,14 @@ form input.pr-bttn:hover, form input.pr-bttn:focus {
   .portfolio-page .esop-above-testi-content .esop-above-testi-content-roe .esop-above-testi-content2 .w-row .w-col h4 {
     font-size: 20px;
     line-height: 32px;
+  }
+  .portfolio-page .failure-learning-common-sec .failure-learnings-box .h3 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+  .portfolio-page .failure-learning-common-sec .failure-learnings-box p {
+    font-size: 16px;
+    line-height: 28px;
   }
 }
 @media screen and (max-width: 768px) {
